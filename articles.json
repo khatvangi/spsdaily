@@ -1,21 +1,15 @@
 {
   "lastUpdated": "2026-01-02",
   "editorsPick": {
-    "headline": "The Universe Doesn't Care About Your Consciousness \u2014 But Maybe It Should",
-    "teaser": "A physicist argues that the hard problem of consciousness isn't just philosophy's burden. It's physics' too. And solving it might require rethinking what we mean by \"fundamental.\"",
-    "source": "Quanta Magazine",
-    "url": "https://www.quantamagazine.org/what-is-consciousness-20230515/"
+    "headline": "AI's Dual Role: Boosting Science Output While Undermining Quality",
+    "teaser": "As AI-generated papers surge, quality metrics show a troubling decline. A new analysis reveals the tension between quantity and rigor in the age of machine learning.",
+    "source": "Ars Technica",
+    "url": "https://arstechnica.com/science/2025/12/llms-impact-on-science-booming-publications-stagnating-quality/"
   },
   "science": [
     {
-      "headline": "AI's dual role in boosting science output but undermining quality",
-      "teaser": "As AI-generated papers surge, quality metrics show a troubling decline. What does this mean for scientific integrity? Read more \u2192",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2025/12/llms-impact-on-science-booming-publications-stagnating-quality/"
-    },
-    {
       "headline": "Perseverance's Sample Return Delayed to 2030s",
-      "teaser": "NASA's Mars Sample Return mission, once slated for 2026, faces delays due to soaring costs. Will the $11B plan finally launch in the 2030s? #SpaceScience",
+      "teaser": "NASA's Mars Sample Return mission, once slated for 2026, faces delays due to soaring costs. Will the $11B plan finally launch in the 2030s?",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/space/2025/12/nasa-will-soon-find-out-if-the-perseverance-rover-can-really-persevere-on-mars/"
     },
@@ -27,7 +21,7 @@
     },
     {
       "headline": "Physicists 3D-print Ice Christmas Tree",
-      "teaser": "A 3D-printed ice Christmas tree, 8cm tall, was made using evaporative cooling. How does this method challenge our understanding of heat transfer? Discover more at Ars Technica.",
+      "teaser": "A 3D-printed ice Christmas tree, 8cm tall, was made using evaporative cooling. How does this method challenge our understanding of heat transfer?",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/science/2025/12/physicists-3d-printed-a-christmas-tree-of-ice/"
     }
@@ -50,18 +44,12 @@
       "teaser": "Interpretability research reveals a gap between prediction and comprehension that philosophers have long warned us about.",
       "source": "Aeon",
       "url": "https://aeon.co/essays/what-does-it-mean-to-understand-a-neural-network"
-    },
-    {
-      "headline": "Derek Parfit's Reasons and Persons at 40",
-      "teaser": "Four decades later, the book that reshaped moral philosophy still has lessons for how we think about identity and ethics.",
-      "source": "London Review of Books",
-      "url": "https://www.lrb.co.uk/the-paper/v46/n01/derek-parfit"
     }
   ],
   "society": [
     {
       "headline": "Philosophers Raise $23K for Malaria Fight",
-      "teaser": "Philosophy departments compete to fund anti-malaria nets. MIT leads with a mysterious $5k donation. How do these efforts reflect academic values? Read more.",
+      "teaser": "Philosophy departments compete to fund anti-malaria nets. MIT leads with a mysterious $5k donation. How do these efforts reflect academic values?",
       "source": "Daily Nous",
       "url": "https://dailynous.com/2025/12/29/philosophers-against-malaria-competition-results/"
     },
@@ -76,12 +64,6 @@
       "teaser": "A new generation of researchers is returning to build institutions. Can they transform Indian science?",
       "source": "Nature India",
       "url": "https://www.nature.com/articles/d44151-024-india-science"
-    },
-    {
-      "headline": "The Tyranny of Metrics in Higher Education",
-      "teaser": "Universities are drowning in data. But measuring everything means understanding nothing.",
-      "source": "Chronicle of Higher Education",
-      "url": "https://www.chronicle.com/article/tyranny-of-metrics"
     }
   ]
 }
