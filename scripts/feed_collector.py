@@ -278,9 +278,9 @@ def main():
     # Collect from all feeds
     all_articles = collect_all_feeds()
 
-    # Select best articles
+    # Select best articles (15 per category - front page shows 6, category pages show all)
     print("\n✨ Selecting articles...")
-    selected = select_articles(all_articles, per_category=3)
+    selected = select_articles(all_articles, per_category=15)
 
     # Generate JSON
     output = generate_json(selected)

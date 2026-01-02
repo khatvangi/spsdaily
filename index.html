@@ -186,10 +186,18 @@
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: var(--accent-red);
             padding-bottom: 0.75rem;
             border-bottom: 2px solid var(--accent-red);
             margin-bottom: 1rem;
+        }
+
+        .column-header a {
+            color: var(--accent-red);
+            text-decoration: none;
+        }
+
+        .column-header a:hover {
+            color: var(--accent-blue);
         }
 
         /* Article items */
@@ -232,6 +240,23 @@
             font-size: 0.75rem;
             color: var(--text-light);
             margin-top: 0.4rem;
+        }
+
+        .see-all {
+            display: block;
+            text-align: center;
+            padding: 0.75rem;
+            margin-top: 1rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .see-all:hover {
+            color: var(--accent-red);
         }
 
         /* Footer */
@@ -443,22 +468,22 @@
         <!-- Four Columns (loaded from articles.json) -->
         <div class="columns">
             <section class="column" id="science">
-                <div class="column-header">Science</div>
+                <div class="column-header"><a href="science.html">Science</a></div>
                 <div id="science-articles">Loading...</div>
             </section>
 
             <section class="column" id="philosophy">
-                <div class="column-header">Philosophy</div>
+                <div class="column-header"><a href="philosophy.html">Philosophy</a></div>
                 <div id="philosophy-articles">Loading...</div>
             </section>
 
             <section class="column" id="society">
-                <div class="column-header">Society</div>
+                <div class="column-header"><a href="society.html">Society</a></div>
                 <div id="society-articles">Loading...</div>
             </section>
 
             <section class="column" id="books">
-                <div class="column-header">Books & Reviews</div>
+                <div class="column-header"><a href="books.html">Books & Reviews</a></div>
                 <div id="books-articles">Loading...</div>
             </section>
         </div>
@@ -505,7 +530,8 @@
                 document.getElementById('featured-teaser').textContent = featured.teaser;
                 document.getElementById('featured-source').textContent = featured.source;
 
-                // Render each category
+                // Render each category (show first 6 on front page)
+                const FRONT_PAGE_LIMIT = 6;
                 ['science', 'philosophy', 'society', 'books'].forEach(category => {
                     const container = document.getElementById(`${category}-articles`);
                     const articles = data[category] || [];
@@ -515,13 +541,21 @@
                         return;
                     }
 
-                    container.innerHTML = articles.map((article, i) => `
+                    const displayArticles = articles.slice(0, FRONT_PAGE_LIMIT);
+                    let html = displayArticles.map((article, i) => `
                         <article class="article">
                             <h3><a href="${article.url}" target="_blank">${article.headline}</a></h3>
                             <p>${article.teaser}</p>
                             <div class="source">${article.source}</div>
                         </article>
                     `).join('');
+
+                    // Add "See all" link if more articles available
+                    if (articles.length > FRONT_PAGE_LIMIT) {
+                        html += `<a href="${category}.html" class="see-all">See all ${articles.length} articles →</a>`;
+                    }
+
+                    container.innerHTML = html;
                 });
             } catch (error) {
                 console.error('Failed to load articles:', error);
