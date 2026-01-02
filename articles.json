@@ -60,6 +60,12 @@
   ],
   "society": [
     {
+      "headline": "Philosophers Raise $23K for Malaria Fight",
+      "teaser": "Philosophy departments compete to fund anti-malaria nets. MIT leads with a mysterious $5k donation. How do these efforts reflect academic values? Read more.",
+      "source": "Daily Nous",
+      "url": "https://dailynous.com/2025/12/29/philosophers-against-malaria-competition-results/"
+    },
+    {
       "headline": "The Hidden Costs of Working From Home",
       "teaser": "Remote work promised liberation. Three years in, we're discovering what gets lost when the office disappears.",
       "source": "The Atlantic",
@@ -76,12 +82,6 @@
       "teaser": "Universities are drowning in data. But measuring everything means understanding nothing.",
       "source": "Chronicle of Higher Education",
       "url": "https://www.chronicle.com/article/tyranny-of-metrics"
-    },
-    {
-      "headline": "Why Young People Are Turning to Stoicism",
-      "teaser": "Ancient philosophy finds new life as a response to modern anxiety. What's driving the revival?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/lifeandstyle/stoicism-revival"
     }
   ]
 }
