@@ -442,12 +442,45 @@
 
         loadArticles();
 
-        // Newsletter subscription - redirect to Listmonk
-        document.getElementById('subscribe-form').addEventListener('submit', (e) => {
+        // Newsletter subscription - submit to Listmonk API
+        document.getElementById('subscribe-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const email = document.getElementById('subscribe-email').value;
-            // Redirect to Listmonk public subscription page
-            window.location.href = `https://newsletter.thebeakers.com/subscription/form`;
+            const btn = document.getElementById('subscribe-btn');
+            const msg = document.getElementById('subscribe-message');
+
+            btn.disabled = true;
+            btn.textContent = 'Subscribing...';
+            msg.textContent = '';
+            msg.style.color = 'var(--text-light)';
+
+            try {
+                const response = await fetch('https://newsletter.thebeakers.com/api/public/subscription', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        email: email,
+                        name: '',
+                        list_uuids: ['a5887db5-f279-42b5-aea6-0b3f660854dd']
+                    })
+                });
+
+                if (response.ok) {
+                    msg.textContent = 'Check your email to confirm subscription!';
+                    msg.style.color = '#2e7d32';
+                    document.getElementById('subscribe-email').value = '';
+                } else {
+                    const data = await response.json();
+                    msg.textContent = data.message || 'Subscription failed. Try again.';
+                    msg.style.color = 'var(--accent-red)';
+                }
+            } catch (err) {
+                msg.textContent = 'Network error. Please try again.';
+                msg.style.color = 'var(--accent-red)';
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'Subscribe';
         });
     </script>
 </body>
