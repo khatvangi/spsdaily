@@ -442,41 +442,16 @@
 
         loadArticles();
 
-        // Newsletter subscription
-        const LISTMONK_URL = 'https://newsletter.thebeakers.com';  // We'll set this up
-        const LIST_UUID = 'YOUR_LIST_UUID';  // Get from Listmonk after creating list
-
-        document.getElementById('subscribe-form').addEventListener('submit', async (e) => {
+        // Newsletter subscription - redirect to Listmonk public page
+        // TODO: Replace with your Listmonk public URL once set up
+        document.getElementById('subscribe-form').addEventListener('submit', (e) => {
             e.preventDefault();
             const email = document.getElementById('subscribe-email').value;
-            const btn = document.getElementById('subscribe-btn');
+            // For now, show a message. Once newsletter.thebeakers.com is set up, this will work.
             const msg = document.getElementById('subscribe-message');
-
-            btn.disabled = true;
-            btn.textContent = 'Subscribing...';
-            msg.textContent = '';
-
-            try {
-                const response = await fetch(`${LISTMONK_URL}/subscription/form`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                    body: `email=${encodeURIComponent(email)}&list=${LIST_UUID}&name=`
-                });
-
-                if (response.ok) {
-                    msg.style.color = '#2e7d32';
-                    msg.textContent = 'Check your email to confirm subscription!';
-                    document.getElementById('subscribe-email').value = '';
-                } else {
-                    throw new Error('Subscription failed');
-                }
-            } catch (error) {
-                msg.style.color = '#c62828';
-                msg.textContent = 'Subscription failed. Please try again.';
-            }
-
-            btn.disabled = false;
-            btn.textContent = 'Subscribe';
+            msg.style.color = '#666';
+            msg.textContent = 'Newsletter coming soon! Email saved: ' + email;
+            // Later: window.location.href = `https://newsletter.thebeakers.com/subscription/form?email=${encodeURIComponent(email)}`;
         });
     </script>
 </body>
