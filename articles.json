@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "Physicists 3D-print Ice Christmas Tree",
+      "teaser": "A 3D-printed ice Christmas tree, 8cm tall, was made using evaporative cooling. How does this method challenge our understanding of heat transfer? Discover more at Ars Technica.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2025/12/physicists-3d-printed-a-christmas-tree-of-ice/"
+    },
+    {
       "headline": "Quantum Effects in Neurons May Explain Consciousness",
       "teaser": "What if the brain isn't just a classical computer? New research finds quantum coherence persisting in neural tissue far longer than expected\u2014reopening the door to theories once dismissed as fringe.",
       "source": "Quanta Magazine",
@@ -24,12 +30,6 @@
       "teaser": "Gene editing moves beyond inherited diseases to tackle neurological conditions. But editing neurons in a living brain raises questions we've never had to answer before.",
       "source": "Nature",
       "url": "https://www.nature.com/articles/d41586-024-00000-0"
-    },
-    {
-      "headline": "The Ocean's Midnight Zone Holds More Carbon Than We Thought",
-      "teaser": "New measurements from robotic floats reveal the deep sea's role in climate regulation has been vastly underestimated.",
-      "source": "Science",
-      "url": "https://www.science.org/content/article/ocean-carbon"
     }
   ],
   "philosophy": [
