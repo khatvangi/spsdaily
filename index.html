@@ -359,101 +359,29 @@
     </nav>
 
     <main>
-        <!-- Featured Article -->
-        <article class="featured">
+        <!-- Featured Article (loaded from articles.json) -->
+        <article class="featured" id="featured">
             <div class="featured-label">Editor's Pick</div>
-            <h2><a href="#">The Universe Doesn't Care About Your Consciousness — But Maybe It Should</a></h2>
-            <p>A physicist argues that the hard problem of consciousness isn't just philosophy's burden. It's physics' too. And solving it might require rethinking what we mean by "fundamental."</p>
-            <div class="source">Quanta Magazine</div>
+            <h2><a href="#" id="featured-link">Loading...</a></h2>
+            <p id="featured-teaser"></p>
+            <div class="source" id="featured-source"></div>
         </article>
 
-        <!-- Three Columns -->
+        <!-- Three Columns (loaded from articles.json) -->
         <div class="columns">
-            <!-- Science Column -->
             <section class="column" id="science">
                 <div class="column-header">Science</div>
-
-                <article class="article">
-                    <h3><a href="#">CRISPR's Next Target: The Brain Itself</a></h3>
-                    <p>Gene editing moves beyond inherited diseases to tackle neurological conditions. But editing neurons in a living brain raises questions we've never had to answer before.</p>
-                    <div class="source">Nature</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">The Ocean's Midnight Zone Holds More Carbon Than We Thought</a></h3>
-                    <p>New measurements from robotic floats reveal the deep sea's role in climate regulation has been vastly underestimated.</p>
-                    <div class="source">Science</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">Why Quantum Computers Keep Disappointing Us</a></h3>
-                    <p>Despite billions invested, practical quantum advantage remains elusive. The problem isn't the physics — it's our expectations.</p>
-                    <div class="source">MIT Technology Review</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">The Oldest Known Animal May Have Been a Sponge</a></h3>
-                    <p>Controversial fossils from 890 million years ago push back the origin of animal life by 350 million years.</p>
-                    <div class="source">Scientific American</div>
-                </article>
+                <div id="science-articles">Loading...</div>
             </section>
 
-            <!-- Philosophy Column -->
             <section class="column" id="philosophy">
                 <div class="column-header">Philosophy</div>
-
-                <article class="article">
-                    <h3><a href="#">The Return of Virtue Ethics in Silicon Valley</a></h3>
-                    <p>Tech leaders are rediscovering Aristotle. But can ancient wisdom survive in a culture of disruption?</p>
-                    <div class="source">The New Atlantis</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">What Does It Mean to "Understand" a Neural Network?</a></h3>
-                    <p>Interpretability research reveals a gap between prediction and comprehension that philosophers have long warned us about.</p>
-                    <div class="source">Aeon</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">Derek Parfit's Reasons and Persons at 40</a></h3>
-                    <p>Four decades later, the book that reshaped moral philosophy still has lessons for how we think about identity and ethics.</p>
-                    <div class="source">London Review of Books</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">Against the Simulation Argument</a></h3>
-                    <p>A philosopher argues Bostrom's famous hypothesis rests on assumptions about computation that don't survive scrutiny.</p>
-                    <div class="source">Philosophy Now</div>
-                </article>
+                <div id="philosophy-articles">Loading...</div>
             </section>
 
-            <!-- Society Column -->
             <section class="column" id="society">
                 <div class="column-header">Society</div>
-
-                <article class="article">
-                    <h3><a href="#">The Hidden Costs of Working From Home</a></h3>
-                    <p>Remote work promised liberation. Three years in, we're discovering what gets lost when the office disappears.</p>
-                    <div class="source">The Atlantic</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">India's Scientific Diaspora Comes Home</a></h3>
-                    <p>A new generation of researchers is returning to build institutions. Can they transform Indian science?</p>
-                    <div class="source">Nature India</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">The Tyranny of Metrics in Higher Education</a></h3>
-                    <p>Universities are drowning in data. But measuring everything means understanding nothing.</p>
-                    <div class="source">Chronicle of Higher Education</div>
-                </article>
-
-                <article class="article">
-                    <h3><a href="#">Why Young People Are Turning to Stoicism</a></h3>
-                    <p>Ancient philosophy finds new life as a response to modern anxiety. What's driving the revival?</p>
-                    <div class="source">The Guardian</div>
-                </article>
+                <div id="society-articles">Loading...</div>
             </section>
         </div>
 
@@ -479,6 +407,39 @@
         // Set today's date
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById('date-line').textContent = new Date().toLocaleDateString('en-US', options);
+
+        // Load articles from JSON
+        async function loadArticles() {
+            try {
+                const response = await fetch('articles.json');
+                const data = await response.json();
+
+                // Featured article
+                const featured = data.editorsPick;
+                document.getElementById('featured-link').href = featured.url;
+                document.getElementById('featured-link').textContent = featured.headline;
+                document.getElementById('featured-teaser').textContent = featured.teaser;
+                document.getElementById('featured-source').textContent = featured.source;
+
+                // Render each category
+                ['science', 'philosophy', 'society'].forEach(category => {
+                    const container = document.getElementById(`${category}-articles`);
+                    const articles = data[category];
+
+                    container.innerHTML = articles.map((article, i) => `
+                        <article class="article">
+                            <h3><a href="${article.url}" target="_blank">${article.headline}</a></h3>
+                            <p>${article.teaser}</p>
+                            <div class="source">${article.source}</div>
+                        </article>
+                    `).join('');
+                });
+            } catch (error) {
+                console.error('Failed to load articles:', error);
+            }
+        }
+
+        loadArticles();
     </script>
 </body>
 </html>

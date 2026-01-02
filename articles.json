@@ -1,0 +1,87 @@
+{
+  "lastUpdated": "2026-01-02",
+  "editorsPick": {
+    "headline": "The Universe Doesn't Care About Your Consciousness — But Maybe It Should",
+    "teaser": "A physicist argues that the hard problem of consciousness isn't just philosophy's burden. It's physics' too. And solving it might require rethinking what we mean by \"fundamental.\"",
+    "source": "Quanta Magazine",
+    "url": "#"
+  },
+  "science": [
+    {
+      "headline": "CRISPR's Next Target: The Brain Itself",
+      "teaser": "Gene editing moves beyond inherited diseases to tackle neurological conditions. But editing neurons in a living brain raises questions we've never had to answer before.",
+      "source": "Nature",
+      "url": "#"
+    },
+    {
+      "headline": "The Ocean's Midnight Zone Holds More Carbon Than We Thought",
+      "teaser": "New measurements from robotic floats reveal the deep sea's role in climate regulation has been vastly underestimated.",
+      "source": "Science",
+      "url": "#"
+    },
+    {
+      "headline": "Why Quantum Computers Keep Disappointing Us",
+      "teaser": "Despite billions invested, practical quantum advantage remains elusive. The problem isn't the physics — it's our expectations.",
+      "source": "MIT Technology Review",
+      "url": "#"
+    },
+    {
+      "headline": "The Oldest Known Animal May Have Been a Sponge",
+      "teaser": "Controversial fossils from 890 million years ago push back the origin of animal life by 350 million years.",
+      "source": "Scientific American",
+      "url": "#"
+    }
+  ],
+  "philosophy": [
+    {
+      "headline": "The Return of Virtue Ethics in Silicon Valley",
+      "teaser": "Tech leaders are rediscovering Aristotle. But can ancient wisdom survive in a culture of disruption?",
+      "source": "The New Atlantis",
+      "url": "#"
+    },
+    {
+      "headline": "What Does It Mean to \"Understand\" a Neural Network?",
+      "teaser": "Interpretability research reveals a gap between prediction and comprehension that philosophers have long warned us about.",
+      "source": "Aeon",
+      "url": "#"
+    },
+    {
+      "headline": "Derek Parfit's Reasons and Persons at 40",
+      "teaser": "Four decades later, the book that reshaped moral philosophy still has lessons for how we think about identity and ethics.",
+      "source": "London Review of Books",
+      "url": "#"
+    },
+    {
+      "headline": "Against the Simulation Argument",
+      "teaser": "A philosopher argues Bostrom's famous hypothesis rests on assumptions about computation that don't survive scrutiny.",
+      "source": "Philosophy Now",
+      "url": "#"
+    }
+  ],
+  "society": [
+    {
+      "headline": "The Hidden Costs of Working From Home",
+      "teaser": "Remote work promised liberation. Three years in, we're discovering what gets lost when the office disappears.",
+      "source": "The Atlantic",
+      "url": "#"
+    },
+    {
+      "headline": "India's Scientific Diaspora Comes Home",
+      "teaser": "A new generation of researchers is returning to build institutions. Can they transform Indian science?",
+      "source": "Nature India",
+      "url": "#"
+    },
+    {
+      "headline": "The Tyranny of Metrics in Higher Education",
+      "teaser": "Universities are drowning in data. But measuring everything means understanding nothing.",
+      "source": "Chronicle of Higher Education",
+      "url": "#"
+    },
+    {
+      "headline": "Why Young People Are Turning to Stoicism",
+      "teaser": "Ancient philosophy finds new life as a response to modern anxiety. What's driving the revival?",
+      "source": "The Guardian",
+      "url": "#"
+    }
+  ]
+}
