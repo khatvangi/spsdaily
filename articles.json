@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "Perseverance's Sample Return Delayed to 2030s",
+      "teaser": "NASA's Mars Sample Return mission, once slated for 2026, faces delays due to soaring costs. Will the $11B plan finally launch in the 2030s? #SpaceScience",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2025/12/nasa-will-soon-find-out-if-the-perseverance-rover-can-really-persevere-on-mars/"
+    },
+    {
       "headline": "Swearing Reduces Pain, Study Shows",
       "teaser": "A new study finds that swearing can dull pain and boost endurance. But why does it work? Dive deeper.",
       "source": "Ars Technica",
@@ -24,12 +30,6 @@
       "teaser": "What if the brain isn't just a classical computer? New research finds quantum coherence persisting in neural tissue far longer than expected\u2014reopening the door to theories once dismissed as fringe.",
       "source": "Quanta Magazine",
       "url": "https://www.quantamagazine.org/quantum-consciousness"
-    },
-    {
-      "headline": "The Unexpected Mathematics of Coffee Rings",
-      "teaser": "Why does spilled coffee leave a ring instead of a uniform stain? Physicists have finally solved this decades-old puzzle\u2014and the answer involves fluid dynamics that could revolutionize inkjet printing.",
-      "source": "Nature",
-      "url": "https://www.nature.com/articles/coffee-ring"
     }
   ],
   "philosophy": [
