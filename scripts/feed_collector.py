@@ -12,6 +12,34 @@ from pathlib import Path
 import html
 import random
 
+# Political/current affairs keywords to filter from book reviews
+# (we want literary/academic book reviews, not political commentary)
+BOOKS_FILTER_KEYWORDS = [
+    # Politicians and political figures
+    'trump', 'biden', 'obama', 'clinton', 'desantis', 'pelosi', 'mcconnell',
+    'aoc', 'ocasio-cortez', 'bernie', 'sanders', 'musk', 'zuckerberg',
+    # Political terms
+    'republican', 'democrat', 'gop', 'maga', 'liberal', 'conservative',
+    'election', 'ballot', 'vote', 'campaign', 'inauguration', 'mayor',
+    'governor', 'senator', 'congressman', 'parliament', 'brexit',
+    # Hot button issues (keep academic discussions, filter partisan takes)
+    'abortion rights', 'gun control', 'immigration policy', 'border wall',
+    # Partisan language
+    'collectivism', 'socialism', 'fascism', 'marxist', 'woke',
+    'left-wing', 'right-wing', 'far-left', 'far-right',
+]
+
+def is_political_content(headline, teaser, category):
+    """Check if content is political (only filter for books category)"""
+    if category != 'books':
+        return False
+
+    text = (headline + ' ' + teaser).lower()
+    for keyword in BOOKS_FILTER_KEYWORDS:
+        if keyword in text:
+            return True
+    return False
+
 # RSS Feeds organized by category
 FEEDS = {
     "science": [
@@ -129,13 +157,42 @@ def collect_all_feeds():
         "books": []
     }
 
+    # Track seen headlines globally to avoid duplicates across all categories
+    seen_headlines = set()
+
     for category, feeds in FEEDS.items():
         print(f"\n📚 Collecting {category}...")
         for name, url in feeds:
             print(f"  → {name}")
             articles = fetch_feed(name, url)
-            all_articles[category].extend(articles)
-            print(f"    Found {len(articles)} articles")
+            added = 0
+            filtered = 0
+            dupes = 0
+
+            for article in articles:
+                headline_lower = article['headline'].lower().strip()
+
+                # Skip duplicates
+                if headline_lower in seen_headlines:
+                    dupes += 1
+                    continue
+
+                # Skip political content in books
+                if is_political_content(article['headline'], article['teaser'], category):
+                    filtered += 1
+                    print(f"    ⚠ Filtered (political): {article['headline'][:50]}...")
+                    continue
+
+                seen_headlines.add(headline_lower)
+                all_articles[category].append(article)
+                added += 1
+
+            status = f"Added {added}"
+            if dupes > 0:
+                status += f", {dupes} dupes"
+            if filtered > 0:
+                status += f", {filtered} filtered"
+            print(f"    {status}")
 
     return all_articles
 
@@ -151,15 +208,18 @@ def select_articles(all_articles, per_category=3):
         # Sort by freshness (if available)
         articles.sort(key=lambda x: x.get('published') or '', reverse=True)
 
-        # Try to pick from different sources
+        # Try to pick from different sources, avoid duplicates
         sources_used = set()
+        urls_used = set()
         picks = []
 
         for article in articles:
             if len(picks) >= per_category:
                 break
+            # Skip if URL already used or same source
+            if article['url'] in urls_used:
+                continue
             if article['source'] not in sources_used:
-                # Remove 'published' field for output
                 picks.append({
                     "headline": article['headline'],
                     "teaser": article['teaser'],
@@ -167,18 +227,20 @@ def select_articles(all_articles, per_category=3):
                     "url": article['url']
                 })
                 sources_used.add(article['source'])
+                urls_used.add(article['url'])
 
-        # Fill remaining slots if needed
+        # Fill remaining slots if needed (allow same source but not same URL)
         for article in articles:
             if len(picks) >= per_category:
                 break
-            if article not in picks:
+            if article['url'] not in urls_used:
                 picks.append({
                     "headline": article['headline'],
                     "teaser": article['teaser'],
                     "source": article['source'],
                     "url": article['url']
                 })
+                urls_used.add(article['url'])
 
         selected[category] = picks
 
