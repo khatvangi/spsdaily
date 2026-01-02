@@ -1,12 +1,18 @@
 {
   "lastUpdated": "2026-01-02",
   "editorsPick": {
-    "headline": "The Universe Doesn't Care About Your Consciousness — But Maybe It Should",
+    "headline": "The Universe Doesn't Care About Your Consciousness \u2014 But Maybe It Should",
     "teaser": "A physicist argues that the hard problem of consciousness isn't just philosophy's burden. It's physics' too. And solving it might require rethinking what we mean by \"fundamental.\"",
     "source": "Quanta Magazine",
     "url": "https://www.quantamagazine.org/what-is-consciousness-20230515/"
   },
   "science": [
+    {
+      "headline": "The Unexpected Mathematics of Coffee Rings",
+      "teaser": "Why does spilled coffee leave a ring instead of a uniform stain? Physicists have finally solved this decades-old puzzle\u2014and the answer involves fluid dynamics that could revolutionize inkjet printing.",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/coffee-ring"
+    },
     {
       "headline": "CRISPR's Next Target: The Brain Itself",
       "teaser": "Gene editing moves beyond inherited diseases to tackle neurological conditions. But editing neurons in a living brain raises questions we've never had to answer before.",
@@ -21,15 +27,9 @@
     },
     {
       "headline": "Why Quantum Computers Keep Disappointing Us",
-      "teaser": "Despite billions invested, practical quantum advantage remains elusive. The problem isn't the physics — it's our expectations.",
+      "teaser": "Despite billions invested, practical quantum advantage remains elusive. The problem isn't the physics \u2014 it's our expectations.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/topic/computing/quantum-computing/"
-    },
-    {
-      "headline": "The Oldest Known Animal May Have Been a Sponge",
-      "teaser": "Controversial fossils from 890 million years ago push back the origin of animal life by 350 million years.",
-      "source": "Scientific American",
-      "url": "https://www.scientificamerican.com/article/oldest-animal-fossils/"
     }
   ],
   "philosophy": [
