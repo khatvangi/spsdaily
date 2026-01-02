@@ -1,0 +1,47 @@
+/* Dark Mode Theme Variables */
+:root {
+    --text-dark: #1a1a1a;
+    --text-medium: #444;
+    --text-light: #666;
+    --bg-cream: #faf8f5;
+    --bg-white: #fff;
+    --accent-red: #8b0000;
+    --accent-blue: #1a4480;
+    --border-light: #ddd;
+    --nav-bg: #1a1a1a;
+    --footer-bg: #1a1a1a;
+}
+
+[data-theme="dark"] {
+    --text-dark: #e8e6e3;
+    --text-medium: #b8b5b0;
+    --text-light: #908d88;
+    --bg-cream: #1a1a1a;
+    --bg-white: #252525;
+    --accent-red: #cf6679;
+    --accent-blue: #82b1ff;
+    --border-light: #3a3a3a;
+    --nav-bg: #0d0d0d;
+    --footer-bg: #0d0d0d;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    background: none;
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-medium);
+    transition: all 0.2s;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent-red);
+    color: var(--accent-red);
+}

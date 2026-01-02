@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
+            --nav-bg: #1a1a1a;
+            --footer-bg: #1a1a1a;
             --text-dark: #1a1a1a;
             --text-medium: #444;
             --text-light: #666;
@@ -17,6 +19,19 @@
             --accent-red: #8b0000;
             --accent-blue: #1a4480;
             --border-light: #ddd;
+        }
+
+        [data-theme="dark"] {
+            --text-dark: #e8e6e3;
+            --text-medium: #b8b5b0;
+            --text-light: #908d88;
+            --bg-cream: #1a1a1a;
+            --bg-white: #252525;
+            --accent-red: #cf6679;
+            --accent-blue: #82b1ff;
+            --border-light: #3a3a3a;
+            --nav-bg: #0d0d0d;
+            --footer-bg: #0d0d0d;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -27,6 +42,7 @@
             font-size: 16px;
         }
         header {
+            position: relative;
             background: var(--bg-white);
             border-bottom: 1px solid var(--border-light);
             padding: 1.5rem 2rem;
@@ -71,7 +87,7 @@
             font-family: 'Source Sans Pro', sans-serif;
         }
         footer {
-            background: var(--text-dark);
+            background: var(--nav-bg);
             color: #aaa;
             text-align: center;
             padding: 2rem;
@@ -80,10 +96,32 @@
             font-size: 0.85rem;
         }
         footer a { color: #ccc; text-decoration: none; }
+        /* Theme Toggle */
+        .theme-toggle {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            background: none;
+            border: 1px solid var(--border-light);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            cursor: pointer;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-medium);
+            transition: all 0.2s;
+        }
+        .theme-toggle:hover {
+            border-color: var(--accent-red);
+            color: var(--accent-red);
+        }
     </style>
 </head>
 <body>
     <header>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-icon">🌙</span> Dark
+        </button>
         <h1 class="site-title"><a href="index.html"><span>SPS</span> DAILY</a></h1>
     </header>
 
@@ -130,5 +168,28 @@
         <p><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
         <p style="margin-top: 1rem;">&copy; 2026 The Beakers. All rights reserved.</p>
     </footer>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const savedTheme = localStorage.getItem('sps-theme') || 'light';
+        if (savedTheme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            if (themeToggle) themeToggle.innerHTML = '<span class="theme-icon">☀️</span> Light';
+        }
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = html.getAttribute('data-theme');
+                if (currentTheme === 'dark') {
+                    html.removeAttribute('data-theme');
+                    localStorage.setItem('sps-theme', 'light');
+                    themeToggle.innerHTML = '<span class="theme-icon">🌙</span> Dark';
+                } else {
+                    html.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('sps-theme', 'dark');
+                    themeToggle.innerHTML = '<span class="theme-icon">☀️</span> Light';
+                }
+            });
+        }
+    </script>
 </body>
 </html>

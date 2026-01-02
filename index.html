@@ -19,6 +19,21 @@
             --accent-blue: #1a4480;
             --border-light: #ddd;
             --max-width: 1100px;
+            --nav-bg: #1a1a1a;
+            --footer-bg: #1a1a1a;
+        }
+
+        [data-theme="dark"] {
+            --text-dark: #e8e6e3;
+            --text-medium: #b8b5b0;
+            --text-light: #908d88;
+            --bg-cream: #1a1a1a;
+            --bg-white: #252525;
+            --accent-red: #cf6679;
+            --accent-blue: #82b1ff;
+            --border-light: #3a3a3a;
+            --nav-bg: #0d0d0d;
+            --footer-bg: #0d0d0d;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,6 +48,7 @@
 
         /* Header */
         header {
+            position: relative;
             background: var(--bg-white);
             border-bottom: 1px solid var(--border-light);
             padding: 1.5rem 2rem;
@@ -83,7 +99,7 @@
 
         /* Navigation */
         nav {
-            background: var(--text-dark);
+            background: var(--nav-bg);
             padding: 0.6rem 2rem;
         }
 
@@ -261,7 +277,7 @@
 
         /* Footer */
         footer {
-            background: var(--text-dark);
+            background: var(--footer-bg);
             color: #aaa;
             text-align: center;
             padding: 2rem;
@@ -301,6 +317,27 @@
 
         .legal a {
             color: #888;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            background: none;
+            border: 1px solid var(--border-light);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            cursor: pointer;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-medium);
+            transition: all 0.2s;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--accent-red);
+            color: var(--accent-red);
         }
 
         /* Subscribe box */
@@ -444,6 +481,9 @@
 </head>
 <body>
     <header>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-icon">🌙</span> Dark
+        </button>
         <div class="masthead">
             <h1 class="site-title"><span>SPS</span> DAILY</h1>
             <p class="tagline">Science, Philosophy & Society</p>
@@ -575,6 +615,30 @@
         }
 
         loadArticles();
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to light
+        const savedTheme = localStorage.getItem('sps-theme') || 'light';
+        if (savedTheme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            themeToggle.innerHTML = '<span class="theme-icon">☀️</span> Light';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                html.removeAttribute('data-theme');
+                localStorage.setItem('sps-theme', 'light');
+                themeToggle.innerHTML = '<span class="theme-icon">🌙</span> Dark';
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                localStorage.setItem('sps-theme', 'dark');
+                themeToggle.innerHTML = '<span class="theme-icon">☀️</span> Light';
+            }
+        });
 
     </script>
 </body>
