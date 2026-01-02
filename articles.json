@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "AI's dual role in boosting science output but undermining quality",
+      "teaser": "As AI-generated papers surge, quality metrics show a troubling decline. What does this mean for scientific integrity? Read more \u2192",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2025/12/llms-impact-on-science-booming-publications-stagnating-quality/"
+    },
+    {
       "headline": "Perseverance's Sample Return Delayed to 2030s",
       "teaser": "NASA's Mars Sample Return mission, once slated for 2026, faces delays due to soaring costs. Will the $11B plan finally launch in the 2030s? #SpaceScience",
       "source": "Ars Technica",
@@ -24,12 +30,6 @@
       "teaser": "A 3D-printed ice Christmas tree, 8cm tall, was made using evaporative cooling. How does this method challenge our understanding of heat transfer? Discover more at Ars Technica.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/science/2025/12/physicists-3d-printed-a-christmas-tree-of-ice/"
-    },
-    {
-      "headline": "Quantum Effects in Neurons May Explain Consciousness",
-      "teaser": "What if the brain isn't just a classical computer? New research finds quantum coherence persisting in neural tissue far longer than expected\u2014reopening the door to theories once dismissed as fringe.",
-      "source": "Quanta Magazine",
-      "url": "https://www.quantamagazine.org/quantum-consciousness"
     }
   ],
   "philosophy": [
