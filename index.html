@@ -167,11 +167,11 @@
             margin-top: 0.75rem;
         }
 
-        /* Three columns */
+        /* Four columns */
         .columns {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
         }
 
         .column {
@@ -317,8 +317,69 @@
             background: #6b0000;
         }
 
+        /* About section */
+        .about {
+            background: var(--bg-white);
+            border: 1px solid var(--border-light);
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .about h3 {
+            font-size: 1.2rem;
+            color: var(--accent-red);
+            margin-bottom: 1.25rem;
+            text-align: center;
+        }
+
+        .about blockquote {
+            background: var(--bg-cream);
+            border-left: 3px solid var(--accent-red);
+            padding: 1.25rem 1.5rem;
+            margin: 0 0 1.5rem 0;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .about blockquote cite {
+            display: block;
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-style: normal;
+        }
+
+        .about p {
+            margin-bottom: 1rem;
+            color: var(--text-medium);
+            line-height: 1.7;
+        }
+
+        .about p:last-child {
+            margin-bottom: 0;
+        }
+
+        .about-footer {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            text-align: center;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .about-footer a {
+            color: var(--accent-blue);
+        }
+
         /* Responsive */
-        @media (max-width: 900px) {
+        @media (max-width: 1200px) {
+            .columns {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 700px) {
             .columns {
                 grid-template-columns: 1fr;
             }
@@ -353,7 +414,7 @@
             <li><a href="#science">Science</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
             <li><a href="#society">Society</a></li>
-            <li><a href="#archive">Archive</a></li>
+            <li><a href="#books">Books</a></li>
             <li><a href="#about">About</a></li>
         </ul>
     </nav>
@@ -367,7 +428,7 @@
             <div class="source" id="featured-source"></div>
         </article>
 
-        <!-- Three Columns (loaded from articles.json) -->
+        <!-- Four Columns (loaded from articles.json) -->
         <div class="columns">
             <section class="column" id="science">
                 <div class="column-header">Science</div>
@@ -383,6 +444,11 @@
                 <div class="column-header">Society</div>
                 <div id="society-articles">Loading...</div>
             </section>
+
+            <section class="column" id="books">
+                <div class="column-header">Books & Reviews</div>
+                <div id="books-articles">Loading...</div>
+            </section>
         </div>
 
         <!-- Subscribe -->
@@ -395,6 +461,28 @@
                 <button type="submit">Subscribe</button>
             </form>
         </div>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <h3>About SPS Daily</h3>
+            <blockquote>
+                "Ekam Sat Vipra Bahudha Vadanti"<br>
+                <em>Truth is One; the wise call it by many names.</em>
+                <cite>— Rig Veda 1.164.46</cite>
+            </blockquote>
+            <p>
+                SPS Daily is guided by the ancient Vedic insight of <strong>Ekam Sat</strong> — that beneath the apparent diversity of knowledge lies a singular truth. Whether we call it Brahman, reality, nature, or the cosmos, all genuine inquiry converges toward this underlying unity.
+            </p>
+            <p>
+                We curate the best writing across <em>Science</em>, <em>Philosophy</em>, and <em>Society</em> — not as separate disciplines, but as interconnected paths toward understanding. Science reveals the mechanisms of the universe; philosophy explores meaning and wisdom; and society reflects how we live these truths together.
+            </p>
+            <p>
+                In an age of algorithmic feeds and fragmented attention, SPS Daily offers a human-curated selection of thoughtful, substantive writing. No clickbait. No hot takes. Just ideas worth your time.
+            </p>
+            <p class="about-footer">
+                Part of <a href="https://thebeakers.com">The Beakers</a> — exploring science, curiosity, and human understanding.
+            </p>
+        </section>
     </main>
 
     <footer>
@@ -423,9 +511,14 @@
                 document.getElementById('featured-source').textContent = featured.source;
 
                 // Render each category
-                ['science', 'philosophy', 'society'].forEach(category => {
+                ['science', 'philosophy', 'society', 'books'].forEach(category => {
                     const container = document.getElementById(`${category}-articles`);
-                    const articles = data[category];
+                    const articles = data[category] || [];
+
+                    if (articles.length === 0) {
+                        container.innerHTML = '<p style="color: var(--text-light); font-style: italic;">No articles today.</p>';
+                        return;
+                    }
 
                     container.innerHTML = articles.map((article, i) => `
                         <article class="article">
