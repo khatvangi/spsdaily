@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "Quantum Effects in Neurons May Explain Consciousness",
+      "teaser": "What if the brain isn't just a classical computer? New research finds quantum coherence persisting in neural tissue far longer than expected\u2014reopening the door to theories once dismissed as fringe.",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/quantum-consciousness"
+    },
+    {
       "headline": "The Unexpected Mathematics of Coffee Rings",
       "teaser": "Why does spilled coffee leave a ring instead of a uniform stain? Physicists have finally solved this decades-old puzzle\u2014and the answer involves fluid dynamics that could revolutionize inkjet printing.",
       "source": "Nature",
@@ -24,12 +30,6 @@
       "teaser": "New measurements from robotic floats reveal the deep sea's role in climate regulation has been vastly underestimated.",
       "source": "Science",
       "url": "https://www.science.org/content/article/ocean-carbon"
-    },
-    {
-      "headline": "Why Quantum Computers Keep Disappointing Us",
-      "teaser": "Despite billions invested, practical quantum advantage remains elusive. The problem isn't the physics \u2014 it's our expectations.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/topic/computing/quantum-computing/"
     }
   ],
   "philosophy": [
