@@ -389,10 +389,11 @@
         <div class="subscribe">
             <h4>Daily Digest</h4>
             <p>Get the best of SPS Daily in your inbox every morning.</p>
-            <form class="subscribe-form">
-                <input type="email" placeholder="your@email.com" required>
-                <button type="submit">Subscribe</button>
+            <form class="subscribe-form" id="subscribe-form">
+                <input type="email" id="subscribe-email" placeholder="your@email.com" required>
+                <button type="submit" id="subscribe-btn">Subscribe</button>
             </form>
+            <p id="subscribe-message" style="margin-top: 0.75rem; font-size: 0.85rem;"></p>
         </div>
     </main>
 
@@ -440,6 +441,43 @@
         }
 
         loadArticles();
+
+        // Newsletter subscription
+        const LISTMONK_URL = 'https://newsletter.thebeakers.com';  // We'll set this up
+        const LIST_UUID = 'YOUR_LIST_UUID';  // Get from Listmonk after creating list
+
+        document.getElementById('subscribe-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const email = document.getElementById('subscribe-email').value;
+            const btn = document.getElementById('subscribe-btn');
+            const msg = document.getElementById('subscribe-message');
+
+            btn.disabled = true;
+            btn.textContent = 'Subscribing...';
+            msg.textContent = '';
+
+            try {
+                const response = await fetch(`${LISTMONK_URL}/subscription/form`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `email=${encodeURIComponent(email)}&list=${LIST_UUID}&name=`
+                });
+
+                if (response.ok) {
+                    msg.style.color = '#2e7d32';
+                    msg.textContent = 'Check your email to confirm subscription!';
+                    document.getElementById('subscribe-email').value = '';
+                } else {
+                    throw new Error('Subscription failed');
+                }
+            } catch (error) {
+                msg.style.color = '#c62828';
+                msg.textContent = 'Subscription failed. Please try again.';
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'Subscribe';
+        });
     </script>
 </body>
 </html>
