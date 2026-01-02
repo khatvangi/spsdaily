@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — SPS Daily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --text-dark: #1a1a1a;
+            --text-medium: #444;
+            --text-light: #666;
+            --bg-cream: #faf8f5;
+            --bg-white: #fff;
+            --accent-red: #8b0000;
+            --accent-blue: #1a4480;
+            --border-light: #ddd;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Libre Baskerville', Georgia, serif;
+            background: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        header {
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--border-light);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        .site-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+        }
+
+        .site-title a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        .site-title span { color: var(--accent-red); }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-medium);
+        }
+
+        .motto {
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--accent-blue);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin: 2rem 0 1rem;
+            color: var(--accent-red);
+        }
+
+        ul {
+            margin: 1rem 0 1.5rem 1.5rem;
+            color: var(--text-medium);
+        }
+
+        li { margin-bottom: 0.5rem; }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 3rem;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        .back-link a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: var(--text-dark);
+            color: #aaa;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title"><a href="index.html"><span>SPS</span> DAILY</a></h1>
+    </header>
+
+    <main>
+        <h1>About SPS Daily</h1>
+
+        <p>
+            <strong>SPS Daily</strong> is a curated digest of the best writing on science, philosophy, and society.
+            In an age of infinite content and algorithmic feeds, we believe in human curation —
+            the careful selection of ideas that matter.
+        </p>
+
+        <div class="motto">
+            "Ekam Sat, viprāḥ bahudhā vadanti"<br>
+            <small>Truth is one; the wise speak of it in many ways.</small><br>
+            <small style="color: var(--text-light);">— Rigveda 1.164.46</small>
+        </div>
+
+        <h2>What We Curate</h2>
+        <ul>
+            <li><strong>Science</strong> — Not just discoveries, but what they mean. Physics, biology, neuroscience, and the methods of knowing.</li>
+            <li><strong>Philosophy</strong> — Ancient and modern. Ethics, metaphysics, philosophy of mind, and the examined life.</li>
+            <li><strong>Society</strong> — How we live together. Technology's impact, institutions, culture, and the future we're building.</li>
+        </ul>
+
+        <h2>What We Avoid</h2>
+        <p>
+            We have no patience for pseudoscience, conspiracy thinking, or the confident certainty of ideologues.
+            We seek writers who are rigorous yet humble, who follow evidence where it leads,
+            who can hold complexity without collapsing into simplicity.
+        </p>
+
+        <h2>Inspiration</h2>
+        <p>
+            SPS Daily is inspired by <a href="https://aldaily.com" target="_blank">Arts & Letters Daily</a>,
+            which has curated the humanities with distinction since 1998.
+            We aim to do the same for the sciences and the questions that bridge disciplines.
+        </p>
+
+        <h2>No Algorithms</h2>
+        <p>
+            Every link is chosen by a human reader. We use AI as a tool to discover and summarize,
+            but the final selection reflects human judgment about what's genuinely worth your time.
+        </p>
+
+        <div class="back-link">
+            <a href="index.html">← Return to SPS Daily</a>
+        </div>
+    </main>
+
+    <footer>
+        SPS Daily — Science, Philosophy & Society
+    </footer>
+</body>
+</html>
