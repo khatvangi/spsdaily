@@ -34,6 +34,12 @@
   ],
   "philosophy": [
     {
+      "headline": "Why Socrates Still Matters",
+      "teaser": "Twenty-four centuries after his death, the gadfly of Athens still stings. His method of relentless questioning offers an antidote to an age of easy answers.",
+      "source": "Aeon",
+      "url": "https://aeon.co/essays/socrates"
+    },
+    {
       "headline": "The Return of Virtue Ethics in Silicon Valley",
       "teaser": "Tech leaders are rediscovering Aristotle. But can ancient wisdom survive in a culture of disruption?",
       "source": "The New Atlantis",
@@ -50,12 +56,6 @@
       "teaser": "Four decades later, the book that reshaped moral philosophy still has lessons for how we think about identity and ethics.",
       "source": "London Review of Books",
       "url": "https://www.lrb.co.uk/the-paper/v46/n01/derek-parfit"
-    },
-    {
-      "headline": "Against the Simulation Argument",
-      "teaser": "A philosopher argues Bostrom's famous hypothesis rests on assumptions about computation that don't survive scrutiny.",
-      "source": "Philosophy Now",
-      "url": "https://philosophynow.org/issues/simulation-argument"
     }
   ],
   "society": [
