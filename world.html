@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World — SPS Daily</title>
+    <meta name="description" content="International perspectives from around the globe - translated essays and ideas from leading publications worldwide.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --text-dark: #1a1a1a;
+            --text-medium: #444;
+            --text-light: #666;
+            --bg-cream: #faf8f5;
+            --bg-white: #fff;
+            --accent-red: #8b0000;
+            --accent-blue: #1a4480;
+            --border-light: #ddd;
+            --max-width: 800px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Libre Baskerville', Georgia, serif;
+            background: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        header {
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--border-light);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+        .site-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+        }
+        .site-title a { color: var(--text-dark); text-decoration: none; }
+        .site-title span { color: var(--accent-red); }
+        nav {
+            background: var(--text-dark);
+            padding: 0.6rem 2rem;
+        }
+        nav ul {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav a:hover { color: #ccc; }
+        nav a.active { color: #ffcc00; }
+        main {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .page-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .page-header h1 {
+            font-size: 2rem;
+            color: var(--accent-red);
+            margin-bottom: 0.5rem;
+        }
+        .page-header p {
+            color: var(--text-light);
+            font-style: italic;
+        }
+        .articles-list {
+            background: var(--bg-white);
+            border: 1px solid var(--border-light);
+        }
+        .article {
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .article:last-child { border-bottom: none; }
+        .article h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+        }
+        .article h3 a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        .article h3 a:hover { color: var(--accent-blue); }
+        .article p {
+            font-size: 0.95rem;
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+        .article .source {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            margin-top: 0.5rem;
+        }
+        .article .country-flag {
+            display: inline-block;
+            margin-right: 0.25rem;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .back-link a { color: var(--accent-blue); text-decoration: none; }
+        .back-link a:hover { text-decoration: underline; }
+        footer {
+            background: var(--text-dark);
+            color: #aaa;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.85rem;
+        }
+        footer a { color: #ccc; text-decoration: none; }
+        footer a:hover { color: #fff; }
+        .legal {
+            font-size: 0.75rem;
+            color: #666;
+            margin-top: 1rem;
+        }
+        .legal a { color: #888; }
+        @media (max-width: 600px) {
+            nav ul { flex-wrap: wrap; gap: 1rem; }
+            main { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title"><a href="index.html"><span>SPS</span> DAILY</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="philosophy.html">Philosophy</a></li>
+            <li><a href="society.html">Society</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="world.html" class="active">World</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <h1>World</h1>
+            <p>International perspectives — translated essays and ideas from leading publications worldwide</p>
+        </div>
+
+        <div class="articles-list" id="articles-list">
+            Loading articles...
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">← Back to SPS Daily</a>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>SPS Daily</strong> — Science, Philosophy & Society</p>
+        <p><a href="about.html">About</a> · <a href="mailto:hello@thebeakers.com">Contact</a> · <a href="feed.xml">RSS</a></p>
+        <p class="legal">
+            <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · &copy; 2026 The Beakers
+        </p>
+    </footer>
+
+    <script>
+        async function loadArticles() {
+            try {
+                const response = await fetch('articles.json');
+                const data = await response.json();
+                const articles = data.world || [];
+                const container = document.getElementById('articles-list');
+
+                if (articles.length === 0) {
+                    container.innerHTML = '<p style="padding: 2rem; text-align: center; color: var(--text-light);">No articles available.</p>';
+                    return;
+                }
+
+                container.innerHTML = articles.map(article => `
+                    <article class="article">
+                        <h3><a href="${article.url}" target="_blank">${article.headline}</a></h3>
+                        <p>${article.teaser}</p>
+                        <div class="source">${article.source}</div>
+                    </article>
+                `).join('');
+            } catch (error) {
+                console.error('Failed to load articles:', error);
+                document.getElementById('articles-list').innerHTML = '<p style="padding: 2rem; text-align: center; color: var(--text-light);">Failed to load articles.</p>';
+            }
+        }
+        loadArticles();
+    </script>
+</body>
+</html>

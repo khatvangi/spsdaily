@@ -14,8 +14,10 @@ import random
 import subprocess
 
 # Ollama configuration
-OLLAMA_MODEL = "qwen3:latest"  # Fast and capable
+OLLAMA_MODEL_FILTER = "qwen2.5:0.5b"  # Tiny model for YES/NO filtering
+OLLAMA_MODEL_TRANSLATE = "qwen3:latest"  # Larger model for translation
 USE_AI_FILTER = True  # Set to False to disable AI filtering
+USE_WORLD_COLLECTION = True  # Set to False to disable international feeds
 
 def ai_evaluate_article(headline, teaser, category):
     """Use Ollama to evaluate if an article is worth including."""
@@ -39,7 +41,7 @@ Reply with ONLY one word: YES or NO
 
     try:
         result = subprocess.run(
-            ["ollama", "run", OLLAMA_MODEL, prompt],
+            ["ollama", "run", OLLAMA_MODEL_FILTER, prompt],
             capture_output=True,
             text=True,
             timeout=30
@@ -56,6 +58,34 @@ Reply with ONLY one word: YES or NO
         return True, "AI timeout"
     except Exception as e:
         return True, f"AI error: {e}"
+
+
+def ai_translate(text, source_lang, target_lang="English"):
+    """Use Ollama to translate text to English."""
+    if not text or not text.strip():
+        return text
+
+    prompt = f"""Translate the following {source_lang} text to {target_lang}.
+Only output the translation, nothing else.
+
+Text: {text}
+/no_think"""
+
+    try:
+        result = subprocess.run(
+            ["ollama", "run", OLLAMA_MODEL_TRANSLATE, prompt],
+            capture_output=True,
+            text=True,
+            timeout=60
+        )
+        translated = result.stdout.strip()
+        # Clean up any thinking tags if present
+        if "<think>" in translated:
+            translated = translated.split("</think>")[-1].strip()
+        return translated if translated else text
+    except Exception as e:
+        print(f"    Translation error: {e}")
+        return text
 
 # Political/current affairs keywords to filter from book reviews
 # (we want literary/academic book reviews, not political commentary)
@@ -186,6 +216,80 @@ FEEDS = {
     ]
 }
 
+# International feeds organized by country/language
+# Format: (name, url, language, country)
+WORLD_FEEDS = [
+    # Germany (German)
+    ("Der Spiegel", "https://www.spiegel.de/wissenschaft/index.rss", "German", "Germany"),
+    ("Die Zeit Wissen", "https://newsfeed.zeit.de/wissen/index", "German", "Germany"),
+    ("FAZ Feuilleton", "https://www.faz.net/rss/aktuell/feuilleton/", "German", "Germany"),
+
+    # France (French)
+    ("Le Monde Ideas", "https://www.lemonde.fr/idees/rss_full.xml", "French", "France"),
+    ("Philosophie Magazine", "https://www.philomag.com/feed", "French", "France"),
+    ("La Vie des Idées", "https://laviedesidees.fr/spip.php?page=backend", "French", "France"),
+
+    # Spain (Spanish)
+    ("El País Cultura", "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada", "Spanish", "Spain"),
+    ("La Vanguardia Cultura", "https://www.lavanguardia.com/rss/cultura.xml", "Spanish", "Spain"),
+
+    # Italy (Italian)
+    ("La Repubblica Cultura", "https://www.repubblica.it/rss/cultura/rss2.0.xml", "Italian", "Italy"),
+    ("Il Post", "https://www.ilpost.it/feed/", "Italian", "Italy"),
+
+    # Netherlands (Dutch)
+    ("NRC", "https://www.nrc.nl/rss/", "Dutch", "Netherlands"),
+    ("De Correspondent", "https://decorrespondent.nl/feed", "Dutch", "Netherlands"),
+
+    # Japan (Japanese)
+    ("Asahi Shimbun", "https://www.asahi.com/rss/asahi/newsheadlines.rdf", "Japanese", "Japan"),
+    ("Nikkei Asia", "https://asia.nikkei.com/rss/feed/nar", "English", "Japan"),
+
+    # China
+    ("Caixin Global", "https://www.caixinglobal.com/rss.html", "English", "China"),
+    ("Sixth Tone", "https://www.sixthtone.com/rss", "English", "China"),
+
+    # India (English)
+    ("The Hindu Opinion", "https://www.thehindu.com/opinion/feeder/default.rss", "English", "India"),
+    ("Scroll.in", "https://scroll.in/rss/all", "English", "India"),
+    ("The Caravan", "https://caravanmagazine.in/rss-feeds/rss.xml", "English", "India"),
+
+    # Brazil (Portuguese)
+    ("Folha de S.Paulo", "https://feeds.folha.uol.com.br/mundo/rss091.xml", "Portuguese", "Brazil"),
+    ("Piauí", "https://piaui.folha.uol.com.br/feed/", "Portuguese", "Brazil"),
+
+    # Argentina (Spanish)
+    ("La Nación Ideas", "https://www.lanacion.com.ar/arcio/rss/category/ideas/", "Spanish", "Argentina"),
+
+    # Mexico (Spanish)
+    ("Letras Libres", "https://letraslibres.com/feed/", "Spanish", "Mexico"),
+    ("Nexos", "https://www.nexos.com.mx/?feed=rss2", "Spanish", "Mexico"),
+
+    # Middle East
+    ("Al Jazeera Opinion", "https://www.aljazeera.com/xml/rss/all.xml", "English", "Qatar"),
+    ("Haaretz", "https://www.haaretz.com/srv/haaretz-latest-headlines", "English", "Israel"),
+
+    # Africa
+    ("Mail & Guardian", "https://mg.co.za/feed/", "English", "South Africa"),
+    ("Daily Maverick", "https://www.dailymaverick.co.za/feed/", "English", "South Africa"),
+
+    # Australia
+    ("The Conversation AU", "https://theconversation.com/au/articles.rss", "English", "Australia"),
+    ("Sydney Review of Books", "https://sydneyreviewofbooks.com/feed/", "English", "Australia"),
+
+    # South Korea (Korean)
+    ("Hankyoreh", "https://www.hani.co.kr/rss/", "Korean", "South Korea"),
+
+    # Poland (Polish)
+    ("Gazeta Wyborcza", "https://wyborcza.pl/0,0.html?disableRedirects=true", "Polish", "Poland"),
+
+    # Czech Republic (Czech)
+    ("Respekt", "https://www.respekt.cz/rss", "Czech", "Czech Republic"),
+
+    # Russia (Russian) - independent media
+    ("Meduza", "https://meduza.io/rss/all", "Russian", "Russia"),
+]
+
 def clean_html(text):
     """Remove HTML tags and decode entities"""
     if not text:
@@ -242,13 +346,79 @@ def fetch_feed(name, url, max_age_days=7):
 
     return articles
 
+def collect_world_feeds():
+    """Collect and translate articles from international feeds."""
+    if not USE_WORLD_COLLECTION:
+        return []
+
+    print("\n🌍 Collecting WORLD feeds...")
+    world_articles = []
+    seen_headlines = set()
+
+    for name, url, language, country in WORLD_FEEDS:
+        print(f"  → {name} ({country})")
+        try:
+            feed = feedparser.parse(url)
+            cutoff = datetime.now() - timedelta(days=7)
+            added = 0
+
+            for entry in feed.entries[:5]:  # Limit per source
+                published = None
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    published = datetime(*entry.published_parsed[:6])
+                elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                    published = datetime(*entry.updated_parsed[:6])
+
+                if published and published < cutoff:
+                    continue
+
+                headline = clean_html(entry.get('title', ''))
+                teaser = truncate_teaser(entry.get('summary', entry.get('description', '')))
+                link = entry.get('link', '')
+
+                if not headline or not link:
+                    continue
+
+                # Skip duplicates
+                headline_lower = headline.lower().strip()
+                if headline_lower in seen_headlines:
+                    continue
+                seen_headlines.add(headline_lower)
+
+                # Translate if not English
+                if language != "English":
+                    print(f"    Translating: {headline[:40]}...")
+                    headline = ai_translate(headline, language)
+                    if teaser:
+                        teaser = ai_translate(teaser, language)
+
+                world_articles.append({
+                    "headline": headline,
+                    "teaser": teaser,
+                    "source": f"{name} ({country})",
+                    "url": link,
+                    "country": country,
+                    "language": language,
+                    "published": published.isoformat() if published else None
+                })
+                added += 1
+
+            print(f"    Added {added} articles")
+
+        except Exception as e:
+            print(f"    Error: {e}")
+
+    return world_articles
+
+
 def collect_all_feeds():
     """Collect articles from all feeds"""
     all_articles = {
         "science": [],
         "philosophy": [],
         "society": [],
-        "books": []
+        "books": [],
+        "world": []
     }
 
     # Track seen headlines globally to avoid duplicates across all categories
@@ -389,6 +559,10 @@ def generate_json(selected):
     if selected.get('books'):
         output["books"] = selected['books']
 
+    # Add world if we have any
+    if selected.get('world'):
+        output["world"] = selected['world']
+
     return output
 
 def main():
@@ -397,6 +571,10 @@ def main():
 
     # Collect from all feeds
     all_articles = collect_all_feeds()
+
+    # Collect world feeds (with translation)
+    world_articles = collect_world_feeds()
+    all_articles["world"] = world_articles
 
     # Select best articles (15 per category - front page shows 6, category pages show all)
     print("\n✨ Selecting articles...")
@@ -414,6 +592,8 @@ def main():
     print(f"   Science: {len(output['science'])} articles")
     print(f"   Philosophy: {len(output['philosophy'])} articles")
     print(f"   Society: {len(output['society'])} articles")
+    print(f"   Books: {len(output.get('books', []))} articles")
+    print(f"   World: {len(output.get('world', []))} articles")
 
 if __name__ == "__main__":
     main()
