@@ -442,16 +442,12 @@
 
         loadArticles();
 
-        // Newsletter subscription - redirect to Listmonk public page
-        // TODO: Replace with your Listmonk public URL once set up
+        // Newsletter subscription - redirect to Listmonk
         document.getElementById('subscribe-form').addEventListener('submit', (e) => {
             e.preventDefault();
             const email = document.getElementById('subscribe-email').value;
-            // For now, show a message. Once newsletter.thebeakers.com is set up, this will work.
-            const msg = document.getElementById('subscribe-message');
-            msg.style.color = '#666';
-            msg.textContent = 'Newsletter coming soon! Email saved: ' + email;
-            // Later: window.location.href = `https://newsletter.thebeakers.com/subscription/form?email=${encodeURIComponent(email)}`;
+            // Redirect to Listmonk public subscription page
+            window.location.href = `https://newsletter.thebeakers.com/subscription/form`;
         });
     </script>
 </body>
