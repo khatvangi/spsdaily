@@ -1,0 +1,12 @@
+[Unit]
+Description=Run SPS Daily Feed Collector twice daily
+
+[Timer]
+# Run at 6 AM and 6 PM local time
+OnCalendar=*-*-* 06:00:00
+OnCalendar=*-*-* 18:00:00
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target
