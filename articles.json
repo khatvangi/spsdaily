@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "Kangaroos Hopping Efficiency Revealed",
+      "teaser": "New study uncovers how kangaroos defy energy norms with hopping. What other secrets do their biomechanics hold? #science",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/01/research-roundup-7-cool-science-stories-we-almost-missed-2/"
+    },
+    {
       "headline": "Saturn-Sized Planet Found in Einstein Desert",
       "teaser": "A Saturn-sized exoplanet has been detected in the 'Einstein desert'\u2014a region where such planets are thought to be rare. How does this discovery reshape our understanding of rogue planet formation? Read more at Ars Technica.",
       "source": "Ars Technica",
@@ -24,12 +30,6 @@
       "teaser": "We use \u201cdifficult\u201d to dodge naming narcissistic harm. Learn to spot the pattern, upgrade your language, and set boundaries, without lowering standards.",
       "source": "Psychology Today",
       "url": "https://www.psychologytoday.com/us/blog/deeper-empathy-lasting-change/202601/stop-calling-them-difficult"
-    },
-    {
-      "headline": "This Walking Ape Might Be the Earliest Human Ancestor",
-      "teaser": "The limbs of Sahelanthropus tchadensis may settle a decades-long evolutionary debate The post This Walking Ape Might Be the Earliest Human Ancestor appeared first on Nautilus.",
-      "source": "Nautilus",
-      "url": "https://nautil.us/this-walking-ape-might-be-the-earliest-human-ancestor-1258797/"
     }
   ],
   "philosophy": [
