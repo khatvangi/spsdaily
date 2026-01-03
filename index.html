@@ -183,10 +183,10 @@
             margin-top: 0.75rem;
         }
 
-        /* Five columns */
+        /* Four columns */
         .columns {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 1.25rem;
         }
 
@@ -447,13 +447,7 @@
         }
 
         /* Responsive */
-        @media (max-width: 1400px) {
-            .columns {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 1000px) {
+        @media (max-width: 1200px) {
             .columns {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -498,7 +492,6 @@
             <li><a href="#philosophy">Philosophy</a></li>
             <li><a href="#society">Society</a></li>
             <li><a href="#books">Books</a></li>
-            <li><a href="#world">World</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
@@ -532,11 +525,6 @@
             <section class="column" id="books">
                 <div class="column-header"><a href="books.html">Books & Reviews</a></div>
                 <div id="books-articles">Loading...</div>
-            </section>
-
-            <section class="column" id="world">
-                <div class="column-header"><a href="world.html">World</a></div>
-                <div id="world-articles">Loading...</div>
             </section>
         </div>
 
@@ -584,7 +572,7 @@
 
                 // Render each category (show first 6 on front page)
                 const FRONT_PAGE_LIMIT = 6;
-                ['science', 'philosophy', 'society', 'books', 'world'].forEach(category => {
+                ['science', 'philosophy', 'society', 'books'].forEach(category => {
                     const container = document.getElementById(`${category}-articles`);
                     const articles = data[category] || [];
 

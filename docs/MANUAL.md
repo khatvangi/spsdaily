@@ -24,11 +24,9 @@
 ## What is SPS Daily?
 
 SPS Daily is a curated news digest website that automatically:
-1. **Collects articles** from 70+ RSS feeds (science, philosophy, society, books)
-2. **Collects international articles** from 35+ sources in different languages
-3. **Translates** non-English articles to English using AI (Ollama)
-4. **Filters** out low-quality content using AI
-5. **Publishes** to your website via GitHub Pages
+1. **Collects articles** from 100+ RSS feeds (science, philosophy, society, books)
+2. **Filters** out low-quality content using AI (Ollama)
+3. **Publishes** to your website via GitHub Pages
 
 The website is at: https://spsdaily.thebeakers.com
 
@@ -70,7 +68,6 @@ pip3 show feedparser
 ├── philosophy.html         # Philosophy category page
 ├── society.html            # Society category page
 ├── books.html              # Books category page
-├── world.html              # World (international) category page
 ├── about.html              # About page
 ├── privacy.html            # Privacy policy
 ├── terms.html              # Terms of use
@@ -107,16 +104,11 @@ pip3 show feedparser
    - Removes listicles, quizzes, breaking news, hot takes
    - Keeps substantive essays and long-form pieces
 
-4. **World Collection & Translation**
-   - Collects from international sources
-   - Translates headlines and teasers to English
-   - Uses Ollama for high-quality translation
-
-5. **JSON Generation**
+4. **JSON Generation**
    - Creates `articles.json` with all selected articles
    - Selects 15 per category (6 shown on front page)
 
-6. **Git Push**
+5. **Git Push**
    - Commits changes to GitHub
    - GitHub Pages automatically updates the website
 
@@ -149,18 +141,11 @@ python3 scripts/feed_collector.py
     ✓ 102 approved, ✗ 22 rejected
   ...
 
-🌍 Collecting WORLD feeds...
-  → Der Spiegel (Germany)
-    Translating: ...
-    Added 5 articles
-  ...
-
 ✅ Generated /storage/spsdaily/articles.json
    Science: 15 articles
    Philosophy: 15 articles
    Society: 15 articles
-   Books: 12 articles
-   World: 15 articles
+   Books: 15 articles
 ```
 
 ### Run and Push to Website:
@@ -245,16 +230,13 @@ Edit `/storage/spsdaily/scripts/feed_collector.py` to change settings:
 ```python
 # Ollama configuration
 OLLAMA_MODEL_FILTER = "qwen2.5:0.5b"    # Model for YES/NO filtering
-OLLAMA_MODEL_TRANSLATE = "qwen3:latest"  # Model for translation
 USE_AI_FILTER = True                     # Set to False to disable AI filtering
-USE_WORLD_COLLECTION = True              # Set to False to disable international feeds
 ```
 
-### To disable AI (runs much faster):
+### To disable AI filtering (runs much faster):
 
 ```python
 USE_AI_FILTER = False
-USE_WORLD_COLLECTION = False
 ```
 
 ### To change number of articles:
@@ -295,24 +277,6 @@ FEEDS = {
     ("My New Source", "https://mynewsource.com/rss"),  # <-- Add here
     ...
 ]
-```
-
-### Adding International Feeds:
-
-Find the `WORLD_FEEDS` list:
-
-```python
-WORLD_FEEDS = [
-    # Format: (name, url, language, country)
-    ("Der Spiegel", "https://www.spiegel.de/wissenschaft/index.rss", "German", "Germany"),
-    # Add your new feed here
-]
-```
-
-**Example - Adding a Swedish source:**
-
-```python
-("Dagens Nyheter", "https://www.dn.se/rss/", "Swedish", "Sweden"),
 ```
 
 ### Testing your new feed:
@@ -384,21 +348,6 @@ curl -s "https://example.com/feed.rss" | head -20
 Edit `feed_collector.py`:
 ```python
 USE_AI_FILTER = False
-```
-
-### Problem: "Translations not working"
-
-**Solution:** Check Ollama model:
-
-```bash
-# List models
-ollama list
-
-# Pull the translation model if missing
-ollama pull qwen3:latest
-
-# Test translation
-echo "Bonjour le monde" | ollama run qwen3 "Translate to English:"
 ```
 
 ---

@@ -1,0 +1,47 @@
+/storage/spsdaily/scripts/run_collector.sh: line 24: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 25: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 26: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 27: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 33: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 34: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 37: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 38: /storage/spsdaily/logs/collector.log: Permission denied
+/storage/spsdaily/scripts/run_collector.sh: line 42: /storage/spsdaily/logs/collector.log: Permission denied
+
+========================================
+Fri Jan  2 06:07:37 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  2 06:07:37 PM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan  2 06:07:37 PM CST 2026: Running feed collector...
+Traceback (most recent call last):
+  File "/storage/spsdaily/scripts/feed_collector.py", line 7, in <module>
+    import feedparser
+ModuleNotFoundError: No module named 'feedparser'
+Fri Jan  2 06:07:37 PM CST 2026: ERROR - Collector failed with status 1
+
+========================================
+Fri Jan  2 06:10:47 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  2 06:10:47 PM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan  2 06:10:47 PM CST 2026: Running feed collector...
+
+========================================
+Fri Jan  2 06:15:36 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  2 06:15:36 PM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan  2 06:15:36 PM CST 2026: Running feed collector...
+Traceback (most recent call last):
+  File "/storage/spsdaily/scripts/feed_collector.py", line 7, in <module>
+    import feedparser
+ModuleNotFoundError: No module named 'feedparser'
+Fri Jan  2 06:15:36 PM CST 2026: ERROR - Collector failed with status 1
+
+========================================
+Fri Jan  2 06:16:17 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  2 06:16:17 PM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan  2 06:16:18 PM CST 2026: Running feed collector...

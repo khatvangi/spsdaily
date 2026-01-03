@@ -6,6 +6,7 @@
 
 # Configuration
 SPSDAILY_DIR="/storage/spsdaily"
+PYTHON="/home/kiran/miniconda3/bin/python3"
 LOG_FILE="/storage/spsdaily/logs/collector.log"
 LOCK_FILE="/tmp/spsdaily_collector.lock"
 
@@ -35,7 +36,7 @@ git pull >> "$LOG_FILE" 2>&1
 
 # Run the collector
 echo "$(date): Running feed collector..." >> "$LOG_FILE"
-python3 scripts/feed_collector.py >> "$LOG_FILE" 2>&1
+$PYTHON scripts/feed_collector.py >> "$LOG_FILE" 2>&1
 COLLECTOR_STATUS=$?
 
 if [ $COLLECTOR_STATUS -ne 0 ]; then
