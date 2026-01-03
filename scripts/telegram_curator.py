@@ -7,7 +7,9 @@ Sends collected articles to Telegram for manual curation
 import json
 import requests
 import time
+import sqlite3
 from pathlib import Path
+from datetime import date
 
 # Telegram Bot Configuration
 BOT_TOKEN = "8516392118:AAEIybKb68Gfl0kTpzKkbCKtUl1OtRqMwtY"
@@ -19,6 +21,61 @@ SPSDAILY_DIR = Path("/storage/spsdaily")
 ARTICLES_FILE = SPSDAILY_DIR / "articles.json"
 PENDING_FILE = SPSDAILY_DIR / "pending_articles.json"
 APPROVED_FILE = SPSDAILY_DIR / "approved_articles.json"
+ARCHIVE_FILE = SPSDAILY_DIR / "archive.json"
+DB_PATH = SPSDAILY_DIR / "data" / "articles.db"
+
+def add_to_archive(article, category):
+    """Add approved article to archive database"""
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute('''
+        CREATE TABLE IF NOT EXISTS archive (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            url TEXT UNIQUE,
+            headline TEXT,
+            teaser TEXT,
+            source TEXT,
+            category TEXT,
+            approved_date DATE DEFAULT CURRENT_DATE,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    ''')
+    conn.execute('''
+        INSERT OR REPLACE INTO archive (url, headline, teaser, source, category, approved_date)
+        VALUES (?, ?, ?, ?, ?, ?)
+    ''', (article['url'], article['headline'], article.get('teaser', ''),
+          article.get('source', ''), category, date.today().isoformat()))
+    conn.commit()
+    conn.close()
+
+def generate_archive_json():
+    """Generate archive.json grouped by date"""
+    conn = sqlite3.connect(DB_PATH)
+    cur = conn.execute('''
+        SELECT approved_date, category, headline, teaser, source, url
+        FROM archive
+        ORDER BY approved_date DESC, category, id DESC
+    ''')
+
+    archive = {}
+    for row in cur.fetchall():
+        date_str = row[0]
+        if date_str not in archive:
+            archive[date_str] = {"science": [], "philosophy": [], "society": [], "books": []}
+
+        category = row[1]
+        if category in archive[date_str]:
+            archive[date_str][category].append({
+                "headline": row[2],
+                "teaser": row[3],
+                "source": row[4],
+                "url": row[5]
+            })
+
+    with open(ARCHIVE_FILE, 'w') as f:
+        json.dump(archive, f, indent=2)
+
+    conn.close()
+    return archive
 
 def send_message(text, reply_markup=None):
     """Send a message to the curator"""
@@ -154,11 +211,11 @@ def send_articles_for_review():
     send_message("✅ All articles sent! When done reviewing, send /publish to publish approved articles.")
 
 def git_push():
-    """Commit and push articles.json to GitHub"""
+    """Commit and push articles.json and archive.json to GitHub"""
     import subprocess
     try:
         subprocess.run(
-            ["git", "add", "articles.json"],
+            ["git", "add", "articles.json", "archive.json"],
             cwd=SPSDAILY_DIR, check=True, capture_output=True
         )
         subprocess.run(
@@ -174,7 +231,7 @@ def git_push():
         return False
 
 def handle_callback(callback_data, pending, approved):
-    """Handle button callbacks - immediately updates articles.json and pushes"""
+    """Handle button callbacks - immediately updates articles.json, archive, and pushes"""
     parts = callback_data.split(":")
     action = parts[0]
     category = parts[1]
@@ -190,13 +247,19 @@ def handle_callback(callback_data, pending, approved):
     changed = False
 
     if action == "approve":
-        # Add to live articles immediately
+        # Add to live articles (keep max 15 per category)
         if category not in live_articles:
             live_articles[category] = []
         if article not in live_articles[category]:
             live_articles[category].insert(0, article)  # Add to top
+            # Keep only 15 on front page, rest go to archive
+            if len(live_articles[category]) > 15:
+                live_articles[category] = live_articles[category][:15]
             with open(ARTICLES_FILE, 'w') as f:
                 json.dump(live_articles, f, indent=2)
+            # Add to archive
+            add_to_archive(article, category)
+            generate_archive_json()
             changed = True
             result = f"✅ LIVE: {article['headline'][:40]}..."
         else:
@@ -219,8 +282,13 @@ def handle_callback(callback_data, pending, approved):
             live_articles[category] = []
         if article not in live_articles[category]:
             live_articles[category].insert(0, article)
+            if len(live_articles[category]) > 15:
+                live_articles[category] = live_articles[category][:15]
         with open(ARTICLES_FILE, 'w') as f:
             json.dump(live_articles, f, indent=2)
+        # Add to archive
+        add_to_archive(article, category)
+        generate_archive_json()
         changed = True
         result = f"⭐ PICK SET: {article['headline'][:40]}..."
     else:

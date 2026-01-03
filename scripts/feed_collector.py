@@ -35,6 +35,19 @@ def init_db():
             reviewed TIMESTAMP
         )
     ''')
+    # Archive table for approved articles
+    conn.execute('''
+        CREATE TABLE IF NOT EXISTS archive (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            url TEXT UNIQUE,
+            headline TEXT,
+            teaser TEXT,
+            source TEXT,
+            category TEXT,
+            approved_date DATE DEFAULT CURRENT_DATE,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    ''')
     conn.commit()
     return conn
 
@@ -50,6 +63,44 @@ def mark_article_seen(conn, url, headline, category):
         (url, headline, category)
     )
     conn.commit()
+
+def add_to_archive(conn, article, category):
+    """Add an approved article to the archive"""
+    conn.execute('''
+        INSERT OR IGNORE INTO archive (url, headline, teaser, source, category)
+        VALUES (?, ?, ?, ?, ?)
+    ''', (article['url'], article['headline'], article.get('teaser', ''),
+          article.get('source', ''), category))
+    conn.commit()
+
+def generate_archive_json(conn):
+    """Generate archive.json grouped by date"""
+    cur = conn.execute('''
+        SELECT approved_date, category, headline, teaser, source, url
+        FROM archive
+        ORDER BY approved_date DESC, category, id DESC
+    ''')
+
+    archive = {}
+    for row in cur.fetchall():
+        date_str = row[0]
+        if date_str not in archive:
+            archive[date_str] = {"science": [], "philosophy": [], "society": [], "books": []}
+
+        category = row[1]
+        if category in archive[date_str]:
+            archive[date_str][category].append({
+                "headline": row[2],
+                "teaser": row[3],
+                "source": row[4],
+                "url": row[5]
+            })
+
+    archive_path = Path(__file__).parent.parent / "archive.json"
+    with open(archive_path, 'w') as f:
+        json.dump(archive, f, indent=2)
+
+    return archive
 
 # Ollama configuration
 OLLAMA_MODEL_FILTER = "qwen2.5:0.5b"  # Tiny model for YES/NO filtering
