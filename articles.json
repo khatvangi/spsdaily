@@ -8,6 +8,12 @@
   },
   "science": [
     {
+      "headline": "Self-censorship: When fear outweighs free speech",
+      "teaser": "New research uncovers the tipping point where threat leads to silence. What's your threshold? #FreeSpeech",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2025/12/the-science-of-how-and-when-we-decide-to-speak-out-or-self-censor/"
+    },
+    {
       "headline": "Kangaroos Hopping Efficiency Revealed",
       "teaser": "New study uncovers how kangaroos defy energy norms with hopping. What other secrets do their biomechanics hold? #science",
       "source": "Ars Technica",
@@ -24,12 +30,6 @@
       "teaser": "It\u2019s easier than ever to order your own blood draws, but direct-access testing won\u2019t replace a doctor.",
       "source": "Wired",
       "url": "https://www.wired.com/story/oura-whoop-blood-labs/"
-    },
-    {
-      "headline": "Stop Calling Them \u201cDifficult\u201d",
-      "teaser": "We use \u201cdifficult\u201d to dodge naming narcissistic harm. Learn to spot the pattern, upgrade your language, and set boundaries, without lowering standards.",
-      "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/deeper-empathy-lasting-change/202601/stop-calling-them-difficult"
     }
   ],
   "philosophy": [
