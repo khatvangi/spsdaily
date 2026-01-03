@@ -136,28 +136,58 @@
             position: relative;
             background: var(--bg-white);
             border-bottom: 1px solid var(--border-light);
-            padding: 1.5rem 2rem;
-            text-align: center;
+            padding: 1rem 2rem;
         }
 
-        .masthead {
-            max-width: var(--max-width);
+        .header-container {
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 1.5rem;
+            justify-content: space-between;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
 
         .masthead-icon {
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             flex-shrink: 0;
         }
 
-        .masthead-text {
-            text-align: left;
+        .masthead {
+            text-align: center;
+            flex: 1;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--border-light);
+            color: var(--text-medium);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .social-btn:hover {
+            background: var(--accent-blue);
+            color: #fff;
         }
 
         .site-title {
@@ -581,16 +611,24 @@
 </head>
 <body>
     <header>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-            <span class="theme-icon">🌙</span> Dark
-        </button>
-        <div class="masthead">
-            <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
-            <div class="masthead-text">
+        <div class="header-container">
+            <div class="header-left">
+                <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
+            </div>
+            <div class="masthead">
                 <h1 class="site-title"><span>SPS</span> DAILY</h1>
                 <p class="tagline">Science, Philosophy & Society</p>
                 <p class="motto">Ekum Sat — Truth is One</p>
                 <p class="date-line" id="date-line"></p>
+            </div>
+            <div class="header-right">
+                <a href="https://twitter.com/intent/tweet?url=https://spsdaily.thebeakers.com&text=SPS Daily - Curated science, philosophy and society" class="social-btn" title="Share on X" target="_blank">𝕏</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://spsdaily.thebeakers.com" class="social-btn" title="Share on Facebook" target="_blank">f</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://spsdaily.thebeakers.com" class="social-btn" title="Share on LinkedIn" target="_blank">in</a>
+                <a href="mailto:thebeakerscom@gmail.com?subject=SPS Daily" class="social-btn" title="Email us">✉</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">☀️</span> Light
+                </button>
             </div>
         </div>
     </header>
