@@ -143,6 +143,21 @@
         .masthead {
             max-width: var(--max-width);
             margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .masthead-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .masthead-text {
+            text-align: left;
         }
 
         .site-title {
@@ -570,10 +585,13 @@
             <span class="theme-icon">🌙</span> Dark
         </button>
         <div class="masthead">
-            <h1 class="site-title"><span>SPS</span> DAILY</h1>
-            <p class="tagline">Science, Philosophy & Society</p>
-            <p class="motto">Ekum Sat — Truth is One</p>
-            <p class="date-line" id="date-line"></p>
+            <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
+            <div class="masthead-text">
+                <h1 class="site-title"><span>SPS</span> DAILY</h1>
+                <p class="tagline">Science, Philosophy & Society</p>
+                <p class="motto">Ekum Sat — Truth is One</p>
+                <p class="date-line" id="date-line"></p>
+            </div>
         </div>
     </header>
 
