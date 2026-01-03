@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,6 +64,71 @@
             color: var(--text-dark);
             line-height: 1.6;
             font-size: 16px;
+        }
+
+        /* Page wrapper with sidebar */
+        .page-wrapper {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 0;
+        }
+
+        /* Left Sidebar - Sources */
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+            background: var(--bg-white);
+            border-right: 1px solid var(--border-light);
+            padding: 1.5rem 1rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.75rem;
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar h4 {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent-red);
+            margin: 1rem 0 0.5rem 0;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .sidebar h4:first-child {
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin: 0.2rem 0;
+        }
+
+        .sidebar a {
+            color: var(--text-medium);
+            text-decoration: none;
+            font-size: 0.72rem;
+            line-height: 1.4;
+        }
+
+        .sidebar a:hover {
+            color: var(--accent-blue);
+        }
+
+        /* Main content area */
+        .main-content {
+            flex: 1;
+            min-width: 0;
         }
 
         /* Header */
@@ -473,6 +538,12 @@
             }
         }
 
+        @media (max-width: 1000px) {
+            .sidebar {
+                display: none;
+            }
+        }
+
         @media (max-width: 700px) {
             .columns {
                 grid-template-columns: 1fr;
@@ -516,6 +587,75 @@
         </ul>
     </nav>
 
+    <div class="page-wrapper">
+        <!-- Left Sidebar: Sources -->
+        <aside class="sidebar">
+            <h4>Science</h4>
+            <ul>
+                <li><a href="https://www.scientificamerican.com" target="_blank">Scientific American</a></li>
+                <li><a href="https://www.newscientist.com" target="_blank">New Scientist</a></li>
+                <li><a href="https://nautil.us" target="_blank">Nautilus</a></li>
+                <li><a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></li>
+                <li><a href="https://www.technologyreview.com" target="_blank">MIT Tech Review</a></li>
+                <li><a href="https://www.wired.com" target="_blank">Wired</a></li>
+                <li><a href="https://www.discovermagazine.com" target="_blank">Discover</a></li>
+                <li><a href="https://www.edge.org" target="_blank">Edge</a></li>
+                <li><a href="https://www.americanscientist.org" target="_blank">American Scientist</a></li>
+                <li><a href="https://www.smithsonianmag.com" target="_blank">Smithsonian</a></li>
+                <li><a href="https://www.psychologytoday.com" target="_blank">Psychology Today</a></li>
+                <li><a href="https://www.atlasobscura.com" target="_blank">Atlas Obscura</a></li>
+            </ul>
+
+            <h4>Philosophy</h4>
+            <ul>
+                <li><a href="https://aeon.co" target="_blank">Aeon</a></li>
+                <li><a href="https://philosophynow.org" target="_blank">Philosophy Now</a></li>
+                <li><a href="https://www.thenewatlantis.com" target="_blank">New Atlantis</a></li>
+                <li><a href="https://hedgehogreview.com" target="_blank">Hedgehog Review</a></li>
+                <li><a href="https://thepointmag.com" target="_blank">The Point</a></li>
+                <li><a href="https://www.thedriftmag.com" target="_blank">The Drift</a></li>
+                <li><a href="https://publicdomainreview.org" target="_blank">Public Domain Review</a></li>
+                <li><a href="https://3quarksdaily.com" target="_blank">3 Quarks Daily</a></li>
+                <li><a href="https://www.firstthings.com" target="_blank">First Things</a></li>
+                <li><a href="https://www.commonwealmagazine.org" target="_blank">Commonweal</a></li>
+                <li><a href="https://www.laphamsquarterly.org" target="_blank">Lapham's Quarterly</a></li>
+                <li><a href="https://thenewinquiry.com" target="_blank">The New Inquiry</a></li>
+            </ul>
+
+            <h4>Society</h4>
+            <ul>
+                <li><a href="https://www.theatlantic.com" target="_blank">The Atlantic</a></li>
+                <li><a href="https://www.newyorker.com" target="_blank">The New Yorker</a></li>
+                <li><a href="https://harpers.org" target="_blank">Harper's</a></li>
+                <li><a href="https://newrepublic.com" target="_blank">New Republic</a></li>
+                <li><a href="https://www.foreignaffairs.com" target="_blank">Foreign Affairs</a></li>
+                <li><a href="https://www.noemamag.com" target="_blank">Noema</a></li>
+                <li><a href="https://www.newstatesman.com" target="_blank">New Statesman</a></li>
+                <li><a href="https://www.prospectmagazine.co.uk" target="_blank">Prospect</a></li>
+                <li><a href="https://www.city-journal.org" target="_blank">City Journal</a></li>
+                <li><a href="https://www.bostonreview.net" target="_blank">Boston Review</a></li>
+                <li><a href="https://daily.jstor.org" target="_blank">JSTOR Daily</a></li>
+                <li><a href="https://www.eurozine.com" target="_blank">Eurozine</a></li>
+            </ul>
+
+            <h4>Books & Reviews</h4>
+            <ul>
+                <li><a href="https://www.nybooks.com" target="_blank">NY Review of Books</a></li>
+                <li><a href="https://www.lrb.co.uk" target="_blank">London Review of Books</a></li>
+                <li><a href="https://www.the-tls.co.uk" target="_blank">The TLS</a></li>
+                <li><a href="https://lareviewofbooks.org" target="_blank">LA Review of Books</a></li>
+                <li><a href="https://literaryreview.co.uk" target="_blank">Literary Review</a></li>
+                <li><a href="https://themillions.com" target="_blank">The Millions</a></li>
+                <li><a href="https://www.publicbooks.org" target="_blank">Public Books</a></li>
+                <li><a href="https://sydneyreviewofbooks.com" target="_blank">Sydney Review of Books</a></li>
+                <li><a href="https://drb.ie" target="_blank">Dublin Review of Books</a></li>
+                <li><a href="https://www.theguardian.com/books" target="_blank">Guardian Books</a></li>
+                <li><a href="https://www.artforum.com" target="_blank">Artforum</a></li>
+                <li><a href="https://hyperallergic.com" target="_blank">Hyperallergic</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
     <main>
         <!-- Featured Article (loaded from articles.json) -->
         <article class="featured" id="featured">
@@ -560,6 +700,8 @@
         </div>
 
     </main>
+        </div><!-- .main-content -->
+    </div><!-- .page-wrapper -->
 
     <footer>
         <p><strong>SPS Daily</strong> — Science, Philosophy & Society</p>
@@ -628,11 +770,14 @@
         const themeToggle = document.getElementById('theme-toggle');
         const html = document.documentElement;
 
-        // Check for saved theme preference or default to light
-        const savedTheme = localStorage.getItem('sps-theme') || 'light';
+        // Check for saved theme preference or default to dark
+        const savedTheme = localStorage.getItem('sps-theme') || 'dark';
         if (savedTheme === 'dark') {
             html.setAttribute('data-theme', 'dark');
             themeToggle.innerHTML = '<span class="theme-icon">☀️</span> Light';
+        } else {
+            html.removeAttribute('data-theme');
+            themeToggle.innerHTML = '<span class="theme-icon">🌙</span> Dark';
         }
 
         themeToggle.addEventListener('click', () => {

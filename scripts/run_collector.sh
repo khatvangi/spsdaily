@@ -44,23 +44,8 @@ if [ $COLLECTOR_STATUS -ne 0 ]; then
     exit 1
 fi
 
-# Check if articles.json changed
-if git diff --quiet articles.json; then
-    echo "$(date): No changes to articles.json" >> "$LOG_FILE"
-else
-    echo "$(date): Changes detected, committing..." >> "$LOG_FILE"
-    
-    # Commit and push
-    git add articles.json
-    git commit -m "📰 Update articles $(date +'%Y-%m-%d %H:%M')" >> "$LOG_FILE" 2>&1
-    git push >> "$LOG_FILE" 2>&1
-    
-    if [ $? -eq 0 ]; then
-        echo "$(date): Successfully pushed updates to GitHub" >> "$LOG_FILE"
-    else
-        echo "$(date): ERROR - Failed to push to GitHub" >> "$LOG_FILE"
-        exit 1
-    fi
-fi
-
+# Articles now go to pending_articles.json for Telegram curation
+# No auto-push - curator bot handles publishing after review
+echo "$(date): Articles collected to pending_articles.json" >> "$LOG_FILE"
+echo "$(date): Use /review in Telegram bot to curate and publish" >> "$LOG_FILE"
 echo "$(date): Collector finished successfully" >> "$LOG_FILE"

@@ -45,3 +45,260 @@ Fri Jan  2 06:16:17 PM CST 2026: Starting SPS Daily Feed Collector
 Fri Jan  2 06:16:17 PM CST 2026: Pulling latest changes...
 Already up to date.
 Fri Jan  2 06:16:18 PM CST 2026: Running feed collector...
+
+========================================
+Sat Jan  3 06:00:48 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan  3 06:00:48 AM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   3675f19..bb7257b  main       -> origin/main
+Updating 3675f19..bb7257b
+Fast-forward
+ articles.json | 70 +++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 35 insertions(+), 35 deletions(-)
+Sat Jan  3 06:00:49 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 5
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 0
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 1
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 2
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 0
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 0
+  → n+1
+    Added 0
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 0
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 7
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 8
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 1
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 0
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 3
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 2
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 2
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 7
+  → NY Times Books
+    ⚠ Filtered (political): Richard Pollak, 91, Dies; Edited Magazine That Cri...
+    Added 0, 1 filtered
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Should you have a library in your loo?...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    ⚠ Filtered (political): Trump Rings in 2026 at Mar-a-Lago With Auction of ...
+    ⚠ Filtered (political): UK Museums Increasingly Turning to Public to Make ...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Trump Sells Off Jesus Painting for $2.75M at NYE P...
+    Added 9, 1 filtered
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/articles.json
+   Science: 15 articles
+   Philosophy: 15 articles
+   Society: 15 articles
+   Books: 15 articles
+Sat Jan  3 06:02:36 AM CST 2026: Changes detected, committing...
+[main 4fde349] 📰 Update articles 2026-01-03 06:02
+ 1 file changed, 127 insertions(+), 127 deletions(-)
+To https://github.com/khatvangi/spsdaily.git
+   bb7257b..4fde349  main -> main
+Sat Jan  3 06:02:37 AM CST 2026: Successfully pushed updates to GitHub
+Sat Jan  3 06:02:37 AM CST 2026: Collector finished successfully

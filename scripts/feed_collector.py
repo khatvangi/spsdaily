@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 SPS Daily Feed Collector
-Fetches articles from RSS feeds and generates articles.json
+Fetches articles from RSS feeds and generates pending_articles.json
 """
 
 import feedparser
 import json
 import re
+import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
 import html
@@ -16,6 +17,39 @@ import socket
 
 # Set network timeout to prevent hanging on slow feeds
 socket.setdefaulttimeout(15)
+
+# Database for tracking seen articles
+DB_PATH = Path(__file__).parent.parent / "data" / "articles.db"
+
+def init_db():
+    """Initialize the articles database"""
+    DB_PATH.parent.mkdir(exist_ok=True)
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute('''
+        CREATE TABLE IF NOT EXISTS seen_articles (
+            url TEXT PRIMARY KEY,
+            headline TEXT,
+            category TEXT,
+            status TEXT DEFAULT 'pending',
+            first_seen TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            reviewed TIMESTAMP
+        )
+    ''')
+    conn.commit()
+    return conn
+
+def is_article_seen(conn, url):
+    """Check if article URL has been seen before"""
+    cur = conn.execute("SELECT 1 FROM seen_articles WHERE url = ?", (url,))
+    return cur.fetchone() is not None
+
+def mark_article_seen(conn, url, headline, category):
+    """Mark an article as seen"""
+    conn.execute(
+        "INSERT OR IGNORE INTO seen_articles (url, headline, category) VALUES (?, ?, ?)",
+        (url, headline, category)
+    )
+    conn.commit()
 
 # Ollama configuration
 OLLAMA_MODEL_FILTER = "qwen2.5:0.5b"  # Tiny model for YES/NO filtering
@@ -429,26 +463,52 @@ def main():
     print("🗞️  SPS Daily Feed Collector")
     print("=" * 40)
 
+    # Initialize database
+    conn = init_db()
+
     # Collect from all feeds
     all_articles = collect_all_feeds()
 
+    # Filter out already-seen articles
+    print("\n🔍 Filtering seen articles...")
+    new_articles = {}
+    seen_count = 0
+    for category, articles in all_articles.items():
+        new_articles[category] = []
+        for article in articles:
+            if is_article_seen(conn, article['url']):
+                seen_count += 1
+            else:
+                new_articles[category].append(article)
+                mark_article_seen(conn, article['url'], article['headline'], category)
+
+    print(f"   Skipped {seen_count} already-seen articles")
+    conn.close()
+
+    # Check if we have any new articles
+    total_new = sum(len(arts) for arts in new_articles.values())
+    if total_new == 0:
+        print("\n✨ No new articles to review!")
+        return
+
     # Select best articles (15 per category - front page shows 6, category pages show all)
     print("\n✨ Selecting articles...")
-    selected = select_articles(all_articles, per_category=15)
+    selected = select_articles(new_articles, per_category=15)
 
     # Generate JSON
     output = generate_json(selected)
 
-    # Write to file
-    output_path = Path(__file__).parent.parent / "articles.json"
-    with open(output_path, 'w') as f:
+    # Write to pending file (for Telegram curation)
+    pending_path = Path(__file__).parent.parent / "pending_articles.json"
+    with open(pending_path, 'w') as f:
         json.dump(output, f, indent=2)
 
-    print(f"\n✅ Generated {output_path}")
-    print(f"   Science: {len(output['science'])} articles")
-    print(f"   Philosophy: {len(output['philosophy'])} articles")
-    print(f"   Society: {len(output['society'])} articles")
-    print(f"   Books: {len(output.get('books', []))} articles")
+    print(f"\n✅ Generated {pending_path}")
+    print(f"   Science: {len(output['science'])} articles (NEW)")
+    print(f"   Philosophy: {len(output['philosophy'])} articles (NEW)")
+    print(f"   Society: {len(output['society'])} articles (NEW)")
+    print(f"   Books: {len(output.get('books', []))} articles (NEW)")
+    print(f"\n📱 Use /review in Telegram bot to curate")
 
 if __name__ == "__main__":
     main()
