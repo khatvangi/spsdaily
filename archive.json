@@ -1,7 +1,14 @@
 {
   "2026-01-04": {
     "science": [],
-    "philosophy": [],
+    "philosophy": [
+      {
+        "headline": "A Global Euro",
+        "teaser": "Shahin Vall\u00e9e in Phenomenal World: A profound sense of uncertainty dominates the question of the international monetary order today. Trump\u2019s presidency in the US, the growing Sino-American rivalry,...",
+        "source": "3 Quarks Daily",
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/01/a-global-euro.html"
+      }
+    ],
     "society": [
       {
         "headline": "Trump Tries Making Regime-Change Great Again in Venezuela",
