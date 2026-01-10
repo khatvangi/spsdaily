@@ -83,7 +83,7 @@ def send_message(text, reply_markup=None):
         "chat_id": CHAT_ID,
         "text": text,
         "parse_mode": "HTML",
-        "disable_web_page_preview": True
+        "disable_web_page_preview": False
     }
     if reply_markup:
         data["reply_markup"] = json.dumps(reply_markup)
@@ -260,8 +260,18 @@ def handle_callback(callback_data, pending, approved):
             # Add to archive
             add_to_archive(article, category)
             generate_archive_json()
+            # auto-set editor's pick if none or stale
+            today = date.today().isoformat()
+            current_pick_fresh = live_articles.get("lastUpdated") == today and live_articles.get("editorsPick")
+            if not current_pick_fresh:
+                live_articles["editorsPick"] = article
+                live_articles["lastUpdated"] = today
+                with open(ARTICLES_FILE, 'w') as f:
+                    json.dump(live_articles, f, indent=2)
+                result = f"✅⭐ LIVE + PICK: {article['headline'][:40]}..."
+            else:
+                result = f"✅ LIVE: {article['headline'][:40]}..."
             changed = True
-            result = f"✅ LIVE: {article['headline'][:40]}..."
         else:
             return "Already live"
 

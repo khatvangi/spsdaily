@@ -14,9 +14,17 @@ import html
 import random
 import subprocess
 import socket
+import requests
+import time
+from bs4 import BeautifulSoup
 
 # Set network timeout to prevent hanging on slow feeds
 socket.setdefaulttimeout(15)
+
+# telegram bot config for auto-sending articles
+BOT_TOKEN = "8516392118:AAEIybKb68Gfl0kTpzKkbCKtUl1OtRqMwtY"
+CHAT_ID = "5314021805"
+TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 # Database for tracking seen articles
 DB_PATH = Path(__file__).parent.parent / "data" / "articles.db"
@@ -361,6 +369,151 @@ def fetch_feed(name, url, max_age_days=7):
 
     return articles
 
+def fetch_hacker_news(max_articles=20):
+    """fetch top stories from hacker news, filtered for science/philosophy"""
+    HN_KEYWORDS = {
+        # science
+        'science', 'scientific', 'physics', 'biology', 'chemistry', 'astronomy',
+        'quantum', 'evolution', 'research', 'discovery', 'nature', 'universe',
+        'space', 'cosmos', 'neural', 'cognitive', 'brain', 'dna', 'climate',
+        # philosophy & society
+        'philosophy', 'ethics', 'consciousness', 'moral', 'existence',
+        'democracy', 'society', 'culture', 'human', 'humanity', 'history',
+        'psychology', 'theory', 'mathematical', 'logic', 'truth',
+        # broader science-adjacent
+        'ai', 'artificial intelligence', 'machine learning', 'algorithm',
+        'energy', 'solar', 'nuclear', 'medical', 'health', 'disease'
+    }
+
+    articles = []
+    try:
+        # get best stories (quality-filtered by HN)
+        resp = requests.get('https://hacker-news.firebaseio.com/v0/beststories.json', timeout=10)
+        story_ids = resp.json()[:100]  # check top 100
+
+        for sid in story_ids:
+            if len(articles) >= max_articles:
+                break
+            item = requests.get(f'https://hacker-news.firebaseio.com/v0/item/{sid}.json', timeout=5).json()
+            if not item or item.get('type') != 'story' or not item.get('url'):
+                continue
+
+            title = item.get('title', '').lower()
+            # check if any keyword matches (word boundary)
+            if any(re.search(r'\b' + kw + r'\b', title) for kw in HN_KEYWORDS):
+                articles.append({
+                    "headline": item.get('title', ''),
+                    "teaser": f"Discussed on Hacker News with {item.get('score', 0)} points",
+                    "source": "Hacker News",
+                    "url": item.get('url'),
+                    "published": datetime.fromtimestamp(item.get('time', 0)).isoformat()
+                })
+    except Exception as e:
+        print(f"  Error fetching Hacker News: {e}")
+
+    return articles
+
+def check_archive_url(url):
+    """check if article is archived on archive.org, return archive url or None"""
+    try:
+        api_url = f"https://archive.org/wayback/available?url={url}"
+        resp = requests.get(api_url, timeout=5)
+        data = resp.json()
+        snapshot = data.get("archived_snapshots", {}).get("closest", {})
+        if snapshot.get("available"):
+            return snapshot.get("url")
+    except Exception:
+        pass
+    return None
+
+
+def fetch_og_image(url, timeout=5):
+    """fetch og:image from article url"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; SPSDaily/1.0)'}
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        soup = BeautifulSoup(resp.content, 'html.parser')
+
+        # try og:image first
+        og_image = soup.find('meta', property='og:image')
+        if og_image and og_image.get('content'):
+            return og_image['content']
+
+        # fallback to twitter:image
+        tw_image = soup.find('meta', attrs={'name': 'twitter:image'})
+        if tw_image and tw_image.get('content'):
+            return tw_image['content']
+
+    except Exception:
+        pass
+    return None
+
+
+def send_article_to_telegram(article, category, index):
+    """send single article to telegram for review immediately"""
+    # build message with image preview
+    img_info = ""
+    if article.get('imageUrl'):
+        img_info = f"\n🖼️ <i>Has image</i>"
+
+    text = f"""<b>{category.upper()}</b>{img_info}
+
+<b>{article['headline']}</b>
+
+{article.get('teaser', '')[:280]}
+
+<i>Source: {article['source']}</i>
+<a href="{article['url']}">Read full article</a>"""
+
+    keyboard = {
+        "inline_keyboard": [
+            [
+                {"text": "✅ Approve", "callback_data": f"approve:{category}:{index}"},
+                {"text": "❌ Reject", "callback_data": f"reject:{category}:{index}"},
+            ],
+            [
+                {"text": "⭐ Editor's Pick", "callback_data": f"pick:{category}:{index}"}
+            ]
+        ]
+    }
+
+    data = {
+        "chat_id": CHAT_ID,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False,
+        "reply_markup": json.dumps(keyboard)
+    }
+
+    try:
+        requests.post(f"{TELEGRAM_API}/sendMessage", data=data, timeout=10)
+        time.sleep(0.35)  # rate limit
+    except Exception as e:
+        print(f"    ⚠ Telegram error: {e}")
+
+def add_archive_urls(selected):
+    """add archive.org urls to selected articles"""
+    print("\n📚 Checking Archive.org availability...")
+    total = sum(len(articles) for articles in selected.values())
+    checked = 0
+    found = 0
+
+    for category, articles in selected.items():
+        for article in articles:
+            checked += 1
+            archive_url = check_archive_url(article['url'])
+            if archive_url:
+                article['archiveUrl'] = archive_url
+                found += 1
+            time.sleep(0.1)  # rate limit: ~10 req/sec
+
+            # progress indicator every 10 articles
+            if checked % 10 == 0:
+                print(f"    Checked {checked}/{total}...")
+
+    print(f"    Found {found}/{total} archived articles")
+    return selected
+
 def collect_all_feeds():
     """Collect articles from all feeds"""
     all_articles = {
@@ -409,6 +562,18 @@ def collect_all_feeds():
             if filtered > 0:
                 status += f", {filtered} filtered"
             print(f"    {status}")
+
+    # fetch from hacker news
+    print(f"\n📚 Collecting from Hacker News...")
+    hn_articles = fetch_hacker_news()
+    hn_added = 0
+    for article in hn_articles:
+        headline_lower = article['headline'].lower().strip()
+        if headline_lower not in seen_headlines:
+            seen_headlines.add(headline_lower)
+            candidates['science'].append(article)
+            hn_added += 1
+    print(f"    Added {hn_added} from HN")
 
     # AI filtering pass
     if USE_AI_FILTER:
@@ -510,6 +675,12 @@ def generate_json(selected):
 
     return output
 
+def save_pending(pending_data, pending_path):
+    """save pending articles to file (for callback handler)"""
+    with open(pending_path, 'w') as f:
+        json.dump(pending_data, f, indent=2)
+
+
 def main():
     print("🗞️  SPS Daily Feed Collector")
     print("=" * 40)
@@ -542,24 +713,91 @@ def main():
         print("\n✨ No new articles to review!")
         return
 
-    # Select best articles (15 per category - front page shows 6, category pages show all)
+    # Select best articles (15 per category)
     print("\n✨ Selecting articles...")
     selected = select_articles(new_articles, per_category=15)
 
-    # Generate JSON
-    output = generate_json(selected)
-
-    # Write to pending file (for Telegram curation)
+    # Prepare pending structure - will be saved incrementally
     pending_path = Path(__file__).parent.parent / "pending_articles.json"
-    with open(pending_path, 'w') as f:
-        json.dump(output, f, indent=2)
+    pending_data = {
+        "lastUpdated": datetime.now().strftime("%Y-%m-%d"),
+        "editorsPick": None,
+        "science": [],
+        "philosophy": [],
+        "society": [],
+        "books": []
+    }
 
-    print(f"\n✅ Generated {pending_path}")
-    print(f"   Science: {len(output['science'])} articles (NEW)")
-    print(f"   Philosophy: {len(output['philosophy'])} articles (NEW)")
-    print(f"   Society: {len(output['society'])} articles (NEW)")
-    print(f"   Books: {len(output.get('books', []))} articles (NEW)")
-    print(f"\n📱 Use /review in Telegram bot to curate")
+    # Send start notification
+    try:
+        requests.post(f"{TELEGRAM_API}/sendMessage", data={
+            "chat_id": CHAT_ID,
+            "text": f"🗞️ <b>SPS Daily - {total_new} new articles incoming!</b>\n\nReview each one: ✅ Approve, ❌ Reject, ⭐ Pick",
+            "parse_mode": "HTML"
+        }, timeout=10)
+    except Exception:
+        pass
+
+    # Process each article: fetch image, archive url, send to telegram
+    print("\n📤 Processing and sending to Telegram...")
+    processed = 0
+
+    for category in ["science", "philosophy", "society", "books"]:
+        articles = selected.get(category, [])
+        if not articles:
+            continue
+
+        print(f"\n  📂 {category.upper()} ({len(articles)} articles)")
+
+        for i, article in enumerate(articles):
+            processed += 1
+            headline_short = article['headline'][:40] + "..." if len(article['headline']) > 40 else article['headline']
+            print(f"    [{processed}] {headline_short}")
+
+            # fetch og:image
+            img_url = fetch_og_image(article['url'])
+            if img_url:
+                article['imageUrl'] = img_url
+                print(f"        🖼️ image found")
+
+            # check archive.org
+            archive_url = check_archive_url(article['url'])
+            if archive_url:
+                article['archiveUrl'] = archive_url
+                print(f"        📚 archived")
+
+            # add to pending data
+            pending_data[category].append(article)
+
+            # save pending file incrementally (so callbacks work)
+            save_pending(pending_data, pending_path)
+
+            # send to telegram immediately
+            index = len(pending_data[category]) - 1
+            send_article_to_telegram(article, category, index)
+
+    # Set default editor's pick (first science or philosophy article)
+    for cat in ["science", "philosophy", "society", "books"]:
+        if pending_data.get(cat):
+            pending_data["editorsPick"] = pending_data[cat][0]
+            break
+    save_pending(pending_data, pending_path)
+
+    # Send completion notification
+    try:
+        requests.post(f"{TELEGRAM_API}/sendMessage", data={
+            "chat_id": CHAT_ID,
+            "text": f"✅ <b>All {processed} articles sent!</b>\n\nTap buttons to curate. Articles go live immediately.",
+            "parse_mode": "HTML"
+        }, timeout=10)
+    except Exception:
+        pass
+
+    print(f"\n✅ Done! {processed} articles sent to Telegram")
+    print(f"   Science: {len(pending_data['science'])}")
+    print(f"   Philosophy: {len(pending_data['philosophy'])}")
+    print(f"   Society: {len(pending_data['society'])}")
+    print(f"   Books: {len(pending_data['books'])}")
 
 if __name__ == "__main__":
     main()
