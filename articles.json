@@ -250,6 +250,12 @@
   ],
   "books": [
     {
+      "headline": "Rare Comic Introducing Superman Sells Privately for $15 Million",
+      "teaser": "The copy of Action Comics No. 1, published in 1938, was stolen from the actor Nicolas Cage in 2000 and recovered more than a decade later.",
+      "source": "NY Times Books",
+      "url": "https://www.nytimes.com/2026/01/09/books/superman-action-comics-1-sold.html"
+    },
+    {
       "headline": "The best books of the week",
       "teaser": "Why Arctic land-grabs could lead to war; the highs and lows of David Bowie\u2019s later music; the harms caused by our demand for \u2018green\u2019 batteries; Julian Barnes\u2019s reflections on life and loss; biting...",
       "source": "Financial Times Books",
@@ -339,12 +345,6 @@
       "teaser": "In an exploration of her past, Atwood helps readers join the dots between real life and her art",
       "source": "The Hindu Books",
       "url": "https://www.thehindu.com/books/book-review-margaret-atwood-memoir-book-of-lives-reflections-handmaids-tale/article70452505.ece"
-    },
-    {
-      "headline": "What Hew Locke Carries",
-      "teaser": "With his haunting exhibition, Passages, the Guyanese-British artist reminds us that when we survive, so do our ghosts and our wounds.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/what-hew-locke-carries/"
     }
   ]
 }
