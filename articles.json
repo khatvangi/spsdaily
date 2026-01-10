@@ -250,6 +250,13 @@
   ],
   "books": [
     {
+      "headline": "1,500-Year-Old Byzantine Monastery Discovered in Egypt",
+      "teaser": "The discovery sheds light on early Christian monastic life in Upper Egypt.",
+      "source": "Art News",
+      "url": "https://www.artnews.com/art-news/news/byzantine-monastery-discovered-egypt-1234769398/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/News-20260108-Egypt-Byzantine-Monastery.jpg?w=1024"
+    },
+    {
       "headline": "Uncovering the Secrets of Henri Rousseau\u2019s Paintings",
       "teaser": "A new exhibition freshly contextualizes many artworks in the light of his personal story, while conservators conducted revelatory technical studies.",
       "source": "Hyperallergic",
@@ -340,12 +347,6 @@
       "teaser": "AN ARTIST AND PEDAGOGUE of powerful originality with a personality to match, Ken Jacobs saw the full equation. Like his generational peer Stan Brakhage, and such earlier nonpareils Dziga Vertov and...",
       "source": "Artforum",
       "url": "https://www.artforum.com/columns/ken-jacobs-obituary-j-hoberman-1234740603/"
-    },
-    {
-      "headline": "Sir James Frazer and New Year\u2019s babies",
-      "teaser": "I have always been a bit ambivalent about having a birthday on January 1. It was certainly a wonderfully convenient date when you were asked (as you often were back in school) to provide your age \u201cin...",
-      "source": "The TLS",
-      "url": "https://www.the-tls.com/regular-features/mary-beard-a-dons-life/sir-james-frazer-and-new-years-babies-blog-post"
     }
   ]
 }
