@@ -250,6 +250,13 @@
   ],
   "books": [
     {
+      "headline": "Columbia Museum of Art Opens Newly Configured Collection Galleries to Cap Year-Long Renovation",
+      "teaser": "The unveiling caps the South Carolina institution's 75th anniversary year.",
+      "source": "Art News",
+      "url": "https://www.artnews.com/art-news/news/columbia-museum-new-collection-galleries-renovation-1234769385/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/CMA.jpg?w=870"
+    },
+    {
       "headline": "Exclusive: Doubting Thomas",
       "teaser": "Alessandro Gallenzi reveals how he turned literary detective and uncovered Dylan Thomas\u2019s youthful plagiarism; Norma Clarke discusses the stunning work of two eighteenth-century women portrait...",
       "source": "The TLS",
@@ -334,12 +341,6 @@
       "teaser": "He took his oath of office on a 200-year-old example of Islam\u2019s most important religious text.",
       "source": "Art News",
       "url": "https://www.artnews.com/art-news/news/zohran-mamdani-mayor-swearing-in-ceremony-quran-1234768673/"
-    },
-    {
-      "headline": "At India\u2019s Top Biennial, A Painting Referencing \u2018The Last Supper\u2019 Sparks Protests and Backlash",
-      "teaser": "Tom Vattakuzhy, the artist behind the piece, said he had not meant to offend.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/kochi-muziris-biennale-closure-christian-protests-1234768658/"
     }
   ]
 }
