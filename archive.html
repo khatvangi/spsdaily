@@ -131,6 +131,21 @@
             color: var(--text-light);
         }
 
+        .archive-link {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.65rem;
+            color: var(--accent);
+            background: rgba(180, 83, 9, 0.15);
+            padding: 0.1rem 0.35rem;
+            border-radius: 3px;
+            text-decoration: none;
+            margin-left: 0.4rem;
+        }
+
+        .archive-link:hover {
+            background: rgba(180, 83, 9, 0.3);
+        }
+
         .back-link {
             display: block;
             text-align: center;
@@ -220,6 +235,7 @@
                                 html += `<li>
                                     <a href="${article.url}" target="_blank">${article.headline}</a>
                                     <span class="source"> — ${article.source}</span>
+                                    ${article.archiveUrl ? `<a href="${article.archiveUrl}" target="_blank" class="archive-link" title="View archived version">archived</a>` : ''}
                                 </li>`;
                             }
                             html += `</ul></div>`;

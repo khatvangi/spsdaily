@@ -302,3 +302,3459 @@ To https://github.com/khatvangi/spsdaily.git
    bb7257b..4fde349  main -> main
 Sat Jan  3 06:02:37 AM CST 2026: Successfully pushed updates to GitHub
 Sat Jan  3 06:02:37 AM CST 2026: Collector finished successfully
+
+========================================
+Sat Jan  3 06:02:15 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan  3 06:02:15 PM CST 2026: Pulling latest changes...
+Already up to date.
+Sat Jan  3 06:02:15 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 5
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 0
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 1
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 2
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 0
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 0
+  → n+1
+    Added 0
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 0
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 6
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 8
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 1
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 1
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 3
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 2
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 2
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 7
+  → NY Times Books
+    ⚠ Filtered (political): Richard Pollak, 91, Dies; Edited Magazine That Cri...
+    Added 0, 1 filtered
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Should you have a library in your loo?...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    ⚠ Filtered (political): Trump Rings in 2026 at Mar-a-Lago With Auction of ...
+    ⚠ Filtered (political): UK Museums Increasingly Turning to Public to Make ...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Trump Sells Off Jesus Painting for $2.75M at NYE P...
+    Added 9, 1 filtered
+
+🔍 Filtering seen articles...
+   Skipped 271 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 14 articles (NEW)
+   Philosophy: 0 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 0 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Sat Jan  3 06:04:03 PM CST 2026: Articles collected to pending_articles.json
+Sat Jan  3 06:04:03 PM CST 2026: Use /review in Telegram bot to curate and publish
+Sat Jan  3 06:04:03 PM CST 2026: Collector finished successfully
+
+========================================
+Sun Jan  4 06:03:59 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sun Jan  4 06:03:59 AM CST 2026: Pulling latest changes...
+Already up to date.
+Sun Jan  4 06:03:59 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 5
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 0
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 1
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 2
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 0
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 0
+  → n+1
+    Added 0
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 0
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 6
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 9
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 1
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 1
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 3
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 2
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 2
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 7
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Should you have a library in your loo?...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    ⚠ Filtered (political): Trump Rings in 2026 at Mar-a-Lago With Auction of ...
+    ⚠ Filtered (political): UK Museums Increasingly Turning to Public to Make ...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Trump Sells Off Jesus Painting for $2.75M at NYE P...
+    Added 9, 1 filtered
+
+🔍 Filtering seen articles...
+   Skipped 278 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 12 articles (NEW)
+   Philosophy: 2 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 1 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Sun Jan  4 06:05:44 AM CST 2026: Articles collected to pending_articles.json
+Sun Jan  4 06:05:44 AM CST 2026: Use /review in Telegram bot to curate and publish
+Sun Jan  4 06:05:44 AM CST 2026: Collector finished successfully
+
+========================================
+Sun Jan  4 06:01:10 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sun Jan  4 06:01:10 PM CST 2026: Pulling latest changes...
+Already up to date.
+Sun Jan  4 06:01:10 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 5
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 0
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 0
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 0
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2, 1 dupes
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 0
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 6
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 2
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 3
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 2
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 2
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 7
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Should you have a library in your loo?...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    ⚠ Filtered (political): Trump Rings in 2026 at Mar-a-Lago With Auction of ...
+    ⚠ Filtered (political): UK Museums Increasingly Turning to Public to Make ...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Trump Sells Off Jesus Painting for $2.75M at NYE P...
+    Added 9, 1 filtered
+
+🔍 Filtering seen articles...
+   Skipped 266 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 14 articles (NEW)
+   Philosophy: 9 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 1 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Sun Jan  4 06:02:57 PM CST 2026: Articles collected to pending_articles.json
+Sun Jan  4 06:02:57 PM CST 2026: Use /review in Telegram bot to curate and publish
+Sun Jan  4 06:02:57 PM CST 2026: Collector finished successfully
+
+========================================
+Mon Jan  5 06:02:51 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Mon Jan  5 06:02:51 AM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   5d63461..4ff1038  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Mon Jan  5 06:02:52 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 6
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 0
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 0
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(18320 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 0
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2, 1 dupes
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 3
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 0
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 7
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 9, 1 dupes
+  → City Journal
+    Added 0
+  → Commentary
+    Added 2
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 3
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 2
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 2
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    ⚠ Filtered (political): Trump Rings in 2026 at Mar-a-Lago With Auction of ...
+    ⚠ Filtered (political): UK Museums Increasingly Turning to Public to Make ...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Museums Must Step Up in 2026...
+    ⚠ Filtered (political): Trump Sells Off Jesus Painting for $2.75M at NYE P...
+    Added 8, 2 filtered
+
+🔍 Filtering seen articles...
+   Skipped 251 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 12 articles (NEW)
+   Philosophy: 6 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 2 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Mon Jan  5 06:04:39 AM CST 2026: Articles collected to pending_articles.json
+Mon Jan  5 06:04:39 AM CST 2026: Use /review in Telegram bot to curate and publish
+Mon Jan  5 06:04:39 AM CST 2026: Collector finished successfully
+
+========================================
+Mon Jan  5 06:03:44 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Mon Jan  5 06:03:44 PM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   4ff1038..54ed348  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Mon Jan  5 06:03:44 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 7
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 1
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 1
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 1
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 7
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 4
+  → New Criterion
+    Added 3
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 2
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 3
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 5, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Museums Must Step Up in 2026...
+    Added 9, 1 filtered
+
+🔍 Filtering seen articles...
+   Skipped 168 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 11 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Mon Jan  5 06:05:45 PM CST 2026: Articles collected to pending_articles.json
+Mon Jan  5 06:05:45 PM CST 2026: Use /review in Telegram bot to curate and publish
+Mon Jan  5 06:05:45 PM CST 2026: Collector finished successfully
+
+========================================
+Tue Jan  6 06:03:16 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Tue Jan  6 06:03:16 AM CST 2026: Pulling latest changes...
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Tue Jan  6 06:03:17 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 9
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 1
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 1
+  → Commonweal
+    Added 5
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 0
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 9
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 1
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 9
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 4
+  → New Criterion
+    Added 2
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 2
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 4
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    ⚠ Filtered (political): ‘Nativity’...
+    ⚠ Filtered (political): Mid-term madness...
+    Added 7, 3 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Museums Must Step Up in 2026...
+    Added 9, 1 filtered
+
+🔍 Filtering seen articles...
+   Skipped 275 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 13 articles (NEW)
+   Philosophy: 4 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 8 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Tue Jan  6 06:05:06 AM CST 2026: Articles collected to pending_articles.json
+Tue Jan  6 06:05:06 AM CST 2026: Use /review in Telegram bot to curate and publish
+Tue Jan  6 06:05:06 AM CST 2026: Collector finished successfully
+
+========================================
+Tue Jan  6 06:04:10 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Tue Jan  6 06:04:10 PM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   54ed348..e407f35  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Tue Jan  6 06:04:11 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 9
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 1
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 2
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 8
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 1
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 8
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 1
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 7
+  → New Criterion
+    Added 3
+  → Claremont Review
+    Added 1
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 4
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 5
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): Self-righteousness for beginners...
+    Added 2, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): A New Year in New York...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 11 from HN
+
+🔍 Filtering seen articles...
+   Skipped 170 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 15 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Tue Jan  6 06:06:12 PM CST 2026: Articles collected to pending_articles.json
+Tue Jan  6 06:06:12 PM CST 2026: Use /review in Telegram bot to curate and publish
+Tue Jan  6 06:06:12 PM CST 2026: Collector finished successfully
+
+========================================
+Wed Jan  7 06:02:02 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Wed Jan  7 06:02:02 AM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   e407f35..32d0fa1  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Wed Jan  7 06:02:03 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 9
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 1
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 2
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 8
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 1
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 1
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 7
+  → New Criterion
+    Added 3
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 4
+  → Granta
+    Added 0
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 6
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    ⚠ Filtered (political): Rebel voices...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 7, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): A New Year in New York...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 9 from HN
+
+🔍 Filtering seen articles...
+   Skipped 285 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 6 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Wed Jan  7 06:04:07 AM CST 2026: Articles collected to pending_articles.json
+Wed Jan  7 06:04:07 AM CST 2026: Use /review in Telegram bot to curate and publish
+Wed Jan  7 06:04:07 AM CST 2026: Collector finished successfully
+
+========================================
+Wed Jan  7 06:01:25 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Wed Jan  7 06:01:25 PM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   32d0fa1..7761a6c  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Wed Jan  7 06:01:25 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 2
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 3
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15566 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 9
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 2
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 8
+  → New Criterion
+    Added 4
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 4
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 7
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 9, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 10
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Museum Leaders, Recognize Your Unions Now...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 9 from HN
+
+🔍 Filtering seen articles...
+   Skipped 195 already-seen articles
+
+✨ Selecting articles...
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 15 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Wed Jan  7 06:03:28 PM CST 2026: Articles collected to pending_articles.json
+Wed Jan  7 06:03:28 PM CST 2026: Use /review in Telegram bot to curate and publish
+Wed Jan  7 06:03:28 PM CST 2026: Collector finished successfully
+
+========================================
+Thu Jan  8 06:01:27 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Thu Jan  8 06:01:27 AM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   7761a6c..2727f06  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Thu Jan  8 06:01:28 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 2
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 3
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38983 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 0
+  → The Baffler
+    Added 2
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 2
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 2
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 8
+  → New Criterion
+    Added 4
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 4
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 8
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 9, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 7, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 9
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 4
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Museum Leaders, Recognize Your Unions Now...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 11 from HN
+
+🔍 Filtering seen articles...
+   Skipped 325 already-seen articles
+
+✨ Selecting articles...
+
+📚 Checking Archive.org availability...
+    Checked 10/40...
+    Checked 20/40...
+    Checked 30/40...
+    Checked 40/40...
+    Found 6/40 archived articles
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 13 articles (NEW)
+   Philosophy: 6 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 6 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Thu Jan  8 06:04:27 AM CST 2026: Articles collected to pending_articles.json
+Thu Jan  8 06:04:27 AM CST 2026: Use /review in Telegram bot to curate and publish
+Thu Jan  8 06:04:27 AM CST 2026: Collector finished successfully
+
+========================================
+Thu Jan  8 06:02:34 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Thu Jan  8 06:02:34 PM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   2727f06..75afd82  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Thu Jan  8 06:02:35 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 2
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 4
+  → Commonweal
+    Added 9
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38927 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 6
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 0
+  → Open Democracy
+    Added 2
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 5
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 9
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 9, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Made in America by Edward Stourton review – why th...
+    Added 7, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 7
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Required Reading...
+    ⚠ Filtered (political): Art Movements: Knights, Presidents, and Crooks...
+    ⚠ Filtered (political): Museum Leaders, Recognize Your Unions Now...
+    Added 7, 3 filtered
+
+📚 Collecting from Hacker News...
+    Added 14 from HN
+
+🔍 Filtering seen articles...
+   Skipped 225 already-seen articles
+
+✨ Selecting articles...
+
+📚 Checking Archive.org availability...
+    Checked 10/59...
+    Checked 20/59...
+    Checked 30/59...
+    Checked 40/59...
+    Checked 50/59...
+    Found 5/59 archived articles
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 14 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Thu Jan  8 06:05:57 PM CST 2026: Articles collected to pending_articles.json
+Thu Jan  8 06:05:57 PM CST 2026: Use /review in Telegram bot to curate and publish
+Thu Jan  8 06:05:57 PM CST 2026: Collector finished successfully
+
+========================================
+Fri Jan  9 06:02:46 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  9 06:02:46 AM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   75afd82..2f37597  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Fri Jan  9 06:02:46 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 2
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 4
+  → Commonweal
+    Added 8
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 2
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 5
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 9, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): Required Reading...
+    ⚠ Filtered (political): Art Movements: Knights, Presidents, and Crooks...
+    ⚠ Filtered (political): Museum Leaders, Recognize Your Unions Now...
+    Added 7, 3 filtered
+
+📚 Collecting from Hacker News...
+    Added 14 from HN
+
+🔍 Filtering seen articles...
+   Skipped 324 already-seen articles
+
+✨ Selecting articles...
+
+📚 Checking Archive.org availability...
+    Checked 10/50...
+    Checked 20/50...
+    Checked 30/50...
+    Checked 40/50...
+    Checked 50/50...
+    Found 9/50 archived articles
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 6 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 14 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Fri Jan  9 06:05:34 AM CST 2026: Articles collected to pending_articles.json
+Fri Jan  9 06:05:34 AM CST 2026: Use /review in Telegram bot to curate and publish
+Fri Jan  9 06:05:34 AM CST 2026: Collector finished successfully
+
+========================================
+Fri Jan  9 06:00:50 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan  9 06:00:50 PM CST 2026: Pulling latest changes...
+From https://github.com/khatvangi/spsdaily
+   2f37597..957c4a8  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Fri Jan  9 06:00:51 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 6
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 9, 1 dupes
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 8
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38969 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    ⚠ Filtered (political): ‘Thoughtless and Malicious’: Trump Administration ...
+    ⚠ Filtered (political): South Africa Cancels Gabrielle Goliath Gaza Artwor...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 16 from HN
+
+🔍 Filtering seen articles...
+   Skipped 239 already-seen articles
+
+✨ Selecting articles...
+
+📚 Checking Archive.org availability...
+    Checked 10/58...
+    Checked 20/58...
+    Checked 30/58...
+    Checked 40/58...
+    Checked 50/58...
+    Found 6/58 archived articles
+
+✅ Generated /storage/spsdaily/pending_articles.json
+   Science: 15 articles (NEW)
+   Philosophy: 13 articles (NEW)
+   Society: 15 articles (NEW)
+   Books: 15 articles (NEW)
+
+📱 Use /review in Telegram bot to curate
+Fri Jan  9 06:03:55 PM CST 2026: Articles collected to pending_articles.json
+Fri Jan  9 06:03:55 PM CST 2026: Use /review in Telegram bot to curate and publish
+Fri Jan  9 06:03:55 PM CST 2026: Collector finished successfully

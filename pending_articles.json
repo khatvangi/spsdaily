@@ -1,377 +1,428 @@
 {
-  "lastUpdated": "2026-01-03",
-  "editorsPick": {
-    "headline": "Stop Using Your Keyboard and Start Using Handy, a Free Speech-to-Text App",
-    "teaser": "It\u2019s called Handy, and it uses AI models to accurately convert your speaking voice into text\u2014all for free.",
-    "source": "Wired",
-    "url": "https://www.wired.com/story/handy-free-speech-to-text-app/"
-  },
   "science": [
     {
-      "headline": "Teresa Teng Statue in Taiwan",
-      "teaser": "Teresa Teng, or Teng Li-Chun, was the superstar of East and Southeast Asia through the 1970s and \u201980s. People used to say that \u201cwhere there are Chinese people, there is Teresa Teng\u2019s music.\u201d She died...",
-      "source": "Atlas Obscura",
-      "url": "https://www.atlasobscura.com/places/teresa-teng-statue"
-    },
-    {
-      "headline": "Framework Laptop 16 (RTX 5070) Review: A Dream Come True",
-      "teaser": "With upgradable graphics, the Framework Laptop 16 achieves what PC nerds have only ever dreamed of.",
+      "headline": "OpenAI Is Asking Contractors to Upload Work From Past Jobs to Evaluate the Performance of AI Agents",
+      "teaser": "To prepare AI agents for office work, the company is asking contractors to upload projects from past jobs, leaving it to them to strip out confidential and personally identifiable information.",
       "source": "Wired",
-      "url": "https://www.wired.com/review/framework-laptop-16/"
+      "url": "https://www.wired.com/story/openai-contractor-upload-real-work-documents-ai-agents/",
+      "imageUrl": "https://media.wired.com/photos/69617bedef0086e74d1bc9df/191:100/w_1280,c_limit/OpenAI-Training-Agents-Using-Work-Documents-Business-87835485.jpg",
+      "archiveUrl": "http://web.archive.org/web/20260110012040/https://www.wired.com/story/openai-contractor-upload-real-work-documents-ai-agents/"
     },
     {
-      "headline": "Stop Calling Them \u201cDifficult\u201d",
-      "teaser": "We use \u201cdifficult\u201d to dodge naming narcissistic harm. Learn to spot the pattern, upgrade your language, and set boundaries, without lowering standards.",
+      "headline": "Using CARE to Promote Collaborative Co-Parenting",
+      "teaser": "Most of my clients come to me for co-parenting help, wanting to improve their communication. This is the CARE method that I recommend.",
       "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/deeper-empathy-lasting-change/202601/stop-calling-them-difficult"
+      "url": "https://www.psychologytoday.com/us/blog/bonus-families/202503/using-care-to-promote-collaborative-co-parenting",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-01/pexels-cottonbro-4098152.jpg?itok=MEgnLiZg"
     },
     {
-      "headline": "This Walking Ape Might Be the Earliest Human Ancestor",
-      "teaser": "The limbs of Sahelanthropus tchadensis may settle a decades-long evolutionary debate The post This Walking Ape Might Be the Earliest Human Ancestor appeared first on Nautilus.",
+      "headline": "Why Finding Motivation Is Often Such a Struggle",
+      "teaser": "The brains of macaques offer some clues The post Why Finding Motivation Is Often Such a Struggle appeared first on Nautilus.",
       "source": "Nautilus",
-      "url": "https://nautil.us/this-walking-ape-might-be-the-earliest-human-ancestor-1258797/"
+      "url": "https://nautil.us/why-finding-motivation-is-often-such-a-struggle-1260605/",
+      "imageUrl": "https://assets.nautil.us/sites/3/nautilus/0gIcDNjg-French_HERO-2.png?auto=compress&fm=png&ixlib=php-3.3.1",
+      "archiveUrl": "http://web.archive.org/web/20260110011835/https://nautil.us/why-finding-motivation-is-often-such-a-struggle-1260605/"
     },
     {
-      "headline": "Was our earliest ancestor a knuckle-dragger, or did it walk upright?",
-      "teaser": "Did Sahelanthropus, which lived 7 million years ago, walk on two legs like a modern human? It's complicated",
+      "headline": "Danei Totoro Bus Stop in Taiwan",
+      "teaser": "Danei is a rural district in Tainan that suffers from drastic population loss. Young people have moved to the cities and visitors rarely stop by. Like many small towns across Taiwan, the community...",
+      "source": "Atlas Obscura",
+      "url": "https://www.atlasobscura.com/places/danei-totoro-bus-stop"
+    },
+    {
+      "headline": "Sinking trees in Arctic Ocean could remove 1 billion tonnes of CO2",
+      "teaser": "Cutting down boreal forest and sinking the felled trees in the depths of the Arctic Ocean could remove up to 1 billion tonnes of carbon dioxide from the atmosphere each year \u2013 but it could come at a...",
       "source": "New Scientist",
-      "url": "https://www.newscientist.com/article/2509929-was-our-earliest-ancestor-a-knuckle-dragger-or-did-it-walk-upright/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+      "url": "https://www.newscientist.com/article/2510920-sinking-trees-in-arctic-ocean-could-remove-1-billion-tonnes-of-co2/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "imageUrl": "https://images.newscientist.com/wp-content/uploads/2026/01/09151950/SEI_280060470.jpg"
     },
     {
-      "headline": "3 things Will Douglas Heaven is into right now",
-      "teaser": "The most amazing drummer on the internet My daughter introduced me to El Estepario Siberiano\u2019s YouTube channel a few months back, and I have been obsessed ever since. The Spanish drummer (real name:...",
+      "headline": "\u201cErdos problem #728 was solved more or less autonomously by AI\u201d",
+      "teaser": "Discussed on Hacker News with 270 points",
+      "source": "Hacker News",
+      "url": "https://mathstodon.xyz/@tao/115855840223258103",
+      "archiveUrl": "http://web.archive.org/web/20260110025311/https://mathstodon.xyz/@tao/115855840223258103"
+    },
+    {
+      "headline": "Using AI, Mathematicians Find Hidden Glitches in Fluid Equations",
+      "teaser": "A $1 million prize awaits anyone who can show where the math of fluid flow breaks down. With specially trained AI systems, researchers have found a slew of new candidates in simpler versions of the...",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/using-ai-mathematicians-find-hidden-glitches-in-fluid-equations-20260109/",
+      "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/01/Unstable-Blowup-cr-Samuel-Velasco-Social.jpg",
+      "archiveUrl": "http://web.archive.org/web/20260110020441/https://www.quantamagazine.org/using-ai-mathematicians-find-hidden-glitches-in-fluid-equations-20260109/"
+    },
+    {
+      "headline": "The Download: the case for AI slop, and helping CRISPR fulfill its promise",
+      "teaser": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. How I learned to stop worrying and love AI slop \u2014Caiwei Chen...",
       "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/01/02/1129409/will-douglas-heaven-el-estepario-siberiano-ed-atkins-laura-jean-mckay/"
+      "url": "https://www.technologyreview.com/2026/01/09/1130953/the-download-the-case-for-ai-slop-and-helping-crispr-fulfill-its-promise/",
+      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2025/12/@niceaunties2_upscale.jpg?resize=1200,600"
     },
     {
-      "headline": "Stop Using Your Keyboard and Start Using Handy, a Free Speech-to-Text App",
-      "teaser": "It\u2019s called Handy, and it uses AI models to accurately convert your speaking voice into text\u2014all for free.",
+      "headline": "Grok Is Being Used to Mock and Strip Women in Hijabs and Saris",
+      "teaser": "A substantial number of AI images generated or edited with Grok are targeting women in religious and cultural clothing.",
       "source": "Wired",
-      "url": "https://www.wired.com/story/handy-free-speech-to-text-app/"
+      "url": "https://www.wired.com/story/grok-is-being-used-to-mock-and-strip-women-in-hijabs-and-sarees/",
+      "imageUrl": "https://media.wired.com/photos/6960482f314492365f0528cb/191:100/w_1280,c_limit/culture_grok_undress_muslim_women.jpg"
     },
     {
-      "headline": "Blood Feud: Oura\u2019s Health Panels Versus Whoop\u2019s Advanced Labs",
-      "teaser": "It\u2019s easier than ever to order your own blood draws, but direct-access testing won\u2019t replace a doctor.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/oura-whoop-blood-labs/"
+      "headline": "How Twins Learn to Follow Rules and Expectations",
+      "teaser": "Together twins work out how to \u201cnot listen too hard\u201d and handle expectations from authorities.",
+      "source": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/twin-dilemmas/202601/how-twins-learn-to-follow-rules-and-expectations",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2026-01/2026-0109%20pexels-cottonbro-6763603_0.jpg?itok=x-8NQb4W"
     },
     {
-      "headline": "How to Manage Files on iOS and Android",
-      "teaser": "You have more access to your phone\u2019s file system than you may think.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/how-to-manage-files-on-ios-and-android/"
+      "headline": "Environmental Triggers for Schizophrenia",
+      "teaser": "Personal Perspective: Part of my emotional recovery from schizophrenia came from identifying and addressing my environmental triggers.",
+      "source": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/healing-mind/202601/environmental-triggers-for-schizophrenia",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-01/AdobeStock_1839428770%20Mediaphotos.jpg?itok=Z8RiPlGm"
     },
     {
-      "headline": "13 Best Fitness and Workout Apps for 2026, Tested & Reviewed",
-      "teaser": "These fitness apps will help you turn New Year's resolutions into real results.",
-      "source": "Wired",
-      "url": "https://www.wired.com/gallery/best-fitness-workout-apps/"
+      "headline": "Cannabis and Alcohol in Pregnancy",
+      "teaser": "Pregnant women should never consume alcohol because of the high risks to their babies and themselves. According to the experts, using cannabis or THC is not safe either.",
+      "source": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/addiction-outlook/202601/cannabis-and-alcohol-in-pregnancy",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-01/KatarzynaBialasiewicz%20iStock-595144302.jpg?itok=pJDV_X8Z"
     },
     {
-      "headline": "How to Protect Your iPhone or Android Device From Spyware",
-      "teaser": "Being targeted by sophisticated spyware is relatively rare, but experts say that everyone needs to stay vigilant as this dangerous malware continues to proliferate worldwide.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/how-to-protect-your-iphone-or-android-device-from-spyware/"
+      "headline": "New Year, Same Us: One Headphone, One Song, One Walk Home",
+      "teaser": "Personal Perspective: A freezing walk home. One headphone. One Alicia Keys song. And suddenly, everything softened. How moments like these help children build emotional resilience.",
+      "source": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/resonant-minds/202601/new-year-same-us-one-headphone-one-song-one-walk-home",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2026-01/Image.jpeg.jpg?itok=X6xzgXmo"
     },
     {
-      "headline": "1Password Coupon: Score a Free Trial in January",
-      "teaser": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
+      "headline": "The Samsung Galaxy Watch Is Discounted on Amazon",
+      "teaser": "The Samsung Galaxy Watch8 gets marked down across a variety of colors, sizes, and feature sets.",
       "source": "Wired",
-      "url": "https://www.wired.com/story/1password-coupon/"
+      "url": "https://www.wired.com/story/samsung-galaxy-watch8-deal-126/",
+      "imageUrl": "https://media.wired.com/photos/69615797c0c7d7edb18e6e75/191:100/w_1280,c_limit/The%20Samsung%20Galaxy%20Watch%20Is%20Discounted%20on%20Amazon.png"
     },
     {
-      "headline": "30% VistaPrint Coupon & Promo Codes | January 2026",
-      "teaser": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/vistaprint-coupon-code/"
-    },
-    {
-      "headline": "Nomad Goods Promo Codes: 25% Off | January 2026",
-      "teaser": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more this December.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/nomad-discount-code/"
-    },
-    {
-      "headline": "Vimeo Promo Codes and Deals: Save Up to 40%",
-      "teaser": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/vimeo-promo-code/"
+      "headline": "Don't Get Lost in Translation",
+      "teaser": "Imagining ourselves in the shoes of the other affords necessary perspective for effective verbal, written, or physical communication exchange.",
+      "source": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/black-belt-brain/202510/dont-get-lost-in-translation",
+      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2026-01/Screenshot%202025-10-28%2012.44.43%20PM.png.jpg?itok=bjKTVKnT"
     }
   ],
   "philosophy": [
     {
-      "headline": "She\u2019s an A.I. Sex Robot, and She\u2019s Becoming Sentient",
-      "teaser": "Lydia Kiesling in the New York Times: In an unremarkable New York apartment, sometime in the not-too-distant future, a man tells his robot to come to bed. She is a \u201cStella,\u201d an intelligent machine...",
+      "headline": "Ren\u00e9e Nicole Good, killed in Minnesota by ICE, was a prize-winning poet and you can read that poem here",
+      "teaser": "Ren\u00e9e Nicole Macklin (her last name at that time) at Poets.org: On Learning to Dissect Fetal Pigs i want back my rocking chairs, solipsist sunsets, & coastal jungle sounds that are tercets from...",
       "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/shes-an-a-i-sex-robot-and-shes-becoming-sentient.html"
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/renee-nicole-good-killed-in-minnesota-by-ice-was-a-prize-winning-poet-and-you-can-read-that-poem-here.html"
     },
     {
-      "headline": "\u2018Rebel Hump\u2019",
-      "teaser": "\u2018Rebel Hump\u2019 Poet and rock icon Patti Smith opens her new memoir, Bread of Angels, with an epigraph from Ukraine-born novelist Nikolai Gogol: \u201cObstacles are our wings.\u201d That line launches a narrative...",
+      "headline": "Raising the Bastions",
+      "teaser": "Raising the Bastions The Swiss theologian Hans Urs von Balthasar is a figure at once admired and scorned in U.S. Catholicism. An ostensible \u201cradical\u201d before the Second Vatican Council, his...",
       "source": "Commonweal",
-      "url": "https://www.commonwealmagazine.org/rebel-hump-patti-smith-rebel-hump-mesmer-sharon"
+      "url": "https://www.commonwealmagazine.org/carpenter-anne-balthasar-catholic-right",
+      "archiveUrl": "http://web.archive.org/web/20251223142324/https://www.commonwealmagazine.org/carpenter-anne-balthasar-catholic-right"
     },
     {
-      "headline": "When Winning Feels Like Losing",
-      "teaser": "I remember what winning feels like. An opening-drive lightning strike, up by three touchdowns midway through the second quarter, the defense an impenetrable wall, scrubs and water boys entering......",
+      "headline": "The Mechanics of Colonialism: Newtonian Metaphors in History",
+      "teaser": "In the late 17th century, Isaac Newton published his \u201cMathematical Principles of Natural Philosophy,\u201d laying out three laws of motion that forever changed the way we understand the physical world. In...",
+      "source": "The Humanist",
+      "url": "https://thehumanist.com/commentary/the-mechanics-of-colonialism-newtonian-metaphors-in-history",
+      "imageUrl": "https://thehumanist.com/wp-content/uploads/2026/01/mechanics_gears.jpg"
+    },
+    {
+      "headline": "A Nonsectarian Version of the Ten Commandments",
+      "teaser": "Over the past two years, Louisiana, Texas, and Arkansas passed laws requiring posters of the Ten Commandments to be displayed in public school classrooms. Predictably, critics argue that even... The...",
       "source": "First Things",
-      "url": "https://firstthings.com/when-winning-feels-like-losing/"
+      "url": "https://firstthings.com/a-nonsectarian-version-of-the-ten-commandments/",
+      "imageUrl": "https://firstthings.com/wp-content/uploads/2026/01/1badd13c957c781f7c925d0f6dd70991882c2a0569051c97fbc59395810c4e11.jpeg-copy.jpg"
     },
     {
-      "headline": "Happy Public Domain Day 2026!",
-      "teaser": "Each January 1st is Public Domain Day, when a new crop of works have their copyrights expire and become free to share and reuse for any purpose. Here's our highlights for 2026.",
-      "source": "Public Domain Review",
-      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026"
+      "headline": "Marbury Now",
+      "teaser": "Consider a showdown between an institutionalist Chief Justice of the United States and an ambitious and opportunistic President of the United States \u2014 a showdown in which the Chief Justice wishes to...",
+      "source": "Liberties",
+      "url": "https://libertiesjournal.com/articles/the-marburynow/",
+      "imageUrl": "https://libertiesjournal.com/wp-content/uploads/william-3.png"
     },
     {
-      "headline": "The Top Ten of 2025",
-      "teaser": "As 2025 comes to a close, we\u2019re proud to present our most-read essays of the year, listed below in reverse order. If you enjoy these [\u2026] The post The Top Ten of 2025 appeared first on The Point...",
-      "source": "The Point",
-      "url": "https://thepointmag.com/general/the-top-ten-of-2025/"
-    },
-    {
-      "headline": "Exercise won\u2019t help you lose much fat but changing this will\u2026",
-      "teaser": "Hatty Willmoth at BBC Science Focus: If you want to lose weight, exercise doesn\u2019t really matter. That doesn\u2019t sound right, does it? After all, for decades we\u2019ve been told that the way to burn off...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/exercise-wont-help-you-lose-much-fat-but-changing-this-will.html"
-    },
-    {
-      "headline": "Chirality: The Mysterious Molecular Symmetry That Rules Life",
-      "teaser": "\ufeff Enjoying the content on 3QD? Help keep us going by donating now.",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/chirality-the-mysterious-molecular-symmetry-that-rules-life.html"
-    },
-    {
-      "headline": "The Moral Imagination of Zohran Mamdani",
-      "teaser": "Corey Robin at his own website: In a way I\u2019ve never experienced in my life, I feel in synch with a political turn, felt by millions of voters, that\u2019s now being reflected in the voice of one of the...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-moral-imagination-of-zohran-mamdani.html"
-    },
-    {
-      "headline": "Pepys Diary",
-      "teaser": "Deborah Friedell at the LRB: Pepys was a meticulous \u2013 some might say compulsive \u2013 record-keeper, and his talent for storing and retrieving vast amounts of information would be useful to him...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/pepys-diary.html"
-    },
-    {
-      "headline": "Why some women Are evolving faster Than the rest of society",
+      "headline": "Jiro Dreams Of Sushi",
       "teaser": "Enjoying the content on 3QD? Help keep us going by donating now.",
       "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/why-some-women-are-evolving-faster-than-the-rest-of-society.html"
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/jiro-dreams-of-sushi.html"
     },
     {
-      "headline": "Science in 2050: the future breakthroughs that will shape our world \u2014 and beyond",
-      "teaser": "David Adam in Nature: The Roman sage Marcus Aurelius said we should never let the future disturb us. But then he never had a conversation with the futurologist Nick Bostrom about the state of the...",
+      "headline": "Aleemullah, Azeemullah Qawwal: \u201cMan Kunto Maula\u201d",
+      "teaser": "\ufeff Enjoying the content on 3QD? Help keep us going by donating now.",
       "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/science-in-2050-the-future-breakthroughs-that-will-shape-our-world-and-beyond.html"
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/aleemullah-azeemullah-qawwal-man-kunto-maula.html"
     },
     {
-      "headline": "The Entangled Brain",
-      "teaser": "Luiz Pessoa at Aeon Magazine: When we consider the highways traversing the brain and how signals establish behaviourally relevant relationships across the central nervous system, we come to an...",
+      "headline": "The Masculine Mystique",
+      "teaser": "Oliver Traldi at The Point: The emotional experience of direct and renewed acquaintance with the realities of selective pressure, such as the sudden introduction of sexual jealousy into a seemingly...",
       "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-entangled-brain.html"
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-masculine-mystique.html",
+      "imageUrl": "https://3quarksdaily.com/wp-content/uploads/2026/01/nosferatu-2023-252x360.webp"
+    },
+    {
+      "headline": "What the killing of Renee Nicole Good\u2014and the scandal that preceded it\u2014tell us about the state of the nation",
+      "teaser": "Sam Kahn at Persuasion: Let\u2019s talk about a very 21st century scene. There\u2019s an incident somewhere in the United States. The incident slots itself in neatly along the lines of preexisting ideological...",
+      "source": "3 Quarks Daily",
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/what-the-killing-of-renee-nicole-good-and-the-scandal-that-preceded-it-tell-us-about-the-state-of-the-nation.html",
+      "imageUrl": "https://3quarksdaily.com/wp-content/uploads/2026/01/httpssubstack-post-media.s3.amaz_-2.jpg"
+    },
+    {
+      "headline": "When Does a Divorce Begin?",
+      "teaser": "Anahid Neressian in The Yale Review: When my daughter gets out of the car at the airport she vomits, pasta and strawberries plummeting undigested toward her shoes. I place my hand on her forehead;...",
+      "source": "3 Quarks Daily",
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/when-does-a-divorce-begin.html",
+      "imageUrl": "https://3quarksdaily.com/wp-content/uploads/2026/01/Nersessian.jpg"
+    },
+    {
+      "headline": "Abstinence From AI Is Not the Answer",
+      "teaser": "From Undark Magazine: During 2025\u2019s New York Comic Con, Jim Lee \u2014 the president, publisher, and chief creative officer of DC Comics \u2014 spoke out against the use of artificial intelligence in the...",
+      "source": "3 Quarks Daily",
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/abstinence-from-ai-is-not-the-answer.html"
+    },
+    {
+      "headline": "The Comics Section: It\u2019s a New Year, Alright",
+      "teaser": "The latest from Cagle Cartoons. Toast to 2026 by Christopher Weyant, The Boston Globe, MA The post The Comics Section: It\u2019s a New Year, Alright appeared first on TheHumanist.com.",
+      "source": "The Humanist",
+      "url": "https://thehumanist.com/arts_entertainment/humor/the-comics-section-its-a-new-year-alright",
+      "imageUrl": "https://thehumanist.com/wp-content/uploads/2014/01/comics-color.jpg"
+    },
+    {
+      "headline": "The Erotic Poems Of Bilitis",
+      "teaser": "Cat Lambert at Aeon Magazine: In 1894, a German archaeologist named Herr G Heim made a groundbreaking discovery. On the island of Cyprus, he excavated a tomb that belonged to a hitherto unknown...",
+      "source": "3 Quarks Daily",
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-erotic-poems-of-bilitis.html",
+      "imageUrl": "https://3quarksdaily.com/wp-content/uploads/2026/01/81Q8MWzKAL._UF10001000_QL80_.jpg"
+    },
+    {
+      "headline": "The 401(k) Is Tearing Society Apart",
+      "teaser": "The 401(k) Is Tearing Society Apart It\u2019s a financial-planning axiom that\u2019s become virtually sacrosanct: you\u2019re probably not saving enough for retirement. Starting as young as possible, you should...",
+      "source": "Commonweal",
+      "url": "https://www.commonwealmagazine.org/bernhard-nate-retirement-planning-401k"
     },
     {
       "headline": "Friday Poem",
-      "teaser": "New Year\u2019s Eve Always Terrifies Me At exactly twelve o\u2019clock midnight 1973-74, Los Angeles it began to rain on the palm leaves outside my window the horns and firecrackers went off and it thundered....",
+      "teaser": "Crucifixions I am not an Idealist, nor a cynic, but merely unafraid of contradictions. I have seen men face each other when both were right, yet each was determined to kill each other, which was...",
       "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/friday-poem-475.html"
-    },
-    {
-      "headline": "Cavell & Skepticism \u2013 Hilary Putnam",
-      "teaser": "Enjoying the content on 3QD? Help keep us going by donating now.",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/cavell-skepticism-hilary-putnam.html"
-    },
-    {
-      "headline": "John Searle\u2019s Minds and Machines (ft. Edward Feser)",
-      "teaser": "In this episode, Edward Feser joins R. R. Reno on The Editor\u2019s Desk to talk about his recent essay, \u201cThe Common Sense of John Searle,\u201d from the December 2025... The post John Searle\u2019s Minds and...",
-      "source": "First Things",
-      "url": "https://firstthings.com/john-searles-minds-and-machines-ft-edward-feser/"
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/friday-poem-476.html"
     }
   ],
   "society": [
     {
-      "headline": "Trump ushers in a new era of rogue superpowers",
-      "teaser": "With the strike on Venezuela, the US joins Russia and China in carving up the globe into spheres of influence",
-      "source": "New Statesman",
-      "url": "https://www.newstatesman.com/international-politics/2026/01/trump-maduro-sphere-of-influence-venezuela"
-    },
-    {
-      "headline": "Maduro captured during overnight U.S. strikes on Venezuela\u2019s capital",
-      "teaser": "Trump says the strikes led to the arrest of President Nicol\u00e1s Maduro and wife, but Caracas demands proof of life",
-      "source": "Salon",
-      "url": "https://www.salon.com/2026/01/03/maduro-captured-during-overnight-u-s-strikes-on-venezuelas-capital/"
-    },
-    {
-      "headline": "BREAKING: U.S. Captures Maduro in Late-Night Assault on Venezuela",
-      "teaser": "State of the Union: American forces bombarded the coast and capital of Venezuela and captured the country\u2019s president. The post BREAKING: U.S. Captures Maduro in Late-Night Assault on Venezuela...",
-      "source": "American Conservative",
-      "url": "https://www.theamericanconservative.com/breaking-u-s-captures-maduro-in-late-night-assault-on-venezuela/"
-    },
-    {
-      "headline": "Trump\u2019s gunboat diplomacy is a betrayal of populism",
-      "teaser": "The post Trump\u2019s gunboat diplomacy is a betrayal of populism appeared first on spiked.",
-      "source": "Spiked",
-      "url": "https://www.spiked-online.com/2026/01/03/trumps-gunboat-diplomacy-is-a-betrayal-of-populism/"
-    },
-    {
-      "headline": "Help! I\u2019m Interviewing for My Dream Job. One Panelist Knows Way Too Much About My Messy Past.",
-      "teaser": "It was the most selfish thing I have ever done.",
-      "source": "Slate",
-      "url": "https://slate.com/advice/2026/01/work-advice-interview-dream-job-panelist-mistake.html?via=rss"
-    },
-    {
-      "headline": "Trump\u2019s Risky War in Venezuela",
-      "teaser": "By going around Congress, the president is showing contempt for the will of the public.",
-      "source": "The Atlantic",
-      "url": "https://www.theatlantic.com/international/2026/01/trumps-risky-war-in-venezuela/685485/?utm_source=feed"
-    },
-    {
-      "headline": "Today in Supreme Court History: January 3, 1911",
-      "teaser": "1/3/1911: Justice Willis Van Devanter takes oath. The post Today in Supreme Court History: January 3, 1911 appeared first on Reason.com.",
-      "source": "Reason",
-      "url": "https://reason.com/volokh/2026/01/03/today-in-supreme-court-history-january-3-1911-6/"
-    },
-    {
-      "headline": "Minneapolis Daycares Only the Tip of the Fraud Scandal",
-      "teaser": "Nick Shirley\u2019s viral video is useful, but the focus should be on nailing as many of the malefactors as possible.",
-      "source": "National Review",
-      "url": "https://www.nationalreview.com/2026/01/minneapolis-daycares-only-the-tip-of-the-fraud-scandal/"
-    },
-    {
-      "headline": "Why You\u2019re Bad with Money",
-      "teaser": "We can spend decades following financial blueprints we didn\u2019t even know we inherited The post Why You\u2019re Bad with Money first appeared on The Walrus.",
-      "source": "The Walrus",
-      "url": "https://thewalrus.ca/why-youre-bad-with-money/"
-    },
-    {
-      "headline": "A Photographer\u2019s Portraits of Her Dad",
-      "teaser": "In the nineteen-eighties, Janet Delaney took pictures of her father at work, and came to a deeper understanding of who he was.",
+      "headline": "\u201cDead Man\u2019s Wire\u201d Is a Tangle of Loose Threads",
+      "teaser": "In dramatizing a real-life hostage crisis from 1977, Gus Van Sant teases out enticing themes that remain undeveloped.",
       "source": "The New Yorker",
-      "url": "https://www.newyorker.com/culture/photo-booth/a-photographers-portraits-of-her-dad"
+      "url": "https://www.newyorker.com/culture/the-front-row/dead-mans-wire-is-a-tangle-of-loose-threads",
+      "imageUrl": "https://media.newyorker.com/photos/695d817ee9d1cdb554fa069f/16:9/w_1280,c_limit/BRODY-DEAD-MAN'S-WIRE---MCDDEMA_EC227.jpg",
+      "archiveUrl": "http://web.archive.org/web/20260110030517/https://www.newyorker.com/culture/the-front-row/dead-mans-wire-is-a-tangle-of-loose-threads"
     },
     {
-      "headline": "Trump Is Bored to Death by the Affordability Crisis",
-      "teaser": "Not long ago, President Trump seemed simply to be following the Joe Biden playbook on the affordability crisis: Deny Americans\u2019 lived experience. Despite poll after poll, and a mountain of bad...",
-      "source": "New Republic",
-      "url": "https://newrepublic.com/article/204856/trump-affordability-crisis-bored-death"
+      "headline": "What Kind of Immunity for ICE Agents?",
+      "teaser": "A guest post by Prof. Michael Mannheimer.",
+      "source": "Reason",
+      "url": "https://reason.com/volokh/2026/01/09/what-kind-of-immunity-for-ice-agents/",
+      "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2021/11/reason-logo-featured-placeholder.jpg.webp"
     },
     {
-      "headline": "Trump Says U.S. Forces Have Captured Venezuela\u2019s Maduro",
-      "teaser": "The operation followed hours of military strikes and a monthslong U.S. pressure campaign.",
-      "source": "Foreign Policy",
-      "url": "https://foreignpolicy.com/2026/01/03/venezuela-maduro-capture-trump-strikes/"
-    },
-    {
-      "headline": "Killer Robots and the Fetish of Automation",
-      "teaser": "For far too long, two specters have been haunting the world of artificial intelligence and warfare, and they both featured in the same movie. The first is Skynet \u2014 the specter of general artificial...",
-      "source": "Jacobin",
-      "url": "https://jacobin.com/2026/01/fetishism-automation-ai-warfare-palantir/"
-    },
-    {
-      "headline": "The Black Market for a Lifesaving Cat Drug",
-      "teaser": "In 2023, Marlena Arjo adopted a one-eyed kitten with a penchant for destruction. She named him Otto, and over the next eight months, Otto grew into his own little chaotic personality. \u201c He\u2019s laying...",
+      "headline": "A New Clip of the Minneapolis ICE Killing Was Leaked to a Site Sympathetic to Derek Chauvin",
+      "teaser": "A video reportedly filmed by the federal agent who shot and killed Ren\u00e9e Nicole Good in Minneapolis earlier this week was released on Friday by a conservative Minnesota outlet whose most prominent...",
       "source": "Mother Jones",
-      "url": "https://www.motherjones.com/politics/2026/01/cat-drug-feline-infectious-peritonitis-fip-black-market/"
+      "url": "https://www.motherjones.com/politics/2026/01/minneapolis-renee-good-ice-alpha-news/",
+      "imageUrl": "https://www.motherjones.com/wp-content/uploads/2026/01/192026_APHA_NEWS_2000.jpg?w=1200&h=630&crop=1"
     },
     {
-      "headline": "Trump\u2019s Travel Bans Threaten US National Security",
-      "teaser": "For all Donald Trump\u2019s talk about security, he proves far more interested in lining his own pockets. No country that hosts a major Trump-branded property or strikes a high-profile business deal with...",
+      "headline": "From \u2018I\u2019m Not Mad at You\u2019 to Deadly Shots in Seconds",
+      "teaser": "Frazzled agents, quick triggers, and a motor-powered protest movement are creating a uniquely dangerous moment on U.S. streets.",
+      "source": "The Atlantic",
+      "url": "https://www.theatlantic.com/politics/2026/01/minneapolis-ice-shooting-renee-good/685571/?utm_source=feed",
+      "imageUrl": "https://cdn.theatlantic.com/thumbor/aihZNUtLy-fe5KauyqmBm4ebTlc=/0x64:2995x1624/1200x625/media/img/mt/2026/01/2025_01_09_The_Inevitable_Tragedy_of_The_Minneapolis_ICE_Shooting/original.jpg"
+    },
+    {
+      "headline": "The \u2018Illegal Stop\u2019 Narrative Isn\u2019t Just Wrong. It\u2019s Dangerous",
+      "teaser": "The social media response to the deadly ICE shooting in Minneapolis proves yet again that so-called internet \u2018experts\u2019 do not deserve the moniker.",
+      "source": "National Review",
+      "url": "https://www.nationalreview.com/2026/01/the-illegal-stop-narrative-isnt-just-wrong-its-dangerous/",
+      "imageUrl": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/01/ice-arrests.jpg?fit=2057%2C1200&ssl=1"
+    },
+    {
+      "headline": "The EU-Mercosur Trade Deal May Not Be the Big Win Some in Europe Think",
+      "teaser": "The accord is expected to add only 0.05 percent to the EU\u2019s economy and has ignited political upheaval across Europe.",
+      "source": "Foreign Policy",
+      "url": "https://foreignpolicy.com/2026/01/09/european-union-eu-mercosur-trade-deal-farmers-environment-protests-tariffs/",
+      "imageUrl": "https://foreignpolicy.com/wp-content/uploads/2026/01/EUMercosur-GettyImages-2254774611.jpg?w=1000"
+    },
+    {
+      "headline": "In the Horrifying New Video Filmed by Renee Good\u2019s Killer, Her Real \u201cCrime\u201d Is Clear",
+      "teaser": "New footage of her killing at the hands of ICE isn\u2019t exculpatory\u2014but it sure serves a purpose for MAGA.",
+      "source": "Slate",
+      "url": "https://slate.com/news-and-politics/2026/01/donald-trump-news-ice-renee-good-minneapolis.html?via=rss",
+      "imageUrl": "https://compote.slate.com/images/1e3c757e-4b50-4f4d-921d-8e994d139760.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560"
+    },
+    {
+      "headline": "Trump, 79, Accidentally Reads Marco Rubio\u2019s Private Note Out Loud",
+      "teaser": "Donald Trump humiliated himself Friday when Secretary of State Marco Rubio tried to slyly pass him a note during a meeting with oil executives, and the president immediately read it aloud.Trump was...",
+      "source": "New Republic",
+      "url": "https://newrepublic.com/post/205139/donald-trump-accidentally-reads-marco-rubio-note-aloud",
+      "imageUrl": "https://images.newrepublic.com/4443cd93bb978e86fd0c8537cdf8ff47a262977a.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+      "archiveUrl": "http://web.archive.org/web/20260109231308/https://newrepublic.com/post/205139/donald-trump-accidentally-reads-marco-rubio-note-aloud"
+    },
+    {
+      "headline": "\u201cI\u2019m not mad at you\u201d: ICE officer\u2019s video shows Renee Nicole Good\u2019s last words",
+      "teaser": "New video recorded by ICE officer Jonathan Ross shows new angle of deadly shooting",
+      "source": "Salon",
+      "url": "https://www.salon.com/2026/01/09/im-not-mad-at-you-ice-officers-video-shows-renee-nicole-goods-last-words/",
+      "imageUrl": "https://www.salon.com/app/uploads/2026/01/renee-nicole-good-2254680340.jpg"
+    },
+    {
+      "headline": "Week in review",
+      "teaser": "On British Romantic painters, Christopher Columbus & American monuments.",
+      "source": "New Criterion",
+      "url": "https://newcriterion.com/dispatch/week-in-review-77/",
+      "imageUrl": "https://newcriterion.com/wp-content/uploads/2026/01/The_White_Horse_by_John_Constable_-_Google_Art_Project-e1767990218960.jpg"
+    },
+    {
+      "headline": "Why This Time Is Different for Iran",
+      "teaser": "For Iran's rulers, today's mass protests pose a vexing dilemma. Cracking down too hard could undo the entente that the regime forged with the population after last year's 12-day war with Israel and...",
       "source": "Project Syndicate",
-      "url": "https://www.project-syndicate.org/commentary/trump-new-entry-restrictions-will-undermine-national-security-by-brahma-chellaney-2026-01"
+      "url": "https://www.project-syndicate.org/commentary/iran-this-time-is-different-deadly-combination-internal-and-external-threats-by-vali-nasr-2026-01",
+      "imageUrl": "https://webapi.project-syndicate.org/library/cc6ec7e2ecbff7c0a747ccb37bcff20e.2-1-super.1.jpg"
+    },
+    {
+      "headline": "Your Party advised to refer unauthorised membership launch to police",
+      "teaser": "An official body told the party it should consider doing so to determine whether \"serious criminal activity\" occurred",
+      "source": "New Statesman",
+      "url": "https://www.newstatesman.com/politics/uk-politics/2026/01/your-party-advised-to-refer-unauthorised-membership-launch-to-police",
+      "imageUrl": "https://dl6pgk4f88hky.cloudfront.net/2026/01/09/gettyimages-2249183213-800x418.jpg?1768014453",
+      "archiveUrl": "http://web.archive.org/web/20260109202843/https://www.newstatesman.com/politics/uk-politics/2026/01/your-party-advised-to-refer-unauthorised-membership-launch-to-police"
+    },
+    {
+      "headline": "Trump\u2019s $1.5trn gamble: Will endless conflict win midterm votes?",
+      "teaser": "While eyes were on Caracas, US forces launched attacks across three continents. This is a war presidency",
+      "source": "Open Democracy",
+      "url": "https://www.opendemocracy.net/en/trump-military-war-budget-venezuela-caracas/"
+    },
+    {
+      "headline": "A New Iranian Revolution?",
+      "teaser": "View Post",
+      "source": "Commentary",
+      "url": "https://www.commentary.org/john-podhoretz/a-new-iranian-revolution/",
+      "imageUrl": "https://www.commentary.org/wp-content/uploads/2017/06/podcast.jpg"
+    },
+    {
+      "headline": "Chrystia Freeland\u2019s Very Strange Goodbye",
+      "teaser": "Her biographer explains how one of Canada\u2019s most disciplined politicians fumbled her final act The post Chrystia Freeland\u2019s Very Strange Goodbye first appeared on The Walrus.",
+      "source": "The Walrus",
+      "url": "https://thewalrus.ca/chrystia-freeland-resignation/",
+      "imageUrl": "https://walrus-assets.s3.amazonaws.com/img/Kaur-Freeland-1800.jpg"
     }
   ],
   "books": [
     {
-      "headline": "Hew Locke\u2019s Constant Motion",
-      "teaser": "Remembering Cecilia Gim\u00e9nez and \"Beast Jesus,\" Public Domain Day, the art of Fred Wilson, this month's Opportunities, and more.",
+      "headline": "Rare Comic Introducing Superman Sells Privately for $15 Million",
+      "teaser": "The copy of Action Comics No. 1, published in 1938, was stolen from the actor Nicolas Cage in 2000 and recovered more than a decade later.",
+      "source": "NY Times Books",
+      "url": "https://www.nytimes.com/2026/01/09/books/superman-action-comics-1-sold.html"
+    },
+    {
+      "headline": "Here\u2019s Why the LA Art Show Is Worth Your While",
+      "teaser": "A debut Latin American Pavilion, a video art display, and a mini-retrospective of biennials underscore this fair\u2019s cultural and political relevance.",
       "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/hew-lockes-constant-motion/"
+      "url": "https://hyperallergic.com/heres-why-the-la-art-show-is-worth-your-while/",
+      "imageUrl": "https://hyperallergic.com/content/images/2026/01/ERRE2--1-.JPG"
     },
     {
-      "headline": "Dreaming of writing your novel this year? Rip up all the rules!",
-      "teaser": "After 35 years of teaching fiction writing, the prize-winning author shares her wisdom. First tip? Don\u2019t write what you know\u2026 I don\u2019t think it\u2019s a bad thing to want to write a first sentence so...",
-      "source": "Guardian Books",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/jan/03/dreaming-of-writing-your-novel-this-year-rip-up-all-the-rules"
-    },
-    {
-      "headline": "Tribute | The singularity of author Vinod Kumar Shukla",
-      "teaser": "In his works, Shukla illuminated ordinary experiences with profound curiosity and insight",
-      "source": "The Hindu Books",
-      "url": "https://www.thehindu.com/books/tribute-author-vinod-kumar-shukla-hindi-literature-everyday-stories-poetry/article70463403.ece"
-    },
-    {
-      "headline": "Kathleen Goncharov, Esteemed Curator and Artist, Dies at 73",
-      "teaser": "She curated performances for Just Above Midtown and organized Fred Wilson's 2003 US Pavilion in Venice.",
+      "headline": "Recovered Picassos at Center of Art Theft Trial in Nice",
+      "teaser": "Several of the recovered works were traced to a burglary in Saint-Paul-de-Vence in October 2017 and an armed robbery in \u00c8ze the following month.",
       "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/kathleen-goncharov-curator-dead-1234768679/"
+      "url": "https://www.artnews.com/art-news/news/recovered-picassos-art-theft-trial-nice-1234769368/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/ARTVIEW-10663778-ORIG-fbe3919_upload-from-url-1-b8m1c3hwwfxi-data-art-16915389.jpg?w=612"
     },
     {
-      "headline": "Poverty, mistrust and antisemitism \u2014 Berlin Shuffle by Ulrich Alexander Boschwitz",
-      "teaser": "This recently rediscovered, bleakly comic tale of three no-hopers in interwar Germany was written by a Jewish refugee in the 1930s. It reads like a cautionary tale for our times",
+      "headline": "The best books of the week",
+      "teaser": "Why Arctic land-grabs could lead to war; the highs and lows of David Bowie\u2019s later music; the harms caused by our demand for \u2018green\u2019 batteries; Julian Barnes\u2019s reflections on life and loss; biting...",
       "source": "Financial Times Books",
-      "url": "https://www.ft.com/content/1666b61c-ab93-4067-933e-fb8184e1b811"
+      "url": "https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989",
+      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe6ad43d9-a35b-4439-ba99-25b45bd43736.png?source=next-barrier-page",
+      "archiveUrl": "http://web.archive.org/web/20251228191506/https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989"
     },
     {
-      "headline": "Ken Jacobs (1933\u20132025)",
-      "teaser": "AN ARTIST AND PEDAGOGUE of powerful originality with a personality to match, Ken Jacobs saw the full equation. Like his generational peer Stan Brakhage, and such earlier nonpareils Dziga Vertov and...",
-      "source": "Artforum",
-      "url": "https://www.artforum.com/columns/ken-jacobs-obituary-j-hoberman-1234740603/"
+      "headline": "The best recent science fiction, fantasy and horror \u2013 review roundup",
+      "teaser": "Godfall by Van Jensen; The Salt Bind by Rebecca Ferrier; The Poet Empress by Shen Tao; A Hole in the Sky by Peter F Hamilton; Hello Earth, Are You There? by Brian AldissGodfall by Van Jensen (Bantam,...",
+      "source": "Guardian Books",
+      "url": "https://www.theguardian.com/books/2026/jan/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "imageUrl": "https://i.guim.co.uk/img/media/31ddfb3fb624e03396365820e2cff5f1b799c869/114_579_2156_1723/master/2156.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=475d665de814f4ed78bf40a3b353f76a"
     },
     {
-      "headline": "Sir James Frazer and New Year\u2019s babies",
-      "teaser": "I have always been a bit ambivalent about having a birthday on January 1. It was certainly a wonderfully convenient date when you were asked (as you often were back in school) to provide your age \u201cin...",
-      "source": "The TLS",
-      "url": "https://www.the-tls.com/regular-features/mary-beard-a-dons-life/sir-james-frazer-and-new-years-babies-blog-post"
-    },
-    {
-      "headline": "Flinty tales | Review of Margaret Atwood\u2019s memoir Book of Lives",
-      "teaser": "In an exploration of her past, Atwood helps readers join the dots between real life and her art",
+      "headline": "Nominations open for Kamaladevi Chattopadhyay NIF Book Prize 2026",
+      "teaser": "The deadline for submitting nominations is January 31, 2026.",
       "source": "The Hindu Books",
-      "url": "https://www.thehindu.com/books/book-review-margaret-atwood-memoir-book-of-lives-reflections-handmaids-tale/article70452505.ece"
+      "url": "https://www.thehindu.com/news/national/karnataka/nominations-open-for-kamaladevi-chattopadhyay-nif-book-prize-2026/article70489929.ece",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/asmvj8/article70490329.ece/alternates/LANDSCAPE_1200/De21_Kamladevi.jpg"
     },
     {
-      "headline": "What Hew Locke Carries",
-      "teaser": "With his haunting exhibition, Passages, the Guyanese-British artist reminds us that when we survive, so do our ghosts and our wounds.",
+      "headline": "Noted Curator Kathleen Goncharov Dies at 73",
+      "teaser": "Kathleen Goncharov, who launched her career at Linda Goode\u2019s pathbreaking New York gallery Just Above Midtown and went on to serve as US Commissioner for the Fiftieth Venice Biennale, died in her...",
+      "source": "Artforum",
+      "url": "https://www.artforum.com/news/much-loved-curator-kathleen-goncharov-dies-at-73-1234741996/",
+      "imageUrl": "https://www.artforum.com/wp-content/uploads/2026/01/2-Goncharov-with-her-own-artworks-in-New-York.jpeg?w=650"
+    },
+    {
+      "headline": "Exclusive: Doubting Thomas",
+      "teaser": "Alessandro Gallenzi reveals how he turned literary detective and uncovered Dylan Thomas\u2019s youthful plagiarism; Norma Clarke discusses the stunning work of two eighteenth-century women portrait...",
+      "source": "The TLS",
+      "url": "https://www.the-tls.com/regular-features/the-podcast/the-tls-podcast-january-9-2026-dylan-thomas-exclusive",
+      "imageUrl": "https://www.the-tls.com/wp-content/uploads/2024/04/podcast-web-1.jpg"
+    },
+    {
+      "headline": "Wayward Children?",
+      "teaser": "What is Rav Soloveitchik's legacy? Well, it depends on which of his students you ask. The post Wayward Children? appeared first on Jewish Review of Books.",
+      "source": "Jewish Review of Books",
+      "url": "https://jewishreviewofbooks.com/philosophy/19406/wayward-children/",
+      "imageUrl": "https://jewishreviewofbooks.com/wp-content/uploads/2025/12/Winberg_FB_Twitter-1024x512-1.jpg"
+    },
+    {
+      "headline": "Delcy Morelos to Stage Major Public Art Commission at Barbican in London This Spring",
+      "teaser": "The artist's most ambitious installation to date will measure around 78 feet in circumference.",
+      "source": "Art News",
+      "url": "https://www.artnews.com/art-news/news/delcy-morelos-barbican-london-commission-1234769400/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2024/01/Don_Stahl_DELCY-MORELOS-050.jpg?w=1024"
+    },
+    {
+      "headline": "1,500-Year-Old Byzantine Monastery Discovered in Egypt",
+      "teaser": "The discovery sheds light on early Christian monastic life in Upper Egypt.",
+      "source": "Art News",
+      "url": "https://www.artnews.com/art-news/news/byzantine-monastery-discovered-egypt-1234769398/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/News-20260108-Egypt-Byzantine-Monastery.jpg?w=1024"
+    },
+    {
+      "headline": "Beer With a Painter: Michael Berryhill",
+      "teaser": "\u201cYou can\u2019t think your way through a painting,\u201d the artist said during our conversation at his home studio in the Catskills. \u201cYou can only act, mark, or feel your way through.\u201d",
       "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/what-hew-locke-carries/"
+      "url": "https://hyperallergic.com/beer-with-a-painter-michael-berryhill/",
+      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2026/01/Studio-Portrait-Michael-Berryhill.jpg"
     },
     {
-      "headline": "In 2026, Democracy Needs Museums",
-      "teaser": "As the United States marks its 250th, institutions must resist the pull to simply commemorate and instead communicate the relevance of history.",
+      "headline": "Uncovering the Secrets of Henri Rousseau\u2019s Paintings",
+      "teaser": "A new exhibition freshly contextualizes many artworks in the light of his personal story, while conservators conducted revelatory technical studies.",
       "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/in-2026-democracy-needs-museums/"
+      "url": "https://hyperallergic.com/uncovering-the-secrets-of-henri-rousseaus-paintings/",
+      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2025/12/EX2025-2-4-1-cc-press-RGB-High-Res-JPEG--min-300dpi-.jpg"
     },
     {
-      "headline": "David Wojnarowicz\u2019s Lessons in the Age of Surveillance",
-      "teaser": "The artist\u2019s photographs of a masked Arthur Rimbaud touring New York offer timely insights about visibility and resistance.",
+      "headline": "The Women Who Were More Than Just Picasso\u2019s Loves",
+      "teaser": "Sue Roe explores the agency and victories her subjects experienced as women who, we are repeatedly reminded, ardently loved Picasso.",
       "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/david-wojnarowicz-lessons-in-the-age-of-surveillance/"
+      "url": "https://hyperallergic.com/the-women-who-were-more-than-just-picassos-loves/",
+      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2026/01/GettyImages-56458430.jpg"
     },
     {
-      "headline": "Zohran Mamdani Uses Historic Qur\u2019an at His Swearing-In Ceremony",
-      "teaser": "He took his oath of office on a 200-year-old example of Islam\u2019s most important religious text.",
+      "headline": "Columbia Museum of Art Opens Newly Configured Collection Galleries to Cap Year-Long Renovation",
+      "teaser": "The unveiling caps the South Carolina institution's 75th anniversary year.",
       "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/zohran-mamdani-mayor-swearing-in-ceremony-quran-1234768673/"
-    },
-    {
-      "headline": "At India\u2019s Top Biennial, A Painting Referencing \u2018The Last Supper\u2019 Sparks Protests and Backlash",
-      "teaser": "Tom Vattakuzhy, the artist behind the piece, said he had not meant to offend.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/kochi-muziris-biennale-closure-christian-protests-1234768658/"
-    },
-    {
-      "headline": "Erie Art Museum Refuses to Return \u2018Abandoned\u2019 Painting to Daughter of Late Local Artist",
-      "teaser": "The disputed painting of house boats was submitted to a juried exhibition at the museum in 1966 and never reclaimed.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/erie-art-museum-wont-return-abandoned-painting-daughter-late-artist-1234768659/"
-    },
-    {
-      "headline": "Amid Ongoing Layoffs, Brown University \u2018Terminates\u2019 Both Bell Gallery Curators, Rankling Faculty",
-      "teaser": "Kate Kraczon and Thea Quiray Tagle had organized attention-getting shows that were funded by major foundations.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/amid-ongoing-layoffs-brown-university-terminates-both-bell-gallery-curators-rankling-faculty-1234768426/"
+      "url": "https://www.artnews.com/art-news/news/columbia-museum-new-collection-galleries-renovation-1234769385/",
+      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/CMA.jpg?w=870"
     }
   ]
 }
