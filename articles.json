@@ -250,6 +250,13 @@
   ],
   "books": [
     {
+      "headline": "The Women Who Were More Than Just Picasso\u2019s Loves",
+      "teaser": "Sue Roe explores the agency and victories her subjects experienced as women who, we are repeatedly reminded, ardently loved Picasso.",
+      "source": "Hyperallergic",
+      "url": "https://hyperallergic.com/the-women-who-were-more-than-just-picassos-loves/",
+      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2026/01/GettyImages-56458430.jpg"
+    },
+    {
       "headline": "Columbia Museum of Art Opens Newly Configured Collection Galleries to Cap Year-Long Renovation",
       "teaser": "The unveiling caps the South Carolina institution's 75th anniversary year.",
       "source": "Art News",
@@ -335,12 +342,6 @@
       "teaser": "The artist\u2019s photographs of a masked Arthur Rimbaud touring New York offer timely insights about visibility and resistance.",
       "source": "Hyperallergic",
       "url": "https://hyperallergic.com/david-wojnarowicz-lessons-in-the-age-of-surveillance/"
-    },
-    {
-      "headline": "Zohran Mamdani Uses Historic Qur\u2019an at His Swearing-In Ceremony",
-      "teaser": "He took his oath of office on a 200-year-old example of Islam\u2019s most important religious text.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/zohran-mamdani-mayor-swearing-in-ceremony-quran-1234768673/"
     }
   ]
 }
