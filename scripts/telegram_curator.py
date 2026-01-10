@@ -77,6 +77,33 @@ def generate_archive_json():
     conn.close()
     return archive
 
+
+def cleanup_old_articles():
+    """Remove articles older than 7 days from live site (they stay in archive)"""
+    from datetime import timedelta
+    cutoff = (date.today() - timedelta(days=7)).isoformat()
+
+    live_articles = json.load(open(ARTICLES_FILE))
+    removed = 0
+
+    for category in ["science", "philosophy", "society", "books"]:
+        if category not in live_articles:
+            continue
+        original_count = len(live_articles[category])
+        # keep articles that have no date (legacy) or are within 7 days
+        live_articles[category] = [
+            a for a in live_articles[category]
+            if not a.get('approvedDate') or a.get('approvedDate') >= cutoff
+        ]
+        removed += original_count - len(live_articles[category])
+
+    if removed > 0:
+        with open(ARTICLES_FILE, 'w') as f:
+            json.dump(live_articles, f, indent=2)
+
+    return removed
+
+
 def send_message(text, reply_markup=None):
     """Send a message to the curator"""
     data = {
@@ -247,14 +274,12 @@ def handle_callback(callback_data, pending, approved):
     changed = False
 
     if action == "approve":
-        # Add to live articles (keep max 15 per category)
+        # Add to live articles (no limit - 1 week retention handled separately)
         if category not in live_articles:
             live_articles[category] = []
         if article not in live_articles[category]:
+            article['approvedDate'] = date.today().isoformat()  # track when approved
             live_articles[category].insert(0, article)  # Add to top
-            # Keep only 15 on front page, rest go to archive
-            if len(live_articles[category]) > 15:
-                live_articles[category] = live_articles[category][:15]
             with open(ARTICLES_FILE, 'w') as f:
                 json.dump(live_articles, f, indent=2)
             # Add to archive
@@ -291,9 +316,8 @@ def handle_callback(callback_data, pending, approved):
         if category not in live_articles:
             live_articles[category] = []
         if article not in live_articles[category]:
+            article['approvedDate'] = date.today().isoformat()
             live_articles[category].insert(0, article)
-            if len(live_articles[category]) > 15:
-                live_articles[category] = live_articles[category][:15]
         with open(ARTICLES_FILE, 'w') as f:
             json.dump(live_articles, f, indent=2)
         # Add to archive
@@ -318,9 +342,16 @@ def run_curator():
     print("🤖 SPS Daily Curator Bot started")
     print(f"   Listening for commands from chat {CHAT_ID}")
 
+    # cleanup articles older than 7 days at startup
+    removed = cleanup_old_articles()
+    if removed > 0:
+        print(f"   Cleaned up {removed} old articles")
+        git_push()
+
     offset = None
     pending = {}
     approved = load_approved()
+    last_cleanup = date.today()
 
     while True:
         try:

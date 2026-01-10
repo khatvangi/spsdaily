@@ -895,8 +895,7 @@
                     featuredImg.style.display = 'none';
                 }
 
-                // Render each category (show first 6 on front page)
-                const FRONT_PAGE_LIMIT = 6;
+                // Render each category (show all articles - 1 week retention)
                 ['science', 'philosophy', 'society', 'books'].forEach(category => {
                     const container = document.getElementById(`${category}-articles`);
                     const articles = data[category] || [];
@@ -906,8 +905,7 @@
                         return;
                     }
 
-                    const displayArticles = articles.slice(0, FRONT_PAGE_LIMIT);
-                    let html = displayArticles.map((article, i) => {
+                    let html = articles.map((article, i) => {
                         const hasImage = article.imageUrl;
                         const imageHtml = hasImage
                             ? `<img src="${article.imageUrl}" alt="" class="card-image" loading="lazy" onerror="this.parentElement.style.display='none'">`
@@ -927,11 +925,6 @@
                             </a>
                         </article>`;
                     }).join('');
-
-                    // Add "See all" link if more articles available
-                    if (articles.length > FRONT_PAGE_LIMIT) {
-                        html += `<a href="${category}.html" class="see-all">See all ${articles.length} articles →</a>`;
-                    }
 
                     container.innerHTML = html;
                 });

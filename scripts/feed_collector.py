@@ -713,9 +713,9 @@ def main():
         print("\n✨ No new articles to review!")
         return
 
-    # Select best articles (15 per category)
+    # Select articles (no strict limit - 1 week retention handles cleanup)
     print("\n✨ Selecting articles...")
-    selected = select_articles(new_articles, per_category=15)
+    selected = select_articles(new_articles, per_category=50)
 
     # Prepare pending structure - will be saved incrementally
     pending_path = Path(__file__).parent.parent / "pending_articles.json"
