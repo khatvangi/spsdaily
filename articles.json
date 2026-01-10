@@ -250,6 +250,13 @@
   ],
   "books": [
     {
+      "headline": "Uncovering the Secrets of Henri Rousseau\u2019s Paintings",
+      "teaser": "A new exhibition freshly contextualizes many artworks in the light of his personal story, while conservators conducted revelatory technical studies.",
+      "source": "Hyperallergic",
+      "url": "https://hyperallergic.com/uncovering-the-secrets-of-henri-rousseaus-paintings/",
+      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2025/12/EX2025-2-4-1-cc-press-RGB-High-Res-JPEG--min-300dpi-.jpg"
+    },
+    {
       "headline": "Rare Comic Introducing Superman Sells Privately for $15 Million",
       "teaser": "The copy of Action Comics No. 1, published in 1938, was stolen from the actor Nicolas Cage in 2000 and recovered more than a decade later.",
       "source": "NY Times Books",
@@ -339,12 +346,6 @@
       "teaser": "I have always been a bit ambivalent about having a birthday on January 1. It was certainly a wonderfully convenient date when you were asked (as you often were back in school) to provide your age \u201cin...",
       "source": "The TLS",
       "url": "https://www.the-tls.com/regular-features/mary-beard-a-dons-life/sir-james-frazer-and-new-years-babies-blog-post"
-    },
-    {
-      "headline": "Flinty tales | Review of Margaret Atwood\u2019s memoir Book of Lives",
-      "teaser": "In an exploration of her past, Atwood helps readers join the dots between real life and her art",
-      "source": "The Hindu Books",
-      "url": "https://www.thehindu.com/books/book-review-margaret-atwood-memoir-book-of-lives-reflections-handmaids-tale/article70452505.ece"
     }
   ]
 }
