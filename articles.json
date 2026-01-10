@@ -250,6 +250,13 @@
   ],
   "books": [
     {
+      "headline": "The best recent science fiction, fantasy and horror \u2013 review roundup",
+      "teaser": "Godfall by Van Jensen; The Salt Bind by Rebecca Ferrier; The Poet Empress by Shen Tao; A Hole in the Sky by Peter F Hamilton; Hello Earth, Are You There? by Brian AldissGodfall by Van Jensen (Bantam,...",
+      "source": "Guardian Books",
+      "url": "https://www.theguardian.com/books/2026/jan/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "imageUrl": "https://i.guim.co.uk/img/media/31ddfb3fb624e03396365820e2cff5f1b799c869/114_579_2156_1723/master/2156.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=475d665de814f4ed78bf40a3b353f76a"
+    },
+    {
       "headline": "The Women Who Were More Than Just Picasso\u2019s Loves",
       "teaser": "Sue Roe explores the agency and victories her subjects experienced as women who, we are repeatedly reminded, ardently loved Picasso.",
       "source": "Hyperallergic",
@@ -336,12 +343,6 @@
       "teaser": "As the United States marks its 250th, institutions must resist the pull to simply commemorate and instead communicate the relevance of history.",
       "source": "Hyperallergic",
       "url": "https://hyperallergic.com/in-2026-democracy-needs-museums/"
-    },
-    {
-      "headline": "David Wojnarowicz\u2019s Lessons in the Age of Surveillance",
-      "teaser": "The artist\u2019s photographs of a masked Arthur Rimbaud touring New York offer timely insights about visibility and resistance.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/david-wojnarowicz-lessons-in-the-age-of-surveillance/"
     }
   ]
 }
