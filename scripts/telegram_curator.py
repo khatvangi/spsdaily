@@ -211,11 +211,11 @@ def send_articles_for_review():
     send_message("✅ All articles sent! When done reviewing, send /publish to publish approved articles.")
 
 def git_push():
-    """Commit and push articles.json and archive.json to GitHub"""
+    """Commit and push articles.json and archive files to GitHub"""
     import subprocess
     try:
         subprocess.run(
-            ["git", "add", "articles.json", "archive.json"],
+            ["git", "add", "articles.json", "archive.json", "archive.html"],
             cwd=SPSDAILY_DIR, check=True, capture_output=True
         )
         subprocess.run(
