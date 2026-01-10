@@ -147,24 +147,31 @@
             justify-content: space-between;
         }
 
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .masthead-icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            flex-shrink: 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-
         .masthead {
             text-align: center;
             flex: 1;
         }
+
+        .title-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .masthead-icon {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+
+        /* SPS colored letters */
+        .site-title .s1 { color: #2563eb; }  /* Science - blue */
+        .site-title .p1 { color: #7c3aed; }  /* Philosophy - purple */
+        .site-title .s2 { color: #dc2626; }  /* Society - red */
 
         .header-right {
             display: flex;
@@ -704,11 +711,11 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="header-left">
-                <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
-            </div>
             <div class="masthead">
-                <h1 class="site-title"><span>SPS</span> DAILY</h1>
+                <div class="title-row">
+                    <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
+                    <h1 class="site-title"><span class="s1">S</span><span class="p1">P</span><span class="s2">S</span> DAILY</h1>
+                </div>
                 <p class="tagline">Science, Philosophy & Society</p>
                 <p class="motto">Ekum Sat — Truth is One</p>
                 <p class="date-line" id="date-line"></p>
