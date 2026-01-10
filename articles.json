@@ -249,6 +249,13 @@
   ],
   "books": [
     {
+      "headline": "Exclusive: Doubting Thomas",
+      "teaser": "Alessandro Gallenzi reveals how he turned literary detective and uncovered Dylan Thomas\u2019s youthful plagiarism; Norma Clarke discusses the stunning work of two eighteenth-century women portrait...",
+      "source": "The TLS",
+      "url": "https://www.the-tls.com/regular-features/the-podcast/the-tls-podcast-january-9-2026-dylan-thomas-exclusive",
+      "imageUrl": "https://www.the-tls.com/wp-content/uploads/2024/04/podcast-web-1.jpg"
+    },
+    {
       "headline": "Nominations open for Kamaladevi Chattopadhyay NIF Book Prize 2026",
       "teaser": "The deadline for submitting nominations is January 31, 2026.",
       "source": "The Hindu Books",
@@ -332,12 +339,6 @@
       "teaser": "Tom Vattakuzhy, the artist behind the piece, said he had not meant to offend.",
       "source": "Art News",
       "url": "https://www.artnews.com/art-news/news/kochi-muziris-biennale-closure-christian-protests-1234768658/"
-    },
-    {
-      "headline": "Erie Art Museum Refuses to Return \u2018Abandoned\u2019 Painting to Daughter of Late Local Artist",
-      "teaser": "The disputed painting of house boats was submitted to a juried exhibition at the museum in 1966 and never reclaimed.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/erie-art-museum-wont-return-abandoned-painting-daughter-late-artist-1234768659/"
     }
   ]
 }
