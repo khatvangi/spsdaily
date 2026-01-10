@@ -313,6 +313,44 @@
             margin-top: 0.75rem;
         }
 
+        .featured-content {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .featured-image {
+            width: 280px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .featured-text {
+            flex: 1;
+        }
+
+        .featured-text h2 {
+            text-align: left;
+        }
+
+        .featured-text p {
+            text-align: left;
+            max-width: none;
+        }
+
+        @media (max-width: 700px) {
+            .featured-content {
+                flex-direction: column;
+            }
+            .featured-image {
+                width: 100%;
+                height: 200px;
+            }
+        }
+
         /* Four columns */
         .columns {
             display: grid;
@@ -770,9 +808,14 @@
         <!-- Featured Article (loaded from articles.json) -->
         <article class="featured" id="featured">
             <div class="featured-label">Editor's Pick</div>
-            <h2><a href="#" id="featured-link">Loading...</a></h2>
-            <p id="featured-teaser"></p>
-            <div class="source" id="featured-source"></div>
+            <div class="featured-content">
+                <img id="featured-image" class="featured-image" alt="">
+                <div class="featured-text">
+                    <h2><a href="#" id="featured-link">Loading...</a></h2>
+                    <p id="featured-teaser"></p>
+                    <div class="source" id="featured-source"></div>
+                </div>
+            </div>
         </article>
 
         <!-- Four Columns (loaded from articles.json) -->
@@ -842,6 +885,15 @@
                 document.getElementById('featured-link').textContent = featured.headline;
                 document.getElementById('featured-teaser').textContent = featured.teaser;
                 document.getElementById('featured-source').textContent = featured.source;
+
+                // Featured image
+                const featuredImg = document.getElementById('featured-image');
+                if (featured.imageUrl) {
+                    featuredImg.src = featured.imageUrl;
+                    featuredImg.onerror = () => { featuredImg.style.display = 'none'; };
+                } else {
+                    featuredImg.style.display = 'none';
+                }
 
                 // Render each category (show first 6 on front page)
                 const FRONT_PAGE_LIMIT = 6;
