@@ -27,7 +27,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --text-dark: #1a1a1a;
@@ -131,12 +131,26 @@
             min-width: 0;
         }
 
-        /* Header */
+        /* Header with logo background */
         header {
             position: relative;
-            background: var(--bg-white);
-            border-bottom: 1px solid var(--border-light);
-            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d1b4e 50%, #4a1942 100%);
+            border-bottom: none;
+            padding: 2rem;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300px;
+            background: url('sps-icon.png') center/contain no-repeat;
+            opacity: 0.15;
+            pointer-events: none;
         }
 
         .header-container {
@@ -145,6 +159,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+            z-index: 1;
         }
 
         .masthead {
@@ -156,22 +172,39 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 1.5rem;
+            gap: 1rem;
             margin-bottom: 0.5rem;
         }
 
         .masthead-icon {
-            width: 140px;
-            height: 140px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
             flex-shrink: 0;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            border: 3px solid rgba(255,255,255,0.3);
         }
 
-        /* SPS colored letters */
-        .site-title .s1 { color: #2563eb; }  /* Science - blue */
-        .site-title .p1 { color: #7c3aed; }  /* Philosophy - purple */
-        .site-title .s2 { color: #dc2626; }  /* Society - red */
+        /* SPS in vibrant colors - old school serif */
+        .site-title .sps {
+            font-family: 'Playfair Display', 'Georgia', serif;
+            font-size: 4rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .site-title .s1 { color: #60a5fa; }  /* Science - bright blue */
+        .site-title .p1 { color: #c084fc; }  /* Philosophy - bright purple */
+        .site-title .s2 { color: #fb7185; }  /* Society - bright rose */
+
+        .site-title .daily {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: 0.3em;
+            color: rgba(255,255,255,0.9);
+            margin-left: 0.5rem;
+        }
 
         .header-right {
             display: flex;
@@ -186,15 +219,15 @@
             width: 32px;
             height: 32px;
             border-radius: 50%;
-            background: var(--border-light);
-            color: var(--text-medium);
+            background: rgba(255,255,255,0.15);
+            color: rgba(255,255,255,0.8);
             text-decoration: none;
             font-size: 0.9rem;
             transition: all 0.2s;
         }
 
         .social-btn:hover {
-            background: var(--accent-blue);
+            background: rgba(255,255,255,0.3);
             color: #fff;
         }
 
@@ -211,28 +244,26 @@
         }
 
         .tagline {
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-style: italic;
-            color: var(--text-light);
+            color: rgba(255,255,255,0.8);
             margin-bottom: 0.5rem;
+            letter-spacing: 0.1em;
         }
 
         .motto {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 0.85rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            color: var(--accent-blue);
-            text-transform: uppercase;
+            font-size: 0.9rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: rgba(255,255,255,0.6);
         }
 
         .date-line {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 0.9rem;
-            color: var(--text-light);
-            margin-top: 0.75rem;
-            padding-top: 0.75rem;
-            border-top: 1px solid var(--border-light);
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.5);
+            margin-top: 0.5rem;
         }
 
         /* Navigation */
@@ -550,23 +581,21 @@
 
         /* Theme Toggle */
         .theme-toggle {
-            position: absolute;
-            top: 1.5rem;
-            right: 2rem;
-            background: none;
-            border: 1px solid var(--border-light);
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
             border-radius: 20px;
             padding: 0.4rem 0.8rem;
             cursor: pointer;
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 0.8rem;
-            color: var(--text-medium);
+            color: rgba(255,255,255,0.8);
             transition: all 0.2s;
         }
 
         .theme-toggle:hover {
-            border-color: var(--accent-red);
-            color: var(--accent-red);
+            background: rgba(255,255,255,0.25);
+            border-color: rgba(255,255,255,0.5);
+            color: #fff;
         }
 
         /* Subscribe box */
@@ -714,10 +743,13 @@
             <div class="masthead">
                 <div class="title-row">
                     <img src="sps-icon.png" alt="SPS Daily" class="masthead-icon">
-                    <h1 class="site-title"><span class="s1">S</span><span class="p1">P</span><span class="s2">S</span> DAILY</h1>
+                    <h1 class="site-title">
+                        <span class="sps"><span class="s1">S</span><span class="p1">P</span><span class="s2">S</span></span>
+                        <span class="daily">DAILY</span>
+                    </h1>
                 </div>
-                <p class="tagline">Science, Philosophy & Society</p>
-                <p class="motto">Ekum Sat — Truth is One</p>
+                <p class="tagline">Science · Philosophy · Society</p>
+                <p class="motto">एकं सत् — Truth is One</p>
                 <p class="date-line" id="date-line"></p>
             </div>
             <div class="header-right">
