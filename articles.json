@@ -250,6 +250,14 @@
   ],
   "books": [
     {
+      "headline": "The best books of the week",
+      "teaser": "Why Arctic land-grabs could lead to war; the highs and lows of David Bowie\u2019s later music; the harms caused by our demand for \u2018green\u2019 batteries; Julian Barnes\u2019s reflections on life and loss; biting...",
+      "source": "Financial Times Books",
+      "url": "https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989",
+      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe6ad43d9-a35b-4439-ba99-25b45bd43736.png?source=next-barrier-page",
+      "archiveUrl": "http://web.archive.org/web/20251228191506/https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989"
+    },
+    {
       "headline": "The best recent science fiction, fantasy and horror \u2013 review roundup",
       "teaser": "Godfall by Van Jensen; The Salt Bind by Rebecca Ferrier; The Poet Empress by Shen Tao; A Hole in the Sky by Peter F Hamilton; Hello Earth, Are You There? by Brian AldissGodfall by Van Jensen (Bantam,...",
       "source": "Guardian Books",
@@ -337,12 +345,6 @@
       "teaser": "With his haunting exhibition, Passages, the Guyanese-British artist reminds us that when we survive, so do our ghosts and our wounds.",
       "source": "Hyperallergic",
       "url": "https://hyperallergic.com/what-hew-locke-carries/"
-    },
-    {
-      "headline": "In 2026, Democracy Needs Museums",
-      "teaser": "As the United States marks its 250th, institutions must resist the pull to simply commemorate and instead communicate the relevance of history.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/in-2026-democracy-needs-museums/"
     }
   ]
 }

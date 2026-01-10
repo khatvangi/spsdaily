@@ -32,6 +32,12 @@
     ],
     "books": [
       {
+        "headline": "The best books of the week",
+        "teaser": "Why Arctic land-grabs could lead to war; the highs and lows of David Bowie\u2019s later music; the harms caused by our demand for \u2018green\u2019 batteries; Julian Barnes\u2019s reflections on life and loss; biting...",
+        "source": "Financial Times Books",
+        "url": "https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989"
+      },
+      {
         "headline": "The best recent science fiction, fantasy and horror \u2013 review roundup",
         "teaser": "Godfall by Van Jensen; The Salt Bind by Rebecca Ferrier; The Poet Empress by Shen Tao; A Hole in the Sky by Peter F Hamilton; Hello Earth, Are You There? by Brian AldissGodfall by Van Jensen (Bantam,...",
         "source": "Guardian Books",
