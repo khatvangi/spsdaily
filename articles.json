@@ -1,15 +1,22 @@
 {
-  "lastUpdated": "2026-01-10",
+  "lastUpdated": "2026-01-11",
   "editorsPick": {
-    "headline": "Why Is Greenland Part of the Kingdom of Denmark? A Short History",
-    "teaser": "Discussed on Hacker News with 88 points",
-    "source": "Hacker News",
-    "url": "https://www.diis.dk/en/research/why-is-greenland-part-of-the-kingdom-of-denmark-a-short-history",
-    "imageUrl": "https://www.diis.dk/files/styles/open_graph/public/media/image/KRABBE%2801%29_Greenland._The_town_Julianeh%C3%A5b_-_Qaqortoq_%2812049042925%29.jpg?itok=A_5j-tZw",
-    "archiveUrl": "http://web.archive.org/web/20260110165044/https://www.diis.dk/en/research/why-is-greenland-part-of-the-kingdom-of-denmark-a-short-history",
-    "approvedDate": "2026-01-10"
+    "headline": "Want to Stop Doomscrolling? You Might Need a Sleep Coach",
+    "teaser": "Traditionally sleep coaches treat babies. But now more and more anxious, screen-attached grownups are the ones who need nursing.",
+    "source": "Wired",
+    "url": "https://www.wired.com/story/your-next-job-sleep-coach/",
+    "imageUrl": "https://media.wired.com/photos/695e45533b190d48c28a907d/191:100/w_1280,c_limit/YNJ-sleep-coach-final.jpg",
+    "approvedDate": "2026-01-11"
   },
   "science": [
+    {
+      "headline": "Want to Stop Doomscrolling? You Might Need a Sleep Coach",
+      "teaser": "Traditionally sleep coaches treat babies. But now more and more anxious, screen-attached grownups are the ones who need nursing.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/your-next-job-sleep-coach/",
+      "imageUrl": "https://media.wired.com/photos/695e45533b190d48c28a907d/191:100/w_1280,c_limit/YNJ-sleep-coach-final.jpg",
+      "approvedDate": "2026-01-11"
+    },
     {
       "headline": "Cloudspecs: Cloud Hardware Evolution Through the Looking Glass",
       "teaser": "Discussed on Hacker News with 52 points",
