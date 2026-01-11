@@ -10,7 +10,14 @@
     ],
     "philosophy": [],
     "society": [],
-    "books": []
+    "books": [
+      {
+        "headline": "Why men should really be reading more fiction",
+        "teaser": "Novels require a kind of attention that the modern world is steadily eroding",
+        "source": "Financial Times Books",
+        "url": "https://www.ft.com/content/da33f535-9171-4163-a773-ac64c753c6c6"
+      }
+    ]
   },
   "2026-01-10": {
     "science": [
