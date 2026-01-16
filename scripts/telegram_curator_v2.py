@@ -301,14 +301,19 @@ def handle_callback(callback_data, pending, approved):
 
     changed = False
 
+    # check for duplicates across ALL categories
+    all_urls = set()
+    for cat in CATEGORIES:
+        for a in live_articles.get(cat, []):
+            all_urls.add(a.get('url'))
+
     if action == "approve":
         if category not in live_articles:
             live_articles[category] = []
 
-        # check if already there
-        existing_urls = {a.get('url') for a in live_articles[category]}
-        if article['url'] in existing_urls:
-            return "Already live"
+        # duplicate check
+        if article['url'] in all_urls:
+            return "DUPLICATE - already live"
 
         article['approvedDate'] = date.today().isoformat()
         live_articles[category].insert(0, article)
@@ -343,8 +348,8 @@ def handle_callback(callback_data, pending, approved):
         if category not in live_articles:
             live_articles[category] = []
 
-        existing_urls = {a.get('url') for a in live_articles[category]}
-        if article['url'] not in existing_urls:
+        # add to category if not already there (use global duplicate check)
+        if article['url'] not in all_urls:
             article['approvedDate'] = date.today().isoformat()
             live_articles[category].insert(0, article)
             add_to_archive(article, category)
