@@ -4,93 +4,105 @@ Curated digest of the best writing on science, philosophy, and society. Inspired
 
 **Live site:** https://spsdaily.thebeakers.com
 
-## Architecture
+## Architecture (v2)
 
 ```
 /storage/spsdaily/
-├── index.html              # Main page (4 columns: Science, Philosophy, Society, Books)
-├── articles.json           # Live articles data
+├── index.html              # Main page (5 columns: Science, Philosophy, Society, Books, Essays)
+├── articles.json           # Live articles (this week only)
+├── archive.json            # All approved articles (permanent)
+├── config/
+│   ├── feeds.txt           # RSS sources (plain text, easy to edit)
+│   ├── blocklist.txt       # Blocked domains
+│   ├── spsdaily_quality.json      # Word count thresholds
+│   └── spsdaily_source_weights.json  # Source reputation
 ├── scripts/
-│   ├── feed_collector.py   # Fetches from 100+ RSS feeds
-│   ├── telegram_curator.py # Telegram bot for curation
-│   ├── run_collector.sh    # Runner script for systemd
-│   └── spsdaily-collector.timer  # Runs at 6 AM & 6 PM
+│   ├── feed_collector_v2.py    # Quality-gated collector
+│   ├── telegram_curator_v2.py  # Telegram bot
+│   └── weekly_cleanup.sh       # Cron job for 7-day rotation
 ├── pending_articles.json   # Articles awaiting review
-├── approved_articles.json  # Approved articles buffer
-└── docs/MANUAL.md          # Operations manual
+└── data/articles.db        # SQLite (seen articles, archive)
 ```
 
-## Workflow
+## Workflow (v2)
 
-1. **Collector** runs twice daily (6 AM, 6 PM) via systemd timer
-2. **Telegram bot** (@spsdaily_ghatoth_bot) sends articles for review
+1. **Collector** fetches RSS, applies quality gates (word count, reputation, clickbait filter)
+2. **Telegram bot** sends filtered articles for review
 3. **Curator** taps buttons:
    - ✅ Approve → article goes live immediately
    - ❌ Reject → article removed
    - ⭐ Editor's Pick → sets featured article
-4. **Git push** deploys changes to GitHub Pages
+4. **Weekly cleanup** removes articles older than 7 days (keeps in archive)
+
+## Quality Gates
+
+- **Word count:** 600-1000 minimum by category (the real filter)
+- **Source reputation:** Aeon +3, Phys.org -1, etc.
+- **Blocklist:** psychologytoday.com, wired.com, medium.com, etc.
+- **Clickbait patterns:** "10 ways to...", "you won't believe", etc.
 
 ## Key Commands
 
 ```bash
 # Run collector manually
-/home/kiran/miniconda3/bin/python3 scripts/feed_collector.py
+/home/kiran/miniconda3/bin/python3 scripts/feed_collector_v2.py
 
 # Start Telegram curator bot
-nohup /home/kiran/miniconda3/bin/python3 scripts/telegram_curator.py > logs/curator.log 2>&1 &
+nohup /home/kiran/miniconda3/bin/python3 scripts/telegram_curator_v2.py > logs/curator_v2.log 2>&1 &
 
 # Send articles for review
-/home/kiran/miniconda3/bin/python3 scripts/telegram_curator.py send
+/home/kiran/miniconda3/bin/python3 scripts/telegram_curator_v2.py send
 
 # Check bot status
-ps aux | grep telegram_curator
-
-# Push updates to website
-git add articles.json && git commit -m "Update" && git push
+ps aux | grep telegram_curator_v2
 ```
 
 ## Telegram Bot
 
-- **Bot:** @spsdaily_ghatoth_bot
-- **Token:** 8516392118:AAEIybKb68Gfl0kTpzKkbCKtUl1OtRqMwtY
+- **Bot:** @Spsdaily_curator_bot
+- **Token:** 7834236484:AAEoCiumnN_93-y6LwFIMLuq3zRgOUwW_BY
 - **Chat ID:** 5314021805
 
 ### Bot Commands
-- `/review` - Send all articles for review
-- `/status` - Show approved counts
-- `/publish` - Publish approved (batch mode)
+- `/review` - Send articles for review
+- `/status` - Show live article counts
+- `/cleanup` - Remove articles older than 7 days
 - `/help` - Show help
 
-## Configuration
+## Editing Feeds
 
-In `scripts/feed_collector.py`:
-```python
-USE_AI_FILTER = False  # AI filtering disabled (manual curation)
-socket.setdefaulttimeout(15)  # 15-second timeout for slow feeds
+Plain text files - just edit directly:
+
+**config/feeds.txt** - Add/remove sources:
+```
+[science]
+Quanta Magazine | https://api.quantamagazine.org/feed/
 ```
 
-## RSS Sources
+**config/blocklist.txt** - Block domains:
+```
+psychologytoday.com
+wired.com
+```
 
-- **Science:** 13 sources (Scientific American, Nautilus, Wired, etc.)
-- **Philosophy:** 19 sources (Aeon, 3 Quarks Daily, First Things, etc.)
-- **Society:** 50 sources (Atlantic, New Yorker, Foreign Affairs, etc.)
-- **Books:** 23 sources (NYRB, LRB, TLS, Guardian Books, etc.)
+## RSS Sources (v2 - Curated)
 
-## Systemd Timer
+- **Science:** 14 sources (Quanta, Nautilus, Nature, Science, C&EN, etc.)
+- **Philosophy:** 16 sources (Aeon, NDPR, Daily Nous, Hedgehog Review, etc.)
+- **Society:** 20 sources (Noema, Atlantic, New Yorker, Foreign Affairs, etc.)
+- **Books:** 11 sources (NYRB, LRB, TLS, LA Review of Books, etc.)
+- **Essays:** 12 sources (Granta, Paris Review, Guernica, etc.)
+
+## Cron Jobs
 
 ```bash
-# Check timer status
-systemctl list-timers | grep spsdaily
+# Weekly cleanup (Sunday 6 AM)
+0 6 * * 0 /storage/spsdaily/scripts/weekly_cleanup.sh
 
-# View logs
-sudo journalctl -u spsdaily-collector.service
-
-# Restart timer
-sudo systemctl restart spsdaily-collector.timer
+# Check crontab
+crontab -l | grep spsdaily
 ```
 
-## Newsletter
+## See Also
 
-- **Platform:** Listmonk (self-hosted)
-- **URL:** https://newsletter.thebeakers.com
-- **List ID:** a5887db5-f279-42b5-aea6-0b3f660854dd
+- `LESSONS_LEARNED.md` - Design decisions and insights
