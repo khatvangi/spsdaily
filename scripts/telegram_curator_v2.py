@@ -428,11 +428,20 @@ def run_curator():
                         else:
                             send_message("No articles.json found")
 
+                    elif text == "/cleanup":
+                        removed = cleanup_old_articles()
+                        if removed > 0:
+                            git_push()
+                            send_message(f"Cleaned {removed} old articles (moved to archive)")
+                        else:
+                            send_message("No old articles to clean")
+
                     elif text == "/help":
                         send_message(
                             "<b>SPS Daily Curator v2</b>\n\n"
                             "/review - Send articles for review\n"
                             "/status - Show live article counts\n"
+                            "/cleanup - Remove articles older than 7 days\n"
                             "/help - This message"
                         )
 
