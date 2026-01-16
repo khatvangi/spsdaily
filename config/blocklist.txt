@@ -1,0 +1,24 @@
+# Blocked domains - articles from these sites are rejected
+# One domain per line, no http/https needed
+# Lines starting with # are comments
+
+# content farms
+medium.com
+towardsdatascience.com
+substack.com
+
+# social media
+linkedin.com
+facebook.com
+twitter.com
+reddit.com
+
+# clickbait sites
+buzzfeed.com
+huffpost.com
+vice.com
+vox.com
+
+# low quality science
+psychologytoday.com
+wired.com

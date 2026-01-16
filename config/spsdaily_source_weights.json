@@ -1,0 +1,57 @@
+{
+  "_comment": "weights reflect depth/rigor tradition, not political leaning. +3 = top tier, +2 = excellent, +1 = good, 0 = neutral, -1 = noisy, -2 = avoid",
+
+  "domain_weight": {
+    "aeon.co": 3,
+    "api.quantamagazine.org": 3,
+    "quantamagazine.org": 3,
+    "noemamag.com": 3,
+    "nybooks.com": 3,
+    "lrb.co.uk": 3,
+    "ndpr.nd.edu": 3,
+    "granta.com": 3,
+    "theparisreview.org": 3,
+
+    "nautil.us": 2,
+    "knowablemagazine.org": 2,
+    "undark.org": 2,
+    "hedgehogreview.com": 2,
+    "thepointmag.com": 2,
+    "publicdomainreview.org": 2,
+    "bostonreview.net": 2,
+    "foreignaffairs.com": 2,
+    "lareviewofbooks.org": 2,
+    "the-tls.co.uk": 2,
+    "guernicamag.com": 2,
+    "thewhitereview.org": 2,
+    "nplusonemag.com": 2,
+    "thebaffler.com": 2,
+
+    "theatlantic.com": 1,
+    "newyorker.com": 1,
+    "harpers.org": 1,
+    "daily.jstor.org": 1,
+    "science.org": 1,
+    "nature.com": 1,
+    "pnas.org": 1,
+    "elifesciences.org": 1,
+    "technologyreview.com": 1,
+    "americanscientist.org": 1,
+    "firstthings.com": 1,
+    "commonwealmagazine.org": 1,
+    "newstatesman.com": 1,
+    "prospectmagazine.co.uk": 1,
+
+    "phys.org": -1,
+    "sciencedaily.com": -1,
+    "newscientist.com": 0,
+    "smithsonianmag.com": 0
+  },
+
+  "_comment_source": "per-source overrides if domain weight is wrong",
+  "source_weight": {
+    "C&EN (ACS)": 2,
+    "Edge": 2,
+    "Pew Research": 1
+  }
+}

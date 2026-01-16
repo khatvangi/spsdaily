@@ -1,0 +1,56 @@
+{
+  "max_age_days": 7,
+  "select_per_category": 15,
+  "overfetch_factor": 4,
+  "timeout_sec": 20,
+  "user_agent": "SPSDailyCollector/2.0 (+https://spsdaily.thebeakers.com)",
+
+  "_comment_min_words": "the real quality gate - filters news briefs, listicles, short takes",
+  "min_words": {
+    "science": 600,
+    "philosophy": 800,
+    "society": 700,
+    "books": 600,
+    "essays": 1000
+  },
+
+  "_comment_domain_min": "higher bars for prolific/noisy sources",
+  "domain_min_words": {
+    "phys.org": 1000,
+    "sciencedaily.com": 1200,
+    "theatlantic.com": 800,
+    "newyorker.com": 900
+  },
+
+  "_comment_blocklist": "content farms and social media - not topic based",
+  "domain_blocklist": [
+    "medium.com",
+    "towardsdatascience.com",
+    "substack.com",
+    "linkedin.com",
+    "facebook.com",
+    "twitter.com",
+    "reddit.com",
+    "buzzfeed.com",
+    "huffpost.com",
+    "vice.com",
+    "vox.com",
+    "psychologytoday.com",
+    "wired.com"
+  ],
+
+  "_comment_clickbait": "structural patterns that indicate low-effort content",
+  "clickbait_patterns": [
+    "^\\s*\\d+\\s+(ways|things|reasons|signs|habits|tips|steps|facts|secrets)\\b",
+    "\\b(you won't believe|mind[-\\s]?blowing|shocking|jaw[-\\s]?dropping)\\b",
+    "\\b(this one trick|life[-\\s]?changing|game[-\\s]?changer)\\b",
+    "\\b(what you need to know|here's why|the truth about)\\b",
+    "\\b(hack|hacks|tips and tricks|simple trick|easy ways)\\b",
+    "\\b(destroyed|obliterated|slammed|blasted|ripped)\\b",
+    "\\b(BREAKING|JUST IN|WATCH|UPDATE)\\b",
+    "\\?\\s*$"
+  ],
+
+  "_comment_teaser": "minimum teaser length signals substantive content",
+  "min_teaser_length": 60
+}

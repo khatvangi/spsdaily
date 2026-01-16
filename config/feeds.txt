@@ -1,0 +1,88 @@
+# SPS Daily Feed Sources
+# Format: Name | URL
+# Lines starting with # are comments
+# Empty lines are ignored
+# Categories marked with [category]
+
+[science]
+Quanta Magazine | https://api.quantamagazine.org/feed/
+Knowable Magazine | https://knowablemagazine.org/rss
+Undark | https://undark.org/feed/
+Nautilus | https://nautil.us/feed/
+Science Magazine | https://www.science.org/rss/news_current.xml
+Nature News | https://www.nature.com/nature.rss
+PNAS | https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas
+eLife | https://elifesciences.org/rss.xml
+C&EN (ACS) | https://cen.acs.org/rss/cen_latestnews.xml
+American Scientist | https://www.americanscientist.org/rss
+MIT Tech Review | https://www.technologyreview.com/feed/
+New Scientist | https://www.newscientist.com/feed/home/
+Smithsonian Magazine | https://www.smithsonianmag.com/rss/articles/
+Edge | https://www.edge.org/feed
+
+[philosophy]
+Aeon | https://aeon.co/feed.rss
+NDPR | https://ndpr.nd.edu/feed/
+Daily Nous | https://dailynous.com/feed/
+The Point | https://thepointmag.com/feed/
+Hedgehog Review | https://hedgehogreview.com/feed
+Public Domain Review | https://publicdomainreview.org/rss.xml
+Philosophy Now | https://philosophynow.org/rss
+New Atlantis | https://www.thenewatlantis.com/rss
+First Things | https://www.firstthings.com/rss
+Commonweal | https://www.commonwealmagazine.org/rss.xml
+Liberties | https://libertiesjournal.com/feed/
+The Drift | https://www.thedriftmag.com/feed/
+3 Quarks Daily | https://3quarksdaily.com/feed/
+Lapham's Quarterly | https://www.laphamsquarterly.org/feed
+The Smart Set | https://thesmartset.com/feed/
+The New Inquiry | https://thenewinquiry.com/feed/
+
+[society]
+Noema | https://www.noemamag.com/feed/
+Boston Review | https://bostonreview.net/feed/
+The Atlantic | https://www.theatlantic.com/feed/all/
+JSTOR Daily | https://daily.jstor.org/feed/
+The New Yorker | https://www.newyorker.com/feed/everything
+Harper's | https://harpers.org/feed/
+n+1 | https://www.nplusonemag.com/feed/
+The Baffler | https://thebaffler.com/feed
+American Scholar | https://theamericanscholar.org/feed/
+Dissent | https://www.dissentmagazine.org/feed
+Foreign Affairs | https://www.foreignaffairs.com/rss.xml
+Project Syndicate | https://www.project-syndicate.org/rss
+New Statesman | https://www.newstatesman.com/feed
+Prospect | https://www.prospectmagazine.co.uk/feed
+Eurozine | https://www.eurozine.com/feed/
+The Walrus | https://thewalrus.ca/feed/
+Open Democracy | https://www.opendemocracy.net/en/rss/
+Current Affairs | https://www.currentaffairs.org/feed
+City Journal | https://www.city-journal.org/feed
+Pew Research | https://www.pewresearch.org/feed/
+
+[books]
+NY Review of Books | https://www.nybooks.com/feed/
+London Review of Books | https://www.lrb.co.uk/feed
+TLS | https://www.the-tls.co.uk/feed/
+LA Review of Books | https://lareviewofbooks.org/feed/
+Literary Review | https://literaryreview.co.uk/feed
+The Millions | https://themillions.com/feed
+Public Books | https://www.publicbooks.org/feed/
+Complete Review | https://www.complete-review.com/new/new.xml
+Sydney Review of Books | https://sydneyreviewofbooks.com/feed/
+Dublin Review of Books | https://drb.ie/feed/
+Jewish Review of Books | https://jewishreviewofbooks.com/feed/
+
+[essays]
+Granta | https://granta.com/feed/
+Paris Review | https://www.theparisreview.org/blog/feed/
+Guernica | https://www.guernicamag.com/feed/
+The White Review | https://www.thewhitereview.org/feed/
+Yale Review | https://yalereview.org/feed
+Hudson Review | https://hudsonreview.com/feed/
+Threepenny Review | https://www.threepennyreview.com/feed.xml
+Electric Literature | https://electricliterature.com/feed/
+The Believer | https://believermag.com/feed/
+VQR | https://www.vqronline.org/rss.xml
+Ploughshares | https://blog.pshares.org/feed/
+Kenyon Review | https://kenyonreview.org/feed/
