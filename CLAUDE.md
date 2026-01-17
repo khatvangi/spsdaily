@@ -4,7 +4,7 @@ Curated digest of the best writing on science, philosophy, and society. Inspired
 
 **Live site:** https://spsdaily.thebeakers.com
 
-## Architecture (v2)
+## Architecture
 
 ```
 /storage/spsdaily/
@@ -17,14 +17,14 @@ Curated digest of the best writing on science, philosophy, and society. Inspired
 │   ├── spsdaily_quality.json      # Word count thresholds
 │   └── spsdaily_source_weights.json  # Source reputation
 ├── scripts/
-│   ├── feed_collector_v2.py    # Quality-gated collector
-│   ├── telegram_curator_v2.py  # Telegram bot
+│   ├── feed_collector.py       # Quality-gated collector
+│   ├── telegram_curator.py     # Telegram bot
 │   └── weekly_cleanup.sh       # Cron job for 7-day rotation
 ├── pending_articles.json   # Articles awaiting review
 └── data/articles.db        # SQLite (seen articles, archive)
 ```
 
-## Workflow (v2)
+## Workflow
 
 1. **Collector** fetches RSS, applies quality gates (word count, reputation, clickbait filter)
 2. **Telegram bot** sends filtered articles for review
@@ -45,16 +45,16 @@ Curated digest of the best writing on science, philosophy, and society. Inspired
 
 ```bash
 # Run collector manually
-/home/kiran/miniconda3/bin/python3 scripts/feed_collector_v2.py
+/home/kiran/miniconda3/bin/python3 scripts/feed_collector.py
 
 # Start Telegram curator bot
-nohup /home/kiran/miniconda3/bin/python3 scripts/telegram_curator_v2.py > logs/curator_v2.log 2>&1 &
+nohup /home/kiran/miniconda3/bin/python3 scripts/telegram_curator.py > logs/curator.log 2>&1 &
 
 # Send articles for review
-/home/kiran/miniconda3/bin/python3 scripts/telegram_curator_v2.py send
+/home/kiran/miniconda3/bin/python3 scripts/telegram_curator.py send
 
 # Check bot status
-ps aux | grep telegram_curator_v2
+ps aux | grep telegram_curator
 ```
 
 ## Telegram Bot
@@ -85,7 +85,7 @@ psychologytoday.com
 wired.com
 ```
 
-## RSS Sources (v2 - Curated)
+## RSS Sources
 
 - **Science:** 14 sources (Quanta, Nautilus, Nature, Science, C&EN, etc.)
 - **Philosophy:** 16 sources (Aeon, NDPR, Daily Nous, Hedgehog Review, etc.)
