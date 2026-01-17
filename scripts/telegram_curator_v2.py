@@ -164,12 +164,16 @@ def send_article_for_review(article, category, index):
     if archive_url:
         links += f' | <a href="{archive_url}">Archive</a>'
 
+    # TLDR "why this might interest you"
+    tldr = article.get('tldr')
+    tldr_line = f"\n<b>Why read:</b> <i>{html.escape(tldr)}</i>\n" if tldr else ""
+
     text = f"""<b>{category.upper()}</b>
 {metrics_line}
 <b>{headline}</b>
 
 {teaser}
-
+{tldr_line}
 <i>Source: {source}</i>
 {links}"""
 

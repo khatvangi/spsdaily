@@ -502,6 +502,27 @@
             text-decoration: none;
         }
 
+        /* TLDR "why read" styling */
+        .tldr {
+            font-size: 0.8rem;
+            font-style: italic;
+            color: var(--accent-red);
+            margin: 0.5rem 0;
+            padding: 0.4rem 0.6rem;
+            background: rgba(139, 0, 0, 0.06);
+            border-left: 2px solid var(--accent-red);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .tldr-label {
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        [data-theme="dark"] .tldr {
+            background: rgba(207, 102, 121, 0.1);
+        }
+
         /* fallback for articles without images */
         .article-card.no-image .card-content {
             padding: 1rem;
@@ -943,6 +964,7 @@
                                 <div class="card-content">
                                     <h3>${article.headline}</h3>
                                     <p>${article.teaser}</p>
+                                    ${article.tldr ? `<p class="tldr"><span class="tldr-label">Why read:</span> ${article.tldr}</p>` : ''}
                                     <div class="meta">
                                         <span class="source">${article.source}</span>
                                         ${article.archiveUrl ? `<a href="${article.archiveUrl}" target="_blank" class="archive-link" title="View archived version" onclick="event.stopPropagation()">archive</a>` : ''}

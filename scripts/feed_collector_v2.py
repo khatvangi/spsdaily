@@ -152,6 +152,55 @@ def looks_clickbaity(text: str, patterns: list[str]) -> bool:
     return any(re.search(p, t, flags=re.IGNORECASE) for p in patterns)
 
 
+def generate_tldr(headline: str, teaser: str, category: str) -> str | None:
+    """generate 'why this might interest you' using Ollama"""
+    import subprocess
+
+    prompt = f"""Article: {headline}
+Summary: {teaser[:150]}
+
+Write ONE sentence (max 12 words) saying why this matters. Start with a verb.
+
+BANNED words: groundbreaking, innovative, transformative, revolutionary, cutting-edge, game-changing, fascinating, intriguing, compelling, remarkable, unprecedented, paradigm, synergy, leverage, holistic, deep dive, unpack, explore, delve, journey, landscape, robust, scalable, ecosystem
+
+Good examples:
+- Overturns a century of physics assumptions.
+- Shows how bacteria communicate like neurons.
+- Connects ancient philosophy to modern ethics.
+
+Bad examples (DO NOT write like this):
+- Offers fascinating insights into...
+- Explores the compelling landscape of...
+- Presents a groundbreaking approach to...
+
+Your sentence (plain, direct, no fluff):"""
+
+    try:
+        result = subprocess.run(
+            ["ollama", "run", "llama3.2:3b", prompt],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        tldr = result.stdout.strip()
+        # clean up
+        tldr = tldr.strip('"\'.-').strip()
+        # remove common preambles
+        for prefix in ["This article ", "The article ", "It ", "This "]:
+            if tldr.startswith(prefix):
+                tldr = tldr[len(prefix):]
+                tldr = tldr[0].upper() + tldr[1:] if tldr else tldr
+        # truncate if too long (take first sentence)
+        if '.' in tldr:
+            tldr = tldr.split('.')[0].strip()
+        # final length check
+        if tldr and 10 < len(tldr) < 120:
+            return tldr
+    except Exception:
+        pass
+    return None
+
+
 # --- database ---
 
 def init_db() -> sqlite3.Connection:
@@ -407,6 +456,9 @@ def main():
             # check archive.org
             archive_url = check_archive_url(c.url)
 
+            # generate TLDR "why this might interest you"
+            tldr = generate_tldr(c.headline, c.teaser, cat)
+
             article_data = {
                 "headline": c.headline,
                 "teaser": c.teaser,
@@ -420,10 +472,17 @@ def main():
             }
             if archive_url:
                 article_data["archiveUrl"] = archive_url
+            if tldr:
+                article_data["tldr"] = tldr
 
             kept[cat].append(article_data)
-            archive_note = " [archived]" if archive_url else ""
-            print(f"    [{checked}/{total_to_check}] KEEP {c.word_count}w{archive_note}: {c.headline[:45]}...")
+            extras = []
+            if archive_url:
+                extras.append("archived")
+            if tldr:
+                extras.append("tldr")
+            extras_note = f" [{', '.join(extras)}]" if extras else ""
+            print(f"    [{checked}/{total_to_check}] KEEP {c.word_count}w{extras_note}: {c.headline[:40]}...")
 
         # sort by final score and limit
         kept[cat].sort(key=lambda x: x.get("score", 0), reverse=True)
