@@ -34,9 +34,9 @@ cd "$SPSDAILY_DIR" || exit 1
 echo "$(date): Pulling latest changes..." >> "$LOG_FILE"
 git pull >> "$LOG_FILE" 2>&1
 
-# Run the collector
-echo "$(date): Running feed collector..." >> "$LOG_FILE"
-$PYTHON scripts/feed_collector.py >> "$LOG_FILE" 2>&1
+# Run the v2 collector (quality-gated)
+echo "$(date): Running feed collector v2..." >> "$LOG_FILE"
+$PYTHON scripts/feed_collector_v2.py >> "$LOG_FILE" 2>&1
 COLLECTOR_STATUS=$?
 
 if [ $COLLECTOR_STATUS -ne 0 ]; then
@@ -44,8 +44,8 @@ if [ $COLLECTOR_STATUS -ne 0 ]; then
     exit 1
 fi
 
-# Articles now go to pending_articles.json for Telegram curation
-# No auto-push - curator bot handles publishing after review
-echo "$(date): Articles collected to pending_articles.json" >> "$LOG_FILE"
-echo "$(date): Use /review in Telegram bot to curate and publish" >> "$LOG_FILE"
-echo "$(date): Collector finished successfully" >> "$LOG_FILE"
+# Send articles to Telegram for curation
+echo "$(date): Sending articles to Telegram..." >> "$LOG_FILE"
+$PYTHON scripts/telegram_curator_v2.py send >> "$LOG_FILE" 2>&1
+
+echo "$(date): Collector finished - check Telegram for articles" >> "$LOG_FILE"
