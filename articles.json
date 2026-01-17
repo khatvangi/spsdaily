@@ -1,682 +1,119 @@
 {
-  "lastUpdated": "2026-01-17",
-  "editorsPick": {
-    "headline": "9 Venezuelan Books That Imagine Home from Abroad",
-    "teaser": "Growing up in Caracas in the \u201890s, I remember seeing a series of posters advertising Venezuela\u2019s most important tourist destinations, such as El Salto \u00c1ngel, Canaima National Park, and the Los Roques archipelago. The caption \u201cVenezuela, el secreto mejor guardado del Caribe\u201d\u2014\u201cthe best kept secret of ",
-    "url": "https://electricliterature.com/9-venezuelan-books-that-imagine-home-from-abroad/",
-    "source": "Electric Literature",
-    "domain": "electricliterature.com",
-    "published": "2026-01-14T12:05:00+00:00",
-    "word_count": 1681,
-    "reading_min": 8,
-    "score": 3.23,
-    "tldr": "Challenges long-held notions about Venezuela's tourist appeal and identity"
-  },
   "science": [
     {
-      "headline": "How Coastlines Shape the Extinction Risk for Marine Invertebrates",
-      "teaser": "Invertebrates that lived on north-south coastlines had better chances of survival The post How Coastlines Shape the Extinction Risk for Marine Invertebrates appeared first on Nautilus .",
-      "url": "https://nautil.us/how-coastlines-shape-the-extinction-risk-for-marine-invertebrates-1261955/",
-      "source": "Nautilus",
-      "domain": "nautil.us",
-      "published": "2026-01-16T18:03:10+00:00",
-      "word_count": 825,
-      "reading_min": 4,
-      "score": 4.92,
-      "tldr": "Reveals how coastline orientation affects invertebrate extinction risk",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "Making progress on global health will need high-quality evidence",
-      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00073-2 Nature Health, the newest journal in the Nature Portfolio, aims to bridge the \u2018implementation gap\u2019 from research to policy and practice.",
-      "url": "https://www.nature.com/articles/d41586-026-00073-2",
-      "source": "Nature News",
-      "domain": "nature.com",
-      "published": "2026-01-15T00:00:00+00:00",
-      "word_count": 1210,
-      "reading_min": 6,
-      "score": 4.08,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "PhD students\u2019 taste for risk mirrors their supervisors\u2019",
-      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00160-4 Learned risk-taking behaviours can persist for years after leaving the lab \u2014 and even after taking on a new research topic.",
-      "url": "https://www.nature.com/articles/d41586-026-00160-4",
-      "source": "Nature News",
-      "domain": "nature.com",
-      "published": "2026-01-15T00:00:00+00:00",
-      "word_count": 1042,
-      "reading_min": 5,
-      "score": 4.02,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "Nationwide genetic screening proves effective at catching disease risk early",
-      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00035-8 A study in Australia supports genetic screening in young adults before symptoms show, but the generalizability and cost\u2013benefit ratios need to be examined in other settings.",
-      "url": "https://www.nature.com/articles/d41586-026-00035-8",
-      "source": "Nature News",
-      "domain": "nature.com",
-      "published": "2026-01-15T00:00:00+00:00",
-      "word_count": 839,
-      "reading_min": 4,
-      "score": 3.92,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "Exclusive eBook: How AGI Became a Consequential Conspiracy Theory",
-      "teaser": "In this exclusive subscriber-only eBook, you\u2019ll learn about how the idea that machines will be as smart as\u2014or smarter than\u2014humans has hijacked an entire industry. by Will Douglas Heaven October 30,...",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/01/15/1131079/exclusive-ebook-how-agi-became-a-consequential-conspiracy-theory/",
-      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2026/01/Conspiracies-Thumb.png?resize=1200,600",
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "Lithium-ion batteries could last longer with chemical tweak",
-      "teaser": "It's difficult to form a protective coating that prolongs battery life at the battery's cathode, but there may be a low-cost chemical solution",
-      "source": "New Scientist",
-      "url": "https://www.newscientist.com/article/2511778-lithium-ion-batteries-could-last-longer-with-chemical-tweak/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "imageUrl": "https://images.newscientist.com/wp-content/uploads/2026/01/15160113/SEI_280910340.jpg",
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "As Biodiversity Dwindles, Mosquitos Turn to Human Blood",
-      "teaser": "We may not be tastier, but just more abundant these days The post As Biodiversity Dwindles, Mosquitos Turn to Human Blood appeared first on Nautilus.",
-      "source": "Nautilus",
-      "url": "https://nautil.us/as-biodiversity-dwindles-mosquitos-turn-to-human-blood-1261838/",
-      "imageUrl": "https://assets.nautil.us/sites/3/nautilus/gabD45ts-Reese_HERO.png?auto=compress&fm=png&ixlib=php-3.3.1",
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "Delusions Are Often Not-So-Delusional After All",
-      "teaser": "A radical shift in understanding psychosis The post Delusions Are Often Not-So-Delusional After All appeared first on Nautilus.",
-      "source": "Nautilus",
-      "url": "https://nautil.us/delusions-are-often-not-so-delusional-after-all-1261372/",
-      "imageUrl": "https://assets.nautil.us/sites/3/nautilus/Gs8ZHuXl-French_HERO-2.png?auto=compress&fm=png&ixlib=php-3.3.1",
-      "approvedDate": "2026-01-13"
-    },
-    {
-      "headline": "Sodium-ion batteries: 10 Breakthrough Technologies 2026",
-      "teaser": "For decades, lithium-ion batteries have powered our phones, laptops, and electric vehicles. But lithium\u2019s limited supply and volatile price have led the industry to seek more resilient alternatives....",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/01/12/1129991/sodium-ion-batteries-2026-breakthrough-technology/",
-      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2026/01/Sodium-ion-batteries-Landscape.jpg?resize=1200,600",
-      "approvedDate": "2026-01-12"
-    },
-    {
-      "headline": "Sodium-ion batteries: 10 Breakthrough Technologies 2026",
-      "teaser": "For decades, lithium-ion batteries have powered our phones, laptops, and electric vehicles. But lithium\u2019s limited supply and volatile price have led the industry to seek more resilient alternatives....",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/01/12/1129991/sodium-ion-batteries-2026-breakthrough-technology/",
-      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2026/01/Sodium-ion-batteries-Landscape.jpg?resize=1200,600",
-      "approvedDate": "2026-01-12"
-    },
-    {
-      "headline": "Meta announces nuclear energy projects",
-      "teaser": "Discussed on Hacker News with 226 points",
-      "source": "Hacker News",
-      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
-      "imageUrl": "https://about.fb.com/wp-content/uploads/2026/01/Nuclear_Header.jpg?w=1200",
-      "archiveUrl": "http://web.archive.org/web/20260111200113/https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
-      "approvedDate": "2026-01-11"
-    },
-    {
-      "headline": "On 'Turtle Island,' Indigenous Food Is Not the Past\u2014It\u2019s the Future",
-      "teaser": "Join Gastro Obscura's Sam O'Brien each week for Kitchen Dispatch as she tests new recipes and explores wondrous foods from her home kitchen. Subscribe to get it in the Gastro newsletter. One of my...",
-      "source": "Atlas Obscura",
-      "url": "https://www.atlasobscura.com/articles/sean-sherman-turtle-island-cookbook",
-      "approvedDate": "2026-01-11"
-    },
-    {
-      "headline": "Want to Stop Doomscrolling? You Might Need a Sleep Coach",
-      "teaser": "Traditionally sleep coaches treat babies. But now more and more anxious, screen-attached grownups are the ones who need nursing.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/your-next-job-sleep-coach/",
-      "imageUrl": "https://media.wired.com/photos/695e45533b190d48c28a907d/191:100/w_1280,c_limit/YNJ-sleep-coach-final.jpg",
-      "approvedDate": "2026-01-11"
-    },
-    {
-      "headline": "Cloudspecs: Cloud Hardware Evolution Through the Looking Glass",
-      "teaser": "Discussed on Hacker News with 52 points",
-      "source": "Hacker News",
-      "url": "http://muratbuffalo.blogspot.com/2026/01/cloudspecs-cloud-hardware-evolution.html",
-      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhjspXxlUb6cWW1Co2aJyK-hX67_A10kqDPYggxhFSxpW3sncZ1SgKYlJtECVe1Ys1jC6igt4Zs7S9oUFMTRE8755mdxGFVnxoie-Wq8EfUFAT3PMF4hvHXfX_jhLYj-mqmdf0hFxzw-PSstHp0rWfUgY1tJ5sapo6VZAR5Y-yLeOoQMydIKEm2qMO6fC4=w1200-h630-p-k-no-nu",
-      "archiveUrl": "http://web.archive.org/web/20260109191504/https://muratbuffalo.blogspot.com/2026/01/cloudspecs-cloud-hardware-evolution.html",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Why Is Greenland Part of the Kingdom of Denmark? A Short History",
-      "teaser": "Discussed on Hacker News with 88 points",
-      "source": "Hacker News",
-      "url": "https://www.diis.dk/en/research/why-is-greenland-part-of-the-kingdom-of-denmark-a-short-history",
-      "imageUrl": "https://www.diis.dk/files/styles/open_graph/public/media/image/KRABBE%2801%29_Greenland._The_town_Julianeh%C3%A5b_-_Qaqortoq_%2812049042925%29.jpg?itok=A_5j-tZw",
-      "archiveUrl": "http://web.archive.org/web/20260110165044/https://www.diis.dk/en/research/why-is-greenland-part-of-the-kingdom-of-denmark-a-short-history",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Siebold Memorial Museum in Nagasaki, Japan",
-      "teaser": "Filipp Franz von Siebold is seen as one of the fathers of western style science (or Dutch studies, Rangaku \u862d\u5b66) in Japan. He taught medicine, science, botany and more, and was father to the first...",
-      "source": "Atlas Obscura",
-      "url": "https://www.atlasobscura.com/places/siebold-memorial-museum",
-      "archiveUrl": "http://web.archive.org/web/20251118065230/https://www.atlasobscura.com/places/siebold-memorial-museum",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "The secret weapon that could finally force climate action",
-      "teaser": "An ambitious form of climate modelling aims to pin the blame for disasters \u2013 from floods to heatwaves \u2013 on specific companies. Is this the tool we need to effectively prosecute the world\u2019s biggest...",
-      "source": "New Scientist",
-      "url": "https://www.newscientist.com/article/2508956-the-secret-weapon-that-could-finally-force-climate-action/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "imageUrl": "https://images.newscientist.com/wp-content/uploads/2025/12/17110757/SEI_277632880.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Help Is Other People: The Power of Social Connectedness",
-      "teaser": "The psychological literature is clear: Social relationships are our most powerful psychological currency; they are the key to our psychological health.",
-      "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/insight-therapy/202601/help-is-other-people-the-power-of-social-connectedness",
-      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-01/pensioner-4506621_1280Vladvictoria.jpg?itok=TKI4l2gd",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Danei Totoro Bus Stop in Taiwan",
-      "teaser": "Danei is a rural district in Tainan that suffers from drastic population loss. Young people have moved to the cities and visitors rarely stop by. Like many small towns across Taiwan, the community...",
-      "source": "Atlas Obscura",
-      "url": "https://www.atlasobscura.com/places/danei-totoro-bus-stop"
-    },
-    {
-      "headline": "Sinking trees in Arctic Ocean could remove 1 billion tonnes of CO2",
-      "teaser": "Cutting down boreal forest and sinking the felled trees in the depths of the Arctic Ocean could remove up to 1 billion tonnes of carbon dioxide from the atmosphere each year \u2013 but it could come at a...",
-      "source": "New Scientist",
-      "url": "https://www.newscientist.com/article/2510920-sinking-trees-in-arctic-ocean-could-remove-1-billion-tonnes-of-co2/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "imageUrl": "https://images.newscientist.com/wp-content/uploads/2026/01/09151950/SEI_280060470.jpg"
-    },
-    {
-      "headline": "The Download: the case for AI slop, and helping CRISPR fulfill its promise",
-      "teaser": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. How I learned to stop worrying and love AI slop \u2014Caiwei Chen...",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/01/09/1130953/the-download-the-case-for-ai-slop-and-helping-crispr-fulfill-its-promise/",
-      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2025/12/@niceaunties2_upscale.jpg?resize=1200,600"
-    },
-    {
-      "headline": "Don't Get Lost in Translation",
-      "teaser": "Imagining ourselves in the shoes of the other affords necessary perspective for effective verbal, written, or physical communication exchange.",
-      "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/black-belt-brain/202510/dont-get-lost-in-translation",
-      "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2026-01/Screenshot%202025-10-28%2012.44.43%20PM.png.jpg?itok=bjKTVKnT"
-    },
-    {
-      "headline": "Using AI, Mathematicians Find Hidden Glitches in Fluid Equations",
-      "teaser": "A $1 million prize awaits anyone who can show where the math of fluid flow breaks down. With specially trained AI systems, researchers have found a slew of new candidates in simpler versions of the...",
+      "headline": "Cells Use \u2018Bioelectricity\u2019 To Coordinate and Make Group Decisions",
+      "teaser": "The discovery that tissues use electricity to expel unhealthy cells is part of a surge of renewed interest in the currents flowing through our bodies. The post Cells Use \u2018Bioelectricity\u2019 To Coordinate and Make Group Decisions first appeared on Quanta Magazine",
+      "url": "https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/",
       "source": "Quanta Magazine",
-      "url": "https://www.quantamagazine.org/using-ai-mathematicians-find-hidden-glitches-in-fluid-equations-20260109/",
-      "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/01/Unstable-Blowup-cr-Samuel-Velasco-Social.jpg",
-      "archiveUrl": "http://web.archive.org/web/20260110020441/https://www.quantamagazine.org/using-ai-mathematicians-find-hidden-glitches-in-fluid-equations-20260109/"
+      "domain": "quantamagazine.org",
+      "published": "2026-01-12T14:58:22+00:00",
+      "word_count": 2337,
+      "reading_min": 11,
+      "score": 6.37,
+      "archiveUrl": "http://web.archive.org/web/20260116232210/https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/",
+      "tldr": "Reveals how our bodies are using electricity in unexpected ways"
     },
     {
-      "headline": "Why Finding Motivation Is Often Such a Struggle",
-      "teaser": "The brains of macaques offer some clues The post Why Finding Motivation Is Often Such a Struggle appeared first on Nautilus.",
-      "source": "Nautilus",
-      "url": "https://nautil.us/why-finding-motivation-is-often-such-a-struggle-1260605/",
-      "imageUrl": "https://assets.nautil.us/sites/3/nautilus/0gIcDNjg-French_HERO-2.png?auto=compress&fm=png&ixlib=php-3.3.1",
-      "archiveUrl": "http://web.archive.org/web/20260110011835/https://nautil.us/why-finding-motivation-is-often-such-a-struggle-1260605/"
+      "headline": "String Theory Can Now Describe a Universe That Has Dark Energy",
+      "teaser": "In an unprecedented step, researchers crafted a detailed model compatible with the universe\u2019s accelerated expansion. The post String Theory Can Now Describe a Universe That Has Dark Energy first appeared on Quanta Magazine",
+      "url": "https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/",
+      "source": "Quanta Magazine",
+      "domain": "quantamagazine.org",
+      "published": "2026-01-14T14:58:37+00:00",
+      "word_count": 1574,
+      "reading_min": 7,
+      "score": 6.2,
+      "archiveUrl": "http://web.archive.org/web/20260116155236/https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/",
+      "tldr": "Researchers now have a model compatible with dark energy's expansion"
     },
     {
-      "headline": "The McKay Home in Front Royal, Virginia",
-      "teaser": "A short distance west, at Cedarville, stands the old home of the pioneer Robert McKay. Built of walnut logs, it is one of the oldest houses in the valley. In 1731, Joist Hite, Robert McKay and others...",
-      "source": "Atlas Obscura",
-      "url": "https://www.atlasobscura.com/places/the-mckay-home"
-    },
-    {
-      "headline": "Attachment Wounds on Screen: 2025\u2019s TV Relationships",
-      "teaser": "Shows like \"The Summer I Turned Pretty\" and \"Tell Me Lies\" tap into painful attachment dynamics that feel familiar.",
-      "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/un-numb/202601/attachment-wounds-on-screen-2025s-tv-relationships"
-    },
-    {
-      "headline": "Self-censorship: When fear outweighs free speech",
-      "teaser": "New research uncovers the tipping point where threat leads to silence. What's your threshold? #FreeSpeech",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2025/12/the-science-of-how-and-when-we-decide-to-speak-out-or-self-censor/"
-    },
-    {
-      "headline": "Kangaroos Hopping Efficiency Revealed",
-      "teaser": "New study uncovers how kangaroos defy energy norms with hopping. What other secrets do their biomechanics hold? #science",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/01/research-roundup-7-cool-science-stories-we-almost-missed-2/"
-    },
-    {
-      "headline": "Saturn-Sized Planet Found in Einstein Desert",
-      "teaser": "A Saturn-sized exoplanet has been detected in the 'Einstein desert'\u2014a region where such planets are thought to be rare. How does this discovery reshape our understanding of rogue planet formation? Read more at Ars Technica.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/01/researchers-spot-saturn-sized-planet-in-the-einstein-desert/"
-    },
-    {
-      "headline": "Blood Feud: Oura\u2019s Health Panels Versus Whoop\u2019s Advanced Labs",
-      "teaser": "It\u2019s easier than ever to order your own blood draws, but direct-access testing won\u2019t replace a doctor.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/oura-whoop-blood-labs/"
+      "headline": "Why There\u2019s No Single Best Way To Store Information",
+      "teaser": "The math of data structures helps us understand how different storage systems come with different trade-offs between resources such as time and memory. The post Why There\u2019s No Single Best Way To Store Information first appeared on Quanta Magazine",
+      "url": "https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/",
+      "source": "Quanta Magazine",
+      "domain": "quantamagazine.org",
+      "published": "2026-01-16T15:10:10+00:00",
+      "word_count": 1375,
+      "reading_min": 6,
+      "score": 6.14,
+      "tldr": "Analyzes trade-offs between time and memory in data storage systems"
     }
   ],
   "philosophy": [
     {
-      "headline": "A New Anti-Political Fervor",
-      "teaser": "Anton Cebalo in Noema: For most of the 20th century, politics and even political parties were viewed as a home outside of home by many, fortified by strong social bases of support. Unions, churches,...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/a-new-anti-political-fervor.html",
-      "approvedDate": "2026-01-11"
+      "headline": "Landholder vs stockholder",
+      "teaser": "In 1752, David Hume discerned that wealth was becoming untethered from land. Here lies the origin of our political divisions - by Catherine Nichols Read on Aeon",
+      "url": "https://aeon.co/essays/why-hume-is-better-at-explaining-modern-capitalism-than-marx?utm_source=rss-feed",
+      "source": "Aeon",
+      "domain": "aeon.co",
+      "published": "2026-01-15T11:00:00+00:00",
+      "word_count": 4798,
+      "reading_min": 22,
+      "score": 6.68,
+      "tldr": "Recognizes that shifts in wealth distribution fundamentally alters societal power"
     },
     {
-      "headline": "A Crowded Pantheon",
-      "teaser": "A Crowded Pantheon As visitors step into the high-ceilinged entrance room of Divine Egypt, an expansive exhibition on view through January at the Metropolitan Museum of Art, they observe that it is...",
-      "source": "Commonweal",
-      "url": "https://www.commonwealmagazine.org/grant-divine-egypt-nava-metropolitan-museum",
-      "approvedDate": "2026-01-10"
+      "headline": "The synthetic self",
+      "teaser": "In order to better understand our human nature, we must attempt to build a robot capable of robust subjective experiences - by Tony J Prescott Read on Aeon",
+      "url": "https://aeon.co/essays/why-the-best-way-to-understand-the-self-is-to-build-a-robot-one?utm_source=rss-feed",
+      "source": "Aeon",
+      "domain": "aeon.co",
+      "published": "2026-01-12T11:00:00+00:00",
+      "word_count": 4206,
+      "reading_min": 19,
+      "score": 6.62,
+      "tldr": "Analyzes human nature by creating a robot capable of subjective experiences"
     },
     {
-      "headline": "Marbury Now",
-      "teaser": "Consider a showdown between an institutionalist Chief Justice of the United States and an ambitious and opportunistic President of the United States \u2014 a showdown in which the Chief Justice wishes to...",
-      "source": "Liberties",
-      "url": "https://libertiesjournal.com/articles/the-marburynow/",
-      "imageUrl": "https://libertiesjournal.com/wp-content/uploads/william-3.png"
-    },
-    {
-      "headline": "The Erotic Poems Of Bilitis",
-      "teaser": "Cat Lambert at Aeon Magazine: In 1894, a German archaeologist named Herr G Heim made a groundbreaking discovery. On the island of Cyprus, he excavated a tomb that belonged to a hitherto unknown...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-erotic-poems-of-bilitis.html",
-      "imageUrl": "https://3quarksdaily.com/wp-content/uploads/2026/01/81Q8MWzKAL._UF10001000_QL80_.jpg"
-    },
-    {
-      "headline": "Friday Poem",
-      "teaser": "Crucifixions I am not an Idealist, nor a cynic, but merely unafraid of contradictions. I have seen men face each other when both were right, yet each was determined to kill each other, which was...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/friday-poem-476.html"
-    },
-    {
-      "headline": "The Mechanics of Colonialism: Newtonian Metaphors in History",
-      "teaser": "In the late 17th century, Isaac Newton published his \u201cMathematical Principles of Natural Philosophy,\u201d laying out three laws of motion that forever changed the way we understand the physical world. In...",
-      "source": "The Humanist",
-      "url": "https://thehumanist.com/commentary/the-mechanics-of-colonialism-newtonian-metaphors-in-history",
-      "imageUrl": "https://thehumanist.com/wp-content/uploads/2026/01/mechanics_gears.jpg"
-    },
-    {
-      "headline": "A Global Euro",
-      "teaser": "Shahin Vall\u00e9e in Phenomenal World: A profound sense of uncertainty dominates the question of the international monetary order today. Trump\u2019s presidency in the US, the growing Sino-American rivalry,...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/a-global-euro.html"
-    },
-    {
-      "headline": "She\u2019s an A.I. Sex Robot, and She\u2019s Becoming Sentient",
-      "teaser": "Lydia Kiesling in the New York Times: In an unremarkable New York apartment, sometime in the not-too-distant future, a man tells his robot to come to bed. She is a \u201cStella,\u201d an intelligent machine...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/shes-an-a-i-sex-robot-and-shes-becoming-sentient.html"
-    },
-    {
-      "headline": "\u2018Rebel Hump\u2019",
-      "teaser": "\u2018Rebel Hump\u2019 Poet and rock icon Patti Smith opens her new memoir, Bread of Angels, with an epigraph from Ukraine-born novelist Nikolai Gogol: \u201cObstacles are our wings.\u201d That line launches a narrative...",
-      "source": "Commonweal",
-      "url": "https://www.commonwealmagazine.org/rebel-hump-patti-smith-rebel-hump-mesmer-sharon"
-    },
-    {
-      "headline": "When Winning Feels Like Losing",
-      "teaser": "I remember what winning feels like. An opening-drive lightning strike, up by three touchdowns midway through the second quarter, the defense an impenetrable wall, scrubs and water boys entering......",
-      "source": "First Things",
-      "url": "https://firstthings.com/when-winning-feels-like-losing/"
-    },
-    {
-      "headline": "Happy Public Domain Day 2026!",
-      "teaser": "Each January 1st is Public Domain Day, when a new crop of works have their copyrights expire and become free to share and reuse for any purpose. Here's our highlights for 2026.",
-      "source": "Public Domain Review",
-      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026"
-    },
-    {
-      "headline": "The Top Ten of 2025",
-      "teaser": "As 2025 comes to a close, we\u2019re proud to present our most-read essays of the year, listed below in reverse order. If you enjoy these [\u2026] The post The Top Ten of 2025 appeared first on The Point...",
-      "source": "The Point",
-      "url": "https://thepointmag.com/general/the-top-ten-of-2025/"
-    },
-    {
-      "headline": "Exercise won\u2019t help you lose much fat but changing this will\u2026",
-      "teaser": "Hatty Willmoth at BBC Science Focus: If you want to lose weight, exercise doesn\u2019t really matter. That doesn\u2019t sound right, does it? After all, for decades we\u2019ve been told that the way to burn off...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/exercise-wont-help-you-lose-much-fat-but-changing-this-will.html"
-    },
-    {
-      "headline": "Chirality: The Mysterious Molecular Symmetry That Rules Life",
-      "teaser": "\ufeff Enjoying the content on 3QD? Help keep us going by donating now.",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/chirality-the-mysterious-molecular-symmetry-that-rules-life.html"
-    },
-    {
-      "headline": "The Moral Imagination of Zohran Mamdani",
-      "teaser": "Corey Robin at his own website: In a way I\u2019ve never experienced in my life, I feel in synch with a political turn, felt by millions of voters, that\u2019s now being reflected in the voice of one of the...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-moral-imagination-of-zohran-mamdani.html"
-    },
-    {
-      "headline": "Pepys Diary",
-      "teaser": "Deborah Friedell at the LRB: Pepys was a meticulous \u2013 some might say compulsive \u2013 record-keeper, and his talent for storing and retrieving vast amounts of information would be useful to him...",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/pepys-diary.html"
-    },
-    {
-      "headline": "Why some women Are evolving faster Than the rest of society",
-      "teaser": "Enjoying the content on 3QD? Help keep us going by donating now.",
-      "source": "3 Quarks Daily",
-      "url": "https://3quarksdaily.com/3quarksdaily/2026/01/why-some-women-are-evolving-faster-than-the-rest-of-society.html"
+      "headline": "How to become a tree",
+      "teaser": "Many people today want to commit their remains to rejuvenating the planet. But are these green deaths just greenwashing? - by Hannah Gould & Georgina Robinson Read on Aeon",
+      "url": "https://aeon.co/essays/dying-to-be-green-are-new-eco-funerals-a-false-promise?utm_source=rss-feed",
+      "source": "Aeon",
+      "domain": "aeon.co",
+      "published": "2026-01-13T11:00:00+00:00",
+      "word_count": 3387,
+      "reading_min": 15,
+      "score": 6.53,
+      "tldr": "Challenges conventional views on death and its environmental impact"
     }
   ],
   "society": [
     {
-      "headline": "Russia Is the World\u2019s Worst Patron",
-      "teaser": "From Syria to Venezuela, Putin has overpromised and underdelivered.",
-      "url": "https://www.foreignaffairs.com/venezuela/russia-worlds-worst-patron",
-      "source": "Foreign Affairs",
-      "domain": "foreignaffairs.com",
-      "published": "2026-01-15T05:00:00+00:00",
-      "word_count": 1964,
-      "reading_min": 9,
-      "score": 5.29,
-      "archiveUrl": "http://web.archive.org/web/20260115091037/https://www.foreignaffairs.com/venezuela/russia-worlds-worst-patron",
-      "tldr": "Reveals widespread failure in international relations under Putin's leadership",
-      "approvedDate": "2026-01-17"
+      "headline": "The Mythology Of Conscious AI",
+      "teaser": "The post The Mythology Of Conscious AI appeared first on NOEMA .",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+      "source": "Noema",
+      "domain": "noemamag.com",
+      "published": "2026-01-14T17:23:54+00:00",
+      "word_count": 6490,
+      "reading_min": 30,
+      "score": 6.81,
+      "archiveUrl": "http://web.archive.org/web/20260115174659/https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "tldr": "Challenges our understanding of human consciousness and its relation to AI"
     },
     {
-      "headline": "The Finishing Touch",
-      "teaser": "The murdered Poet became for him the gash in the center of the sun, the model and the justification for being misunderstood. From the audience, during academic conferences, he hurled passionate and senseless accusations at the speakers, which were met with chuckles and mild feelings of guilt. Even t",
-      "url": "https://www.nplusonemag.com/issue-52/fiction-drama/the-finishing-touch/",
-      "source": "n+1",
-      "domain": "nplusonemag.com",
-      "published": "2026-01-14T15:29:38+00:00",
-      "word_count": 1440,
-      "reading_min": 7,
-      "score": 5.16,
-      "archiveUrl": "http://web.archive.org/web/20260115041347/https://www.nplusonemag.com/issue-52/fiction-drama/the-finishing-touch/",
-      "tldr": "Clarifies why a poet's murder becomes a symbol for misunderstanding",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "Sinophobic Sinophilia",
-      "teaser": "In the contemporary Chinese context, the idea that crucial parts of the central government could simply cease to operate for more than a month, as part of a procedural standoff between rival governing factions, would beggar belief. And in turn, to an American observer, the thought that miles of new ",
-      "url": "https://www.nplusonemag.com/issue-52/the-intellectual-situation/sinophobic-sinophilia/",
-      "source": "n+1",
-      "domain": "nplusonemag.com",
-      "published": "2026-01-14T15:29:24+00:00",
-      "word_count": 1022,
-      "reading_min": 5,
-      "score": 5.01,
-      "archiveUrl": "http://web.archive.org/web/20260115045421/https://www.nplusonemag.com/issue-52/the-intellectual-situation/sinophobic-sinophilia/",
-      "tldr": "Disrupts China's economic stability as central government operations cease",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "The Martian Ideology",
-      "teaser": "The story of humanity in space is not over, but the reality is that Musk is probably already yesterday\u2019s man. The apogee of his arc was most likely the chainsaw tableau onstage at CPAC \u2014 and what a pathetic apogee it was: a man in late middle age, haunted and horribly unhappy, drug-addled and gibber",
-      "url": "https://www.nplusonemag.com/issue-52/reviews/the-martian-ideology/",
-      "source": "n+1",
-      "domain": "nplusonemag.com",
-      "published": "2026-01-14T15:28:28+00:00",
-      "word_count": 995,
-      "reading_min": 5,
-      "score": 5.0,
-      "archiveUrl": "http://web.archive.org/web/20260115085716/https://www.nplusonemag.com/issue-52/reviews/the-martian-ideology/",
-      "tldr": "Challenges the notion that Musk's success defines humanity's space future",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "Salt Caves",
-      "teaser": "There is some sadness out there.",
-      "url": "https://thebaffler.com/fiction/salt-caves-alvarado?utm_source%3Drss-feed%26utm_medium%3Drss%26utm_campaign%3Dfeed",
-      "source": "The Baffler",
-      "domain": "thebaffler.com",
-      "published": "2026-01-16T12:59:00+00:00",
-      "word_count": 3179,
+      "headline": "The Politics Of Planetary Color",
+      "teaser": "The post The Politics Of Planetary Color appeared first on NOEMA .",
+      "url": "https://www.noemamag.com/the-politics-of-planetary-color",
+      "source": "Noema",
+      "domain": "noemamag.com",
+      "published": "2026-01-15T15:31:32+00:00",
+      "word_count": 2972,
       "reading_min": 14,
-      "score": 5.0,
-      "tldr": "Reveals the emotional impact of salt caves on human well-being",
-      "approvedDate": "2026-01-17"
+      "score": 6.47,
+      "tldr": "Reveals the politics behind how planetary color affects human perception"
     },
     {
-      "headline": "You Are Who Eats You",
-      "teaser": "Dunn was quite possibly the last writer anyone would have expected to resurface, after nearly two decades of silence, with the 1989 bestseller and finalist for the National Book Award.",
-      "url": "https://www.nplusonemag.com/online-only/online-only/you-are-who-eats-you/",
-      "source": "n+1",
-      "domain": "nplusonemag.com",
-      "published": "2026-01-15T15:33:48+00:00",
-      "word_count": 3971,
-      "reading_min": 18,
-      "score": 5.6,
-      "archiveUrl": "http://web.archive.org/web/20260116110630/https://www.nplusonemag.com/online-only/online-only/you-are-who-eats-you/",
-      "tldr": "Reveals the enduring power of a forgotten writer's work surprisingly",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "The Sacrifice of the Danes",
-      "teaser": "After September 11, Denmark fought alongside its ally. The families of fallen soldiers have a message for Trump.",
-      "url": "https://www.theatlantic.com/national-security/2026/01/denmark-afghanistan-nato-america-greenland/685625/?utm_source=feed",
-      "source": "The Atlantic",
-      "domain": "theatlantic.com",
-      "published": "2026-01-16T00:05:00+00:00",
-      "word_count": 2206,
-      "reading_min": 10,
-      "score": 4.34,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "A Tipping Point in Online Child Abuse",
-      "teaser": "Thousands of abusive videos were produced last year\u2014that researchers know of.",
-      "url": "https://www.theatlantic.com/technology/2026/01/ais-child-porn-problem-getting-much-worse/685641/?utm_source=feed",
-      "source": "The Atlantic",
-      "domain": "theatlantic.com",
-      "published": "2026-01-16T00:01:00+00:00",
-      "word_count": 826,
+      "headline": "How The \u2018AI Job Shock\u2019 Will Differ From The \u2018China Trade Shock\u2019",
+      "teaser": "The post How The \u2018AI Job Shock\u2019 Will Differ From The \u2018China Trade Shock\u2019 appeared first on NOEMA .",
+      "url": "https://www.noemamag.com/how-the-ai-job-shock-will-differ-from-the-china-trade-shock",
+      "source": "Noema",
+      "domain": "noemamag.com",
+      "published": "2026-01-16T17:49:28+00:00",
+      "word_count": 880,
       "reading_min": 4,
-      "score": 3.92,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "Americans\u2019 views on the impact of science on society",
-      "teaser": "Key Takeaways: Views on the impact of science on society over time Pew Research Center has had a longstanding interest in studying Americans\u2019 views of the impact of science. A majority of Americans (61%) say science has had a mostly positive effect on society. This is up slightly from 57% in 2023, b",
-      "url": "https://www.pewresearch.org/science/2026/01/15/americans-views-on-the-impact-of-science-on-society/",
-      "source": "Pew Research",
-      "domain": "pewresearch.org",
-      "published": "2026-01-15T14:55:52+00:00",
-      "word_count": 823,
-      "reading_min": 4,
-      "score": 3.92,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "More Than Sewers",
-      "teaser": "The pragmatism of the Milwaukee socialists was inseparable from the international world of socialism that they inhabited and helped to shape.",
-      "url": "https://dissentmagazine.org/article/more-than-sewers/",
-      "source": "Dissent",
-      "domain": "dissentmagazine.org",
-      "published": "2026-01-12T16:58:38+00:00",
-      "word_count": 1979,
-      "reading_min": 9,
-      "score": 3.3,
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "When is a Corporation Also New Jersey?",
-      "teaser": "A few thoughts on the oral argument in Galette v. N.J. Transit Corp.",
-      "source": "Reason",
-      "url": "https://reason.com/volokh/2026/01/15/when-is-a-corporation-also-new-jersey/",
-      "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2021/11/reason-logo-featured-placeholder.jpg.webp",
-      "approvedDate": "2026-01-15"
-    },
-    {
-      "headline": "What Stephen Miller Gets Wrong About Human Nature",
-      "teaser": "The Trump adviser\u2019s assertions about the \u201creal world\u201d reflect a deep misunderstanding of Thomas Hobbes\u2019s dog-eat-dog worldview.",
-      "source": "The Atlantic",
-      "url": "https://www.theatlantic.com/books/2026/01/philosopher-who-explains-stephen-miller-thomas-hobbes/685574/?utm_source=feed",
-      "imageUrl": "https://cdn.theatlantic.com/thumbor/roYDTjJuckWMTMxbGb1lo4MjgBs=/0x43:2000x1085/1200x625/media/img/mt/2026/01/2025_01_08_Miller_mpg/original.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "The Messiness of Friendship",
-      "teaser": "The complexities of sharing feelings is what relationships require.",
-      "source": "The Atlantic",
-      "url": "https://www.theatlantic.com/newsletters/2026/01/messiness-of-sharing-feelings-friendship/685575/?utm_source=feed",
-      "imageUrl": "https://cdn.theatlantic.com/thumbor/7lKu6d7E5Z1C6ckaPlgJD12xTfU=/0x599:8156x4847/1200x625/media/img/mt/2026/01/GettyImages_2242002637_1-2/original.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "A Red State\u2019s High Court Gave Sam Alito the Dobbs Rejoinder He Deserves",
-      "teaser": "The Wyoming Supreme Court struck down its state\u2019s sweeping abortion ban on Tuesday.",
-      "source": "Slate",
-      "url": "https://slate.com/news-and-politics/2026/01/wyoming-supreme-court-slams-sam-alito-dobbs.html?via=rss",
-      "imageUrl": "https://compote.slate.com/images/7901ca7f-83d3-4bf9-9a02-c6767fc1de0a.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "At 250, Thomas Paine\u2019s \u201cCommon Sense\u201d still matters",
-      "teaser": "With authoritarianism on the rise, the pamphlet that helped spark the American Revolution remains relevant",
-      "source": "Salon",
-      "url": "https://www.salon.com/2026/01/10/at-250-thomas-paines-common-sense-still-matters/",
-      "imageUrl": "https://www.salon.com/app/uploads/2026/01/thomas-paine-common-sense-250.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Grok is Gross",
-      "teaser": "Lizzie O'Leary joins to break down the story of the disturbing deepfakes being created by X\u2019s AI chatbot.",
-      "source": "Slate",
-      "url": "https://slate.com/podcasts/slate-money/2026/01/business-venezuela-strike-donald-trump-elon-musk-grok-artificial-intelligence?via=rss",
-      "imageUrl": "https://compote.slate.com/images/0ad4cce0-1643-405e-b092-a65cc2f24b9e.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Big Oil Knows That Trump\u2019s Venezuela Plans Are Delusional",
-      "teaser": "The president\u2019s thinking is stuck in the 1980s.",
-      "source": "The Atlantic",
-      "url": "https://www.theatlantic.com/ideas/2026/01/trump-plan-venezuela-oil-economic-mistake/685572/?utm_source=feed",
-      "imageUrl": "https://cdn.theatlantic.com/thumbor/xoHuA4XJcUorEqF9OKAM8avKSRA=/0x43:2000x1085/1200x625/media/img/mt/2026/01/2025_01_09_oil_mpg/original.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Is Donald Trump Creating the Conditions for Another World War?",
-      "teaser": "\u201cWhat you\u2019re seeing both abroad and at home are completely optional conflicts created by the character of the President,\u201d Jane Mayer says.",
-      "source": "The New Yorker",
-      "url": "https://www.newyorker.com/podcast/political-scene/is-donald-trump-creating-the-conditions-for-another-world-war",
-      "imageUrl": "https://media.newyorker.com/photos/65496ea9e960b0ea67668dc7/16:9/w_1280,c_limit/The%20Political%20Scene%20B%20Glasser%20Mayer%20Osnos%20From%20Washington.jpg",
-      "archiveUrl": "http://web.archive.org/web/20260110051723/https://www.newyorker.com/podcast/political-scene/is-donald-trump-creating-the-conditions-for-another-world-war",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Deals, dukes, and dirt: Inside the largest land sale for 30 years",
-      "teaser": "How farmers, a duke, a conservation trust and a village went to war over England\u2019s largest estate sale for three decades",
-      "source": "New Statesman",
-      "url": "https://www.newstatesman.com/politics/uk-politics/2026/01/rothbury-estate-land-sale",
-      "imageUrl": "https://dl6pgk4f88hky.cloudfront.net/2026/01/09/2cdj2g9-800x418.jpg?1768044087",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Lagos Is a Vortex of Energy",
-      "teaser": "In a recent book, \u201c\u00c8k\u00f3,\u201d the photographer Ollie Babajide Tikare captures the messiness and hope of the Nigerian city.",
-      "source": "The New Yorker",
-      "url": "https://www.newyorker.com/culture/photo-booth/lagos-is-a-vortex-of-energy",
-      "imageUrl": "https://media.newyorker.com/photos/696097e62a74f2ae17bd9a11/16:9/w_1280,c_limit/Okeowo-Eko_Guest%20Editions_OBTikare_2025-2.jpg",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Hunter S Thompson\u2019s freaks have overrun America",
-      "teaser": "The pioneer of gonzo chronicled his people\u2019s wild descent \u2013 and saw what his country has now become",
-      "source": "New Statesman",
-      "url": "https://www.newstatesman.com/world/americas/north-america/us/2026/01/hunter-s-thompsons-freaks-have-overrun-america",
-      "imageUrl": "https://dl6pgk4f88hky.cloudfront.net/2026/01/09/gettyimages-871379730-800x418.jpg?1768046650",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Why This Time Is Different for Iran",
-      "teaser": "For Iran's rulers, today's mass protests pose a vexing dilemma. Cracking down too hard could undo the entente that the regime forged with the population after last year's 12-day war with Israel and...",
-      "source": "Project Syndicate",
-      "url": "https://www.project-syndicate.org/commentary/iran-this-time-is-different-deadly-combination-internal-and-external-threats-by-vali-nasr-2026-01",
-      "imageUrl": "https://webapi.project-syndicate.org/library/cc6ec7e2ecbff7c0a747ccb37bcff20e.2-1-super.1.jpg"
-    },
-    {
-      "headline": "A New Clip of the Minneapolis ICE Killing Was Leaked to a Site Sympathetic to Derek Chauvin",
-      "teaser": "A video reportedly filmed by the federal agent who shot and killed Ren\u00e9e Nicole Good in Minneapolis earlier this week was released on Friday by a conservative Minnesota outlet whose most prominent...",
-      "source": "Mother Jones",
-      "url": "https://www.motherjones.com/politics/2026/01/minneapolis-renee-good-ice-alpha-news/",
-      "imageUrl": "https://www.motherjones.com/wp-content/uploads/2026/01/192026_APHA_NEWS_2000.jpg?w=1200&h=630&crop=1"
-    },
-    {
-      "headline": "Trump Tries Making Regime-Change Great Again in Venezuela",
-      "teaser": "Knocking over the government was always going to be the easy part. The post Trump Tries Making Regime-Change Great Again in Venezuela appeared first on The American Conservative.",
-      "source": "American Conservative",
-      "url": "https://www.theamericanconservative.com/trump-tries-making-regime-change-great-again-in-venezuela/"
-    },
-    {
-      "headline": "The Lie of \u201cSelf-Financing\u201d Oil Wars",
-      "teaser": "The US attack on Venezuela relies on the same deception that justified the war in Iraq: the idea of self-financing wars with oil. President Trump said Saturday that the US will run Venezuela...",
-      "source": "Mother Jones",
-      "url": "https://www.motherjones.com/politics/2026/01/self-financing-oil-wars-venezuela-iraq/"
-    },
-    {
-      "headline": "America at 250 doesn\u2019t need a new story \u2014 it needs many",
-      "teaser": "The country is fractured. Can we really celebrate its birthday?",
-      "source": "Salon",
-      "url": "https://www.salon.com/2026/01/03/america-at-250-doesnt-need-a-new-story-it-needs-many/"
-    },
-    {
-      "headline": "Stop Talking About the Moon",
-      "teaser": "Just look at it.",
-      "source": "The Atlantic",
-      "url": "https://www.theatlantic.com/technology/2026/01/stop-talking-about-moon/685447/?utm_source=feed"
-    },
-    {
-      "headline": "Minneapolis Daycares Only the Tip of the Fraud Scandal",
-      "teaser": "Nick Shirley\u2019s viral video is useful, but the focus should be on nailing as many of the malefactors as possible.",
-      "source": "National Review",
-      "url": "https://www.nationalreview.com/2026/01/minneapolis-daycares-only-the-tip-of-the-fraud-scandal/"
-    },
-    {
-      "headline": "Why You\u2019re Bad with Money",
-      "teaser": "We can spend decades following financial blueprints we didn\u2019t even know we inherited The post Why You\u2019re Bad with Money first appeared on The Walrus.",
-      "source": "The Walrus",
-      "url": "https://thewalrus.ca/why-youre-bad-with-money/"
-    },
-    {
-      "headline": "Photos: What Is the National Guard Doing in D.C.?",
-      "teaser": "Uniformed National Guard members picking up trash near a crosswalk",
-      "source": "Reason",
-      "url": "https://reason.com/2026/01/03/photos-what-is-the-national-guard-doing-in-d-c/"
-    },
-    {
-      "headline": "A Photographer\u2019s Portraits of Her Dad",
-      "teaser": "In the nineteen-eighties, Janet Delaney took pictures of her father at work, and came to a deeper understanding of who he was.",
-      "source": "The New Yorker",
-      "url": "https://www.newyorker.com/culture/photo-booth/a-photographers-portraits-of-her-dad"
-    },
-    {
-      "headline": "Trump Says U.S. Forces Have Captured Venezuela\u2019s Maduro",
-      "teaser": "The operation followed hours of military strikes and a monthslong U.S. pressure campaign.",
-      "source": "Foreign Policy",
-      "url": "https://foreignpolicy.com/2026/01/03/venezuela-maduro-capture-trump-strikes/"
-    },
-    {
-      "headline": "Slate Mini Crossword for Jan. 3, 2026",
-      "teaser": "Take a quick break with our daily 5x5 grid.",
-      "source": "Slate",
-      "url": "https://slate.com/life/2026/01/crossword-slate-mini-daily-puzzle-jan-3-2026.html?via=rss"
-    },
-    {
-      "headline": "How MAGA lost its way",
-      "teaser": "The post How MAGA lost its way appeared first on spiked.",
-      "source": "Spiked",
-      "url": "https://www.spiked-online.com/2026/01/03/how-maga-lost-its-way/"
-    },
-    {
-      "headline": "The Black Market for a Lifesaving Cat Drug",
-      "teaser": "In 2023, Marlena Arjo adopted a one-eyed kitten with a penchant for destruction. She named him Otto, and over the next eight months, Otto grew into his own little chaotic personality. \u201c He\u2019s laying...",
-      "source": "Mother Jones",
-      "url": "https://www.motherjones.com/politics/2026/01/cat-drug-feline-infectious-peritonitis-fip-black-market/"
-    },
-    {
-      "headline": "The Overrated Father of Modern Liberalism",
-      "teaser": "A new biography of the journalist Walter Lippmann bashes conservatives but adds value. The post The Overrated Father of Modern Liberalism appeared first on The American Conservative.",
-      "source": "American Conservative",
-      "url": "https://www.theamericanconservative.com/the-overrated-father-of-modern-liberalism/"
+      "score": 5.94,
+      "tldr": "Challenges the notion that automation will disproportionately harm low-skilled workers"
     }
   ],
   "books": [
@@ -690,8 +127,7 @@
       "word_count": 3151,
       "reading_min": 14,
       "score": 3.5,
-      "tldr": "Highlights the importance of slowing down to appreciate great winter reads",
-      "approvedDate": "2026-01-17"
+      "tldr": "Highlights the importance of slowing down to appreciate great winter reads"
     },
     {
       "headline": "At the Edge of Erasure: An Interview with Anouche Kunth, Historian of Exile",
@@ -704,140 +140,19 @@
       "reading_min": 12,
       "score": 3.41,
       "archiveUrl": "http://web.archive.org/web/20260115033338/https://www.publicbooks.org/at-the-edge-of-erasure-an-interview-with-anouche-kunth-historian-of-exile/",
-      "tldr": "Discovers a significant cache of documents shedding light on Armenian genocide",
-      "approvedDate": "2026-01-17"
+      "tldr": "Discovers a significant cache of documents shedding light on Armenian genocide"
     },
     {
-      "headline": "Why men should really be reading more fiction",
-      "teaser": "Novels require a kind of attention that the modern world is steadily eroding",
-      "source": "Financial Times Books",
-      "url": "https://www.ft.com/content/da33f535-9171-4163-a773-ac64c753c6c6",
-      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F06b44bae-e705-4fb3-a95a-c0a4b8abb36c.jpg?source=next-barrier-page",
-      "approvedDate": "2026-01-11"
-    },
-    {
-      "headline": "The Mauritshuis Museum in Holland to Lend Vermeer\u2019s Girl with a Pearl Earring to Japanese Museum",
-      "teaser": "The 17th-century masterpiece will be on temporary loan to the Nakanoshima Museum of Art in Osaka",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/vermeer-girl-with-a-pearl-earring-loaned-osaka-japan-1234769354/",
-      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/AiA_GWPE_f.webp?w=1000",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Surviving Rome \u2014 the surprising truths about everyday life in the empire",
-      "teaser": "Kim Bowes\u2019s history examines in thrilling detail the finances, food and working practices of ordinary Romans",
-      "source": "Financial Times Books",
-      "url": "https://www.ft.com/content/aa498151-6ccb-45bc-9519-c38bcbc50c6e",
-      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F552c3514-d859-4982-b4fe-3107d880b0d6.jpg?source=next-barrier-page",
-      "archiveUrl": "http://web.archive.org/web/20260110051129/https://www.ft.com/content/aa498151-6ccb-45bc-9519-c38bcbc50c6e",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "Mass surveillance, the metaverse, making America \u2018great again\u2019: the novelists who predicted our present",
-      "teaser": "From Jorge Luis Borges to George Orwell and Margaret Atwood, novelists have foreseen some of the major developments of our age. What can we learn from their prophecies?This year marks 100 years since...",
-      "source": "Guardian Books",
-      "url": "https://www.theguardian.com/books/2026/jan/10/mass-surveillance-the-metaverse-making-america-great-again-the-novelists-who-predicted-our-present",
-      "imageUrl": "https://i.guim.co.uk/img/media/be652b2a649d83a3b1072297afb7c4fe8fbca461/808_0_3812_3050/master/3812.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=21a9fcbcac4a4f90e019fa78091d44af",
-      "approvedDate": "2026-01-10"
-    },
-    {
-      "headline": "1,500-Year-Old Byzantine Monastery Discovered in Egypt",
-      "teaser": "The discovery sheds light on early Christian monastic life in Upper Egypt.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/byzantine-monastery-discovered-egypt-1234769398/",
-      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/News-20260108-Egypt-Byzantine-Monastery.jpg?w=1024"
-    },
-    {
-      "headline": "Uncovering the Secrets of Henri Rousseau\u2019s Paintings",
-      "teaser": "A new exhibition freshly contextualizes many artworks in the light of his personal story, while conservators conducted revelatory technical studies.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/uncovering-the-secrets-of-henri-rousseaus-paintings/",
-      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2025/12/EX2025-2-4-1-cc-press-RGB-High-Res-JPEG--min-300dpi-.jpg"
-    },
-    {
-      "headline": "Rare Comic Introducing Superman Sells Privately for $15 Million",
-      "teaser": "The copy of Action Comics No. 1, published in 1938, was stolen from the actor Nicolas Cage in 2000 and recovered more than a decade later.",
-      "source": "NY Times Books",
-      "url": "https://www.nytimes.com/2026/01/09/books/superman-action-comics-1-sold.html"
-    },
-    {
-      "headline": "The best books of the week",
-      "teaser": "Why Arctic land-grabs could lead to war; the highs and lows of David Bowie\u2019s later music; the harms caused by our demand for \u2018green\u2019 batteries; Julian Barnes\u2019s reflections on life and loss; biting...",
-      "source": "Financial Times Books",
-      "url": "https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989",
-      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe6ad43d9-a35b-4439-ba99-25b45bd43736.png?source=next-barrier-page",
-      "archiveUrl": "http://web.archive.org/web/20251228191506/https://www.ft.com/content/19b2cbcf-4db2-4f7c-ba36-94270de66989"
-    },
-    {
-      "headline": "The best recent science fiction, fantasy and horror \u2013 review roundup",
-      "teaser": "Godfall by Van Jensen; The Salt Bind by Rebecca Ferrier; The Poet Empress by Shen Tao; A Hole in the Sky by Peter F Hamilton; Hello Earth, Are You There? by Brian AldissGodfall by Van Jensen (Bantam,...",
-      "source": "Guardian Books",
-      "url": "https://www.theguardian.com/books/2026/jan/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "imageUrl": "https://i.guim.co.uk/img/media/31ddfb3fb624e03396365820e2cff5f1b799c869/114_579_2156_1723/master/2156.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=475d665de814f4ed78bf40a3b353f76a"
-    },
-    {
-      "headline": "The Women Who Were More Than Just Picasso\u2019s Loves",
-      "teaser": "Sue Roe explores the agency and victories her subjects experienced as women who, we are repeatedly reminded, ardently loved Picasso.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/the-women-who-were-more-than-just-picassos-loves/",
-      "imageUrl": "https://hyperallergic.com/content/images/size/w1200/2026/01/GettyImages-56458430.jpg"
-    },
-    {
-      "headline": "Columbia Museum of Art Opens Newly Configured Collection Galleries to Cap Year-Long Renovation",
-      "teaser": "The unveiling caps the South Carolina institution's 75th anniversary year.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/columbia-museum-new-collection-galleries-renovation-1234769385/",
-      "imageUrl": "https://www.artnews.com/wp-content/uploads/2026/01/CMA.jpg?w=870"
-    },
-    {
-      "headline": "Exclusive: Doubting Thomas",
-      "teaser": "Alessandro Gallenzi reveals how he turned literary detective and uncovered Dylan Thomas\u2019s youthful plagiarism; Norma Clarke discusses the stunning work of two eighteenth-century women portrait...",
-      "source": "The TLS",
-      "url": "https://www.the-tls.com/regular-features/the-podcast/the-tls-podcast-january-9-2026-dylan-thomas-exclusive",
-      "imageUrl": "https://www.the-tls.com/wp-content/uploads/2024/04/podcast-web-1.jpg"
-    },
-    {
-      "headline": "Nominations open for Kamaladevi Chattopadhyay NIF Book Prize 2026",
-      "teaser": "The deadline for submitting nominations is January 31, 2026.",
-      "source": "The Hindu Books",
-      "url": "https://www.thehindu.com/news/national/karnataka/nominations-open-for-kamaladevi-chattopadhyay-nif-book-prize-2026/article70489929.ece",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/asmvj8/article70490329.ece/alternates/LANDSCAPE_1200/De21_Kamladevi.jpg"
-    },
-    {
-      "headline": "Hew Locke\u2019s Constant Motion",
-      "teaser": "Remembering Cecilia Gim\u00e9nez and \"Beast Jesus,\" Public Domain Day, the art of Fred Wilson, this month's Opportunities, and more.",
-      "source": "Hyperallergic",
-      "url": "https://hyperallergic.com/hew-lockes-constant-motion/"
-    },
-    {
-      "headline": "Dreaming of writing your novel this year? Rip up all the rules!",
-      "teaser": "After 35 years of teaching fiction writing, the prize-winning author shares her wisdom. First tip? Don\u2019t write what you know\u2026 I don\u2019t think it\u2019s a bad thing to want to write a first sentence so...",
-      "source": "Guardian Books",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/jan/03/dreaming-of-writing-your-novel-this-year-rip-up-all-the-rules"
-    },
-    {
-      "headline": "Tribute | The singularity of author Vinod Kumar Shukla",
-      "teaser": "In his works, Shukla illuminated ordinary experiences with profound curiosity and insight",
-      "source": "The Hindu Books",
-      "url": "https://www.thehindu.com/books/tribute-author-vinod-kumar-shukla-hindi-literature-everyday-stories-poetry/article70463403.ece"
-    },
-    {
-      "headline": "Kathleen Goncharov, Esteemed Curator and Artist, Dies at 73",
-      "teaser": "She curated performances for Just Above Midtown and organized Fred Wilson's 2003 US Pavilion in Venice.",
-      "source": "Art News",
-      "url": "https://www.artnews.com/art-news/news/kathleen-goncharov-curator-dead-1234768679/"
-    },
-    {
-      "headline": "Poverty, mistrust and antisemitism \u2014 Berlin Shuffle by Ulrich Alexander Boschwitz",
-      "teaser": "This recently rediscovered, bleakly comic tale of three no-hopers in interwar Germany was written by a Jewish refugee in the 1930s. It reads like a cautionary tale for our times",
-      "source": "Financial Times Books",
-      "url": "https://www.ft.com/content/1666b61c-ab93-4067-933e-fb8184e1b811"
-    },
-    {
-      "headline": "Ken Jacobs (1933\u20132025)",
-      "teaser": "AN ARTIST AND PEDAGOGUE of powerful originality with a personality to match, Ken Jacobs saw the full equation. Like his generational peer Stan Brakhage, and such earlier nonpareils Dziga Vertov and...",
-      "source": "Artforum",
-      "url": "https://www.artforum.com/columns/ken-jacobs-obituary-j-hoberman-1234740603/"
+      "headline": "Against Babel: Or, How to Talk to Strangers",
+      "teaser": "Allegedly, some 45% of languages descend from one, ancient \u201dProto-Indo-European\u201c tongue. But why focus on a hypothetical lost language, when we can work instead to hear one another today? The post Against Babel: Or, How to Talk to Strangers appeared first on Public Books .",
+      "url": "https://www.publicbooks.org/against-babel-or-how-to-talk-to-strangers/",
+      "source": "Public Books",
+      "domain": "publicbooks.org",
+      "published": "2026-01-15T16:00:43+00:00",
+      "word_count": 2408,
+      "reading_min": 11,
+      "score": 3.38,
+      "tldr": "Discovers why understanding common ancestry can bridge linguistic divides effectively"
     }
   ],
   "essays": [
@@ -852,61 +167,39 @@
       "reading_min": 27,
       "score": 3.77,
       "archiveUrl": "http://web.archive.org/web/20260114071144/https://electricliterature.com/slut-lullabies-by-gina-frangello/",
-      "tldr": "Reveals painful truth about author's friend and family dynamics",
-      "approvedDate": "2026-01-17"
+      "tldr": "Reveals painful truth about author's friend and family dynamics"
     },
     {
-      "headline": "Evangelical Purity Culture Affects Us All",
-      "teaser": "In the opening of Anna Rollins\u2019 debut memoir, Famished: On Food, Sex, and Growing Up a Good Girl, Rollins is in the ICU with a sick child, but all she can think about is how she\u2019s going to work off the pasta she\u2019d eaten the night before. At the time, Rollins \u201cknew it was a [\u2026] The post Evangelical P",
-      "url": "https://electricliterature.com/evangelical-purity-culture-affects-us-all/",
+      "headline": "Surviving My Assault Means Understanding Where, and Who, I Come From",
+      "teaser": "Editor\u2019s note: This essay deals with topics of childhood sexual assault, rape, and incest. \u201cHush\u201d by Torie Rose Wiley The Armless Maiden, or in some retellings, The Maiden Without Hands, is an ancient folktale that has been passed down throughout different cultures and generations. In the older vers",
+      "url": "https://electricliterature.com/surviving-sexual-assault-means-understanding-where-and-who-i-come-from/",
       "source": "Electric Literature",
       "domain": "electricliterature.com",
-      "published": "2026-01-15T12:00:00+00:00",
-      "word_count": 1710,
-      "reading_min": 8,
-      "score": 3.23,
-      "tldr": "Exposes the pervasive impact of Evangelical purity culture on all",
-      "approvedDate": "2026-01-17"
+      "published": "2026-01-15T12:10:00+00:00",
+      "word_count": 4964,
+      "reading_min": 23,
+      "score": 3.7,
+      "tldr": "Speaks truth about trauma and healing for survivors of childhood assault"
     },
     {
-      "headline": "Fanfiction Made Me a Literary Scholar",
-      "teaser": "Last year, I was given a deeply nostalgic gift: Illumicrate\u2019s beautiful exclusive editions of Trudi Canavan\u2019s Black Magician Trilogy\u2014a series that had been one of my favorites in my late teens\u2014complete with embossed hardback covers and Diana Dworak\u2019s new endpaper artwork. Reading this series again p",
-      "url": "https://electricliterature.com/fanfiction-made-me-a-literary-scholar/",
+      "headline": "A Mother-Daughter Novel That Transforms the Western",
+      "teaser": "\u201cGo West, young man!\u201d\u2014a phrase that looms large in the United States\u2019s history of westward expansion. It\u2019s a history dominated by the displacement of Indigenous peoples, the exploitation and destruction of land, and a drive to claim more, more, always more: more resources, more gold, and more land, ",
+      "url": "https://electricliterature.com/a-mother-daughter-novel-that-transforms-the-western/",
       "source": "Electric Literature",
       "domain": "electricliterature.com",
-      "published": "2026-01-16T12:10:00+00:00",
-      "word_count": 1814,
-      "reading_min": 8,
-      "score": 3.26,
-      "archiveUrl": "http://web.archive.org/web/20260116230345/https://electricliterature.com/fanfiction-made-me-a-literary-scholar/",
-      "tldr": "Reveals that fanfiction can contribute meaningfully to literary scholarship",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "9 Venezuelan Books That Imagine Home from Abroad",
-      "teaser": "Growing up in Caracas in the \u201890s, I remember seeing a series of posters advertising Venezuela\u2019s most important tourist destinations, such as El Salto \u00c1ngel, Canaima National Park, and the Los Roques archipelago. The caption \u201cVenezuela, el secreto mejor guardado del Caribe\u201d\u2014\u201cthe best kept secret of ",
-      "url": "https://electricliterature.com/9-venezuelan-books-that-imagine-home-from-abroad/",
-      "source": "Electric Literature",
-      "domain": "electricliterature.com",
-      "published": "2026-01-14T12:05:00+00:00",
-      "word_count": 1681,
-      "reading_min": 8,
-      "score": 3.23,
-      "tldr": "Challenges long-held notions about Venezuela's tourist appeal and identity",
-      "approvedDate": "2026-01-17"
-    },
-    {
-      "headline": "7 Novels That Grapple With the Gig Economy",
-      "teaser": "From ride-hailing to door-to-door delivery apps, labor platforms have created a shining new way for millions across the globe to make a living, offering flexibility, autonomy, and low-entry barriers. These forms of gig work have experienced rapid growth while raising questions around worker protecti",
-      "url": "https://electricliterature.com/7-novels-that-grapple-with-the-gig-economy/",
-      "source": "Electric Literature",
-      "domain": "electricliterature.com",
-      "published": "2026-01-13T12:05:00+00:00",
-      "word_count": 1337,
-      "reading_min": 6,
-      "score": 3.13,
-      "tldr": "Reveals the human impact on a rapidly evolving gig economy phenomenon",
-      "approvedDate": "2026-01-17"
+      "published": "2026-01-13T12:00:00+00:00",
+      "word_count": 2544,
+      "reading_min": 12,
+      "score": 3.41,
+      "tldr": "Reveals painful truths about America's colonial past"
     }
-  ]
+  ],
+  "editorsPick": {
+    "headline": "A Mother-Daughter Novel That Transforms the Western",
+    "teaser": "\u201cGo West, young man!\u201d\u2014a phrase that looms large in the United States\u2019s history of westward expansion. It\u2019s a history dominated by the displacement of Indigenous peoples, the exploitation and destruction of land, and a drive to claim more, more, always more: more resources, more gold, and more land, ",
+    "url": "https://electricliterature.com/a-mother-daughter-novel-that-transforms-the-western/",
+    "source": "Electric Literature",
+    "archiveUrl": null,
+    "tldr": "Reveals painful truths about America's colonial past"
+  }
 }
