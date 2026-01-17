@@ -485,12 +485,71 @@ def run_curator():
             time.sleep(5)
 
 
+def auto_approve():
+    """auto-select top articles if no manual curation within timeout"""
+    import random
+
+    if not PENDING_FILE.exists():
+        print("No pending articles")
+        return
+
+    # check if articles.json was recently modified (manual curation happened)
+    if ARTICLES_FILE.exists():
+        articles_mtime = ARTICLES_FILE.stat().st_mtime
+        pending_mtime = PENDING_FILE.stat().st_mtime
+        # if articles.json is newer than pending, manual curation happened
+        if articles_mtime > pending_mtime:
+            print("Manual curation already done, skipping auto-approve")
+            return
+
+    pending = json.load(open(PENDING_FILE))
+    articles = {}
+    all_top = []
+
+    # select top 3 by score from each category
+    for cat in CATEGORIES:
+        items = pending.get(cat, [])
+        sorted_items = sorted(items, key=lambda x: x.get('score', 0), reverse=True)
+        top3 = sorted_items[:3]
+        articles[cat] = top3
+        all_top.extend(top3)
+        print(f"{cat}: auto-selected {len(top3)} (scores: {[round(a.get('score',0),1) for a in top3]})")
+
+    # random editor's pick from top articles
+    if all_top:
+        pick = random.choice(all_top)
+        articles["editorsPick"] = {
+            "headline": pick["headline"],
+            "teaser": pick["teaser"],
+            "url": pick["url"],
+            "source": pick["source"],
+            "archiveUrl": pick.get("archiveUrl"),
+            "tldr": pick.get("tldr")
+        }
+        print(f"Editor's Pick: {pick['headline'][:50]}...")
+
+    # save
+    with open(ARTICLES_FILE, 'w') as f:
+        json.dump(articles, f, indent=2)
+
+    # notify via telegram
+    send_message(f"⏰ Auto-approved {sum(len(articles.get(c,[])) for c in CATEGORIES)} articles (no manual curation)")
+
+    # push to git
+    if git_push():
+        print("Pushed to git")
+    else:
+        print("Git push pending")
+
+
 if __name__ == "__main__":
     import sys
 
     if len(sys.argv) > 1:
         if sys.argv[1] == "send":
             send_articles_for_review()
+        elif sys.argv[1] == "auto":
+            auto_approve()
         elif sys.argv[1] == "status":
             if ARTICLES_FILE.exists():
                 live = json.load(open(ARTICLES_FILE))

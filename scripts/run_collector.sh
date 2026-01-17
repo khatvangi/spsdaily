@@ -48,4 +48,4 @@ fi
 echo "$(date): Sending articles to Telegram..." >> "$LOG_FILE"
 $PYTHON scripts/telegram_curator.py send >> "$LOG_FILE" 2>&1
 
-echo "$(date): Collector finished - check Telegram for articles" >> "$LOG_FILE"
+echo "$(date): Collector finished - check Telegram (auto-approve at 7 PM if no curation)" >> "$LOG_FILE"
