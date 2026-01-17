@@ -3758,3 +3758,6762 @@ Fri Jan  9 06:00:51 PM CST 2026: Running feed collector...
 Fri Jan  9 06:03:55 PM CST 2026: Articles collected to pending_articles.json
 Fri Jan  9 06:03:55 PM CST 2026: Use /review in Telegram bot to curate and publish
 Fri Jan  9 06:03:55 PM CST 2026: Collector finished successfully
+
+========================================
+Sat Jan 10 06:03:03 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan 10 06:03:03 AM CST 2026: Pulling latest changes...
+Already up to date.
+Sat Jan 10 06:03:03 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 7
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 9, 1 dupes
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 8
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    ⚠ Filtered (political): ‘Thoughtless and Malicious’: Trump Administration ...
+    ⚠ Filtered (political): South Africa Cancels Gabrielle Goliath Gaza Artwor...
+    Added 8, 2 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 15 from HN
+
+🔍 Filtering seen articles...
+   Skipped 360 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (11 articles)
+    [1] Fujifilm X-E5 Mirrorless Camera Review: ...
+        🖼️ image found
+    [2] The Trick to Studying Dolphins Without S...
+        🖼️ image found
+        📚 archived
+    [3] The science-fiction films to look forwar...
+        🖼️ image found
+    [4] The 50 Best Movies on Netflix, WIRED’s P...
+        🖼️ image found
+        📚 archived
+    [5] The 50 Best Shows on Netflix, WIRED's Pi...
+        🖼️ image found
+        📚 archived
+    [6] Security News This Week: ICE Can Now Spy...
+        🖼️ image found
+    [7] Shokz OpenFit Pro Review: ANC on Open Ea...
+        🖼️ image found
+    [8] 12 Best Coffee Subscriptions (2026), Tes...
+        🖼️ image found
+    [9] Where Are All the New Cars?
+        🖼️ image found
+        📚 archived
+    [10] Total Wireless Promo Codes & Deals: 50% ...
+        🖼️ image found
+        📚 archived
+    [11] KitchenAid Promo Code: 50% Off This Mont...
+        🖼️ image found
+        📚 archived
+
+  📂 SOCIETY (34 articles)
+    [12] Tony Dokoupil’s viral first week should ...
+        🖼️ image found
+    [13] Trump’s Greenland Grab Ignores One Cruci...
+        🖼️ image found
+    [14] “I Know I’m Not Going to Win”: Why Peopl...
+        🖼️ image found
+    [15] Comic: It's Mercy Otis Warren vs. The Bl...
+        🖼️ image found
+        📚 archived
+    [16] This Will Happen Again
+        🖼️ image found
+    [17] How an Attack on Obamacare Saved Abortio...
+        🖼️ image found
+    [18] Slate Mini Crossword for Jan. 10, 2026
+        🖼️ image found
+    [19] What Police Weren’t Told About Tasers
+        🖼️ image found
+    [20] Hunter S Thompson’s freaks have overrun ...
+        🖼️ image found
+    [21] How a DEI drive led the Met to hire a ra...
+        🖼️ image found
+    [22] Machado’s Failed Venezuelan Gambit
+        🖼️ image found
+    [23] No, America Is Not Adopting a ‘Spheres-o...
+        🖼️ image found
+    [24] The End of a Spiritual Retreat in the As...
+        🖼️ image found
+    [25] Triumphs and Tin Ears at Princeton’s New...
+        🖼️ image found
+    [26] How to Make Fusion Great Again and Beat ...
+        🖼️ image found
+    [27] Trump’s Venezuelan oil rush is doomed fr...
+        🖼️ image found
+    [28] Weekly Quiz: Financial Literacy, Freefor...
+        🖼️ image found
+    [29] Donald Trump Was Never an Isolationist
+        🖼️ image found
+    [30] TV Review: “Heated Rivalry,” Streaming o...
+        🖼️ image found
+    [31] The Robot and the Philosopher
+        🖼️ image found
+    [32] Lagos Is a Vortex of Energy
+        🖼️ image found
+    [33] Renee Good Was the Kind of Person I Shou...
+        🖼️ image found
+    [34] Stephen Miller’s ICE Can’t Afford to Be ...
+        🖼️ image found
+    [35] How to Secure Justice for Renee Good
+        🖼️ image found
+    [36] Meta Glasses Are Making Us Nervous
+        🖼️ image found
+    [37] Open Thread
+        🖼️ image found
+    [38] Who can command Labour’s right wing?
+        🖼️ image found
+    [39] Zohran Mamdani is already under siege
+        🖼️ image found
+    [40] Starmer should call Trump’s bluff on X
+        🖼️ image found
+    [41] Abundance is too American for Britain
+        🖼️ image found
+    [42] Deals, dukes, and dirt: Inside the large...
+        🖼️ image found
+    [43] After Minneapolis, Democrats Revive ‘Abo...
+        🖼️ image found
+    [44] The Ugly Ironies in Trump’s Venezuela Pr...
+        🖼️ image found
+    [45] Is Donald Trump Creating the Conditions ...
+        🖼️ image found
+        📚 archived
+
+  📂 BOOKS (4 articles)
+    [46] The Things That Really Matter
+    [47] George Saunders Is No Saint (Despite Wha...
+    [48] Mass surveillance, the metaverse, making...
+        🖼️ image found
+    [49] Surviving Rome — the surprising truths a...
+        🖼️ image found
+        📚 archived
+
+✅ Done! 49 articles sent to Telegram
+   Science: 11
+   Philosophy: 0
+   Society: 34
+   Books: 4
+Sat Jan 10 06:07:15 AM CST 2026: Articles collected to pending_articles.json
+Sat Jan 10 06:07:15 AM CST 2026: Use /review in Telegram bot to curate and publish
+Sat Jan 10 06:07:15 AM CST 2026: Collector finished successfully
+
+========================================
+Sat Jan 10 06:01:20 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan 10 06:01:20 PM CST 2026: Pulling latest changes...
+Already up to date.
+Sat Jan 10 06:01:20 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 8
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 9, 1 dupes
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 9
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38927 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 10 from HN
+
+🔍 Filtering seen articles...
+   Skipped 347 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (19 articles)
+    [1] ‘Japanese Lantern’ in Boston, Massachuse...
+        📚 archived
+    [2] Help Is Other People: The Power of Socia...
+        🖼️ image found
+    [3] Best Deals for New Year’s Resolutions: S...
+        🖼️ image found
+    [4] AI is a business model stress test
+        🖼️ image found
+        📚 archived
+    [5] The secret weapon that could finally for...
+        🖼️ image found
+    [6] Can Psychology Explain Opposing Views of...
+        🖼️ image found
+    [7] Why Do Compliments Make Me Feel So Uncom...
+        🖼️ image found
+    [8] Giving Thanks in Turbulent Times
+        🖼️ image found
+    [9] The Emotions Behind AI
+        🖼️ image found
+    [10] Siebold Memorial Museum in Nagasaki, Jap...
+        📚 archived
+    [11] Forgiving Yourself
+        🖼️ image found
+    [12] Why Sensory Overload Isn’t About “Too Mu...
+        🖼️ image found
+    [13] When Thinking Becomes Weightless
+        🖼️ image found
+    [14] Cy Young Statue in Boston, Massachusetts
+    [15] Should You Include Former In-Laws in Fam...
+        🖼️ image found
+    [16] Sibling Identities: Different Paths, Sam...
+        🖼️ image found
+    [17] The Illusory Window in Wrocław, Poland
+    [18] Why Is Greenland Part of the Kingdom of ...
+        🖼️ image found
+        📚 archived
+    [19] Cloudspecs: Cloud Hardware Evolution Thr...
+        🖼️ image found
+        📚 archived
+
+  📂 PHILOSOPHY (1 articles)
+    [20] A Crowded Pantheon
+
+  📂 SOCIETY (40 articles)
+    [21] What Makes the Iranian Protests Differen...
+        🖼️ image found
+    [22] Professor's Lawsuit, "Focused on Discrim...
+        🖼️ image found
+    [23] RFK Jr. redefines “moderate drinking” in...
+        🖼️ image found
+    [24] Hundreds of Anti-ICE Protests Are Happen...
+        🖼️ image found
+    [25] The Problem Isn’t ICE. It’s ICE Watch
+        🖼️ image found
+    [26] My 12-Year-Old Wants Me to Divorce My Mo...
+        🖼️ image found
+    [27] Trump’s Greenland Threats
+        🖼️ image found
+    [28] Was the World of the 1990s Better Than T...
+        🖼️ image found
+    [29] Organized Labor Lambastes Trump’s Attack...
+        🖼️ image found
+        📚 archived
+    [30] The Case for Impeaching Donald Trump
+        🖼️ image found
+    [31] January sale: unlimited access for £1 a ...
+        🖼️ image found
+    [32] Protests Rock Iran
+        🖼️ image found
+    [33] “Mar-a-Lago face” hits its expiration da...
+        🖼️ image found
+    [34] Robyn reframes motherhood and desire
+        🖼️ image found
+    [35] My Boyfriend Swore He Was Divorced When ...
+        🖼️ image found
+    [36] Slate Pears Game 147: Jan. 10, 2026
+        🖼️ image found
+    [37] Justice Barrett, Trump v. Slaughter, and...
+        🖼️ image found
+    [38] Washington National Opera leaves Kennedy...
+        🖼️ image found
+    [39] I yearn for my mother’s perfect rice pud...
+        🖼️ image found
+    [40] Is the Iranian Regime About to Collapse?
+        🖼️ image found
+    [41] Netflix’s New Movie Adapts a Huge Bestse...
+        🖼️ image found
+    [42] Big Oil Knows That Trump’s Venezuela Pla...
+        🖼️ image found
+    [43] Grok is Gross
+        🖼️ image found
+    [44] At 250, Thomas Paine’s “Common Sense” st...
+        🖼️ image found
+    [45] A Red State’s High Court Gave Sam Alito ...
+        🖼️ image found
+    [46] The Messiness of Friendship
+        🖼️ image found
+    [47] The Flu Really Is That Bad
+        🖼️ image found
+    [48] Americans Are Afraid of Authority
+        🖼️ image found
+    [49] My Mom Loves to Tell My Son “Stories” Ab...
+        🖼️ image found
+    [50] Help! Everyone Says They Want What “Me a...
+        🖼️ image found
+    [51] Sonia Sotomayor Just Vindicated the Righ...
+        🖼️ image found
+    [52] America Has Entered Late-Stage Protein
+        🖼️ image found
+    [53] The Pitt Is a Brilliant Portrait of Amer...
+        🖼️ image found
+    [54] Out of Spite, Trump Used Veto Power to P...
+        🖼️ image found
+        📚 archived
+    [55] What Stephen Miller Gets Wrong About Hum...
+        🖼️ image found
+    [56] Trump Is Not Playing Five-Dimensional Ch...
+        🖼️ image found
+    [57] “Drink Up!” Says a Heavily Lobbied FDA
+        🖼️ image found
+        📚 archived
+    [58] The War on Drugs: A Pretext for Regime C...
+        🖼️ image found
+        📚 archived
+    [59] Zohran Mamdani Is Already Winning on Chi...
+        🖼️ image found
+        📚 archived
+    [60] Keir Starmer Backs Trump’s Assault on Ve...
+        🖼️ image found
+        📚 archived
+
+  📂 BOOKS (2 articles)
+    [61] The Mauritshuis Museum in Holland to Len...
+        🖼️ image found
+    [62] Beatriz González, Painter Who Remade Oth...
+        🖼️ image found
+
+✅ Done! 62 articles sent to Telegram
+   Science: 19
+   Philosophy: 1
+   Society: 40
+   Books: 2
+Sat Jan 10 06:06:05 PM CST 2026: Articles collected to pending_articles.json
+Sat Jan 10 06:06:05 PM CST 2026: Use /review in Telegram bot to curate and publish
+Sat Jan 10 06:06:05 PM CST 2026: Collector finished successfully
+
+========================================
+Sun Jan 11 06:00:51 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sun Jan 11 06:00:51 AM CST 2026: Pulling latest changes...
+Already up to date.
+Sun Jan 11 06:00:51 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 9
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 9, 1 dupes
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 9
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 1
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 9, 1 dupes
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 10 from HN
+
+🔍 Filtering seen articles...
+   Skipped 371 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (7 articles)
+    [1] Sony A7V Review: The Best Overall Mirror...
+        🖼️ image found
+    [2] Don't fall into the anti-AI hype
+        📚 archived
+    [3] Why my 2026 fitness resolution is all ab...
+        🖼️ image found
+    [4] Want to Stop Doomscrolling? You Might Ne...
+        🖼️ image found
+    [5] Best Side-Sleeper Mattresses 2026: Picke...
+        🖼️ image found
+        📚 archived
+    [6] The Danger of Reducing America's Venezue...
+        🖼️ image found
+        📚 archived
+    [7] A battle over Canada’s mystery brain dis...
+        🖼️ image found
+
+  📂 PHILOSOPHY (2 articles)
+    [8] 12 Classic Novels That Made Me A Better ...
+        🖼️ image found
+    [9] Making the Invisible Visible: Plato and ...
+        🖼️ image found
+
+  📂 SOCIETY (26 articles)
+    [10] How Will Prospective Venezuelan Oil Prod...
+        🖼️ image found
+    [11] How to fire up 2026’s hottest House race
+        🖼️ image found
+    [12] The Trump Administration's Deportation R...
+        🖼️ image found
+    [13] Restaurant Review: Cove
+        🖼️ image found
+    [14] Slate Mini Crossword for Jan. 11, 2026
+        🖼️ image found
+    [15] Individual suffering can’t justify this ...
+        🖼️ image found
+    [16] The Trump Corollary: We’re Nation-Buildi...
+        🖼️ image found
+    [17] The ‘Affable’ Coach Walz Never Existed
+        🖼️ image found
+    [18] Why Venezuela Needs Repatriation
+        🖼️ image found
+    [19] AI ‘Friends’ Are No Cure for Loneliness
+        🖼️ image found
+    [20] A Month in Literary Britain
+        🖼️ image found
+    [21] Sadia Shepard on Loss, Faith, and the We...
+        🖼️ image found
+    [22] Patrick Radden Keefe on Truman Capote’s ...
+        🖼️ image found
+    [23] Denmark Is Sick of Being Bullied by Trum...
+        🖼️ image found
+    [24] “Kim’s Game,” by Sadia Shepard
+        🖼️ image found
+    [25] Sadia Shepard Reads “Kim’s Game”
+        🖼️ image found
+    [26] Slate Crossword: Offered to Give Your No...
+        🖼️ image found
+    [27] She Was a Black Midwife. What Happened t...
+        🖼️ image found
+    [28] I’ve Been a Couples Therapist for 25 Yea...
+        🖼️ image found
+    [29] How Grok Filled X With Deepfake Porn
+        🖼️ image found
+    [30] Open Thread
+        🖼️ image found
+    [31] James Fishback: America Is Full
+        🖼️ image found
+    [32] Wide and to the Right
+        🖼️ image found
+    [33] Should I buy gold?
+        🖼️ image found
+    [34] Clare Short: “There’s no place for peopl...
+        🖼️ image found
+    [35] U.S. Strikes ISIS Targets in Syria
+        🖼️ image found
+
+  📂 BOOKS (2 articles)
+    [36] Book Review: ‘The Hitch,’ by Sara Levine
+    [37] Why men should really be reading more fi...
+        🖼️ image found
+
+✅ Done! 37 articles sent to Telegram
+   Science: 7
+   Philosophy: 2
+   Society: 26
+   Books: 2
+Sun Jan 11 06:04:20 AM CST 2026: Articles collected to pending_articles.json
+Sun Jan 11 06:04:20 AM CST 2026: Use /review in Telegram bot to curate and publish
+Sun Jan 11 06:04:20 AM CST 2026: Collector finished successfully
+
+========================================
+Sun Jan 11 06:00:27 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sun Jan 11 06:00:27 PM CST 2026: Pulling latest changes...
+Already up to date.
+Sun Jan 11 06:00:29 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 0
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 9
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38982 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2, 1 dupes
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 1
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 9, 1 dupes
+  → City Journal
+    Added 0
+  → Commentary
+    Added 8
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    ⚠ Filtered (political): Smithsonian Drops Wall Text Mentioning Trump’s Dou...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 7 from HN
+
+🔍 Filtering seen articles...
+   Skipped 339 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (21 articles)
+    [1] Are You Choosing a Donor or a Parent?
+        🖼️ image found
+    [2] Tesla Stained-Glass Window in Prague, Cz...
+    [3] American Dialect Society 2025 Word of th...
+    [4] 16 Best Heat Protectant Sprays for Wet a...
+        🖼️ image found
+        📚 archived
+    [5] How rethinking your relationship with ti...
+        🖼️ image found
+    [6] Redefining Persistence: Goal-Setting and...
+        🖼️ image found
+    [7] Don’t Believe Everything You Think
+        🖼️ image found
+    [8] Why Every Young Man Should Join a Garage...
+        🖼️ image found
+    [9] 4 Questions to Help You Avoid Arguments
+        🖼️ image found
+    [10] Forgiveness Is an Inside Job
+        🖼️ image found
+    [11] The Puhoi Pub in Puhoi, New Zealand
+    [12] Do You Have an Attention Problem? Or Doe...
+        🖼️ image found
+    [13] Making The Decision to Divorce
+        🖼️ image found
+    [14] Why Loving Your Child Isn't Enough to Ch...
+        🖼️ image found
+    [15] Restorative Parenting and the Benefits o...
+        🖼️ image found
+    [16] Cruz del Cóndor in Caylloma, Peru
+    [17] Nazi-Era Italian Laborers Memorial in Ni...
+    [18] On 'Turtle Island,' Indigenous Food Is N...
+    [19] Meta announces nuclear energy projects
+        🖼️ image found
+        📚 archived
+    [20] Bluesound Pulse Cinema Review: A Pretty ...
+    [21] China applies to put 200K satellites in ...
+        🖼️ image found
+        📚 archived
+
+  📂 PHILOSOPHY (10 articles)
+    [22] Bob Weir (1947 – 2026) Grateful Dead Gui...
+    [23] Amos Poe (1949 – 2025) Indie Filmmaker
+    [24] Béla Tarr (1955 – 2026) Legendary Filmma...
+    [25] Enforcement Regime
+    [26] A New Anti-Political Fervor
+    [27] The Last Word in Russia’s Courts
+    [28] Sunday Poem
+    [29] Belgrave Road – a tender tale of love be...
+        🖼️ image found
+    [30] The ‘Masculinity Crisis’ Is Real. This F...
+        🖼️ image found
+    [31] Restless Bones: How Our Treatment of Hum...
+        🖼️ image found
+
+  📂 SOCIETY (31 articles)
+    [32] RFK Jr’s reckless war on vaccines
+        🖼️ image found
+    [33] Kristi Noem Claims Trump Is Enforcing th...
+        🖼️ image found
+    [34] The Purged
+        🖼️ image found
+    [35] The Bloody Lesson the Ayatollah Took fro...
+        🖼️ image found
+    [36] “Find a new place to live”: Graham threa...
+        🖼️ image found
+        📚 archived
+    [37] Ten Years Ago, a Megahit Revitalized Spy...
+        🖼️ image found
+    [38] The New York Times's Latest Analysis of ...
+        🖼️ image found
+    [39] Word Collision
+        🖼️ image found
+    [40] Trump’s push for Greenland could destroy...
+        🖼️ image found
+    [41] We Ran Katie Wilson’s Campaign. Here’s W...
+        🖼️ image found
+        📚 archived
+    [42] The Red-State City That’s Doing Immigrat...
+        🖼️ image found
+    [43] They Want You to “Quit Demonstrating”
+        🖼️ image found
+        📚 archived
+    [44] Mamdani’s appointees are as mad as you’d...
+        🖼️ image found
+    [45] Don’t mourn the fall of the ‘rules-based...
+        🖼️ image found
+    [46] My Wife Just Had Another Baby. I Don’t T...
+        🖼️ image found
+    [47] Slate Pears Game 148: Jan. 11, 2026
+        🖼️ image found
+    [48] Justice Barrett, Trump v. Slaughter, and...
+        🖼️ image found
+    [49] A no-spend week, starting in the kitchen
+        🖼️ image found
+        📚 archived
+    [50] “Eviscerated by idiots”: Letterman rages...
+        🖼️ image found
+        📚 archived
+    [51] Bowen Yang, Matt Rogers apologize for sa...
+        🖼️ image found
+        📚 archived
+    [52] How Bad Bunny Did It
+        🖼️ image found
+    [53] My Sister-in-Law Is Giving My Daughter t...
+        🖼️ image found
+    [54] LA Wildfire Victims Remain Stuck in Toxi...
+        🖼️ image found
+        📚 archived
+    [55] Today in Supreme Court History: January ...
+        🖼️ image found
+    [56] What If There Is No Domino Effect?
+        🖼️ image found
+    [57] The YIMBY Hero Everyone Is Shouting At
+        🖼️ image found
+    [58] I Was Kidnapped by Idiots
+        🖼️ image found
+    [59] Iván Cepeda on the Risk of US Meddling i...
+        🖼️ image found
+    [60] Britain’s Housing Reform Won’t Tackle th...
+        🖼️ image found
+    [61] As Protests Engulf Iran, Israel Sees an ...
+        🖼️ image found
+        📚 archived
+    [62] Zohran Mamdani Has Quickly Gotten Down t...
+        🖼️ image found
+        📚 archived
+
+  📂 BOOKS (3 articles)
+    [63] Famed Nigerian Author Blames Death of To...
+    [64] Tom Gauld on performative reading – cart...
+        🖼️ image found
+    [65] Why pleasure is the key to self-improvem...
+        🖼️ image found
+
+✅ Done! 65 articles sent to Telegram
+   Science: 21
+   Philosophy: 10
+   Society: 31
+   Books: 3
+Sun Jan 11 06:05:11 PM CST 2026: Articles collected to pending_articles.json
+Sun Jan 11 06:05:11 PM CST 2026: Use /review in Telegram bot to curate and publish
+Sun Jan 11 06:05:11 PM CST 2026: Collector finished successfully
+
+========================================
+Mon Jan 12 06:04:39 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Mon Jan 12 06:04:39 AM CST 2026: Pulling latest changes...
+Already up to date.
+Mon Jan 12 06:04:39 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 7
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 10
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 1
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2, 1 dupes
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 9, 1 dupes
+  → City Journal
+    Added 0
+  → Commentary
+    Added 8
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 10
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 6
+  → Art News
+    ⚠ Filtered (political): Smithsonian Drops Wall Text Mentioning Trump’s Dou...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): South Africa Axes Venice Biennale Proposal Centeri...
+    ⚠ Filtered (political): Trump Withdraws From Major Culture Preservation Gr...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+  Error fetching Hacker News: HTTPSConnectionPool(host='hacker-news.firebaseio.com', port=443): Max retries exceeded with url: /v0/item/46577242.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+    Added 3 from HN
+
+🔍 Filtering seen articles...
+   Skipped 313 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (13 articles)
+    [1] 10 Best Pet Cameras (2026), Tested With ...
+        🖼️ image found
+        📚 archived
+    [2] 10 Breakthrough Technologies 2026
+        🖼️ image found
+    [3] Making autism into a partisan issue can ...
+        🖼️ image found
+    [4] Why some “breakthrough” technologies don...
+        🖼️ image found
+    [5] The astronaut training tourists to fly i...
+        🖼️ image found
+    [6] Good technology should change the world
+    [7] Meet the new biologists treating LLMs li...
+        🖼️ image found
+    [8] How next-generation nuclear reactors bre...
+        🖼️ image found
+    [9] Hyperscale AI data centers: 10 Breakthro...
+        🖼️ image found
+    [10] Sodium-ion batteries: 10 Breakthrough Te...
+        🖼️ image found
+    [11] Base-edited baby: 10 Breakthrough Techno...
+        🖼️ image found
+    [12] Mechanistic interpretability: 10 Breakth...
+        🖼️ image found
+    [13] Hyte X50 PC Case Review: Computers Shoul...
+        🖼️ image found
+
+  📂 PHILOSOPHY (22 articles)
+    [14] The Culture War Comes for Science
+        📚 archived
+    [15] 3 Quarks Daily Is Looking For New Column...
+        🖼️ image found
+    [16] How Science Trumped Materialism (ft. Mic...
+        🖼️ image found
+    [17] Red tape on a blue planet
+        🖼️ image found
+    [18] The Minotaur is Patient: a Schizothemia
+        🖼️ image found
+    [19] Numbers, Percentages, and Hyperbole – Tr...
+        🖼️ image found
+    [20] Poem by Jim Culleny
+    [21] The Clash Within Western Civilization
+        🖼️ image found
+    [22] The Wallet
+    [23] The Rise and Fall of Gay Activism
+        🖼️ image found
+    [24] The Failure of Bioethics
+        🖼️ image found
+    [25] Postliberalism and Theology
+        🖼️ image found
+    [26] Letters
+        🖼️ image found
+    [27] The Lonely Passion of Reginald Pole
+        🖼️ image found
+    [28] Cancer and the Cure of Souls
+        🖼️ image found
+    [29] Mark Twain’s Religion
+        🖼️ image found
+    [30] DNA break repair
+        🖼️ image found
+    [31] The tragedy of Trần Đức Thảo
+        🖼️ image found
+    [32] Persian tar: a living instrument
+        🖼️ image found
+    [33] The spiral of suffering
+        🖼️ image found
+    [34] Outside center
+        🖼️ image found
+    [35] The erotic poems of Bilitis
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [36] A Poetry Collection to Resurrect Ireland...
+        🖼️ image found
+    [37] MAGA is weirdly thirsty for Barron Trump
+        🖼️ image found
+    [38] The Saddest Part of This Recent Economic...
+        🖼️ image found
+    [39] Trump Is Serious about Greenland. What D...
+        🖼️ image found
+    [40] America’s War Chest in Waiting
+        🖼️ image found
+    [41] Bill Gates Isn't the Only One Shifting F...
+        🖼️ image found
+        📚 archived
+    [42] Mom and Dad: The Performance Review
+        🖼️ image found
+    [43] I Don’t Expect Money When My Dad Dies. I...
+        🖼️ image found
+    [44] Peace be the promise
+        🖼️ image found
+    [45] Labour’s new foreign policy divide
+        🖼️ image found
+    [46] Trump’s Rage Explodes at GOPers as Their...
+        🖼️ image found
+    [47] India’s Dwindling Maoist Insurgency
+        🖼️ image found
+    [48] The Golden Globes Tried to Have It Both ...
+        🖼️ image found
+    [49] ‘Free-thinking women are being culled fr...
+        🖼️ image found
+    [50] Trump is Reviving ‘Spheres of Influence....
+        🖼️ image found
+    [51] The Barber of Erice
+        🖼️ image found
+        📚 archived
+    [52] How Greenland Falls
+        🖼️ image found
+        📚 archived
+    [53] How America Can Win the ‘Tech Triad’ Rac...
+        🖼️ image found
+    [54] Give Thanks
+        🖼️ image found
+    [55] After the Venezuela Raid, Trump Should F...
+        🖼️ image found
+    [56] Proceed with Caution on Venezuelan Oil
+        🖼️ image found
+    [57] How to Recover from Caring Too Much
+        🖼️ image found
+    [58] Reflections
+        🖼️ image found
+    [59] “Changing Table,” by Meghan O’Rourke
+        🖼️ image found
+    [60] “Men’s Beds,” by Richie Hofmann
+        🖼️ image found
+    [61] Briefly Noted Book Reviews
+        🖼️ image found
+    [62] Peter Doig’s Histories of Ink
+        🖼️ image found
+    [63] How WhatsApp Took Over the Global Conver...
+        🖼️ image found
+    [64] The Dangerous Paradox of A.I. Abundance
+        🖼️ image found
+    [65] Help! I Dumped My Boyfriend Over a Terri...
+        🖼️ image found
+    [66] I Finally Decided to Get Botox. Then I S...
+        🖼️ image found
+    [67] There Was Only One Way My Ex Could Keep ...
+        🖼️ image found
+    [68] My Son Does the Same Maddening Thing Eve...
+        🖼️ image found
+    [69] Help! I Can’t Let All My Friends Hang Ou...
+        🖼️ image found
+    [70] Which Philosophical Term Refers to the B...
+        🖼️ image found
+    [71] Slate Mini Crossword for Jan. 12, 2026
+        🖼️ image found
+    [72] Slate Crossword: Spring Immediately Befo...
+        🖼️ image found
+    [73] I Was in Greenland the Last Time Donald ...
+        🖼️ image found
+    [74] Brickbat: Run From the Border
+        🖼️ image found
+    [75] Open Thread
+        🖼️ image found
+    [76] The great lie about the British welfare ...
+        🖼️ image found
+    [77] Josh Babarinde: Lib Dems need to fight “...
+        🖼️ image found
+        📚 archived
+    [78] Stop overintellectualising pop
+        🖼️ image found
+    [79] Rasmus Jarlov: If the US attempts a mili...
+        🖼️ image found
+    [80] Union members could decide who the next ...
+        🖼️ image found
+    [81] Is Lindsey Graham’s Foreign Policy the N...
+        🖼️ image found
+    [82] The Myth of the AI Race
+        🖼️ image found
+        📚 archived
+    [83] A Sobering Awards Season Pivot
+        🖼️ image found
+    [84] Celebrities’ pins pay tribute to Renee G...
+        🖼️ image found
+    [85] The 2026 Golden Globes winners list
+        🖼️ image found
+
+  📂 BOOKS (10 articles)
+    [86] No One Was “Picasso’s Woman”
+    [87] NASA astronaut Sunita Williams to attend...
+        🖼️ image found
+        📚 archived
+    [88] Book Review: ‘Catapult,’ by Jim Paul
+    [89] Poem of the week: Dream-Pedlary by Thoma...
+        🖼️ image found
+    [90] AIDS Cut Their Lives Short. Now, Their A...
+        🖼️ image found
+    [91] From winter chillers to what Paul McCart...
+        🖼️ image found
+        📚 archived
+    [92] Fondazione Prada to Stage Arthur Jafa/Ri...
+        🖼️ image found
+    [93] The Only Cure by Mark Solms review – has...
+        🖼️ image found
+    [94] Seven by Joanna Kavenna review – a madca...
+        🖼️ image found
+    [95] The Hindu Lit For Life: How translators ...
+        🖼️ image found
+
+✅ Done! 95 articles sent to Telegram
+   Science: 13
+   Philosophy: 22
+   Society: 50
+   Books: 10
+Mon Jan 12 06:10:45 AM CST 2026: Articles collected to pending_articles.json
+Mon Jan 12 06:10:45 AM CST 2026: Use /review in Telegram bot to curate and publish
+Mon Jan 12 06:10:45 AM CST 2026: Collector finished successfully
+
+========================================
+Mon Jan 12 06:00:39 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Mon Jan 12 06:00:39 PM CST 2026: Pulling latest changes...
+Already up to date.
+Mon Jan 12 06:00:40 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 5
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 9
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    ⚠ Filtered (political): The Hindu Lit for Life 2026 | Review of Gopalkrish...
+    Added 9, 1 filtered
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 7
+  → Art News
+    Added 10
+  → Hyperallergic
+    Added 10
+
+📚 Collecting from Hacker News...
+    Added 9 from HN
+
+🔍 Filtering seen articles...
+   Skipped 245 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (46 articles)
+    [1] Voices of Generations: How Family Storie...
+        🖼️ image found
+    [2] Minnesota Sues to Stop ICE ‘Invasion’
+        🖼️ image found
+    [3] Space Exploration Speaks to the Core of ...
+        🖼️ image found
+    [4] Yucca House in Cortez, Colorado
+    [5] Pompeii’s public baths were unhygienic u...
+        🖼️ image found
+    [6] CES showed me why Chinese tech companies...
+        🖼️ image found
+    [7] Cells Use ‘Bioelectricity’ To Coordinate...
+        🖼️ image found
+    [8] Show HN: Yolobox – Run AI coding agents ...
+        🖼️ image found
+        📚 archived
+    [9] The Third State of Knowing
+        🖼️ image found
+    [10] ADHD and the Motivation That Never Comes
+        🖼️ image found
+    [11] The Birth Order Hoax
+        🖼️ image found
+    [12] What a 1939 Experiment Teaches Us About ...
+        🖼️ image found
+    [13] How Therapists Can Heal Our Attention
+        🖼️ image found
+    [14] The Venting Trap: Why Letting It Out Mak...
+        🖼️ image found
+    [15] We’re Evolving Beyond This Rock Right No...
+        🖼️ image found
+    [16] Managing January Meltdowns
+        🖼️ image found
+    [17] FBI Agent’s Sworn Testimony Contradicts ...
+        🖼️ image found
+        📚 archived
+    [18] Our Brains on Smartphones and Social Med...
+        🖼️ image found
+    [19] How Brain Waves Shape Your Sense of Self
+        🖼️ image found
+    [20] Supporting Someone with BPD: Tips for Fa...
+        🖼️ image found
+    [21] Take a Look at the Hairy Mouthparts of a...
+        🖼️ image found
+    [22] When Fake Nuclear Disaster Fallout Reach...
+        🖼️ image found
+    [23] Snag a Feature-Packed Gaming Headset for...
+        🖼️ image found
+    [24] Right-Wing Influencers Have Flooded Minn...
+        🖼️ image found
+        📚 archived
+    [25] River View Cemetery in Portland, Oregon
+    [26] GoFundMe Ignores Own Rules by Hosting a ...
+        🖼️ image found
+        📚 archived
+    [27] MacKenzie Scott Donates $45 Million to t...
+        🖼️ image found
+        📚 archived
+    [28] Quantum computers could help sharpen ima...
+        🖼️ image found
+    [29] Flood High Water Marks in Paducah, Kentu...
+    [30] Cap’s Place Island Restaurant in Lightho...
+    [31] Hillsboro Inlet Lighthouse in Hillsboro ...
+    [32] Our elegant universe: rethinking nature’...
+        🖼️ image found
+    [33] Is there an evolutionary reason for same...
+        🖼️ image found
+    [34] Butterfly World in Coconut Creek, Florid...
+    [35] The Bonnet House Museum and Gardens in F...
+    [36] How Childbearing Leaves Its Imprint on M...
+        🖼️ image found
+    [37] Big Four Bridge in Jeffersonville, India...
+    [38] We're about to simulate a human brain on...
+        🖼️ image found
+    [39] Mitigating emissions from air freight: U...
+        🖼️ image found
+    [40] The Download: introducing this year’s 10...
+        🖼️ image found
+    [41] Securing digital assets as crypto crime ...
+        🖼️ image found
+    [42] Best Travel Cameras (2026), Tested and R...
+        🖼️ image found
+        📚 archived
+    [43] Why it’s easy to be misunderstood when t...
+        🖼️ image found
+    [44] Show HN: AI in SolidWorks
+        📚 archived
+    [45] Computers that used to be human
+        📚 archived
+    [46] Ai, Japanese chimpanzee who counted and ...
+        🖼️ image found
+        📚 archived
+
+  📂 PHILOSOPHY (10 articles)
+    [47] Why I Try to Be Kind
+        🖼️ image found
+    [48] Our NIMBY Democracy
+        🖼️ image found
+    [49] Luc Delahaye – Death And Destruction As ...
+    [50] Claude Code and What Comes Next
+        🖼️ image found
+    [51] What The Photographer Does
+        🖼️ image found
+    [52] Terry Tao on the future of mathematics
+    [53] The Ancient and Long-Forgotten Language ...
+        🖼️ image found
+    [54] The outcome in Venezuela, Ukraine and Ta...
+        🖼️ image found
+    [55] Quit Like a Woman (Holly Whitaker) Summa...
+    [56] Baghdad’s Blank Slate
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [57] An Expert Weighs in on Hurdles to Suing ...
+        🖼️ image found
+    [58] “Unlawful and unconstitutional”: Kelly s...
+        🖼️ image found
+    [59] Iran Escalates Protest Crackdown but Say...
+        🖼️ image found
+    [60] Karoline Leavitt Flips Out Over Anti-ICE...
+        🖼️ image found
+    [61] Some Other Things Donald Trump Will Prob...
+        🖼️ image found
+    [62] Video Shows Border Patrol Threaten Legal...
+        🖼️ image found
+    [63] The Largest Nurses Strike in New York Ci...
+        🖼️ image found
+    [64] Trump Finally Found the One Thing That C...
+        🖼️ image found
+    [65] A good musical morning
+        🖼️ image found
+    [66] Berlin’s blackout was a grim taste of ou...
+        🖼️ image found
+    [67] Trump Should Hope His Credit Card Intere...
+        🖼️ image found
+    [68] Hamas Supporters and the Murderous Irani...
+        🖼️ image found
+    [69] Clive Lewis moves slightly less to the l...
+        🖼️ image found
+    [70] If You Want Me to Pay My Taxes
+        🖼️ image found
+    [71] The High Cost of Trump’s Amateur Diploma...
+        🖼️ image found
+    [72] Powell Says DOJ Served Fed With Grand Ju...
+        🖼️ image found
+    [73] Daily Cartoon: Monday, January 12th
+        🖼️ image found
+    [74] Zohran Mamdani Is Right to Stand By Cea ...
+        🖼️ image found
+    [75] A Brief History of Men Showing Leg
+        🖼️ image found
+    [76] At Least My Best Friend Stabbed Me in th...
+        🖼️ image found
+    [77] Who Really Defends Europe — Ukraine or t...
+        🖼️ image found
+    [78] After Maduro, there is a storm brewing i...
+    [79] Scenes of Escalating Violence, Chaos, an...
+        🖼️ image found
+    [80] “Stupod B*tch”: GoFundMe for Minnesota I...
+        🖼️ image found
+    [81] Maduro’s Trial Follows the Twisted Logic...
+        🖼️ image found
+    [82] Hans von Spakovsky, Formerly of the Heri...
+        🖼️ image found
+    [83] Trump's War on Interest Rates
+        🖼️ image found
+    [84] Today’s Atlantic Trivia: Our Deer Depart...
+        🖼️ image found
+    [85] It’s Time to Rethink the Politics of “Ab...
+        🖼️ image found
+    [86] Trump’s Transparent Persecution of Jerom...
+        🖼️ image found
+    [87] Trump 2.0, Year 1: A Libertarian Nightma...
+        🖼️ image found
+    [88] “Decision is final”: Nobel Institute say...
+        🖼️ image found
+    [89] The ICE Agent Who Killed Renee Good Disr...
+        🖼️ image found
+    [90] “WE’RE SCREWED”: Trump Panics Over Loomi...
+        🖼️ image found
+    [91] Thank the Supreme Court for Trump’s Late...
+        🖼️ image found
+        📚 archived
+    [92] Trump Loves Calling People “Terrorists.”...
+        🖼️ image found
+    [93] Free Speech Unmuted: 2025: The Year in F...
+        🖼️ image found
+    [94] Trump Is on Revenge Path Now That James ...
+        🖼️ image found
+    [95] The Manager-Monarch Who Saved Oman
+        🖼️ image found
+    [96] Trump and the Fed Are Now at War
+        🖼️ image found
+    [97] Mark Kelly Hits Defense Secretary Hegset...
+        🖼️ image found
+    [98] Iran's Inflation Protests Turned Into an...
+        🖼️ image found
+    [99] Two GOP Senators Vow to Fight Trump’s Fe...
+        🖼️ image found
+    [100] Trump’s War Against Jerome Powell Enters...
+        🖼️ image found
+        📚 archived
+    [101] Ayatollah Starmer’s X crackdown is an in...
+        🖼️ image found
+        📚 archived
+    [102] Trump Refuses to Learn His Lesson on Let...
+        🖼️ image found
+    [103] “We Killed That Lesbian B*tch”: ICE Uses...
+        🖼️ image found
+    [104] The Cloying, Narcissistic, Theatrically ...
+        🖼️ image found
+    [105] White men were “treated very badly”: Tru...
+        🖼️ image found
+    [106] Fed Chair Jerome Powell turns whistleblo...
+        🖼️ image found
+
+  📂 BOOKS (20 articles)
+    [107] Beatriz González, Colombian Painter of C...
+        🖼️ image found
+    [108] Israel Plots Venice Biennale Return as A...
+        🖼️ image found
+    [109] Influential Curator Philip Tinari Leaves...
+        🖼️ image found
+    [110] Telfair Museums, Oldest Public Art Museu...
+        🖼️ image found
+    [111] Phillips to Auction Collection of Danish...
+        🖼️ image found
+    [112] Ms. Rachel Sells Artworks by Children Fr...
+        🖼️ image found
+    [113] A Video Game Lets You Take Back Looted A...
+        🖼️ image found
+    [114] Internet Personality MacKenzie Thomas’s ...
+        🖼️ image found
+    [115] The Nightmares Beneath the Surface of "D...
+        🖼️ image found
+    [116] South African Ministry Denies Censoring ...
+        🖼️ image found
+    [117] David Wojnarowicz in the Age of Surveill...
+    [118] British Archaeologists Make Discovery of...
+        🖼️ image found
+    [119] Mitchell Johnson: Two San Francisco Exhi...
+        🖼️ image found
+    [120] The Contemporary Relevance of Palestinia...
+        🖼️ image found
+    [121] Apply for IDSVA’s Low-Residency PhD in V...
+        🖼️ image found
+    [122] Children’s YouTube Star Ms. Rachel to Pr...
+        🖼️ image found
+    [123] Fired Philadelphia Art Museum Director S...
+        🖼️ image found
+    [124] After 14 Years, Philip Tinari Leaves UCC...
+        🖼️ image found
+    [125] Visions of Venezuela and Cuba From Exile
+        🖼️ image found
+    [126] Louvre Closes Again as Staff Strike Disr...
+        🖼️ image found
+
+✅ Done! 126 articles sent to Telegram
+   Science: 46
+   Philosophy: 10
+   Society: 50
+   Books: 20
+Mon Jan 12 06:09:05 PM CST 2026: Articles collected to pending_articles.json
+Mon Jan 12 06:09:05 PM CST 2026: Use /review in Telegram bot to curate and publish
+Mon Jan 12 06:09:05 PM CST 2026: Collector finished successfully
+
+========================================
+Tue Jan 13 06:00:45 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Tue Jan 13 06:00:45 AM CST 2026: Pulling latest changes...
+Already up to date.
+Tue Jan 13 06:00:45 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 5
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 0
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 8
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 1
+  → The Baffler
+    Added 3
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 4
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    Added 0
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    Added 8
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    Added 7
+  → Art News
+    Added 10
+  → Hyperallergic
+    Added 10
+
+📚 Collecting from Hacker News...
+    Added 9 from HN
+
+🔍 Filtering seen articles...
+   Skipped 330 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (17 articles)
+    [1] Reid Hoffman Wants Silicon Valley to ‘St...
+        🖼️ image found
+    [2] Where Is the Future?
+        🖼️ image found
+    [3] A Billion-Year-Old Piece of Sky Locked W...
+        🖼️ image found
+        📚 archived
+    [4] Google removes AI health summaries after...
+        🖼️ image found
+        📚 archived
+    [5] Atonemo Streamplayer Review: Make Old Sp...
+        🖼️ image found
+    [6] Trump Declared a Space Race With China. ...
+        🖼️ image found
+    [7] What to Do If ICE Invades Your Neighborh...
+        🖼️ image found
+        📚 archived
+    [8] Best Baby Gear (2026): Baby Monitors, St...
+        🖼️ image found
+        📚 archived
+    [9] Everything You Need to Know About Import...
+        🖼️ image found
+        📚 archived
+    [10] Hoka Coupon Codes: 10% Off | January 202...
+        🖼️ image found
+    [11] 50% Off Verizon Promo Codes | January 20...
+        🖼️ image found
+        📚 archived
+    [12] TurboTax Discount Codes | January 2026
+        🖼️ image found
+        📚 archived
+    [13] Walmart Promo Codes and Coupons: Up to 6...
+        🖼️ image found
+        📚 archived
+    [14] A Key Technique Therapists Use to Figure...
+        🖼️ image found
+    [15] The Danger of Cognitive Hybrid Fluency
+        🖼️ image found
+    [16] Astronaut Brains Change Shape in Space
+        🖼️ image found
+        📚 archived
+    [17] Superhuman AI exfiltrates emails
+        🖼️ image found
+
+  📂 PHILOSOPHY (7 articles)
+    [18] Raphael’s School of Education
+        🖼️ image found
+    [19] Lancelot in the Desert
+        🖼️ image found
+    [20] America’s Imperial Boomerang Era
+        🖼️ image found
+    [21] Perceptions
+        🖼️ image found
+    [22] Church History Does Not Support Trump’s ...
+        🖼️ image found
+    [23] Christmas Nationalism
+        🖼️ image found
+    [24] In the Footsteps of Aeneas
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [25] A Mother-Daughter Novel That Transforms ...
+        🖼️ image found
+    [26] Salman Rushdie is in “the 9th or 10th ho...
+        🖼️ image found
+    [27] Trump’s hall of mirrors presidency
+        🖼️ image found
+    [28] Will Washington Learn the Lessons of Tia...
+        🖼️ image found
+    [29] Carney’s “Buy Canadian” Policy Doesn’t R...
+        🖼️ image found
+    [30] How the Supreme Court Broke Congress
+        🖼️ image found
+    [31] Iran’s Regime Is Unsustainable
+        🖼️ image found
+    [32] Help! The Way My Girlfriend Prepares Foo...
+        🖼️ image found
+    [33] The EU-Mercosur Deal Puts Principles int...
+        🖼️ image found
+    [34] Trump Shooting Horror Takes Darker Turn ...
+        🖼️ image found
+    [35] Taxpayers paid to send MoD official to w...
+        📚 archived
+    [36] Brickbat: Foraging Foul Play
+        🖼️ image found
+    [37] One Big Downside of Trump’s Military Suc...
+        🖼️ image found
+    [38] “Femme Noire” by Léopold Sédar Senghor
+        🖼️ image found
+    [39] Why Putin Still Prefers War
+        🖼️ image found
+    [40] The Law Cannot Fix a Broken Culture
+        🖼️ image found
+    [41] Supreme Court Battle Over Trans Athletes...
+        🖼️ image found
+    [42] Are we ready for a “Brexit reset”?
+        🖼️ image found
+    [43] Gaza aid groups continue work amid Israe...
+        🖼️ image found
+    [44] Targeting Powell
+        🖼️ image found
+    [45] Why Sex Differences Matter in Women’s Sp...
+        🖼️ image found
+    [46] Heated Rivalry is the romp we need
+        🖼️ image found
+    [47] Mary Peltola may put Alaska’s Senate rac...
+        🖼️ image found
+    [48] George Clooney’s Duolingo
+        🖼️ image found
+    [49] What Comes After the Protests
+        🖼️ image found
+    [50] My 3-Month-Old Baby is in Daycare—and It...
+        🖼️ image found
+    [51] Which 17th-Century Poet’s 19 Holy Sonnet...
+        🖼️ image found
+    [52] Why Keir Starmer has gone to war with El...
+        🖼️ image found
+    [53] Slate Mini Crossword for Jan. 13, 2026
+        🖼️ image found
+    [54] Slate Crossword: Car Whose Passenger Def...
+        🖼️ image found
+    [55] I Saw the Dark Side of Tort Law. It’s Wa...
+        🖼️ image found
+    [56] You’ve Heard About Who ICE Is Recruiting...
+        🖼️ image found
+    [57] The Case for a Blue Wave
+        🖼️ image found
+    [58] Grok Is Testing Whether AI Governance Me...
+        🖼️ image found
+    [59] Why Autopsies Are in Decline and Why it ...
+        🖼️ image found
+    [60] Open Thread
+        🖼️ image found
+    [61] The housing market has already crashed
+        🖼️ image found
+    [62] Will Keir Starmer dare to unpick Brexit?
+        🖼️ image found
+    [63] Labour has left young women behind
+        🖼️ image found
+    [64] London may be safer – but it is sufferin...
+        🖼️ image found
+    [65] Behind Iran’s blackout, protest rages on
+        🖼️ image found
+    [66] After Venezuela, Many Brazilians Skeptic...
+        🖼️ image found
+    [67] A Conservative Requiem for Bob Weir and ...
+        🖼️ image found
+    [68] The Iranian Regime Could Fall
+        🖼️ image found
+    [69] A World Without Rules
+        🖼️ image found
+    [70] Are Historians Really Apolitical?
+        🖼️ image found
+    [71] A Breathtaking Week of Pure Trump Id
+        🖼️ image found
+    [72] End the Fed? Or Turn It Over to Trump?
+        🖼️ image found
+    [73] Are American College Students Brilliantl...
+        🖼️ image found
+    [74] The Candor of Jerome Powell
+        🖼️ image found
+
+  📂 BOOKS (12 articles)
+    [75] Is there a revolution at the Smithsonian...
+        🖼️ image found
+    [76] Palestinian Embroidery Today
+    [77] The Hindu Lit for Life 2026 | Nirmala La...
+        🖼️ image found
+    [78] Book Review: ‘Lost Lambs,’ by Madeline C...
+    [79] Love Machines by James Muldoon review – ...
+        🖼️ image found
+    [80] Understanding Iran: seven books that hel...
+        🖼️ image found
+        📚 archived
+    [81] The Hindu Lit for Life 2026 | Megha Maju...
+        🖼️ image found
+    [82] Viswanathan Anand: On enjoying life, rea...
+        🖼️ image found
+    [83] The Hindu Lit for Life 2026 | Festival d...
+        🖼️ image found
+    [84] Heated Rivalry books sell out amid Austr...
+        🖼️ image found
+    [85] Goschen library finds its readers again ...
+        🖼️ image found
+    [86] In a first, Kolkata’s iconic book fair t...
+        🖼️ image found
+
+✅ Done! 86 articles sent to Telegram
+   Science: 17
+   Philosophy: 7
+   Society: 50
+   Books: 12
+Tue Jan 13 06:06:29 AM CST 2026: Articles collected to pending_articles.json
+Tue Jan 13 06:06:29 AM CST 2026: Use /review in Telegram bot to curate and publish
+Tue Jan 13 06:06:29 AM CST 2026: Collector finished successfully
+
+========================================
+Tue Jan 13 06:02:28 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Tue Jan 13 06:02:28 PM CST 2026: Pulling latest changes...
+Already up to date.
+Tue Jan 13 06:02:29 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 4
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(18320 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 5
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 1
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 1
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 4
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 7
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 7
+  → Granta
+    Added 2
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 0, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Leah Williamson and Richard Osman back National Ye...
+    Added 6, 1 filtered
+  → NY Times Books
+    ⚠ Filtered (political): How John Kennedy, a G.O.P. Senator, Became a Best-...
+    Added 0, 1 filtered
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    ⚠ Filtered (political): Polar War — Trump, Greenland and the rising risk o...
+    Added 9, 1 filtered
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): House Votes to Fund the Arts, Despite Trump Threat...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 18 from HN
+
+🔍 Filtering seen articles...
+   Skipped 246 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (47 articles)
+    [1] The Fight on Capitol Hill to Make It Eas...
+        🖼️ image found
+    [2] No One Asked, But You Delivered: You Pre...
+        🖼️ image found
+    [3] Delusions Are Often Not-So-Delusional Af...
+        🖼️ image found
+    [4] The Rebirth of Pennsylvania’s Infamous B...
+    [5] The hunt for where the last Neanderthals...
+        🖼️ image found
+    [6] We can't have nice things because of AI ...
+        📚 archived
+    [7] The Download: sodium-ion batteries and C...
+        🖼️ image found
+    [8] Is What We Remember True?
+        🖼️ image found
+    [9] What Brings Out the Secret Snob in You?
+        🖼️ image found
+    [10] Is Romantic Curiosity a Virtue?
+        🖼️ image found
+    [11] Why Knowing Your Limits Can Be Your Majo...
+        🖼️ image found
+    [12] Hanging On to Hope, Even in the Face of ...
+        🖼️ image found
+    [13] Surf Therapy for PTSD Recovery
+        🖼️ image found
+    [14] Adding Comfort and Dignity to the Breast...
+        🖼️ image found
+    [15] How Jupiter and Saturn Dictate Earth’s O...
+        🖼️ image found
+    [16] Puente Romano in Mérida, Spain
+    [17] The 51 Best Shows on Hulu, WIRED’s Picks...
+        🖼️ image found
+        📚 archived
+    [18] 10 Things a Hitman Thought Before Pullin...
+        🖼️ image found
+    [19] Helping All Moms Survive Labor and Deliv...
+        🖼️ image found
+    [20] An Asteroid Impact May Explain Our Lopsi...
+        🖼️ image found
+    [21] Yogyakarta Station Steam Locomotive Monu...
+    [22] Everything Is Content for the ‘Clicktato...
+        🖼️ image found
+    [23] Roblox’s AI-Powered Age Verification Is ...
+        🖼️ image found
+        📚 archived
+    [24] Shortcut Your System With a Discounted E...
+        🖼️ image found
+    [25] China’s Hottest App Is a Daily Test of W...
+        🖼️ image found
+    [26] Vlaeykensgang in Antwerp, Belgium
+    [27] Dozens of ICE Vehicles in Minnesota Lack...
+        🖼️ image found
+        📚 archived
+    [28] Big Texan Steak Ranch & Brewery in Amari...
+    [29] The Pacific Islanders fighting to save t...
+        🖼️ image found
+    [30] The Quest to Visit 1,000 Places
+    [31] What “Primate” and Other Slasher Monkey ...
+        🖼️ image found
+        📚 archived
+    [32] Greenland sharks survive for centuries w...
+        🖼️ image found
+    [33] Schooner Fame of Salem in Salem, Massach...
+    [34] Microsoft Has a Plan to Keep Its Data Ce...
+        🖼️ image found
+    [35] Games Workshop bans staff from using AI
+        🖼️ image found
+    [36] Instagram AI Influencers Are Defaming Ce...
+        🖼️ image found
+        📚 archived
+    [37] Urevo SpaceWalk 5L Walking Pad Review: C...
+        🖼️ image found
+    [38] Let's be honest, Generative AI isn't goi...
+        🖼️ image found
+    [39] Signal leaders warn agentic AI is an ins...
+        🖼️ image found
+        📚 archived
+    [40] AI Generated Music Barred from Bandcamp
+        🖼️ image found
+    [41] Board Review: Tabletop Video Games With ...
+        🖼️ image found
+    [42] What a year of solar and batteries saved...
+        🖼️ image found
+        📚 archived
+    [43] Local Journalism Is How Democracy Shows ...
+        🖼️ image found
+        📚 archived
+    [44] Confer – End to end encrypted AI chat
+        📚 archived
+    [45] NASA topples towers used to test Saturn ...
+        🖼️ image found
+        📚 archived
+    [46] Mozilla's open source AI strategy
+        🖼️ image found
+        📚 archived
+    [47] FOSS in times of war, scarcity and (adve...
+        🖼️ image found
+
+  📂 PHILOSOPHY (12 articles)
+    [48] A brilliant warning about the gamificati...
+        🖼️ image found
+    [49] The Ethics of Digital Compassion: Humani...
+        🖼️ image found
+    [50] Peter Kropotkin’s Memoirs of a Revolutio...
+        🖼️ image found
+        📚 archived
+    [51] We may finally know what a healthy gut m...
+        🖼️ image found
+    [52] Hyundai and Boston Dynamics Unveil the F...
+    [53] Lessons of Darkness: The Sonic and Music...
+    [54] The Left’s Deafening Silence on Iran
+        🖼️ image found
+    [55] Indian Temptations
+    [56] Earthworms Defy Architectural Logic
+        🖼️ image found
+    [57] Tuesday Poem
+    [58] These are the treatments dominating the ...
+        🖼️ image found
+    [59] This Nerve Influences Nearly Every Inter...
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [60] None of This Should Have Happened
+        🖼️ image found
+    [61] “The Chronology of Water” Is an Extraord...
+        🖼️ image found
+    [62] “ICE needs to de-escalate”: O’Reilly cal...
+        🖼️ image found
+    [63] Trump’s Fantastical Geopolitics
+        🖼️ image found
+    [64] The Supreme Court Looks Likely to Uphold...
+        🖼️ image found
+    [65] California Billionaires Are Leaving the ...
+        🖼️ image found
+        📚 archived
+    [66] The Supreme Court Is Skeptical of Trans ...
+        🖼️ image found
+    [67] “We Are Facing a Tsunami of Hate”: Amid ...
+        🖼️ image found
+    [68] What’s behind Keir Starmer’s digital ID ...
+        🖼️ image found
+    [69] The Defense Department’s Case Against Ma...
+        🖼️ image found
+    [70] Why the UK needs a new city
+        🖼️ image found
+    [71] What Trump Did to Venezuela Should Terri...
+        🖼️ image found
+    [72] A 2026 Iranian Revolution Could Reverse ...
+        🖼️ image found
+    [73] Scott Wiener’s Dangerous Cowardice
+        🖼️ image found
+    [74] Salvaging Salieri
+        🖼️ image found
+    [75] Weekly Review
+        🖼️ image found
+    [76] Know Your Enemy: January 6, Five Years L...
+        🖼️ image found
+    [77] Making of a Poem: Jana Prikryl on “Dover...
+    [78] New York City Nurses Have Launched Their...
+        🖼️ image found
+    [79] U.S. Adds New Secondary Tariffs on Iran ...
+        🖼️ image found
+    [80] The AI We Need for Sustainable Infrastru...
+        🖼️ image found
+    [81] Rights of Nature: A Reading List
+        🖼️ image found
+    [82] Wegmania!
+        🖼️ image found
+    [83] 7 Novels That Grapple With the Gig Econo...
+        🖼️ image found
+    [84] No, China Isn’t Going to Take Over Green...
+        🖼️ image found
+    [85] Japan Courts South Korea Amid Rift With ...
+        🖼️ image found
+    [86] Supreme Court Seems Ready to Ban Trans K...
+        🖼️ image found
+    [87] Texas Sends Plato Back to His Cave
+        🖼️ image found
+    [88] ICE Violently Arrests Woman Trying to Pa...
+        🖼️ image found
+    [89] Ghosts Are Haunting France’s Remilitariz...
+        🖼️ image found
+    [90] Claims of Vehicular Terrorism in Minneso...
+        🖼️ image found
+    [91] Trump and ICE Want You to Think Renee Ni...
+        🖼️ image found
+    [92] U.S. Congress to Provide Billions More i...
+        🖼️ image found
+    [93] It Was Supposed to Be the Future of Pro ...
+        🖼️ image found
+    [94] "We Must Not Sport With Things of So Sol...
+        🖼️ image found
+    [95] Scott Adams dead: “Dilbert” creator turn...
+        🖼️ image found
+    [96] The Islamic Republic Will Not Last
+        🖼️ image found
+    [97] Prosecutors Quit After Order Targeting M...
+        🖼️ image found
+    [98] Trump Urges Protesters in Iran to “Take ...
+        🖼️ image found
+        📚 archived
+    [99] Iran’s Internet Blackout by the Numbers
+        🖼️ image found
+    [100] Colleen Hoover Is Back With a Buzzy New ...
+        🖼️ image found
+    [101] Court "Order for Lunch"
+        🖼️ image found
+    [102] Labour bickers over the “stakeholder sta...
+        🖼️ image found
+    [103] How One Clinic Saved Abortion Access in ...
+        🖼️ image found
+    [104] Greenland’s Prime Minister Delivers Shor...
+        🖼️ image found
+    [105] The Biggest Myth About Trump’s Base (And...
+        🖼️ image found
+    [106] Tariffs Have Hurt, Not Helped, the U.S. ...
+        🖼️ image found
+    [107] The L.A. Sheriff's Office Is Mad at Star...
+        🖼️ image found
+    [108] My Boss Keeps Asking Me to Dock Money Fr...
+        🖼️ image found
+    [109] My Boss Has the Most Disgusting Habit Du...
+        🖼️ image found
+
+  📂 BOOKS (23 articles)
+    [110] Connecticut’s Aldrich Museum Plans a Rec...
+        🖼️ image found
+    [111] Why Are We Paying for the Privilege of R...
+        🖼️ image found
+    [112] The importance of blue
+        🖼️ image found
+    [113] Denying Censorship Allegations, South Af...
+        🖼️ image found
+    [114] ‘To Donald Davie in Heaven’
+        🖼️ image found
+    [115] An Artist Is Chanting Renee Good’s Last ...
+        🖼️ image found
+    [116] Rijksmuseum to Open New Sculpture Garden...
+        🖼️ image found
+    [117] The Internet According to Sex Workers an...
+        🖼️ image found
+        📚 archived
+    [118] RIP MetroCard
+    [119] Giving and Receiving: Memoirs of an Immi...
+        🖼️ image found
+    [120] Uruguay’s Este Arte Fair Highlights Ecol...
+        🖼️ image found
+    [121] Art History Teacher Removed for Charlie ...
+        🖼️ image found
+    [122] Curating a Show on My Ineffable Mother, ...
+        🖼️ image found
+    [123] Check Out the Art Institute of Chicago’s...
+        🖼️ image found
+    [124] San Francisco’s Last Remaining Private A...
+        🖼️ image found
+    [125] UK National Trust Gets No-Strings-Attach...
+        🖼️ image found
+    [126] UK Judge Sets 10-Day Trial in 2028 for H...
+        🖼️ image found
+    [127] Highlights from the MFA Houston’s Upcomi...
+        🖼️ image found
+    [128] Scott Adams, whose comic strip 'Dilbert'...
+        🖼️ image found
+    [129] New York’s Expanded New Museum to Reopen...
+        🖼️ image found
+    [130] The Aldrich Names Artists for First-Ever...
+        🖼️ image found
+    [131] Develop Your Work and Aesthetic Philosop...
+        🖼️ image found
+    [132] New Museum in NYC to Reopen in March
+        🖼️ image found
+
+✅ Done! 132 articles sent to Telegram
+   Science: 47
+   Philosophy: 12
+   Society: 50
+   Books: 23
+Tue Jan 13 06:11:08 PM CST 2026: Articles collected to pending_articles.json
+Tue Jan 13 06:11:08 PM CST 2026: Use /review in Telegram bot to curate and publish
+Tue Jan 13 06:11:08 PM CST 2026: Collector finished successfully
+
+========================================
+Wed Jan 14 06:00:22 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Wed Jan 14 06:00:22 AM CST 2026: Pulling latest changes...
+Already up to date.
+Wed Jan 14 06:00:23 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 4
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 10
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 7
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 1
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 6
+  → Noema
+    Added 1
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 4
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 9
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 3
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    ⚠ Filtered (political): ‘One day, they’ll find me out’...
+    Added 8, 2 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 0
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 0, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Leah Williamson and Richard Osman back National Ye...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 7, 1 filtered
+  → Art News
+    Added 10
+  → Hyperallergic
+    ⚠ Filtered (political): House Votes to Fund the Arts, Despite Trump Threat...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 19 from HN
+
+🔍 Filtering seen articles...
+   Skipped 332 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (18 articles)
+    [1] HHKB Professional Classic Type-S Review:...
+        🖼️ image found
+    [2] Data centers are amazing. Everyone hates...
+        🖼️ image found
+    [3] We must completely change the way we bui...
+        🖼️ image found
+    [4] This Hidden Brain Region Could Help You ...
+        🖼️ image found
+        📚 archived
+    [5] Leadership for Sales Kickoffs, Strategy ...
+        🖼️ image found
+    [6] Show HN: OSS AI agent that indexes and s...
+        📚 archived
+    [7] TikTok Shop Showed Me Search Suggestions...
+        🖼️ image found
+    [8] Best Bone Conduction Headphones (2026): ...
+        🖼️ image found
+    [9] 7 Best Phones You Can’t Buy in the US (2...
+        🖼️ image found
+        📚 archived
+    [10] $50 Target Promo Code & Coupons | Januar...
+        🖼️ image found
+    [11] Lenovo Coupon Codes and Deals: $5,000+ O...
+        🖼️ image found
+        📚 archived
+    [12] Google Workspace Promo Code: Up to 14% O...
+        🖼️ image found
+        📚 archived
+    [13] Sooner-than-expected climate impacts cou...
+        🖼️ image found
+    [14] Pompeii’s Early Baths Were Petri Dishes
+        🖼️ image found
+    [15] The New Rules of Friendship: Navigating ...
+        🖼️ image found
+    [16] These small lifestyle tweaks can add a y...
+        🖼️ image found
+    [17] Why we don’t use AI
+        🖼️ image found
+        📚 archived
+    [18] The truth behind the 2026 J.P. Morgan He...
+        🖼️ image found
+        📚 archived
+
+  📂 PHILOSOPHY (6 articles)
+    [19] A Brief History of US Foreign Policy in ...
+        🖼️ image found
+    [20] The Evangelist in Stanley Prison
+        🖼️ image found
+    [21] Welcome to the Year of Dreaming
+        🖼️ image found
+    [22] Catspeak
+        🖼️ image found
+    [23] The Banality of Minnesota Fraud
+        🖼️ image found
+    [24] A Tale of Two Maybes
+        🖼️ image found
+        📚 archived
+
+  📂 SOCIETY (50 articles)
+    [25] Resistance moms will save us
+        🖼️ image found
+    [26] Inside the Stunning Collapse of the Queb...
+        🖼️ image found
+    [27] Don’t Let Harmful EU Tech Regulations Sp...
+        🖼️ image found
+    [28] The problem with Labour’s U-turns
+        🖼️ image found
+    [29] Grok and the A.I. Porn Problem
+        🖼️ image found
+    [30] My Ex and I Made a Pact to Protect the K...
+        🖼️ image found
+    [31] America’s New Era of Violent Populism Is...
+        🖼️ image found
+    [32] Sadiq Khan is gaslighting Londoners over...
+        🖼️ image found
+    [33] Europe Enters the Slop War
+        🖼️ image found
+    [34] Trump Tirades about Shooting Get Darker ...
+        🖼️ image found
+    [35] Brickbat: Neither Snow nor Rain…
+        🖼️ image found
+    [36] Hoesamuis
+    [37] Year One of Trump II
+        🖼️ image found
+    [38] Seeds in Your Pocket
+        🖼️ image found
+    [39] Bosnia’s Unfinished Peace
+        🖼️ image found
+    [40] Anti-America, Anti-Israel, and Anti-Know...
+        🖼️ image found
+    [41] MAGA Thinks Maduro Will Prove Trump Won ...
+        🖼️ image found
+    [42] There’s No Sex Discrimination Without Se...
+        🖼️ image found
+    [43] “It’s going to happen again”: Residents ...
+        🖼️ image found
+    [44] Putin’s Rapidly Shrinking World
+        🖼️ image found
+    [45] Jay Kelly, a Movie Star’s Pity Party Abo...
+        🖼️ image found
+    [46] How to Alleviate the Middle-Class Crunch...
+        🖼️ image found
+        📚 archived
+    [47] Quebec Election Year Starts with Brutal ...
+        🖼️ image found
+    [48] It’s Going to Be a Wild Year in Quebec P...
+        🖼️ image found
+    [49] “Felt like I was going to pass out and d...
+        🖼️ image found
+    [50] Reality Shows for Your Thirties
+        🖼️ image found
+    [51] The Lights Are Still On in Venezuela
+        🖼️ image found
+    [52] Fort Duquesne Sat on the Site of What Pr...
+        🖼️ image found
+    [53] Slate Mini Crossword for Jan. 14, 2026
+        🖼️ image found
+    [54] It’s Responsible for One of the Worst Oi...
+        🖼️ image found
+    [55] Good News: You Probably Don’t Have a Spo...
+        🖼️ image found
+    [56] Should Congress Defund Ice?
+        🖼️ image found
+    [57] Get In Loser, We’re Friction-Maxxing
+        🖼️ image found
+    [58] There Are Many Great Paintings. Why Does...
+        🖼️ image found
+    [59] It’s Sydney Sweeney’s Hand That Rocks th...
+        🖼️ image found
+    [60] Open Thread
+        🖼️ image found
+    [61] Can Starmer stop the Tory dinosaurs bloc...
+        🖼️ image found
+    [62] The battle for Labour’s leadership has a...
+        🖼️ image found
+    [63] Will we ever forget David Bowie?
+        🖼️ image found
+    [64] Millennials want to save children from s...
+        🖼️ image found
+    [65] How the Soviet Union got over Stalin – o...
+        🖼️ image found
+    [66] Mamdani's Promise of the 'Warmth of Coll...
+        🖼️ image found
+    [67] A Distraction From the Epstein Files?
+        🖼️ image found
+    [68] 19 States That Legalized Marijuana Use N...
+        🖼️ image found
+    [69] Anti-Police Sentiment in the UK Obscures...
+        🖼️ image found
+    [70] The Trouble With Regime Change
+        🖼️ image found
+        📚 archived
+    [71] How progressives can win the battle of i...
+        🖼️ image found
+    [72] Second Amendment Roundup: Hawaii Sticks ...
+        🖼️ image found
+        📚 archived
+    [73] Federal Officer Removal in Plaquemines P...
+        🖼️ image found
+    [74] Sign Up For Advancing American Freedom's...
+        🖼️ image found
+
+  📂 BOOKS (15 articles)
+    [75] French writer Édouard Louis: ‘Family is ...
+        🖼️ image found
+    [76] I’m a crime writer. Here’s why we make t...
+        🖼️ image found
+    [77] Lessons for Artists From Ursula K. Le Gu...
+    [78] Book Review: ‘Call Me Ishmaelle,’ by Xia...
+    [79] The Hindu Lit For Life| A dramatised rea...
+        🖼️ image found
+    [80] The Flower Bearers by Rachel Eliza Griff...
+        🖼️ image found
+    [81] Half His Age by Jennette McCurdy – the f...
+        🖼️ image found
+    [82] When psychologists mislead us
+        🖼️ image found
+    [83] Exit Stalin — reforms and repression in ...
+        🖼️ image found
+    [84] FT & Standard Chartered Business Book of...
+        🖼️ image found
+        📚 archived
+    [85] The Bracken Prize for Young Authors 2026
+        🖼️ image found
+        📚 archived
+    [86] FT book award enters new partnership wit...
+        🖼️ image found
+    [87] Festschrift for Mahasweta Devi: three bo...
+        🖼️ image found
+    [88] Nero book awards: Benjamin Wood and Sara...
+        🖼️ image found
+    [89] Countdown to The Hindu Lit for Life 2026...
+        🖼️ image found
+
+✅ Done! 89 articles sent to Telegram
+   Science: 18
+   Philosophy: 6
+   Society: 50
+   Books: 15
+Wed Jan 14 06:06:43 AM CST 2026: Articles collected to pending_articles.json
+Wed Jan 14 06:06:43 AM CST 2026: Use /review in Telegram bot to curate and publish
+Wed Jan 14 06:06:43 AM CST 2026: Collector finished successfully
+
+========================================
+Wed Jan 14 06:03:00 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Wed Jan 14 06:03:00 PM CST 2026: Pulling latest changes...
+Already up to date.
+Wed Jan 14 06:03:01 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 3
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(15594 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 5
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 3
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 7
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 7
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3, 1 dupes
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    Added 4, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 1, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): Leah Williamson and Richard Osman back National Ye...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 6, 1 filtered
+  → Art News
+    Added 10
+  → Hyperallergic
+    Added 10
+
+📚 Collecting from Hacker News...
+    Added 16 from HN
+
+🔍 Filtering seen articles...
+   Skipped 226 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (37 articles)
+    [1] Tech Workers Are Condemning ICE Even as ...
+        🖼️ image found
+        📚 archived
+    [2] Overcoming the Winter Blues
+        🖼️ image found
+    [3] C-Sections Have a Surprisingly Ancient H...
+        🖼️ image found
+    [4] Drammen Spiral in Drammen, Norway
+    [5] Woolly rhino genome recovered from meat ...
+        🖼️ image found
+    [6] String Theory Can Now Describe a Univers...
+        🖼️ image found
+    [7] The Influentists: AI hype without proof
+        📚 archived
+    [8] The Download: next-gen nuclear, and the ...
+        🖼️ image found
+    [9] Adult Transitions and Dealing with Rejec...
+        🖼️ image found
+    [10] Making the Most of Midlife
+        🖼️ image found
+    [11] You Are Choosing to Be Insecure
+        🖼️ image found
+    [12] 5 Reasons Caregivers Feel Guilty Without...
+        🖼️ image found
+    [13] Executive Functions: The Quirks Behind C...
+        🖼️ image found
+    [14] 3 Strategies to Empower Yourself With Me...
+        🖼️ image found
+    [15] In Search of Frugal Joy
+        🖼️ image found
+    [16] What to Do When You Don’t Feel That You ...
+        🖼️ image found
+    [17] What Happens When We Push Emotions Down?
+        🖼️ image found
+    [18] Neuroscientists Decipher Procrastination...
+        🖼️ image found
+        📚 archived
+    [19] Why Europa Might Not Have Life After All
+        🖼️ image found
+    [20] Save Big on One of Our Favorite Desk Lam...
+        🖼️ image found
+    [21] The Quest for the Perfect Lip-Synching R...
+        🖼️ image found
+    [22] AI’s Hacking Skills Are Approaching an ‘...
+        🖼️ image found
+    [23] Forte Real de São Filipe in Cidade Velha...
+    [24] Verizon Outage Knocks Out US Mobile Serv...
+        🖼️ image found
+    [25] The Secrets of an Ancient Hunk of Woolly...
+        🖼️ image found
+    [26] Tozawa Goryeo Hall in Tozawa, Japan
+    [27] Sinking river deltas put millions at ris...
+        🖼️ image found
+    [28] Psychiatry has finally found an objectiv...
+        🖼️ image found
+    [29] Trump Doesn’t Need the Proud Boys Anymor...
+        🖼️ image found
+        📚 archived
+    [30] Trump Warned of a Tren de Aragua ‘Invasi...
+        🖼️ image found
+        📚 archived
+    [31] In Photos: One Week Since the Shooting o...
+        🖼️ image found
+    [32] Old ‘Hanging’ Oak in Houston, Texas
+    [33] China has applied to launch 200,000 sate...
+        🖼️ image found
+    [34] 15 Best Office Chairs of 2026— I’ve Test...
+        🖼️ image found
+        📚 archived
+    [35] WIRED Tested Dozens of Blenders. These A...
+        🖼️ image found
+        📚 archived
+    [36] T. rex took 40 years to become fully gro...
+        🖼️ image found
+    [37] Three ways to become calmer this New Yea...
+        🖼️ image found
+
+  📂 PHILOSOPHY (13 articles)
+    [38] Kafka Inc.
+        🖼️ image found
+    [39] Grievance Politics, French Style
+    [40] What We Mistake for Progress
+        🖼️ image found
+    [41] True Humans
+        🖼️ image found
+        📚 archived
+    [42] We still live in Fast Food Nation
+        🖼️ image found
+    [43] Geoffrey Hinton on AI and Our Future
+    [44] The Greatness of Kelly Reichardt
+    [45] Wikipedia founder Jimmy Wales on trust a...
+        🖼️ image found
+    [46] The Crazed Cataclysms of Nicole Eisenman
+        🖼️ image found
+    [47] Two Women, Three Guns: On Hedda Gabler a...
+        🖼️ image found
+    [48] Wednesday Poem
+    [49] Machiavelli’s ‘The Prince’: Summary & An...
+    [50] Sci-Fi Cloaking Technology Takes a Step ...
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [51] Do Jewish Organizations Have the Resourc...
+        🖼️ image found
+    [52] “Vitamin C isn’t real”: Noah Wyle roasts...
+        🖼️ image found
+    [53] Ohio State Student's Posts Urging "Resis...
+        🖼️ image found
+    [54] Will Google Ever Have to Pay for Its Sin...
+        🖼️ image found
+    [55] Bombing Iran Over Protests Doesn’t Make ...
+        🖼️ image found
+    [56] How Many Stephen Spencer Pittmans Are Ou...
+        🖼️ image found
+    [57] In Two Films About Palestinian Struggle,...
+        🖼️ image found
+    [58] Trump Jeopardizes NATO Over a Lie
+        🖼️ image found
+    [59] The Bari Weiss Era at CBS Is Already a C...
+        🖼️ image found
+    [60] Pakistan’s High-Stakes Play in the Middl...
+        🖼️ image found
+    [61] Denmark and its allies are rushing troop...
+        🖼️ image found
+    [62] Attacking Iran Is No Way to Support Iran...
+        🖼️ image found
+    [63] Rory Stewart is reliably wrong about lit...
+        🖼️ image found
+    [64] From the “Meditations” of Marcus Aureliu...
+        🖼️ image found
+    [65] Is the Global Shadow Fleet Now Seriously...
+        🖼️ image found
+    [66] Trump Suspends Visa Processing for 75 Co...
+        🖼️ image found
+    [67] The Mythology Of Conscious AI
+        🖼️ image found
+    [68] Why Is Putin Silent on Venezuela?
+        🖼️ image found
+    [69] ICE Has Become a Rogue Paramilitary
+        🖼️ image found
+        📚 archived
+    [70] Ten Writing Prompts
+    [71] The Finishing Touch
+        🖼️ image found
+    [72] In Pursuit of Peace, Ancient Athens Crea...
+        🖼️ image found
+    [73] Language Arts
+        🖼️ image found
+    [74] New Bosnia: Perfect storm
+        🖼️ image found
+    [75] We Are Silent Skin Waiting to Sing
+        🖼️ image found
+    [76] It’s Going to Be a Wild Year in Quebec P...
+        🖼️ image found
+        📚 archived
+    [77] After Maduro, there is a storm brewing i...
+    [78] Inflation Remains Above Target in Decemb...
+        🖼️ image found
+    [79] Josh Hawley Asked “Can Men Get Pregnant?...
+        🖼️ image found
+    [80] Danish FM Agrees to ‘Joint Working Group...
+        🖼️ image found
+    [81] Federal Court Upholds California Congres...
+        🖼️ image found
+    [82] How Russia Is Supporting Iran’s Repressi...
+        🖼️ image found
+    [83] The Restoration of Federal Funding for P...
+        🖼️ image found
+    [84] Ketanji Brown Jackson Was One of the Few...
+        🖼️ image found
+    [85] Will Iran Execute Protesters Despite U.S...
+        🖼️ image found
+    [86] Federal Agents Used a Battering Ram to E...
+        🖼️ image found
+    [87] U.S. Suspends Immigrant Visa Processing ...
+        🖼️ image found
+    [88] Jeff Bezos Needs to Speak Up
+        🖼️ image found
+    [89] The Transgender Athletics Cases
+        🖼️ image found
+    [90] The Atlantic Introduces Premium Plus Sub...
+        🖼️ image found
+    [91] Brett Kavanaugh Is Rightly Skeptical of ...
+        🖼️ image found
+    [92] Reading for the New Year: Part Three
+        🖼️ image found
+    [93] What the “People We Meet on Vacation” ad...
+        🖼️ image found
+    [94] Move Over, ChatGPT
+        🖼️ image found
+    [95] The FBI Thinks Renee Good's Anti-ICE Act...
+        🖼️ image found
+    [96] Elon Musk’s X Is in Deep Trouble Over De...
+        🖼️ image found
+    [97] MAGA’s ultimate fantasy? Getting away wi...
+        🖼️ image found
+    [98] Cavalier Knight's Challenge to N.Y. Bric...
+        🖼️ image found
+    [99] Trump Is Risking a Global Catastrophe
+        🖼️ image found
+    [100] $3.5M Damages in Defamation Case Related...
+        🖼️ image found
+
+  📂 BOOKS (23 articles)
+    [101] Smithsonian Hands Over More Materials on...
+        🖼️ image found
+    [102] The South African Pavilion Is Betraying ...
+        🖼️ image found
+        📚 archived
+    [103] Harper Lee Expanded on Her View of the S...
+    [104] Cameo — metafictional mischief is at the...
+        🖼️ image found
+    [105] At the Edge of Erasure: An Interview wit...
+        🖼️ image found
+    [106] Discussions on influential personalities...
+        🖼️ image found
+    [107] The Millions’ Great Winter 2026 Preview
+        🖼️ image found
+    [108] Vanderbilt University Buys California Co...
+        🖼️ image found
+    [109] Black Artists Create New Universes in “U...
+        🖼️ image found
+    [110] Warhol Foundation to Give More Than $4 M...
+        🖼️ image found
+    [111] Visitors to Rome Can Now Tour a Well-Pre...
+        🖼️ image found
+    [112] Reports of Artists Killed by Iranian Reg...
+        🖼️ image found
+    [113] Mernet Larsen Details Her Painting on th...
+        🖼️ image found
+    [114] A Collection of Oscar Wilde-Related Mate...
+        🖼️ image found
+    [115] Ana Mendieta’s Injured Earth
+        🖼️ image found
+    [116] Remembering Beatriz González, Arnulf Rai...
+        🖼️ image found
+    [117] Christie’s London Offers a Belgian Coupl...
+        🖼️ image found
+    [118] Frankenthaler Climate Initiative, Max Ho...
+        🖼️ image found
+    [119] Grow as an Artist Without Pressing Pause...
+        🖼️ image found
+    [120] William Koch’s Western Art Comes to Chri...
+        🖼️ image found
+    [121] More Bob Ross Paintings Go to Auction to...
+        🖼️ image found
+    [122] You Can Bid on a Painting by Jimmy Carte...
+        🖼️ image found
+    [123] United States Artists Awards $50K Grants...
+        🖼️ image found
+
+✅ Done! 123 articles sent to Telegram
+   Science: 37
+   Philosophy: 13
+   Society: 50
+   Books: 23
+Wed Jan 14 06:09:58 PM CST 2026: Articles collected to pending_articles.json
+Wed Jan 14 06:09:58 PM CST 2026: Use /review in Telegram bot to curate and publish
+Wed Jan 14 06:09:58 PM CST 2026: Collector finished successfully
+
+========================================
+Thu Jan 15 06:03:00 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Thu Jan 15 06:03:00 AM CST 2026: Pulling latest changes...
+Already up to date.
+Thu Jan 15 06:03:01 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 3
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+  Error fetching The New Inquiry: IncompleteRead(38927 bytes read)
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 4
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 3
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 3, 1 dupes
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    Added 6, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 1, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): ​’How do you really tell the truth about this mome...
+    ⚠ Filtered (political): Leah Williamson and Richard Osman back National Ye...
+    Added 5, 2 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    Added 10
+  → Hyperallergic
+    Added 10
+
+📚 Collecting from Hacker News...
+    Added 18 from HN
+
+🔍 Filtering seen articles...
+   Skipped 317 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (20 articles)
+    [1] Livestream: Welcome to the Chinese Centu...
+        🖼️ image found
+    [2] Three climate technologies breaking thro...
+        🖼️ image found
+    [3] All major AI models risk encouraging dan...
+        🖼️ image found
+    [4] Photos Capture the Breathtaking Scale of...
+        🖼️ image found
+        📚 archived
+    [5] Why Does Math Make So Many of Us Anxious...
+        🖼️ image found
+    [6] The Accidental Discovery of Aristotle’s ...
+        🖼️ image found
+        📚 archived
+    [7] Hundreds of Millions of Audio Devices Ne...
+        🖼️ image found
+    [8] The Tea App Is Back With a New Website
+        🖼️ image found
+    [9] The Real AI Talent War Is for Plumbers a...
+        🖼️ image found
+    [10] Asus ROG Falcata Review: A Split Gaming ...
+        🖼️ image found
+    [11] Wikipedia’s Existential Threats Feel Gre...
+        🖼️ image found
+    [12] Lizn Hearpieces Review: Affordable but U...
+        🖼️ image found
+    [13] Our Favorite Coway Air Purifiers Are on ...
+        🖼️ image found
+    [14] Raspberry Pi's New AI Hat Adds 8GB of RA...
+        📚 archived
+    [15] A letter to those who fired tech writers...
+        🖼️ image found
+        📚 archived
+    [16] In the U.S., Who Deserves Financial Stab...
+        🖼️ image found
+    [17] Two Thinking Machines Lab Cofounders Are...
+        🖼️ image found
+        📚 archived
+    [18] The Search for Where Consciousness Lives...
+        🖼️ image found
+        📚 archived
+    [19] Why non-human culture should change how ...
+        🖼️ image found
+    [20] Show HN: Sparrow-1 – Audio-native model ...
+        🖼️ image found
+
+  📂 PHILOSOPHY (6 articles)
+    [21] Time Is Braided
+        🖼️ image found
+    [22] The Realities of Empire (ft. Nathan Pink...
+        🖼️ image found
+    [23] The Cleaning Crew Part II: Soaring
+        🖼️ image found
+    [24] This Week’s Photograph
+        🖼️ image found
+    [25] From Little Rock to Minneapolis
+        🖼️ image found
+    [26] The Making of the Activist Academy
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [27] What Elizabeth Warren Gets Wrong About D...
+        🖼️ image found
+    [28] Evangelical Purity Culture Affects Us Al...
+        🖼️ image found
+    [29] Evan Solomon Wants Canada to Trust AI. C...
+        🖼️ image found
+    [30] The Credit Card Interest Cap Is a Scam
+        🖼️ image found
+    [31] Trump is something worse than a fascist
+        🖼️ image found
+    [32] Kemi Badenoch sacks Robert Jenrick for “...
+        🖼️ image found
+    [33] 'We Cannot Be Afraid To Do Something Bec...
+        🖼️ image found
+        📚 archived
+    [34] Why Football Matters
+        🖼️ image found
+    [35] Amazingly, the Democrats Have a Shot at ...
+        🖼️ image found
+    [36] Help! My Fiancé Does Something Very Unse...
+        🖼️ image found
+    [37] Rabid Israelophobia has infiltrated the ...
+        🖼️ image found
+        📚 archived
+    [38] On Foreign Policy, Trump 2.0 Is Dangerou...
+        🖼️ image found
+    [39] Iran and the Limits of American Power
+        🖼️ image found
+        📚 archived
+    [40] Mother Jones Sues the Bureau of Prisons ...
+        🖼️ image found
+        📚 archived
+    [41] RFK Jr. Inverts the Food Pyramid, at Las...
+        🖼️ image found
+    [42] An Open Letter to John Malone
+        🖼️ image found
+    [43] Will Canada Abandon Its EV Mandate?
+        🖼️ image found
+    [44] Everything Costs More Because the Algori...
+        🖼️ image found
+    [45] Squatting Isn’t a Housing Policy. It’s P...
+        🖼️ image found
+    [46] Newcomers, Nutrition, and Canadian Polit...
+        🖼️ image found
+    [47] Wes Streeting makes his pitch
+        🖼️ image found
+    [48] Searching reporters’ homes, repressing d...
+        🖼️ image found
+    [49] Pity the Jewish Intellectuals of MAGA
+        🖼️ image found
+    [50] Have You Saved Enough for Retirement If ...
+        🖼️ image found
+    [51] Jay Powell, the Prepster Banker Who Is S...
+        🖼️ image found
+    [52] Authoritarianism Is Climate Policy
+        🖼️ image found
+    [53] Trump Already Gave Us the Blueprint for ...
+        🖼️ image found
+    [54] One of My Co-Workers Stole Another’s Hus...
+        🖼️ image found
+    [55] I Work at a Fitness-Related Company. My ...
+        🖼️ image found
+    [56] Which Metal Is Isolated From Ores Throug...
+        🖼️ image found
+    [57] Nothing can protect the Iranian regime f...
+        🖼️ image found
+    [58] Slate Mini Crossword for Jan. 15, 2026
+        🖼️ image found
+    [59] Slate Crossword: Person Whose Peers Migh...
+        🖼️ image found
+    [60] It’s Time to Dismantle the Department of...
+        🖼️ image found
+    [61] She Fled Maduro’s Venezuela. Now Trump’s...
+        🖼️ image found
+    [62] Would You Die To Stop ICE?
+        🖼️ image found
+    [63] Mike Johnson Goes Off Rails in Vile Gasl...
+        🖼️ image found
+    [64] A Kid-Friendly Way To Help the Environme...
+        🖼️ image found
+    [65] Brickbat: It Might Be Safer To Walk
+        🖼️ image found
+    [66] Open Thread
+        🖼️ image found
+    [67] Justice Sotomayor Asks "Have You Studied...
+        🖼️ image found
+    [68] The As-Applied/Facial Fad Comes for the ...
+        🖼️ image found
+    [69] Michael Connelly Q&A: “My father was my ...
+        🖼️ image found
+    [70] Trump is preparing to unleash inflation ...
+        🖼️ image found
+    [71] To survive Trump, Starmer must think the...
+        🖼️ image found
+    [72] Trump's Unconstitutional Plan to Withhol...
+        🖼️ image found
+    [73] Bald men are the antidote to Grok’s filt...
+        🖼️ image found
+    [74] Time to Get Paranoid About Androids?
+        🖼️ image found
+    [75] Wokeness Has Brought Britain’s Second Ci...
+        🖼️ image found
+    [76] Inside Robert Jenrick’s New Right revolu...
+        🖼️ image found
+
+  📂 BOOKS (13 articles)
+    [77] Vigil by George Saunders — Faulkner meet...
+        🖼️ image found
+    [78] Mind Games
+        🖼️ image found
+    [79] Christina Sharpe's Appeal to South Afric...
+    [80] Book Review: ‘Fly, Wild Swans,’ by Jung ...
+    [81] Off the Scales by Aimee Donnellan review...
+        🖼️ image found
+    [82] Brilant Milazimi to Represent Republic o...
+        🖼️ image found
+    [83] ‘The metaverse has always existed’: Amit...
+        🖼️ image found
+    [84] Beige Book confirms US tension between i...
+    [85] Twenty Questions with Andrey Kurkov
+        🖼️ image found
+    [86] Do maps distort our view of the world?
+        🖼️ image found
+    [87] California College of the Arts to Close ...
+        🖼️ image found
+    [88] Warhol Foundation Names Fall 2025 Grante...
+        🖼️ image found
+    [89] Comics continue to draw children to Chen...
+        🖼️ image found
+        📚 archived
+
+✅ Done! 89 articles sent to Telegram
+   Science: 20
+   Philosophy: 6
+   Society: 50
+   Books: 13
+Thu Jan 15 06:08:44 AM CST 2026: Articles collected to pending_articles.json
+Thu Jan 15 06:08:44 AM CST 2026: Use /review in Telegram bot to curate and publish
+Thu Jan 15 06:08:44 AM CST 2026: Collector finished successfully
+
+========================================
+Thu Jan 15 06:00:34 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Thu Jan 15 06:00:34 PM CST 2026: Pulling latest changes...
+Already up to date.
+Thu Jan 15 06:00:34 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 1
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 3
+  → Open Democracy
+    Added 4
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 4
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 5
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 6
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    Added 5, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 2, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): ‘​How do you really tell the truth about this mome...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    ⚠ Filtered (political): Trump Reportedly Looking at D.C. Park Near Jeffers...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Smithsonian Complies With Trump’s Documents Reques...
+    Added 9, 1 filtered
+
+📚 Collecting from Hacker News...
+    Added 6 from HN
+
+🔍 Filtering seen articles...
+   Skipped 254 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (33 articles)
+    [1] As Biodiversity Dwindles, Mosquitos Turn...
+        🖼️ image found
+    [2] Meta’s Layoffs Leave Supernatural Fitnes...
+        🖼️ image found
+    [3] 6 Things I Wish I Knew Before My Kid's F...
+        🖼️ image found
+    [4] Dagashiya Game Museum in Itabashi City, ...
+        📚 archived
+    [5] Lithium-ion batteries could last longer ...
+        🖼️ image found
+    [6] Exclusive eBook: How AGI Became a Conseq...
+        🖼️ image found
+    [7] Fatigue: A Frustrating Symptom of Chroni...
+        🖼️ image found
+    [8] How to Let Go of Regret
+        🖼️ image found
+    [9] Take an Extra $50 Off My Favorite Mattre...
+        🖼️ image found
+    [10] The Pros and Cons of Narcissism
+        🖼️ image found
+    [11] Overcoming Social Exclusion
+        🖼️ image found
+    [12] Inside OpenAI’s Raid on Thinking Machine...
+        🖼️ image found
+        📚 archived
+    [13] GLP-1 Medications: Conversations and Con...
+        🖼️ image found
+    [14] Watch This Glacier Race into the Sea
+        🖼️ image found
+    [15] Is 'Manopause' Real?
+        🖼️ image found
+    [16] Vaping vs. Smoking
+        🖼️ image found
+    [17] Old Age Will Be Different in the Robotic...
+        🖼️ image found
+    [18] AI and the Attention Crisis at Work
+        🖼️ image found
+    [19] Elon Musk’s Grok ‘Undressing’ Problem Is...
+        🖼️ image found
+        📚 archived
+    [20] Save $50 on the OnePlus Watch 3, Which H...
+        🖼️ image found
+    [21] Body fat supports your health in surpris...
+        🖼️ image found
+    [22] The Tomb of Ni-Ankh-Khnum and Khnum-Hote...
+        📚 archived
+    [23] Why ICE Can Kill With Impunity
+        🖼️ image found
+        📚 archived
+    [24] OpenAI Invests in Sam Altman’s New Brain...
+        🖼️ image found
+    [25] Minnesota Is Just the Beginning. Califor...
+        🖼️ image found
+    [26] Distant 'little red dot' galaxies may co...
+        🖼️ image found
+    [27] Hands On With Anthropic’s Claude Cowork,...
+        🖼️ image found
+    [28] LSU Campus Mounds in Baton Rouge, Louisi...
+    [29] Fossil may solve mystery of what one of ...
+        🖼️ image found
+    [30] Best Packing Cubes for Every Kind of Tri...
+        🖼️ image found
+    [31] Wollseifen Village in Schleiden, Germany
+    [32] The Download: spying on the spies, and p...
+        🖼️ image found
+    [33] 6 ways to help your children have a heal...
+        🖼️ image found
+
+  📂 PHILOSOPHY (13 articles)
+    [34] On Life, Death, and Birding
+        🖼️ image found
+    [35] Formulae that Don’t Formulate
+        📚 archived
+    [36] The Science of Awe: How Wonder Can Repla...
+        🖼️ image found
+    [37] Can Liberals Be Pronatalists?
+        🖼️ image found
+        📚 archived
+    [38] Framework for a Hypercapable World
+        🖼️ image found
+    [39] A Katherine Dunn Oeuvre Does, In Fact, E...
+        🖼️ image found
+    [40] Noah Smith & Liron Shapira debate the pr...
+    [41] Harold Brodkey: On Death
+    [42] The Crisis of the Islamic Republic of Ir...
+        🖼️ image found
+    [43] Notes on American Fascism
+        🖼️ image found
+    [44] Reading Is a Vice
+        🖼️ image found
+    [45] Riot Women Is the First Must-See Show of...
+        🖼️ image found
+    [46] Thursday Poem
+
+  📂 SOCIETY (50 articles)
+    [47] Why Israel Might Have Argued Against an ...
+        🖼️ image found
+    [48] For Trump, Everything Is an Existential ...
+        🖼️ image found
+    [49] Europe United, Europe Alone
+        🖼️ image found
+    [50] A President with His Finger on the Natio...
+        🖼️ image found
+    [51] 80 Democrats Move to Impeach Kristi Noem...
+        🖼️ image found
+    [52] Fed Chair Publicly Rejects Trump’s Boots...
+        🖼️ image found
+    [53] When is a Corporation Also New Jersey?
+        🖼️ image found
+    [54] Americans Are Going Where No Man Has Gon...
+        🖼️ image found
+        📚 archived
+    [55] GOP senators vow “substantial opposition...
+        🖼️ image found
+    [56] Senate Blocks War Powers Resolution on V...
+        🖼️ image found
+    [57] Jenrick defects to Reform
+        🖼️ image found
+    [58] Iranians are fighting back against Islam...
+        🖼️ image found
+        📚 archived
+    [59] A Federal Agent Shot Another Person in M...
+        🖼️ image found
+        📚 archived
+    [60] The Impact of Impact Investing
+        🖼️ image found
+    [61] ICE Won’t Stop Shoving Guns in People’s ...
+        🖼️ image found
+    [62] A World Without Grass
+    [63] The Left Needs Bureaucrats
+        🖼️ image found
+        📚 archived
+    [64] Venezuela without Venezuelans
+    [65] Scientists in Dreamland
+        🖼️ image found
+        📚 archived
+    [66] Is the Iran Crisis Over?
+        🖼️ image found
+    [67] ‘Look, You Can’t Cancel the Election’
+        🖼️ image found
+    [68] Europe Confronts Trump’s Greenland Ambit...
+        🖼️ image found
+    [69] How Trump’s Pressure Tactics Sank the Ve...
+        🖼️ image found
+    [70] Kyrsten Sinema Sued Under Rare Law for B...
+        🖼️ image found
+    [71] Yes, the Middle Class Is Shrinking—Becau...
+        🖼️ image found
+    [72] A century of George Martin, the architec...
+        🖼️ image found
+    [73] ‘To Begin the World Over Again’
+        🖼️ image found
+    [74] The Supreme Court Just Decided a Major I...
+        🖼️ image found
+    [75] Karoline Leavitt Gets Hysterical After S...
+        🖼️ image found
+    [76] The Key to the Birthright Citizenship Ca...
+        🖼️ image found
+    [77] The Promise and Peril of Phase 2 in Gaza
+        🖼️ image found
+    [78] Why Keir Starmer U-turned on digital ID
+        🖼️ image found
+    [79] Why the Hell Is Trump “Joking” About Can...
+        🖼️ image found
+    [80] Keir Starmer: Grok imagery “disgraceful”
+        🖼️ image found
+    [81] Memo to Moderate Democrats: “Abolish ICE...
+        🖼️ image found
+    [82] More on Lawyer Hijinks in Laura Loomer's...
+        🖼️ image found
+    [83] Taiwan Announced Billions More for Defen...
+        🖼️ image found
+    [84] Michael Rapaport is the best worst perso...
+        🖼️ image found
+    [85] I Have to Fake a Certain Attitude for My...
+        🖼️ image found
+    [86] Protect Keir Starmer, cabinet urged at “...
+        🖼️ image found
+    [87] Renee Good Was a Casualty of Trump's Ord...
+        🖼️ image found
+        📚 archived
+    [88] Faulty Assumptions About Iran Have Drive...
+        🖼️ image found
+    [89] My Stunning 15-Year-Old Daughter Is Dres...
+        🖼️ image found
+    [90] My Mother-in-Law Put My Kids in Danger B...
+        🖼️ image found
+    [91] ICE officer shoots Venezuelan man in Min...
+        🖼️ image found
+    [92] NATO Countries Send Troops to Greenland ...
+        🖼️ image found
+    [93] American Quartz Manufacturers Want To Ma...
+        🖼️ image found
+        📚 archived
+    [94] Autistic Barbie is not enough
+        🖼️ image found
+    [95] Trump Now Wants to Send U.S. Troops to M...
+        🖼️ image found
+    [96] Robert Jenrick defects to Reform
+        🖼️ image found
+
+  📂 BOOKS (20 articles)
+    [97] 15 Art Books We're Excited to Read in 20...
+        🖼️ image found
+    [98] Lurhing Augustine Cofounder Roland Augus...
+        🖼️ image found
+    [99] Swatch Launches Guggenheim Collaboration...
+        🖼️ image found
+    [100] Books Our Editors Love This Week
+    [101] Hawaii at the British Museum
+        🖼️ image found
+    [102] H Is for Hawk by Helen Macdonald audiobo...
+        🖼️ image found
+    [103] Art Movements: Pineapples, Coconuts, and...
+        🖼️ image found
+    [104] Required Reading
+        🖼️ image found
+    [105] United States Artists Announces 2026 Rec...
+        🖼️ image found
+    [106] Centre Pompidou Reportedly Gives Up a Gr...
+        🖼️ image found
+    [107] Bucking Current Trends, Prado Director S...
+        🖼️ image found
+    [108] Meet the Artist in El Salvador’s First-E...
+        🖼️ image found
+    [109] Paris Investigators Say Stolen Louvre Je...
+        🖼️ image found
+    [110] Whitney Museum Taps Ego Nwodim as Art Pa...
+        🖼️ image found
+    [111] Ian McKellan Will Act Out Unheard Audio ...
+        🖼️ image found
+    [112] Iranian Artists Killed in Anti-Governmen...
+        🖼️ image found
+    [113] Miami’s Crisis of Memory: Eddie Arroyo’s...
+        🖼️ image found
+    [114] A View From the Easel
+        🖼️ image found
+    [115] Kochi Biennale Foundation Co-Founder Bos...
+        🖼️ image found
+    [116] Beloved Rocky Statue Will Move to Top of...
+        🖼️ image found
+
+✅ Done! 116 articles sent to Telegram
+   Science: 33
+   Philosophy: 13
+   Society: 50
+   Books: 20
+Thu Jan 15 06:07:05 PM CST 2026: Articles collected to pending_articles.json
+Thu Jan 15 06:07:05 PM CST 2026: Use /review in Telegram bot to curate and publish
+Thu Jan 15 06:07:05 PM CST 2026: Collector finished successfully
+
+========================================
+Fri Jan 16 06:00:10 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan 16 06:00:10 AM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan 16 06:00:11 AM CST 2026: Running feed collector...
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 8
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 6
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 2
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 3
+  → Open Democracy
+    Added 4
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 5
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    ⚠ Filtered (political): War Music...
+    Added 5, 1 filtered
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 2, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): ‘​How do you really tell the truth about this mome...
+    Added 6, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    ⚠ Filtered (political): Trump Reportedly Looking at D.C. Park Near Jeffers...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): A Very 2026 Art Reading List...
+    ⚠ Filtered (political): Smithsonian Complies With Trump’s Documents Reques...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 8 from HN
+
+🔍 Filtering seen articles...
+   Skipped 318 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (21 articles)
+    [1] RFK Jr. Says He’s Ending the War on Prot...
+        🖼️ image found
+    [2] Three technologies that will shape biote...
+        🖼️ image found
+    [3] On Being a Human Being in the Time of Co...
+        📚 archived
+    [4] Missing the Children I Never Had
+        🖼️ image found
+    [5] These striking photos are a window into ...
+        🖼️ image found
+    [6] 20% Off Brooks Promo Code & Deals for Ja...
+        🖼️ image found
+        📚 archived
+    [7] 30% VistaPrint Coupon & Promo Codes | Ja...
+        🖼️ image found
+        📚 archived
+    [8] Vimeo Promo Codes and Deals: Save Up to ...
+        🖼️ image found
+    [9] AT&T Promo Codes and Bundle Deals: Save ...
+        🖼️ image found
+        📚 archived
+    [10] Altra Promo Codes: Get 10% Off Plus Free...
+        🖼️ image found
+    [11] NordVPN Coupons and Deals: 77% Off in Ja...
+        🖼️ image found
+        📚 archived
+    [12] Paramount Plus Coupon Codes and Deals: 5...
+        🖼️ image found
+        📚 archived
+    [13] 15% Off Adidas Promo Code | January 2026
+        🖼️ image found
+        📚 archived
+    [14] The Simple Feeling of Being
+        🖼️ image found
+    [15] The Depression Clinicians Don’t Talk Abo...
+        🖼️ image found
+    [16] Is Sports Fandom Play?
+        🖼️ image found
+    [17] Tech Tools for Spelling May Stunt Childr...
+        🖼️ image found
+    [18] Show HN: Gambit, an open-source agent ha...
+        🖼️ image found
+        📚 archived
+    [19] Tldraw pauses external contributions due...
+        🖼️ image found
+        📚 archived
+    [20] New Scientist recommends Why We Drink To...
+        🖼️ image found
+    [21] We're getting intimate with chatbots. A ...
+        🖼️ image found
+
+  📂 PHILOSOPHY (12 articles)
+    [22] Rooms that Remember: Space in Japanese H...
+        🖼️ image found
+    [23] The shape of time
+        🖼️ image found
+    [24] Of Roots and Adventures
+        🖼️ image found
+    [25] Little Addie’s Last Fight
+        🖼️ image found
+    [26] New Semester: Prose & Verse Wanted, No M...
+        🖼️ image found
+    [27] The Madness in Miami
+        🖼️ image found
+    [28] Wind keepers
+        🖼️ image found
+    [29] Landholder vs stockholder
+        🖼️ image found
+    [30] Father’s letters
+        🖼️ image found
+    [31] How to become a tree
+        🖼️ image found
+    [32] I-Kiribati warrior armour
+        🖼️ image found
+    [33] The synthetic self
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [34] How Trump Is Using Violent Tragedies to ...
+        🖼️ image found
+    [35] How Kristi Noem turned ICE into the Prou...
+        🖼️ image found
+    [36] How Universities Are Shutting Out Disabl...
+        🖼️ image found
+    [37] Trump’s Not So Great Health-Care Plan
+        🖼️ image found
+    [38] Transcript: Trump Press Sec Snaps at Med...
+        🖼️ image found
+    [39] Reform’s hollow revolution
+        🖼️ image found
+    [40] Review: D.C.'s $500 Million Shrine to Ca...
+        🖼️ image found
+    [41] How Crypto Is Used for Political Corrupt...
+        🖼️ image found
+    [42] What It’s Like to Be Trump’s Closest All...
+        🖼️ image found
+    [43] We Can’t Afford to Buy Homes in Our City...
+        🖼️ image found
+    [44] The AI Takeover of All Media Is Coming
+        🖼️ image found
+    [45] The ‘Fact Checkers’ Are Wrong about Rene...
+        🖼️ image found
+    [46] Back to Bellevue
+        🖼️ image found
+        📚 archived
+    [47] Less Foreign Aid, More Climate Risk
+        🖼️ image found
+    [48] Welcome to the New Season Of “Keeping up...
+        🖼️ image found
+        📚 archived
+    [49] Democratic leaders resist call of voters...
+        🖼️ image found
+    [50] The Ultimate Karen
+        🖼️ image found
+    [51] Why China’s Interest in iRobot Deserves ...
+        🖼️ image found
+    [52] The Week: Unrest in Minneapolis
+        🖼️ image found
+    [53] The Strategic Love Story of Justin Trude...
+        🖼️ image found
+    [54] Interest Rates Signal Risk. Ignoring Tha...
+        🖼️ image found
+    [55] The Flag
+        🖼️ image found
+    [56] The Mental Pratfalls of Anne Gridley, in...
+        🖼️ image found
+    [57] A D.H.S. Shooting Puts Portland Back Und...
+        🖼️ image found
+    [58] Transcript: Trump Is Running a “Global M...
+        🖼️ image found
+    [59] Trump Is Running a “Global Mafia”
+        🖼️ image found
+    [60] The Subtle Mysteries of Jim Jarmusch’s F...
+        🖼️ image found
+    [61] Elizabeth Warren Is Right About the Demo...
+        🖼️ image found
+    [62] Everyone Says There’s a “Right” Way for ...
+        🖼️ image found
+    [63] Think You’re Smarter Than Slate’s Jurisp...
+        🖼️ image found
+    [64] Slate Mini Crossword for Jan. 16, 2026
+        🖼️ image found
+    [65] Slate Crossword: ___ Button (De-pixelati...
+        🖼️ image found
+    [66] The New Game of Thrones Show Is Somethin...
+        🖼️ image found
+    [67] Trump and ICE Thought They Knew How to H...
+        🖼️ image found
+    [68] The “Can Trump Cow Powell?” Edition
+        🖼️ image found
+    [69] Trump Press Sec Erupts in Fury at Media ...
+        🖼️ image found
+    [70] How to Feed Ten Billion People
+        🖼️ image found
+    [71] Brickbat: Hearty Appetite
+        🖼️ image found
+    [72] Open Thread
+        🖼️ image found
+    [73] When a Justice Shares The Name With The ...
+        🖼️ image found
+    [74] Hecox May Still Hide In Justice Kennedy'...
+        🖼️ image found
+    [75] Wes Streeting fails to woo the Socialist...
+        🖼️ image found
+    [76] Westminster’s authority over Scotland is...
+        🖼️ image found
+    [77] Jenrickism has arrived
+        🖼️ image found
+    [78] No one wants Jim Steinman’s house
+        🖼️ image found
+    [79] Greenland and the Guarani
+        🖼️ image found
+    [80] Russia Won’t Have to Say No: Europe Will
+        🖼️ image found
+    [81] How Venezuela Becomes a Quagmire
+        🖼️ image found
+    [82] America Must Salvage Its Relationship Wi...
+        🖼️ image found
+    [83] Second Amendment Roundup: Hawaii's Ban o...
+        🖼️ image found
+
+  📂 BOOKS (13 articles)
+    [84] Cape Fever — a simmering battle of race ...
+        🖼️ image found
+    [85] 10 Steamy Books Like ‘Heated Rivalry’
+    [86] Why Art Deco Still Dazzles 100 Years On
+        🖼️ image found
+    [87] The Hindu Lit For Life | Imayam on life ...
+        🖼️ image found
+    [88] Chosen Family by Madeleine Gray review –...
+        🖼️ image found
+    [89] The Hindu Lit For Life | Andaleeb Wajid ...
+        🖼️ image found
+    [90] Review of 50 Years of the Indian Emergen...
+        🖼️ image found
+    [91] The Hindu Lit For Life | Chef Vinesh Joh...
+        🖼️ image found
+    [92] The Hindu Lit for Life 2026 | In convers...
+        🖼️ image found
+    [93] Our bodies, ourselves — We Are Movement ...
+        🖼️ image found
+    [94] The Hindu Lit for Life 2026 | In convers...
+        🖼️ image found
+    [95] The Hindu Lit for Life: Shobhaa De on lo...
+        🖼️ image found
+    [96] Review of Ravi Shankar Etteth’s The Litt...
+        🖼️ image found
+
+✅ Done! 96 articles sent to Telegram
+   Science: 21
+   Philosophy: 12
+   Society: 50
+   Books: 13
+Fri Jan 16 06:05:38 AM CST 2026: Articles collected to pending_articles.json
+Fri Jan 16 06:05:38 AM CST 2026: Use /review in Telegram bot to curate and publish
+Fri Jan 16 06:05:38 AM CST 2026: Collector finished successfully
+
+========================================
+Fri Jan 16 06:03:51 PM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Fri Jan 16 06:03:51 PM CST 2026: Pulling latest changes...
+Already up to date.
+Fri Jan 16 06:03:52 PM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 7
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 10
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6, 1 dupes
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    Added 5
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 2, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): ‘​How do you really tell the truth about this mome...
+    Added 7, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    ⚠ Filtered (political): Met Workers Vote to Join Local 2110 UAW, Creating ...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Five Art and Museum Events for MLK Day in NYC...
+    ⚠ Filtered (political): A Very 2026 Art Reading List...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 11 from HN
+
+🔍 Filtering seen articles...
+   Skipped 253 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (40 articles)
+    [1] Are We Trading Convenience for Connectio...
+        🖼️ image found
+    [2] The Campaign to Destroy Renee Good
+        🖼️ image found
+    [3] Villa Seurat in Paris, France
+    [4] How Coastlines Shape the Extinction Risk...
+        🖼️ image found
+    [5] Meat may play an unexpected role in help...
+        🖼️ image found
+    [6] Why There’s No Single Best Way To Store ...
+        🖼️ image found
+        📚 archived
+    [7] The Download: cut through AI coding hype...
+        🖼️ image found
+    [8] Dev-owned testing: Why it fails in pract...
+    [9] 8 Tips for Managing AI Dependence
+        🖼️ image found
+    [10] Choose Your Hard or Let it Choose You
+        🖼️ image found
+    [11] How Music Enhances Our Brains and Our Li...
+        🖼️ image found
+    [12] The Myth of Progress
+        🖼️ image found
+    [13] 3 Ways to Stop Overthinking From Stealin...
+        🖼️ image found
+    [14] The Happiness Paradox: Why Chasing Happi...
+        🖼️ image found
+    [15] Our Favorite Compact Power Station Is on...
+        🖼️ image found
+    [16] The Psychology of the Collective Unconsc...
+        🖼️ image found
+    [17] What Explains Why Homicide Levels Are Hi...
+        🖼️ image found
+    [18] Suppressing Doubt Is Lying to Ourselves
+        🖼️ image found
+    [19] El Desdemona Shipwreck in Cabo San Pablo...
+    [20] Ads Are Coming to ChatGPT. Here’s How Th...
+        🖼️ image found
+        📚 archived
+    [21] Aufbau der Republik in Berlin, Germany
+    [22] Former USDS Leaders Launch Tech Reform P...
+        🖼️ image found
+        📚 archived
+    [23] Amateur mathematicians solve long-standi...
+        🖼️ image found
+    [24] How to finally get a grasp on quantum co...
+        🖼️ image found
+    [25] Some Doctors Are Using Emojis With Patie...
+        🖼️ image found
+        📚 archived
+    [26] Maine Beer Company in Freeport, Maine
+    [27] Lake Champlain Causeway in South Hero, V...
+    [28] Cancelling plans may be more socially ac...
+        🖼️ image found
+    [29] Why Everyone Is Suddenly in a ‘Very Chin...
+        🖼️ image found
+        📚 archived
+    [30] In Pursuit of a Psychedelic Without the ...
+        🖼️ image found
+        📚 archived
+    [31] 9 Best Wi-Fi Routers of 2026 for Working...
+        🖼️ image found
+        📚 archived
+    [32] Smart Plug Guide (2026): When You Should...
+        🖼️ image found
+    [33] Earliest ever supernova sheds light on t...
+        🖼️ image found
+    [34] A leading use for quantum computers migh...
+        🖼️ image found
+    [35] How Does the Hive Mind Work in ‘Pluribus...
+        🖼️ image found
+        📚 archived
+    [36] DJI Action 6 Review: The Best Action Cam...
+        🖼️ image found
+    [37] Signal creator Moxie Marlinspike wants t...
+        🖼️ image found
+        📚 archived
+    [38] AI Destroys Institutions
+        📚 archived
+    [39] Americans Overwhelmingly Support Science...
+        🖼️ image found
+    [40] Germany's Merz Admits Nuclear Exit Was S...
+        🖼️ image found
+        📚 archived
+
+  📂 PHILOSOPHY (13 articles)
+    [41] The Case for Financial Crime Bounty Hunt...
+        🖼️ image found
+    [42] Four Church Signs Outside Clemson, South...
+        🖼️ image found
+    [43] Renee Good’s Dignity
+    [44] Discarding the Shaft-and-Belt Model of S...
+        🖼️ image found
+    [45] Visualizing Richard Feynman’s lecture on...
+    [46] Kerry James Marshall: “Now and Forever”
+    [47] Every Indian train is a moving referendu...
+        🖼️ image found
+    [48] On The Art Of Kerry James Marshall
+        🖼️ image found
+    [49] The Comics Section: The Things That Matt...
+        🖼️ image found
+    [50] The California Lineage Of Black Sparrow ...
+        🖼️ image found
+    [51] Friday Poem
+    [52] A ‘time capsule for cells’ stores the se...
+        🖼️ image found
+    [53] This Is How Your Mind Works
+        🖼️ image found
+
+  📂 SOCIETY (50 articles)
+    [54] Iran’s Three-Body Problem
+        🖼️ image found
+    [55] Nia DaCosta Injects New Blood Into “28 Y...
+        🖼️ image found
+    [56] Trump’s USDA Is Hiding the Data on Food ...
+        🖼️ image found
+    [57] ICE vs. Wine Moms, Rogan on Fauci's Crim...
+        🖼️ image found
+    [58] Widespread Repression, Intimidation Mar ...
+        🖼️ image found
+    [59] Virginia Democrats Pass Major Amendment ...
+        🖼️ image found
+    [60] Dine and detain: A new ICE arrest tactic
+        🖼️ image found
+    [61] Does the NEU have a problem with Jews?
+        🖼️ image found
+    [62] Jerome Powell’s Thankless Rescue of Trum...
+        🖼️ image found
+    [63] DHS Accused Me of a “Lazy Lie.” They’re ...
+        🖼️ image found
+    [64] How The ‘AI Job Shock’ Will Differ From ...
+        🖼️ image found
+    [65] Week in review
+        🖼️ image found
+    [66] Should breaking manifesto pledges be ill...
+        🖼️ image found
+    [67] ‘Could I be in their cabinet?’: Big Busi...
+    [68] Is Immigration Policy Hurting Trump Now?
+        🖼️ image found
+    [69] The Biggest Questions About Venezuelan O...
+        🖼️ image found
+    [70] Greenland Is on the Brink. Canada Is Now...
+        🖼️ image found
+        📚 archived
+    [71] The Wishing Well
+    [72] Machado Presents Trump with Nobel Peace ...
+        🖼️ image found
+    [73] Disavowing Politics While Doing Politics
+        🖼️ image found
+    [74] It’s Easy to Imagine a World Without ICE
+        🖼️ image found
+    [75] Salt Caves
+        🖼️ image found
+    [76] Fanfiction Made Me a Literary Scholar
+        🖼️ image found
+    [77] Iran’s Crown Prince Has Become Indispens...
+        🖼️ image found
+    [78] ICE Agents Flouted DHS Policies That Cou...
+        🖼️ image found
+    [79] Video Shows Feds Shooting ICE Protester ...
+        🖼️ image found
+    [80] How Troubled Is the Iranian Economy?
+        🖼️ image found
+    [81] Arkansas Case on Zoning Laws Being Used ...
+        🖼️ image found
+    [82] Short Circuit: An inexhaustive weekly co...
+        🖼️ image found
+    [83] A Long History of Betrayal
+        🖼️ image found
+    [84] What in the World?
+        🖼️ image found
+    [85] Do Cellphones Cause Cancer? RFK Jr.'s HH...
+        🖼️ image found
+    [86] Judge Accuses Trump, Rubio, and Noem of ...
+        🖼️ image found
+    [87] She Let Her 6-Year-Old Ride to the Park ...
+        🖼️ image found
+    [88] Business Is Apparently Selling AI-Halluc...
+        🖼️ image found
+    [89] ICE’s Tear Gas Sent a 6-Month-Old to the...
+        🖼️ image found
+    [90] Trump’s Fateful Choice in Iran
+        🖼️ image found
+    [91] Venezuela on Screen
+        🖼️ image found
+    [92] Americans Say Trump Is Failing on Nearly...
+        🖼️ image found
+    [93] What One Film’s Success Reveals About To...
+        🖼️ image found
+    [94] Trump’s Own Advisers Suddenly Unnerved a...
+        🖼️ image found
+        📚 archived
+    [95] The Thought Experiment That Started a Re...
+        🖼️ image found
+    [96] n+1 Presents: An A. S. Hamrah Double Bil...
+        🖼️ image found
+    [97] Trump Snubs Machado After Explaining Why...
+        🖼️ image found
+    [98] The Pillaging of the American Arctic
+        🖼️ image found
+    [99] How Betting Took Over Sports
+        🖼️ image found
+    [100] With the Podcast “I’ve Had It,” Jennifer...
+        🖼️ image found
+    [101] The Problem Is So Much Bigger Than Grok
+        🖼️ image found
+    [102] My Son Broke His Arm on My Husband’s Wat...
+        🖼️ image found
+    [103] A Recent Tragedy Has Left My Kids Devast...
+        🖼️ image found
+
+  📂 BOOKS (18 articles)
+    [104] John Wilson’s Relentlessly Humane Vision...
+        🖼️ image found
+    [105] Artist and Skateboarder Alexis Sablone I...
+        🖼️ image found
+    [106] The Books We’re Looking Forward to This ...
+    [107] This month’s best paperbacks: Anne Tyler...
+        🖼️ image found
+    [108] How Heated Rivalry turned gay romance in...
+        🖼️ image found
+    [109] Pennsylvania Man Who Stole Warhol and Po...
+        🖼️ image found
+    [110] 40 Years On, DC Artists Revisit Don Mill...
+        🖼️ image found
+    [111] Peruvian Artist Antonio Paucar Wins 11th...
+        🖼️ image found
+    [112] San Francisco's Tech Billionaires Don't ...
+        🖼️ image found
+    [113] Sale of Chinese Vase Canceled by French ...
+        🖼️ image found
+    [114] Alaska Art Student Arrested for Eating A...
+        🖼️ image found
+    [115] UK Reveals Nearly $80 M. Worth of Art Do...
+        🖼️ image found
+    [116] Ali Cherri on How Art Can Keep Us Empath...
+        🖼️ image found
+    [117] Joan Mitchell Foundation Names 31 Artist...
+        🖼️ image found
+    [118] What to See During San Francisco Art Wee...
+        🖼️ image found
+    [119] Qatar Museums, Not a Foreign Nation, Rep...
+        🖼️ image found
+    [120] Met Museum Workers Are Officially Unioni...
+        🖼️ image found
+    [121] The best recent crime and thrillers – re...
+        🖼️ image found
+
+✅ Done! 121 articles sent to Telegram
+   Science: 40
+   Philosophy: 13
+   Society: 50
+   Books: 18
+Fri Jan 16 06:11:04 PM CST 2026: Articles collected to pending_articles.json
+Fri Jan 16 06:11:04 PM CST 2026: Use /review in Telegram bot to curate and publish
+Fri Jan 16 06:11:04 PM CST 2026: Collector finished successfully
+
+========================================
+Sat Jan 17 06:03:57 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan 17 06:03:57 AM CST 2026: Pulling latest changes...
+Already up to date.
+Sat Jan 17 06:03:57 AM CST 2026: Running feed collector...
+🗞️  SPS Daily Feed Collector
+========================================
+
+📚 Collecting science...
+  → Scientific American
+    Added 0
+  → New Scientist
+    Added 10
+  → Nautilus
+    Added 10
+  → Discover
+    Added 0
+  → MIT Tech Review
+    Added 10
+  → Wired
+    Added 10
+  → Edge
+    Added 0
+  → American Scientist
+    Added 0
+  → Smithsonian Magazine
+    Added 0
+  → Psychology Today
+    Added 10
+  → Skeptical Inquirer
+    Added 0
+  → Atlas Obscura
+    Added 10
+  → Quanta Magazine
+    Added 3
+
+📚 Collecting philosophy...
+  → Aeon
+    Added 7
+  → Philosophy Now
+    Added 0
+  → New Atlantis
+    Added 0
+  → Hedgehog Review
+    Added 0
+  → The Point
+    Added 0
+  → The Drift
+    Added 0
+  → Liberties
+    Added 0
+  → Public Domain Review
+    Added 1
+  → 3 Quarks Daily
+    Added 10
+  → First Things
+    Added 10
+  → The Humanist
+    Added 6
+  → Commonweal
+    Added 7
+  → Plough
+    Added 0
+  → Tikkun
+    Added 0
+  → Mosaic
+    Added 0
+  → Lapham's Quarterly
+    Added 0
+  → Cabinet
+    Added 0
+  → The Smart Set
+    Added 0
+  → The New Inquiry
+    Added 0
+
+📚 Collecting society...
+  → The Atlantic
+    Added 10
+  → The New Yorker
+    Added 10
+  → Harper's
+    Added 2
+  → New Republic
+    Added 10
+  → Slate
+    Added 10
+  → Salon
+    Added 9
+  → The Nation
+    Added 0
+  → Jacobin
+    Added 10
+  → Dissent
+    Added 10
+  → n+1
+    Added 10
+  → The Baffler
+    Added 4
+  → Current Affairs
+    Added 0
+  → American Scholar
+    Added 5
+  → Boston Review
+    Added 0
+  → JSTOR Daily
+    Added 5
+  → Noema
+    Added 3
+  → New Statesman
+    Added 10
+  → The Spectator
+    Added 0
+  → Prospect
+    Added 0
+  → Spiked
+    Added 10
+  → The Walrus
+    Added 10
+  → Eurozine
+    Added 2
+  → Open Democracy
+    Added 3
+  → Foreign Affairs
+    Added 10
+  → Foreign Policy
+    Added 10
+  → National Interest
+    Added 0
+  → Project Syndicate
+    Added 10
+  → World Affairs
+  Error fetching World Affairs: The read operation timed out
+    Added 0
+  → The Globalist
+    Added 3
+  → National Review
+    Added 10
+  → American Conservative
+    Added 10
+  → Reason
+    Added 10
+  → City Journal
+    Added 0
+  → Commentary
+    Added 10
+  → New Criterion
+    Added 6
+  → Claremont Review
+    Added 0
+  → Mother Jones
+    Added 10
+  → The Progressive
+    Added 0
+  → In These Times
+    Added 5
+  → Granta
+    Added 1
+  → Guernica
+    Added 0
+  → Electric Literature
+    Added 10
+  → Poetry
+    Added 0
+  → The Paris Review Daily
+    Added 4
+  → The White Review
+    Added 0
+  → Threepenny Review
+    Added 0
+  → Yale Review
+    Added 0
+  → Hudson Review
+    Added 0
+  → Salmagundi
+    Added 0
+  → Arion
+    Added 0
+
+📚 Collecting books...
+  → NY Review of Books
+    Added 0
+  → London Review of Books
+    Added 0
+  → The TLS
+    Added 5
+  → LA Review of Books
+    Added 0
+  → Literary Review
+    Added 0
+  → Bookforum
+    Added 0
+  → The Millions
+    Added 1
+  → Public Books
+    ⚠ Filtered (political): Will Cuban Americans Choose Trumpism, or Solidarit...
+    Added 2, 1 filtered
+  → Open Letters Review
+    Added 0
+  → Sydney Review of Books
+    Added 0
+  → Dublin Review of Books
+    Added 0
+  → Jewish Review of Books
+    Added 0
+  → Complete Review
+    Added 0
+  → Pittsburgh Review of Books
+    Added 0
+  → Guardian Books
+    ⚠ Filtered (political): ‘​How do you really tell the truth about this mome...
+    Added 7, 1 filtered
+  → NY Times Books
+    Added 1
+  → Washington Post Books
+  Error fetching Washington Post Books: The read operation timed out
+    Added 0
+  → The Hindu Books
+    Added 10
+  → Financial Times Books
+    Added 10
+  → Economist Books
+    Added 0
+  → Artforum
+    ⚠ Filtered (political): Smithsonian Removes Mention of Trump Impeachments ...
+    Added 9, 1 filtered
+  → Art News
+    ⚠ Filtered (political): Met Workers Vote to Join Local 2110 UAW, Creating ...
+    Added 9, 1 filtered
+  → Hyperallergic
+    ⚠ Filtered (political): Five Art and Museum Events for MLK Day in NYC...
+    ⚠ Filtered (political): A Very 2026 Art Reading List...
+    Added 8, 2 filtered
+
+📚 Collecting from Hacker News...
+    Added 12 from HN
+
+🔍 Filtering seen articles...
+   Skipped 363 already-seen articles
+
+✨ Selecting articles...
+
+📤 Processing and sending to Telegram...
+
+  📂 SCIENCE (14 articles)
+    [1] The 24 Best Shows on Amazon Prime, WIRED...
+        🖼️ image found
+        📚 archived
+    [2] First treaty to protect the high seas co...
+        🖼️ image found
+    [3] Germany's shut down of nuclear plants a ...
+        🖼️ image found
+        📚 archived
+    [4] 7 Best Mesh Wi-Fi Systems (2026), Tested...
+        🖼️ image found
+        📚 archived
+    [5] US Hackers Reportedly Caused a Blackout ...
+        🖼️ image found
+    [6] Gear News of the Week: Kia Shows off the...
+        🖼️ image found
+    [7] The Best Mattress for Back Pain: 7 Top O...
+        🖼️ image found
+    [8] The 16 Best EVs Coming in 2026
+        🖼️ image found
+    [9] Petlibro Discount Codes and Deals: Save ...
+        🖼️ image found
+    [10] Thinking Machines Cofounder’s Office Rel...
+        🖼️ image found
+        📚 archived
+    [11] Crypto grifters are recruiting open-sour...
+        📚 archived
+    [12] Most renters shut out of energy-saving u...
+        🖼️ image found
+        📚 archived
+    [13] Emoji Use in the Electronic Health Recor...
+        📚 archived
+    [14] A new book provides a toolkit to tackle ...
+        🖼️ image found
+
+  📂 SOCIETY (33 articles)
+    [15] Fox News defends FBI seizure of Washingt...
+        🖼️ image found
+    [16] An Obama Judge’s Absurd Reasoning for Re...
+        🖼️ image found
+    [17] What a Standoff with a Black Bear Taught...
+        🖼️ image found
+    [18] When a Man Loves a Cello
+        🖼️ image found
+    [19] Slate Mini Crossword for Jan. 17, 2026
+        🖼️ image found
+    [20] Open Thread
+        🖼️ image found
+    [21] Is Trump Winning Bigly on the World Stag...
+        🖼️ image found
+    [22] What do the public think of Robert Jenri...
+        🖼️ image found
+    [23] What’s Going on With the Epstein Files?
+        🖼️ image found
+    [24] Covid Concealment Shows Why Congress Mus...
+        🖼️ image found
+    [25] ICE escalates war on civilian accountabi...
+        🖼️ image found
+    [26] Elephants Crowd the Room as Chemical Abo...
+        🖼️ image found
+    [27] Trump Administration Notches a Win in De...
+        🖼️ image found
+    [28] Successful Education Reform Needs Parent...
+        🖼️ image found
+    [29] Weekly Quiz: Strategic Romance, Buying “...
+        🖼️ image found
+    [30] Why Trump Supports Protesters in Tehran ...
+        🖼️ image found
+    [31] Bob Weir’s Feral Radiance
+        🖼️ image found
+    [32] Kristi Noem, for the Love of All That Is...
+        🖼️ image found
+    [33] The Real Reason the DOJ’s Rampage Agains...
+        🖼️ image found
+    [34] The Fine Line Between Award Shows and As...
+        🖼️ image found
+    [35] How SCOTUS Might Handle Trump’s Insurrec...
+        🖼️ image found
+    [36] Bad Marriages, Middle Age, and the Passa...
+        🖼️ image found
+    [37] Twitter’s Chatbot Keeps Undressing Women
+        🖼️ image found
+    [38] Bowie Built His Fame by Knowing When to ...
+        🖼️ image found
+    [39] The Week That Perished: January 17, 2026
+        🖼️ image found
+    [40] Inside the White House’s New Press Reali...
+        🖼️ image found
+    [41] No, the Maduro Raid Won’t Spark Great Po...
+        🖼️ image found
+    [42] A Stark Warning About the 2026 Election,...
+        🖼️ image found
+    [43] Erich von Stroheim’s Spectacular Art Is ...
+        🖼️ image found
+        📚 archived
+    [44] Labour’s great digital ID fumble
+        🖼️ image found
+    [45] Andrey Kurkov: People no longer ask me h...
+        🖼️ image found
+    [46] Hamnet fails Shakespeare
+        🖼️ image found
+    [47] Labour’s EU ultras are organising
+        🖼️ image found
+
+  📂 BOOKS (10 articles)
+    [48] Et Tu, South Africa?
+    [49] Book Review: ‘Crux,’ by Gabriel Tallent
+    [50] ‘There is a moment of clarity that life ...
+        🖼️ image found
+    [51] Diasporic narratives of Amrita Shah, Vij...
+        🖼️ image found
+    [52] Off the Scales — the impact of weight-lo...
+        🖼️ image found
+    [53] Delhi’s iconic Bahrisons Booksellers arr...
+        🖼️ image found
+    [54] ‘Read this and you will be happier’: exp...
+        🖼️ image found
+    [55] Creation of Hindi language was a politic...
+        🖼️ image found
+    [56] Translator has to be functionally true t...
+        🖼️ image found
+    [57] Freedom of expression is the cornerstone...
+        🖼️ image found
+
+✅ Done! 57 articles sent to Telegram
+   Science: 14
+   Philosophy: 0
+   Society: 33
+   Books: 10
+Sat Jan 17 06:07:47 AM CST 2026: Articles collected to pending_articles.json
+Sat Jan 17 06:07:47 AM CST 2026: Use /review in Telegram bot to curate and publish
+Sat Jan 17 06:07:47 AM CST 2026: Collector finished successfully
+
+========================================
+Sat Jan 17 07:57:32 AM CST 2026: Starting SPS Daily Feed Collector
+========================================
+Sat Jan 17 07:57:32 AM CST 2026: Pulling latest changes...
+Already up to date.
+Sat Jan 17 07:57:32 AM CST 2026: Running feed collector v2...
+SPS Daily Feed Collector v2
+==================================================
+Quality gates: word count, source reputation, form patterns
+==================================================
+
+[Phase 1] Collecting from RSS feeds...
+
+  SCIENCE (14 sources)
+    Knowable Magazine: 13 candidates
+    Undark: 1 candidates
+    Nautilus: 1 candidates
+    Science Magazine: 9 candidates
+    Nature News: 7 candidates
+    PNAS: 1 candidates
+
+  PHILOSOPHY (16 sources)
+    Daily Nous: 2 candidates
+
+  SOCIETY (20 sources)
+    The Atlantic: 4 candidates
+    Dissent: 1 candidates
+    Pew Research: 3 candidates
+
+  BOOKS (11 sources)
+
+  ESSAYS (12 sources)
+    The Believer: 4 candidates
+
+  Stats: 73 feeds, 630 entries
+         blocked=0, clickbait=67, old=294, seen=223
+
+[Phase 2] Staging top candidates by reputation...
+  science: 32 staged (from 32 candidates)
+  philosophy: 2 staged (from 2 candidates)
+  society: 8 staged (from 8 candidates)
+  books: 0 staged (from 0 candidates)
+  essays: 4 staged (from 4 candidates)
+
+[Phase 3] Fetching word counts (this takes a while)...
+
+  SCIENCE (min 600 words):
+    [14/46] KEEP 1318w: Book Review: A Portrait of the Arctic World i...
+    [15/46] KEEP 2925w: Why the Do Nothing Challenge Doesn’t Do Much ...
+    [25/46] SKIP 590w < 600w: HPV vaccine could help to protect the un...
+    [26/46] SKIP 589w < 600w: Briefing Chat: Can NASA return rocks fro...
+    [27/46] SKIP 573w < 600w: Climate trends influence transatlantic f...
+    [28/46] SKIP 492w < 600w: Gifted dogs learn new words by overheari...
+    [29/46] KEEP 1233w: How do vaccine cutbacks affect public health?...
+    [30/46] KEEP 1350w: Daily briefing: Cancer cells stay hidden usin...
+    [31/46] SKIP 575w < 600w: Ancient pottery reveals early evidence o...
+
+  PHILOSOPHY (min 800 words):
+    [33/46] KEEP 2422w: Texas A&M Administrators Will Cancel Your Cou...
+    [34/46] KEEP 1358w: Philosophers Among the Winners of Recent Leve...
+
+  SOCIETY (min 700 words):
+    [35/46] KEEP 1584w: The Bots That Women Use in a World of Unsatis...
+    [36/46] KEEP 1586w: ‘Maybe DHS Was a Bad Idea’...
+    [37/46] KEEP 1387w: A Former French President’s Prison Pity Party...
+    [38/46] SKIP 631w < 700w: Seeking research using recent Pew-Temple...
+    [39/46] SKIP 353w < 700w: Acknowledgments...
+    [40/46] KEEP 822w: The End of the Underdog in College Football...
+    [41/46] SKIP 227w < 700w: Appendix...
+    [42/46] SKIP 433w < 700w: City Limits...
+
+  BOOKS (min 600 words):
+
+  ESSAYS (min 1000 words):
+
+==================================================
+DONE at 2026-01-17 08:01
+Total pending: 10 articles (dropped 36 short)
+  science: 4
+  philosophy: 2
+  society: 4
+  books: 0
+  essays: 0
+
+Pending file: /storage/spsdaily/pending_articles.json
+Sat Jan 17 08:01:36 AM CST 2026: Sending articles to Telegram...
+Sat Jan 17 08:01:52 AM CST 2026: Collector finished - check Telegram for articles
