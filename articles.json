@@ -1,12 +1,17 @@
 {
-  "lastUpdated": "2026-01-15",
+  "lastUpdated": "2026-01-17",
   "editorsPick": {
-    "headline": "As Biodiversity Dwindles, Mosquitos Turn to Human Blood",
-    "teaser": "We may not be tastier, but just more abundant these days The post As Biodiversity Dwindles, Mosquitos Turn to Human Blood appeared first on Nautilus.",
-    "source": "Nautilus",
-    "url": "https://nautil.us/as-biodiversity-dwindles-mosquitos-turn-to-human-blood-1261838/",
-    "imageUrl": "https://assets.nautil.us/sites/3/nautilus/gabD45ts-Reese_HERO.png?auto=compress&fm=png&ixlib=php-3.3.1",
-    "approvedDate": "2026-01-15"
+    "headline": "7 Novels That Grapple With the Gig Economy",
+    "teaser": "From ride-hailing to door-to-door delivery apps, labor platforms have created a shining new way for millions across the globe to make a living, offering flexibility, autonomy, and low-entry barriers. These forms of gig work have experienced rapid growth while raising questions around worker protecti",
+    "url": "https://electricliterature.com/7-novels-that-grapple-with-the-gig-economy/",
+    "source": "Electric Literature",
+    "domain": "electricliterature.com",
+    "published": "2026-01-13T12:05:00+00:00",
+    "word_count": 1337,
+    "reading_min": 6,
+    "score": 3.13,
+    "tldr": "Reveals the human impact on a rapidly evolving gig economy phenomenon",
+    "approvedDate": "2026-01-17"
   },
   "science": [
     {
@@ -711,6 +716,48 @@
       "teaser": "AN ARTIST AND PEDAGOGUE of powerful originality with a personality to match, Ken Jacobs saw the full equation. Like his generational peer Stan Brakhage, and such earlier nonpareils Dziga Vertov and...",
       "source": "Artforum",
       "url": "https://www.artforum.com/columns/ken-jacobs-obituary-j-hoberman-1234740603/"
+    }
+  ],
+  "essays": [
+    {
+      "headline": "Fanfiction Made Me a Literary Scholar",
+      "teaser": "Last year, I was given a deeply nostalgic gift: Illumicrate\u2019s beautiful exclusive editions of Trudi Canavan\u2019s Black Magician Trilogy\u2014a series that had been one of my favorites in my late teens\u2014complete with embossed hardback covers and Diana Dworak\u2019s new endpaper artwork. Reading this series again p",
+      "url": "https://electricliterature.com/fanfiction-made-me-a-literary-scholar/",
+      "source": "Electric Literature",
+      "domain": "electricliterature.com",
+      "published": "2026-01-16T12:10:00+00:00",
+      "word_count": 1814,
+      "reading_min": 8,
+      "score": 3.26,
+      "archiveUrl": "http://web.archive.org/web/20260116230345/https://electricliterature.com/fanfiction-made-me-a-literary-scholar/",
+      "tldr": "Reveals that fanfiction can contribute meaningfully to literary scholarship",
+      "approvedDate": "2026-01-17"
+    },
+    {
+      "headline": "9 Venezuelan Books That Imagine Home from Abroad",
+      "teaser": "Growing up in Caracas in the \u201890s, I remember seeing a series of posters advertising Venezuela\u2019s most important tourist destinations, such as El Salto \u00c1ngel, Canaima National Park, and the Los Roques archipelago. The caption \u201cVenezuela, el secreto mejor guardado del Caribe\u201d\u2014\u201cthe best kept secret of ",
+      "url": "https://electricliterature.com/9-venezuelan-books-that-imagine-home-from-abroad/",
+      "source": "Electric Literature",
+      "domain": "electricliterature.com",
+      "published": "2026-01-14T12:05:00+00:00",
+      "word_count": 1681,
+      "reading_min": 8,
+      "score": 3.23,
+      "tldr": "Challenges long-held notions about Venezuela's tourist appeal and identity",
+      "approvedDate": "2026-01-17"
+    },
+    {
+      "headline": "7 Novels That Grapple With the Gig Economy",
+      "teaser": "From ride-hailing to door-to-door delivery apps, labor platforms have created a shining new way for millions across the globe to make a living, offering flexibility, autonomy, and low-entry barriers. These forms of gig work have experienced rapid growth while raising questions around worker protecti",
+      "url": "https://electricliterature.com/7-novels-that-grapple-with-the-gig-economy/",
+      "source": "Electric Literature",
+      "domain": "electricliterature.com",
+      "published": "2026-01-13T12:05:00+00:00",
+      "word_count": 1337,
+      "reading_min": 6,
+      "score": 3.13,
+      "tldr": "Reveals the human impact on a rapidly evolving gig economy phenomenon",
+      "approvedDate": "2026-01-17"
     }
   ]
 }
