@@ -10,6 +10,58 @@
   },
   "science": [
     {
+      "headline": "Making progress on global health will need high-quality evidence",
+      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00073-2 Nature Health, the newest journal in the Nature Portfolio, aims to bridge the \u2018implementation gap\u2019 from research to policy and practice.",
+      "url": "https://www.nature.com/articles/d41586-026-00073-2",
+      "source": "Nature News",
+      "domain": "nature.com",
+      "published": "2026-01-15T00:00:00+00:00",
+      "word_count": 1210,
+      "reading_min": 6,
+      "score": 4.08,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "PhD students\u2019 taste for risk mirrors their supervisors\u2019",
+      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00160-4 Learned risk-taking behaviours can persist for years after leaving the lab \u2014 and even after taking on a new research topic.",
+      "url": "https://www.nature.com/articles/d41586-026-00160-4",
+      "source": "Nature News",
+      "domain": "nature.com",
+      "published": "2026-01-15T00:00:00+00:00",
+      "word_count": 1042,
+      "reading_min": 5,
+      "score": 4.02,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "Nationwide genetic screening proves effective at catching disease risk early",
+      "teaser": "Nature, Published online: 15 January 2026; doi:10.1038/d41586-026-00035-8 A study in Australia supports genetic screening in young adults before symptoms show, but the generalizability and cost\u2013benefit ratios need to be examined in other settings.",
+      "url": "https://www.nature.com/articles/d41586-026-00035-8",
+      "source": "Nature News",
+      "domain": "nature.com",
+      "published": "2026-01-15T00:00:00+00:00",
+      "word_count": 839,
+      "reading_min": 4,
+      "score": 3.92,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "Exclusive eBook: How AGI Became a Consequential Conspiracy Theory",
+      "teaser": "In this exclusive subscriber-only eBook, you\u2019ll learn about how the idea that machines will be as smart as\u2014or smarter than\u2014humans has hijacked an entire industry. by Will Douglas Heaven October 30,...",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/01/15/1131079/exclusive-ebook-how-agi-became-a-consequential-conspiracy-theory/",
+      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2026/01/Conspiracies-Thumb.png?resize=1200,600",
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "Lithium-ion batteries could last longer with chemical tweak",
+      "teaser": "It's difficult to form a protective coating that prolongs battery life at the battery's cathode, but there may be a low-cost chemical solution",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2511778-lithium-ion-batteries-could-last-longer-with-chemical-tweak/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "imageUrl": "https://images.newscientist.com/wp-content/uploads/2026/01/15160113/SEI_280910340.jpg",
+      "approvedDate": "2026-01-15"
+    },
+    {
       "headline": "As Biodiversity Dwindles, Mosquitos Turn to Human Blood",
       "teaser": "We may not be tastier, but just more abundant these days The post As Biodiversity Dwindles, Mosquitos Turn to Human Blood appeared first on Nautilus.",
       "source": "Nautilus",
@@ -297,6 +349,62 @@
     }
   ],
   "society": [
+    {
+      "headline": "The Sacrifice of the Danes",
+      "teaser": "After September 11, Denmark fought alongside its ally. The families of fallen soldiers have a message for Trump.",
+      "url": "https://www.theatlantic.com/national-security/2026/01/denmark-afghanistan-nato-america-greenland/685625/?utm_source=feed",
+      "source": "The Atlantic",
+      "domain": "theatlantic.com",
+      "published": "2026-01-16T00:05:00+00:00",
+      "word_count": 2206,
+      "reading_min": 10,
+      "score": 4.34,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "A Tipping Point in Online Child Abuse",
+      "teaser": "Thousands of abusive videos were produced last year\u2014that researchers know of.",
+      "url": "https://www.theatlantic.com/technology/2026/01/ais-child-porn-problem-getting-much-worse/685641/?utm_source=feed",
+      "source": "The Atlantic",
+      "domain": "theatlantic.com",
+      "published": "2026-01-16T00:01:00+00:00",
+      "word_count": 826,
+      "reading_min": 4,
+      "score": 3.92,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "Americans\u2019 views on the impact of science on society",
+      "teaser": "Key Takeaways: Views on the impact of science on society over time Pew Research Center has had a longstanding interest in studying Americans\u2019 views of the impact of science. A majority of Americans (61%) say science has had a mostly positive effect on society. This is up slightly from 57% in 2023, b",
+      "url": "https://www.pewresearch.org/science/2026/01/15/americans-views-on-the-impact-of-science-on-society/",
+      "source": "Pew Research",
+      "domain": "pewresearch.org",
+      "published": "2026-01-15T14:55:52+00:00",
+      "word_count": 823,
+      "reading_min": 4,
+      "score": 3.92,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "More Than Sewers",
+      "teaser": "The pragmatism of the Milwaukee socialists was inseparable from the international world of socialism that they inhabited and helped to shape.",
+      "url": "https://dissentmagazine.org/article/more-than-sewers/",
+      "source": "Dissent",
+      "domain": "dissentmagazine.org",
+      "published": "2026-01-12T16:58:38+00:00",
+      "word_count": 1979,
+      "reading_min": 9,
+      "score": 3.3,
+      "approvedDate": "2026-01-15"
+    },
+    {
+      "headline": "When is a Corporation Also New Jersey?",
+      "teaser": "A few thoughts on the oral argument in Galette v. N.J. Transit Corp.",
+      "source": "Reason",
+      "url": "https://reason.com/volokh/2026/01/15/when-is-a-corporation-also-new-jersey/",
+      "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2021/11/reason-logo-featured-placeholder.jpg.webp",
+      "approvedDate": "2026-01-15"
+    },
     {
       "headline": "What Stephen Miller Gets Wrong About Human Nature",
       "teaser": "The Trump adviser\u2019s assertions about the \u201creal world\u201d reflect a deep misunderstanding of Thomas Hobbes\u2019s dog-eat-dog worldview.",
