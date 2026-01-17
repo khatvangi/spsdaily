@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SPS Daily Telegram Curator v2
+SPS Daily Telegram Curator
 - Supports 5 categories: science, philosophy, society, books, essays
 - Displays word count and quality score in review messages
 - Immediate publish on approve (no batch mode)
@@ -12,8 +12,13 @@ import time
 import sqlite3
 import html
 import os
+import sys
+import fcntl
 from pathlib import Path
 from datetime import date, timedelta
+
+# lock file for single instance
+LOCK_FILE = Path("/tmp/spsdaily_curator.lock")
 
 # telegram config (env vars with fallback)
 BOT_TOKEN = os.getenv("SPSDAILY_BOT_TOKEN", "7834236484:AAEoCiumnN_93-y6LwFIMLuq3zRgOUwW_BY").strip()
@@ -381,8 +386,18 @@ def handle_callback(callback_data, pending, approved):
 
 
 def run_curator():
-    """main curator loop"""
-    print("SPS Daily Curator v2 started")
+    """main curator loop - with single instance lock"""
+    # ensure only one instance runs
+    lock_fd = open(LOCK_FILE, 'w')
+    try:
+        fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        lock_fd.write(str(os.getpid()))
+        lock_fd.flush()
+    except BlockingIOError:
+        print("Curator already running. Exiting.")
+        sys.exit(0)
+
+    print("SPS Daily Curator started")
     print(f"  Listening on chat {CHAT_ID}")
 
     # cleanup old articles at startup
