@@ -296,6 +296,35 @@
   ],
   "society": [
     {
+      "headline": "Trump\u2019s Attack on Democracy Is Faltering",
+      "teaser": "One year into the president\u2019s second term, the country\u2019s institutions and civil society are still checking his authoritarian impulses.",
+      "url": "https://www.theatlantic.com/ideas/2026/01/american-democracy-signs-life/685678/?utm_source=feed",
+      "source": "The Atlantic",
+      "domain": "theatlantic.com",
+      "published": "2026-01-20T14:31:16+00:00",
+      "word_count": 1315,
+      "reading_min": 6,
+      "score": 4.12,
+      "imageUrl": "https://cdn.theatlantic.com/thumbor/Fmu2akjJ8F2Jd-Htg-fx95D1wDI=/media/img/mt/2026/01/2026_01_20_Signs_of_Life_for_Ameican_Democracy/original.jpg",
+      "tldr": "Weakening checks on power undermines democratic stability and accountability",
+      "approvedDate": "2026-01-20"
+    },
+    {
+      "headline": "An Unhappy Anniversary: Trump\u2019s Year in Office",
+      "teaser": "The toll of a destructive twelve months\u2014and what can be done to repair the damage.",
+      "url": "https://www.newyorker.com/news/the-lede/an-unhappy-anniversary-trumps-year-in-office",
+      "source": "The New Yorker",
+      "domain": "newyorker.com",
+      "published": "2026-01-20T11:00:00+00:00",
+      "word_count": 1939,
+      "reading_min": 9,
+      "score": 4.29,
+      "imageUrl": "https://media.newyorker.com/photos/696e90abdc919c8e5d3aa225/master/pass/Sorkin_SecondFirstYear_AP26012069870543.jpg",
+      "archiveUrl": "http://web.archive.org/web/20260120112544/https://www.newyorker.com/news/the-lede/an-unhappy-anniversary-trumps-year-in-office",
+      "tldr": "Damages are being reported from Trump's year in office",
+      "approvedDate": "2026-01-20"
+    },
+    {
       "headline": "After Paris",
       "teaser": "Environmental policy in an interdependent world.",
       "url": "https://www.foreignaffairs.com/world/after-paris",
@@ -521,11 +550,19 @@
     }
   ],
   "editorsPick": {
-    "headline": "Our unfinished republics",
-    "teaser": "Economic republicanism shows us how to achieve authentic freedom: citizens require economic as well as political power - by Sean Irving Read on Aeon",
-    "url": "https://aeon.co/essays/the-wests-forgotten-republican-heritage?utm_source=rss-feed",
-    "source": "Aeon",
-    "archiveUrl": null,
-    "tldr": "Highlights the importance of balancing economic and political power in republics"
-  }
+    "headline": "An Unhappy Anniversary: Trump\u2019s Year in Office",
+    "teaser": "The toll of a destructive twelve months\u2014and what can be done to repair the damage.",
+    "url": "https://www.newyorker.com/news/the-lede/an-unhappy-anniversary-trumps-year-in-office",
+    "source": "The New Yorker",
+    "domain": "newyorker.com",
+    "published": "2026-01-20T11:00:00+00:00",
+    "word_count": 1939,
+    "reading_min": 9,
+    "score": 4.29,
+    "imageUrl": "https://media.newyorker.com/photos/696e90abdc919c8e5d3aa225/master/pass/Sorkin_SecondFirstYear_AP26012069870543.jpg",
+    "archiveUrl": "http://web.archive.org/web/20260120112544/https://www.newyorker.com/news/the-lede/an-unhappy-anniversary-trumps-year-in-office",
+    "tldr": "Damages are being reported from Trump's year in office",
+    "approvedDate": "2026-01-20"
+  },
+  "lastUpdated": "2026-01-20"
 }
