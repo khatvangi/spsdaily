@@ -506,14 +506,14 @@ def auto_approve():
     articles = {}
     all_top = []
 
-    # select top 3 by score from each category
+    # select up to 15 articles by score from each category
     for cat in CATEGORIES:
         items = pending.get(cat, [])
         sorted_items = sorted(items, key=lambda x: x.get('score', 0), reverse=True)
-        top3 = sorted_items[:3]
-        articles[cat] = top3
-        all_top.extend(top3)
-        print(f"{cat}: auto-selected {len(top3)} (scores: {[round(a.get('score',0),1) for a in top3]})")
+        selected = sorted_items[:15]
+        articles[cat] = selected
+        all_top.extend(selected[:3])  # top 3 for editor's pick pool
+        print(f"{cat}: auto-selected {len(selected)} articles")
 
     # random editor's pick from top articles
     if all_top:
