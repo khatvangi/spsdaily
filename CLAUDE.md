@@ -4,6 +4,18 @@ Curated digest of the best writing on science, philosophy, and society. Inspired
 
 **Live site:** https://spsdaily.thebeakers.com
 
+## LOCKED FILES (v1.0-stable)
+
+**DO NOT REWRITE these files. Add new functions, don't replace existing ones.**
+
+```
+scripts/feed_collector.py    # RSS collection, image extraction, quality gates
+scripts/telegram_curator.py  # Bot, auto-approve, single-instance lock
+index.html                   # Frontend with cards, carousel, dark mode
+```
+
+To restore if broken: `git checkout v1.0-stable -- <file>`
+
 ## Architecture
 
 ```
