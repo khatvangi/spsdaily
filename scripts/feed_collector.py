@@ -201,6 +201,45 @@ Your sentence (plain, direct, no fluff):"""
     return None
 
 
+def extract_image_url(entry) -> str | None:
+    """extract image URL from RSS entry - tries multiple sources"""
+    # 1. media:content
+    if hasattr(entry, 'media_content') and entry.media_content:
+        for mc in entry.media_content:
+            url = mc.get('url', '')
+            if url and ('image' in mc.get('type', '') or url.endswith(('.jpg', '.png', '.webp'))):
+                return url
+    # 2. media:thumbnail
+    if hasattr(entry, 'media_thumbnail') and entry.media_thumbnail:
+        for mt in entry.media_thumbnail:
+            if mt.get('url'):
+                return mt['url']
+    # 3. enclosures
+    if hasattr(entry, 'enclosures') and entry.enclosures:
+        for enc in entry.enclosures:
+            if 'image' in enc.get('type', ''):
+                return enc.get('href') or enc.get('url')
+    # 4. links with image type
+    if hasattr(entry, 'links'):
+        for link in entry.links:
+            if 'image' in link.get('type', ''):
+                return link.get('href')
+    # 5. parse content for img tag
+    content = getattr(entry, 'content', [{}])
+    if content and len(content) > 0:
+        html_content = content[0].get('value', '')
+        img_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html_content)
+        if img_match:
+            return img_match.group(1)
+    # 6. summary img tag
+    summary = getattr(entry, 'summary', '')
+    if summary:
+        img_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', summary)
+        if img_match:
+            return img_match.group(1)
+    return None
+
+
 # --- database ---
 
 def init_db() -> sqlite3.Connection:
@@ -300,6 +339,7 @@ class Candidate:
     base_score: float
     word_count: int = 0
     final_score: float = 0.0
+    image_url: str = ""
 
 
 def compute_base_score(c: Candidate, weights: dict, min_teaser: int) -> float:
@@ -400,6 +440,9 @@ def main():
                     stats["seen"] += 1
                     continue
 
+                # extract image from RSS entry
+                image_url = extract_image_url(e) or ""
+
                 c = Candidate(
                     category=category,
                     source=source,
@@ -408,7 +451,8 @@ def main():
                     headline=title,
                     teaser=summary[:300],
                     published=dt.isoformat() if dt else "",
-                    base_score=0.0
+                    base_score=0.0,
+                    image_url=image_url
                 )
                 c.base_score = compute_base_score(c, weights, min_teaser)
                 candidates[category].append(c)
@@ -470,6 +514,8 @@ def main():
                 "reading_min": max(1, int(round(c.word_count / 220))),
                 "score": round(c.final_score, 2)
             }
+            if c.image_url:
+                article_data["imageUrl"] = c.image_url
             if archive_url:
                 article_data["archiveUrl"] = archive_url
             if tldr:
