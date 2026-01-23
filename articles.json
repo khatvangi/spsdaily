@@ -194,6 +194,21 @@
   ],
   "society": [
     {
+      "headline": "A Massacre in Mashhad",
+      "teaser": "Under the cover of an internet blackout, Iranian security forces killed hundreds of demonstrators. Only now are details of the carnage starting to emerge.",
+      "url": "https://www.newyorker.com/news/as-told-to/a-massacre-in-mashhad",
+      "source": "The New Yorker",
+      "domain": "newyorker.com",
+      "published": "2026-01-22T11:00:00+00:00",
+      "word_count": 2399,
+      "reading_min": 11,
+      "score": 4.38,
+      "imageUrl": "https://media.newyorker.com/photos/69715e3d12afc741d3992c6e/master/pass/header_FINAL_long-ezgif.com-optimize.gif",
+      "archiveUrl": "http://web.archive.org/web/20260122114117/https://www.newyorker.com/news/as-told-to/a-massacre-in-mashhad",
+      "tldr": "Reveals widespread human rights abuses in Iran's largest city",
+      "approvedDate": "2026-01-22"
+    },
+    {
       "headline": "The Trump Administration Is Publishing a Stream of Nazi Propaganda",
       "teaser": "Government social-media managers have transformed official feeds.",
       "url": "https://www.theatlantic.com/national-security/2026/01/social-media-trump-administration-dhs/685659/?utm_source=feed",
