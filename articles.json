@@ -194,6 +194,48 @@
   ],
   "society": [
     {
+      "headline": "The Trump Administration Is Publishing a Stream of Nazi Propaganda",
+      "teaser": "Government social-media managers have transformed official feeds.",
+      "url": "https://www.theatlantic.com/national-security/2026/01/social-media-trump-administration-dhs/685659/?utm_source=feed",
+      "source": "The Atlantic",
+      "domain": "theatlantic.com",
+      "published": "2026-01-21T22:33:11+00:00",
+      "word_count": 1390,
+      "reading_min": 6,
+      "score": 4.14,
+      "imageUrl": "https://cdn.theatlantic.com/thumbor/sLict1mp0zaI9kKJH111bVA2lRw=/media/img/mt/2026/01/2026_01_15_breland_miroff_neo_nazi_imagery_from_WH_final/original.jpg",
+      "tldr": "Reveals disturbing patterns in government propaganda and its impact on public",
+      "approvedDate": "2026-01-22"
+    },
+    {
+      "headline": "TV Review: Ryan Murphy\u2019s \u201cThe Beauty,\u201d on FX and Hulu on Disney+",
+      "teaser": "Ryan Murphy attempts to comment on incels, celebrity culture, and the age of Ozempic in a new FX series about a drug that makes its users young and gorgeous\u2014at a terrible price.",
+      "url": "https://www.newyorker.com/culture/on-television/the-beauty-is-a-hot-mess",
+      "source": "The New Yorker",
+      "domain": "newyorker.com",
+      "published": "2026-01-22T11:00:00+00:00",
+      "word_count": 1340,
+      "reading_min": 6,
+      "score": 4.13,
+      "imageUrl": "https://media.newyorker.com/photos/69710784e71edcfcc24b2205/master/pass/KANG--THE-BEAUTY-07_BEAUTY_GALLERY_01407.jpg",
+      "archiveUrl": "http://web.archive.org/web/20260122154741/https://www.newyorker.com/culture/on-television/the-beauty-is-a-hot-mess",
+      "tldr": "Challenges societal norms surrounding celebrity culture and masculinity",
+      "approvedDate": "2026-01-22"
+    },
+    {
+      "headline": "3. Religious and spiritual practices in Latin America",
+      "teaser": "Explore what percentage of adults in the six countries surveyed pray daily, attend religious services weekly or wear religious symbols. The post 3. Religious and spiritual practices in Latin America appeared first on Pew Research Center .",
+      "url": "https://www.pewresearch.org/religion/2026/01/21/religious-and-spiritual-practices-in-latin-america/",
+      "source": "Pew Research",
+      "domain": "pewresearch.org",
+      "published": "2026-01-21T14:52:32+00:00",
+      "word_count": 1362,
+      "reading_min": 6,
+      "score": 4.13,
+      "tldr": "Reveals significant spiritual practices among Latin America's adult population",
+      "approvedDate": "2026-01-22"
+    },
+    {
       "headline": "The Best Books of 2025",
       "teaser": "The New Yorker\u2019s editors and critics choose this year\u2019s essential reads in fiction, poetry, and nonfiction.",
       "url": "https://www.newyorker.com/best-books-2025",
@@ -393,16 +435,17 @@
     }
   ],
   "editorsPick": {
-    "headline": "Extreme barocaloric effect at dissolution",
-    "teaser": "Nature, Published online: 21 January 2026; doi:10.1038/s41586-025-10013-1 An extreme barocaloric effect in NH4SCN aqueous solutions is enabled by pressure-induced dissolution and precipitation, but without using a separate heat-transfer liquid.",
-    "url": "https://www.nature.com/articles/s41586-025-10013-1",
-    "source": "Nature News",
-    "domain": "nature.com",
-    "published": "2026-01-21T00:00:00+00:00",
-    "word_count": 2700,
-    "reading_min": 12,
-    "score": 4.43,
-    "tldr": "Reveals a new mechanism for barocaloric effects in aqueous solutions"
+    "headline": "3. Religious and spiritual practices in Latin America",
+    "teaser": "Explore what percentage of adults in the six countries surveyed pray daily, attend religious services weekly or wear religious symbols. The post 3. Religious and spiritual practices in Latin America appeared first on Pew Research Center .",
+    "url": "https://www.pewresearch.org/religion/2026/01/21/religious-and-spiritual-practices-in-latin-america/",
+    "source": "Pew Research",
+    "domain": "pewresearch.org",
+    "published": "2026-01-21T14:52:32+00:00",
+    "word_count": 1362,
+    "reading_min": 6,
+    "score": 4.13,
+    "tldr": "Reveals significant spiritual practices among Latin America's adult population",
+    "approvedDate": "2026-01-22"
   },
-  "lastUpdated": "2026-01-21"
+  "lastUpdated": "2026-01-22"
 }
