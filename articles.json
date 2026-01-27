@@ -57,6 +57,21 @@
   ],
   "society": [
     {
+      "headline": "Morton Feldman\u2019s Music of Stillness",
+      "teaser": "In his centenary year, the increasingly revered composer offers an uneasy refuge from the algorithmic din.",
+      "url": "https://www.newyorker.com/magazine/2026/02/02/morton-feldman-at-100-music-review",
+      "source": "The New Yorker",
+      "domain": "newyorker.com",
+      "published": "2026-01-26T11:00:00+00:00",
+      "word_count": 1440,
+      "reading_min": 7,
+      "score": 4.16,
+      "imageUrl": "https://media.newyorker.com/photos/69729d855f2ea08facbd9e01/master/pass/r48377_rd.png",
+      "archiveUrl": "http://web.archive.org/web/20260126140743/https://www.newyorker.com/magazine/2026/02/02/morton-feldman-at-100-music-review",
+      "tldr": "Reveals Morton Feldman's music as a refuge from algorithmic noise",
+      "approvedDate": "2026-01-26"
+    },
+    {
       "headline": "Nancy Kerrigan Persisted",
       "teaser": "The Olympic figure skater and all-American girl has overcome a lot, besides Tonya Harding. But, at a holiday ice show on Long Island, she still sparkles.",
       "url": "https://www.newyorker.com/magazine/2026/02/02/nancy-kerrigan-persisted",
