@@ -57,6 +57,21 @@
   ],
   "society": [
     {
+      "headline": "Nancy Kerrigan Persisted",
+      "teaser": "The Olympic figure skater and all-American girl has overcome a lot, besides Tonya Harding. But, at a holiday ice show on Long Island, she still sparkles.",
+      "url": "https://www.newyorker.com/magazine/2026/02/02/nancy-kerrigan-persisted",
+      "source": "The New Yorker",
+      "domain": "newyorker.com",
+      "published": "2026-01-26T11:00:00+00:00",
+      "word_count": 1080,
+      "reading_min": 5,
+      "score": 4.03,
+      "imageUrl": "https://media.newyorker.com/photos/6973f16d082846e7f4d63e2c/master/pass/r48518.png",
+      "archiveUrl": "http://web.archive.org/web/20260126142342/https://www.newyorker.com/magazine/2026/02/02/nancy-kerrigan-persisted",
+      "tldr": "Resiliently, Nancy Kerrigan's perseverance continues to inspire and motivate others",
+      "approvedDate": "2026-01-26"
+    },
+    {
       "headline": "The Battle for Minneapolis",
       "teaser": "As Donald Trump brings his retribution to a liberal city, citizens, protesters, and civic leaders try to protect one another.",
       "url": "https://www.newyorker.com/news/dispatch/the-battle-for-minneapolis",
@@ -256,13 +271,35 @@
     }
   ],
   "books": [],
-  "essays": [],
+  "essays": [
+    {
+      "headline": "A Friendship Spanning Bombay Prep Schools and Connecticut Strip Malls",
+      "teaser": "An excerpt from Every Happiness by Reena Shah Though Ruchi needed the job, any job, her first impulse when Deepa finally called was to say no. Deepa talked as if no time had passed, like she hadn\u2019t avoided Ruchi\u2019s calls since the housewarming in August, like it wasn\u2019t now January 1985. Deepa went on",
+      "url": "https://electricliterature.com/every-happiness-by-reena-shah/",
+      "source": "Electric Literature",
+      "domain": "electricliterature.com",
+      "published": "2026-01-26T12:10:00+00:00",
+      "word_count": 5084,
+      "reading_min": 23,
+      "score": 3.71,
+      "imageUrl": "https://electricliterature.com/wp-content/uploads/2021/08/2215809714_233d2a5de9_k_50-768x576.jpeg",
+      "tldr": "Challenges societal norms by showing unlikely friendship between two women",
+      "approvedDate": "2026-01-26"
+    }
+  ],
   "editorsPick": {
-    "headline": "Another Death in Minneapolis",
-    "teaser": "After killing another American, federal officials again offer an explanation that appears to be directly contradicted by available evidence.",
-    "url": "https://www.theatlantic.com/podcasts/2026/01/another-death-minneapolis/685747/?utm_source=feed",
-    "source": "The Atlantic",
-    "archiveUrl": null,
-    "tldr": "Contradicts official explanation with available evidence"
-  }
+    "headline": "A Friendship Spanning Bombay Prep Schools and Connecticut Strip Malls",
+    "teaser": "An excerpt from Every Happiness by Reena Shah Though Ruchi needed the job, any job, her first impulse when Deepa finally called was to say no. Deepa talked as if no time had passed, like she hadn\u2019t avoided Ruchi\u2019s calls since the housewarming in August, like it wasn\u2019t now January 1985. Deepa went on",
+    "url": "https://electricliterature.com/every-happiness-by-reena-shah/",
+    "source": "Electric Literature",
+    "domain": "electricliterature.com",
+    "published": "2026-01-26T12:10:00+00:00",
+    "word_count": 5084,
+    "reading_min": 23,
+    "score": 3.71,
+    "imageUrl": "https://electricliterature.com/wp-content/uploads/2021/08/2215809714_233d2a5de9_k_50-768x576.jpeg",
+    "tldr": "Challenges societal norms by showing unlikely friendship between two women",
+    "approvedDate": "2026-01-26"
+  },
+  "lastUpdated": "2026-01-26"
 }
