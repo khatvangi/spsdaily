@@ -1,0 +1,28 @@
+# SPS Daily — Science, Philosophy & Society
+
+> A curated digest of the best writing on science, philosophy, and society.
+
+## About
+SPS Daily is a daily editorial digest inspired by Arts & Letters Daily. It curates long-form articles from quality sources across five categories: Science, Philosophy, Society, Books, and Essays. Articles are selected based on depth and quality — word count, source reputation, and editorial judgment — not trending topics or clickbait.
+
+## Motto
+Ekam Sat — Truth is One.
+
+## URL
+https://spsdaily.thebeakers.com
+
+## Content
+- Science: Articles from Quanta Magazine, Nautilus, Nature, Science, New Scientist, Undark, and others
+- Philosophy: Articles from Aeon, Notre Dame Philosophical Reviews, Daily Nous, 3 Quarks Daily, Hedgehog Review, and others
+- Society: Articles from Noema, The Atlantic, The New Yorker, Foreign Affairs, New Statesman, and others
+- Books: Reviews from New York Review of Books, London Review of Books, TLS, LA Review of Books, and others
+- Essays: Long-form from Granta, Paris Review, Guernica, Electric Literature, and others
+
+## RSS Feed
+https://spsdaily.thebeakers.com/feed.xml
+
+## Sitemap
+https://spsdaily.thebeakers.com/sitemap.xml
+
+## Contact
+Part of The Beakers (https://thebeakers.com)
