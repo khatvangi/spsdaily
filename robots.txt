@@ -1,0 +1,7 @@
+# SPS Daily - Science, Philosophy & Society
+# https://spsdaily.thebeakers.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://spsdaily.thebeakers.com/sitemap.xml
